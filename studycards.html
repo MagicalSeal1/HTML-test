@@ -79,7 +79,16 @@
 
   /* URL param → JSON seçimi */
   const params = new URLSearchParams(window.location.search);
-  const dataName = params.get("data") || "kart1";
+  
+  const dataName = params.get("data");
+  if (!dataName) {
+    document.body.innerHTML = `
+      <h2 style="color:#fff">Veri seçilmedi</h2>
+      <p style="color:#9ca3af">Lütfen ana sayfadan bir kart seçin.</p>
+    `;
+    throw new Error("data parametresi yok");
+  }
+  
   const jsonPath = `/HTML-test/assets/data/${dataName}.json`;
 
   fetch(jsonPath)
