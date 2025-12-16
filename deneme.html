@@ -238,21 +238,23 @@
     });
 
   function render(direction = "") {
-    /* 1️⃣ Flip'i ANINDA sıfırla */
-    card.classList.remove("flip");
+    /* 1️⃣ Flip'i ANINDA sıfırla (transition kapalı) */
+    card.style.transition = "none";
+    card.classList.remove("flip", "slide-left", "slide-right");
 
-    /* 2️⃣ Slide class’larını temizle */
-    card.classList.remove("slide-left", "slide-right");
+    /* Reflow – Safari’yi zorla */
+    card.getBoundingClientRect();
 
-    /* 3️⃣ Safari için 1 frame bekle */
+    /* 2️⃣ İçerik değişimi */
+    question.textContent = data[index].soru;
+    answer.textContent = data[index].cevap;
+    counter.textContent = `/ ${data.length}`;
+    jumpInput.value = index + 1;
+
+    /* 3️⃣ 1 frame sonra animasyonları geri aç */
     requestAnimationFrame(() => {
-      /* İçerik değişimi */
-      question.textContent = data[index].soru;
-      answer.textContent = data[index].cevap;
-      counter.textContent = `/ ${data.length}`;
-      jumpInput.value = index + 1;
+      card.style.transition = "";
 
-      /* 4️⃣ Kayma animasyonu */
       if (direction) {
         card.classList.add(direction);
       }
@@ -314,5 +316,6 @@
     }
   });
 </script>
+
 </body>
 </html>
