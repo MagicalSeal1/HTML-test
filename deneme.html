@@ -227,6 +227,39 @@
       render();
     }
   });
+
+  <!-- dokunmatik kaydırma için -->
+  let startX = 0;
+  let endX = 0;
+  const SWIPE_THRESHOLD = 50;
+  
+  const scene = document.querySelector(".scene");
+  
+  scene.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+  });
+  
+  scene.addEventListener("touchmove", e => {
+    endX = e.touches[0].clientX;
+  });
+  
+  scene.addEventListener("touchend", () => {
+    const diff = startX - endX;
+  
+    if (Math.abs(diff) > SWIPE_THRESHOLD) {
+      if (diff > 0) {
+        // Sola kaydır → Sonraki
+        index = (index + 1) % data.length;
+        render("slide-right");
+      } else {
+        // Sağa kaydır → Önceki
+        index = (index - 1 + data.length) % data.length;
+        render("slide-left");
+      }
+    }
+  
+    startX = endX = 0;
+  });
 </script>
 
 </body>
