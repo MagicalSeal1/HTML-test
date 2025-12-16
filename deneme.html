@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KARSU Bilgi Kartı</title>
+
+  <meta name="theme-color" content="#0f172a" />
+
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #111827;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #0f172a, var(--bg));
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px;
+    }
+
+    header {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+
+    header span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .scene {
+      width: 100%;
+      max-width: 420px;
+      perspective: 1200px;
+      position: relative;
+    }
+
+    .card {
+      width: 100%;
+      height: 260px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s ease, opacity 0.4s ease;
+      cursor: pointer;
+    }
+
+    .card.flip {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, #111827, #0b1220);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      backface-visibility: hidden;
+    }
+
+    .card-face h2 {
+      font-size: 1.15rem;
+      line-height: 1.4;
+    }
+
+    .card-face.back {
+      transform: rotateY(180deg);
+      color: var(--accent);
+    }
+
+    .controls {
+      margin-top: 28px;
+      display: flex;
+      gap: 16px;
+    }
+
+    button {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 10px 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .slide-left {
+      animation: slideLeft 0.4s ease;
+    }
+
+    .slide-right {
+      animation: slideRight 0.4s ease;
+    }
+
+    @keyframes slideLeft {
+      from { transform: translateX(-40px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes slideRight {
+      from { transform: translateX(40px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🧠 KARSU Bilgi Kartları</h1>
+    <span>Dokun → Çevir | Önce / Sonra → Kaydır</span>
+  </header>
+
+  <div class="scene">
+    <div id="card" class="card">
+      <div class="card-face front">
+        <h2 id="question"></h2>
+      </div>
+      <div class="card-face back">
+        <h2 id="answer"></h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="prev">◀ Önceki</button>
+    <button id="next">Sonraki ▶</button>
+  </div>
+
+  <script>
+    /* JSON VERİ */
+    const data = [
+      { "soru": "HTML nedir?", "cevap": "Web sayfalarının iskelet yapısını tanımlayan işaretleme dilidir." },
+      { "soru": "CSS ne işe yarar?", "cevap": "HTML içeriğinin görsel tasarımını ve düzenini belirler." },
+      { "soru": "JavaScript nedir?", "cevap": "Web sayfalarına etkileşim ve dinamik davranış kazandırır." }
+    ];
+
+    let index = 0;
+    const card = document.getElementById("card");
+    const question = document.getElementById("question");
+    const answer = document.getElementById("answer");
+
+    function render(direction = "") {
+      card.classList.remove("flip", "slide-left", "slide-right");
+
+      if (direction) card.classList.add(direction);
+
+      question.textContent = data[index].soru;
+      answer.textContent = data[index].cevap;
+    }
+
+    card.addEventListener("click", () => {
+      card.classList.toggle("flip");
+    });
+
+    document.getElementById("next").addEventListener("click", () => {
+      index = (index + 1) % data.length;
+      render("slide-right");
+    });
+
+    document.getElementById("prev").addEventListener("click", () => {
+      index = (index - 1 + data.length) % data.length;
+      render("slide-left");
+    });
+
+    render();
+  </script>
+
+</body>
+</html>
