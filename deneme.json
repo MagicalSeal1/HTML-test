@@ -1,0 +1,5 @@
+[
+  { "soru": "HTML nedir?", "cevap": "Web sayfalarının iskelet yapısını tanımlayan işaretleme dilidir." },
+  { "soru": "CSS ne işe yarar?", "cevap": "HTML içeriğinin görsel tasarımını ve düzenini belirler." },
+  { "soru": "JavaScript nedir?", "cevap": "Web sayfalarına etkileşim ve dinamik davranış kazandırır." }
+]
