@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- iOS Safari üst / alt bar rengi -->
   <meta name="theme-color" content="#0b0f19">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
   <title>KARSU Bilgi Kartı</title>
-
-  <meta name="theme-color" content="#0f172a" />
 
   <style>
     :root {
@@ -34,15 +34,15 @@
     body {
       margin: 0;
       min-height: 100vh;
+      background: transparent;
       color: var(--text);
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 24px 16px;
       padding-bottom: calc(24px + env(safe-area-inset-bottom));
-      background: transparent;
     }
-    
+
     header {
       text-align: center;
       margin-bottom: 20px;
@@ -163,7 +163,7 @@
 
 <header>
   <h1>🧠 KARSU Bilgi Kartları</h1>
-  <span>Dokun → Çevir | Numara → Git</span>
+  <span>Dokun → Çevir | Kaydır → Değiştir</span>
 </header>
 
 <div class="status">
@@ -192,11 +192,17 @@
   let data = [];
   let index = 0;
 
+  let startX = 0;
+  let endX = 0;
+  let isSwiping = false;
+  const SWIPE_THRESHOLD = 50;
+
   const card = document.getElementById("card");
   const question = document.getElementById("question");
   const answer = document.getElementById("answer");
   const counter = document.getElementById("counter");
   const jumpInput = document.getElementById("jumpInput");
+  const scene = document.querySelector(".scene");
 
   fetch("deneme.json")
     .then(res => res.json())
@@ -207,6 +213,10 @@
 
   function render(direction = "") {
     card.classList.remove("flip", "slide-left", "slide-right");
+
+    /* animasyonu her seferinde yeniden tetikle */
+    void card.offsetWidth;
+
     if (direction) card.classList.add(direction);
 
     question.textContent = data[index].soru;
@@ -217,6 +227,7 @@
   }
 
   card.addEventListener("click", () => {
+    if (isSwiping) return;
     card.classList.toggle("flip");
   });
 
@@ -231,43 +242,39 @@
   });
 
   jumpInput.addEventListener("change", () => {
-    let val = parseInt(jumpInput.value, 10);
+    const val = parseInt(jumpInput.value, 10);
     if (val >= 1 && val <= data.length) {
       index = val - 1;
       render();
     }
   });
 
-  <!-- dokunmatik kaydırma için -->
-  let startX = 0;
-  let endX = 0;
-  const SWIPE_THRESHOLD = 50;
-  
-  const scene = document.querySelector(".scene");
-  
+  // Dokunmatik swipe
   scene.addEventListener("touchstart", e => {
     startX = e.touches[0].clientX;
+    isSwiping = false;
   });
-  
+
   scene.addEventListener("touchmove", e => {
     endX = e.touches[0].clientX;
+    if (Math.abs(startX - endX) > 10) {
+      isSwiping = true;
+    }
   });
-  
+
   scene.addEventListener("touchend", () => {
     const diff = startX - endX;
-  
+
     if (Math.abs(diff) > SWIPE_THRESHOLD) {
       if (diff > 0) {
-        // Sola kaydır → Sonraki
         index = (index + 1) % data.length;
         render("slide-right");
       } else {
-        // Sağa kaydır → Önceki
         index = (index - 1 + data.length) % data.length;
         render("slide-left");
       }
     }
-  
+
     startX = endX = 0;
   });
 </script>
