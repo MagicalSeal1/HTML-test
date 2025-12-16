@@ -6,7 +6,7 @@
 
   <!-- iOS Safari bar renkleri -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#0b0f19">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="manifest" href="manifest.json">
@@ -15,15 +15,15 @@
 
   <style>
     :root {
-      --bg: #0f172a;
+      --bg: #0b0f19;
       --card: #111827;
       --accent: #38bdf8;
       --text: #e5e7eb;
       --muted: #9ca3af;
       --border: #1f2937;
     
-      /* iOS status bar arka planı buradan okur */
-      background: #0f172a;
+      /* Status bar rengi BURADAN alınır */
+      background-color: #0f172a;
     }
     
     * {
@@ -31,17 +31,15 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     
-    /* ⚠️ min-height DEĞİL, height */
-    /* iOS status bar + PWA gri sorununu çözen ana fark */
     html, body {
       height: 100%;
       margin: 0;
-      background: #0b0f19;
       overscroll-behavior: none;
+      background-color: #0f172a; /* status bar ile body üstü aynı */
     }
     
-    /* Ana gövde */
     body {
+      position: relative;
       color: var(--text);
       display: flex;
       flex-direction: column;
@@ -51,15 +49,24 @@
       padding-top: calc(24px + env(safe-area-inset-top));
       padding-bottom: calc(24px + env(safe-area-inset-bottom));
     
-      /* ❌ radial-gradient kaldırıldı (alt koyulaşma yapıyordu) */
-      /* ✅ iOS için stabil linear gradient */
+      overflow: hidden;
+      touch-action: manipulation;
+    }
+    
+    /* 👇 Gradient ARTIK body'nin kendisi değil */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+    
       background: linear-gradient(
         180deg,
         #0f172a 0%,
         #0b0f19 60%,
         #0b0f19 100%
       );
-    
+    }    
       /* iOS gesture + kart tıklama çakışmasını önler */
       touch-action: manipulation;
     
