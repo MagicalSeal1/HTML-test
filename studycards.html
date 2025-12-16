@@ -62,6 +62,8 @@
 <script>
   let data = [];
   let index = 0;
+  let isFlipped = false;
+  let isSliding = false;
 
   let startX = 0;
   let currentX = 0;
@@ -75,50 +77,69 @@
   const jumpInput = document.getElementById("jumpInput");
   const scene = document.querySelector(".scene");
 
-  fetch("data/ATP-1E.json")
-    .then(res => res.json())
+  /* URL param → JSON seçimi */
+  const params = new URLSearchParams(window.location.search);
+  const dataName = params.get("data") || "kart1";
+  const jsonPath = `/HTML-test/assets/data/${dataName}.json`;
+
+  fetch(jsonPath)
+    .then(r => {
+      if (!r.ok) throw new Error("JSON bulunamadı");
+      return r.json();
+    })
     .then(json => {
       data = json;
+      index = 0;
       render();
     });
 
   function render(direction = "") {
-    /* 1️⃣ Flip'i ANINDA sıfırla (transition kapalı) */
+    isSliding = true;
+    isFlipped = false;
+
+    /* Flip’i anında kapat */
     card.style.transition = "none";
     card.classList.remove("flip", "slide-left", "slide-right");
 
-    /* Reflow – Safari’yi zorla */
-    card.getBoundingClientRect();
+    /* Safari reflow zorlaması */
+    card.offsetHeight;
 
-    /* 2️⃣ İçerik değişimi */
+    /* İçerik */
     question.textContent = data[index].soru;
     answer.textContent = data[index].cevap;
     counter.textContent = `/ ${data.length}`;
     jumpInput.value = index + 1;
 
-    /* 3️⃣ 1 frame sonra animasyonları geri aç */
     requestAnimationFrame(() => {
       card.style.transition = "";
 
       if (direction) {
         card.classList.add(direction);
       }
+
+      setTimeout(() => {
+        isSliding = false;
+      }, 420); // slide animasyon süresi
     });
   }
 
-  /* TAP = FLIP */
+  /* TAP = FLIP (slide sırasında KAPALI) */
   card.addEventListener("click", () => {
-    if (hasMoved) return;
-    card.classList.toggle("flip");
+    if (hasMoved || isSliding) return;
+
+    isFlipped = !isFlipped;
+    card.classList.toggle("flip", isFlipped);
   });
 
   /* BUTONLAR */
   document.getElementById("next").onclick = () => {
+    if (isSliding) return;
     index = (index + 1) % data.length;
     render("slide-right");
   };
 
   document.getElementById("prev").onclick = () => {
+    if (isSliding) return;
     index = (index - 1 + data.length) % data.length;
     render("slide-left");
   };
@@ -136,17 +157,17 @@
     startX = e.touches[0].clientX;
     currentX = startX;
     hasMoved = false;
-  });
+  }, { passive: true });
 
   scene.addEventListener("touchmove", e => {
     currentX = e.touches[0].clientX;
-    if (Math.abs(currentX - startX) > 10) {
+    if (Math.abs(currentX - startX) > 12) {
       hasMoved = true;
     }
-  });
+  }, { passive: true });
 
   scene.addEventListener("touchend", () => {
-    if (!hasMoved) return;
+    if (!hasMoved || isSliding) return;
 
     const diff = startX - currentX;
 
@@ -159,8 +180,11 @@
         render("slide-left");
       }
     }
+
+    hasMoved = false;
   });
 </script>
+
 
 </body>
 </html>
