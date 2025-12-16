@@ -1,7 +1,7 @@
 .options {
   margin-top: 16px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* seçenekleri alt alta diz */
   gap: 10px;
 }
 
