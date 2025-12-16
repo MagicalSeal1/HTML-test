@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- iOS Safari üst / alt bar rengi -->
+  <!-- iOS Safari bar renkleri -->
   <meta name="theme-color" content="#0b0f19">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,15 +26,15 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    html {
+    /* Safari güvenli çözüm */
+    html, body {
       min-height: 100%;
       background: radial-gradient(circle at top, #0f172a, #0b0f19);
+      overscroll-behavior: none;
     }
 
     body {
       margin: 0;
-      min-height: 100vh;
-      background: transparent;
       color: var(--text);
       display: flex;
       flex-direction: column;
@@ -193,9 +193,9 @@
   let index = 0;
 
   let startX = 0;
-  let endX = 0;
-  let isSwiping = false;
-  const SWIPE_THRESHOLD = 50;
+  let currentX = 0;
+  let hasMoved = false;
+  const SWIPE_THRESHOLD = 60;
 
   const card = document.getElementById("card");
   const question = document.getElementById("question");
@@ -213,57 +213,59 @@
 
   function render(direction = "") {
     card.classList.remove("flip", "slide-left", "slide-right");
-
-    /* animasyonu her seferinde yeniden tetikle */
     void card.offsetWidth;
 
     if (direction) card.classList.add(direction);
 
     question.textContent = data[index].soru;
     answer.textContent = data[index].cevap;
-
     counter.textContent = `/ ${data.length}`;
     jumpInput.value = index + 1;
   }
 
+  /* TAP = FLIP */
   card.addEventListener("click", () => {
-    if (isSwiping) return;
+    if (hasMoved) return;
     card.classList.toggle("flip");
   });
 
-  document.getElementById("next").addEventListener("click", () => {
+  /* BUTONLAR */
+  document.getElementById("next").onclick = () => {
     index = (index + 1) % data.length;
     render("slide-right");
-  });
+  };
 
-  document.getElementById("prev").addEventListener("click", () => {
+  document.getElementById("prev").onclick = () => {
     index = (index - 1 + data.length) % data.length;
     render("slide-left");
-  });
+  };
 
-  jumpInput.addEventListener("change", () => {
+  jumpInput.onchange = () => {
     const val = parseInt(jumpInput.value, 10);
     if (val >= 1 && val <= data.length) {
       index = val - 1;
       render();
     }
-  });
+  };
 
-  // Dokunmatik swipe
+  /* SWIPE */
   scene.addEventListener("touchstart", e => {
     startX = e.touches[0].clientX;
-    isSwiping = false;
+    currentX = startX;
+    hasMoved = false;
   });
 
   scene.addEventListener("touchmove", e => {
-    endX = e.touches[0].clientX;
-    if (Math.abs(startX - endX) > 10) {
-      isSwiping = true;
+    currentX = e.touches[0].clientX;
+    if (Math.abs(currentX - startX) > 10) {
+      hasMoved = true;
     }
   });
 
   scene.addEventListener("touchend", () => {
-    const diff = startX - endX;
+    if (!hasMoved) return;
+
+    const diff = startX - currentX;
 
     if (Math.abs(diff) > SWIPE_THRESHOLD) {
       if (diff > 0) {
@@ -274,8 +276,6 @@
         render("slide-left");
       }
     }
-
-    startX = endX = 0;
   });
 </script>
 
