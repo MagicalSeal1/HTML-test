@@ -113,6 +113,13 @@ header span {
   line-height: 1.4;
 }
 
+.card-face.front {
+  display: flex;
+  flex-direction: column; /* dikey hizalama */
+  align-items: stretch;   /* butonlar sorunun altına yayılır */
+  justify-content: flex-start;
+}
+
 .card-face.back {
   transform: rotateY(180deg);
   color: var(--accent);
