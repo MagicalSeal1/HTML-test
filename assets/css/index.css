@@ -6,7 +6,13 @@
 }
 
 body {
-  background: radial-gradient(circle at top, #0b0f19, var(--bg));
+  /* Gradient KORUNDU ama üst renk status bar ile aynı */
+  background: linear-gradient(
+    180deg,
+    #0f172a 0%,
+    #0b0f19 55%,
+    #0b0f19 100%
+  );
   color: var(--text);
   min-height: 100vh;
   padding: 32px 16px;
