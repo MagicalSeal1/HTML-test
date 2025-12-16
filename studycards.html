@@ -90,10 +90,6 @@
   }
   
   const jsonPath = `/HTML-test/assets/data/${dataName}.json`;
-
-  window.onload = function() {
-    alert(jsonPath);
-  };
   
   fetch(jsonPath)
     .then(r => {
@@ -101,7 +97,9 @@
       return r.json();
     })
     .then(json => {
-      data = json;
+      document.getElementById("pageTitle").textContent = json.title;
+      document.getElementById("pageDescription").textContent = json.description;
+      data = json.cards;
       index = 0;
       render();
     });
