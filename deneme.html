@@ -62,13 +62,34 @@
   const scene = document.querySelector(".scene");
 
   fetch("data/ATP-1E.json")
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error("Ağ hatası: " + res.status);
+      return res.json();
+    })
     .then(json => {
-      data = json;
+      data = Array.isArray(json) ? json : [];
+      if (data.length === 0) {
+        question.textContent = "Veri bulunamadı";
+        answer.textContent = "";
+        counter.textContent = "0 / 0";
+        jumpInput.value = "";
+        jumpInput.max = 0;
+        return;
+      }
+      // jumpInput için max ayarla
+      jumpInput.max = data.length;
       render();
+    })
+    .catch(err => {
+      console.error(err);
+      question.textContent = "Veri yüklenemedi";
+      answer.textContent = "";
+      counter.textContent = "0 / 0";
     });
 
   function render(direction = "") {
+    if (!data || data.length === 0) return;
+
     /* 1️⃣ Flip'i ANINDA sıfırla (transition kapalı) */
     card.style.transition = "none";
     card.classList.remove("flip", "slide-left", "slide-right");
@@ -79,8 +100,9 @@
     /* 2️⃣ İçerik değişimi */
     question.textContent = data[index].soru;
     answer.textContent = data[index].cevap;
-    counter.textContent = `/ ${data.length}`;
+    counter.textContent = `${index + 1} / ${data.length}`;
     jumpInput.value = index + 1;
+    jumpInput.max = data.length;
 
     /* 3️⃣ 1 frame sonra animasyonları geri aç */
     requestAnimationFrame(() => {
@@ -94,26 +116,33 @@
 
   /* TAP = FLIP */
   card.addEventListener("click", () => {
+    // hasMoved, son dokunma/swipe sonucu oluşan "click"i engellemek için kullanılıyor.
     if (hasMoved) return;
     card.classList.toggle("flip");
   });
 
   /* BUTONLAR */
   document.getElementById("next").onclick = () => {
+    if (!data || data.length === 0) return;
     index = (index + 1) % data.length;
     render("slide-right");
   };
 
   document.getElementById("prev").onclick = () => {
+    if (!data || data.length === 0) return;
     index = (index - 1 + data.length) % data.length;
     render("slide-left");
   };
 
   jumpInput.onchange = () => {
+    if (!data || data.length === 0) return;
     const val = parseInt(jumpInput.value, 10);
     if (val >= 1 && val <= data.length) {
       index = val - 1;
       render();
+    } else {
+      // sınır dışıysa mevcut index'i geri yaz
+      jumpInput.value = index + 1;
     }
   };
 
@@ -122,14 +151,14 @@
     startX = e.touches[0].clientX;
     currentX = startX;
     hasMoved = false;
-  });
+  }, {passive: true});
 
   scene.addEventListener("touchmove", e => {
     currentX = e.touches[0].clientX;
     if (Math.abs(currentX - startX) > 10) {
       hasMoved = true;
     }
-  });
+  }, {passive: true});
 
   scene.addEventListener("touchend", () => {
     if (!hasMoved) return;
@@ -145,7 +174,19 @@
         render("slide-left");
       }
     }
+
+    // Swipe sonrası aynı touch'tan gelen click'i engellemek için kısa süre hasMoved=true bırak,
+    // sonra sıfırla ki bir sonraki temiz dokunuşta tap çalışsın.
+    setTimeout(() => {
+      hasMoved = false;
+    }, 50);
   });
+
+  scene.addEventListener("touchcancel", () => {
+    // touch iptal olduğunda da hasMoved'i sıfırla
+    hasMoved = false;
+  });
+
 </script>
 
 </body>
