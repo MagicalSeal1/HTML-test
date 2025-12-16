@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KARSU Çalışma Kartları</title>
+
+  <!-- Emoji + renkli head etkisi -->
+  <meta name="theme-color" content="#0f172a" />
+
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #111827;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #0f172a, var(--bg));
+      color: var(--text);
+      min-height: 100vh;
+      padding: 32px 16px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+
+    header span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    a.card {
+      background: linear-gradient(180deg, #111827, #0b1220);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px 18px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    a.card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        circle at top left,
+        rgba(56,189,248,0.15),
+        transparent 60%
+      );
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+
+    a.card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+
+    a.card:hover::before {
+      opacity: 1;
+    }
+
+    .card h2 {
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 48px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🧠 KARSU Çalışma Kartları</h1>
+    <span>Bilgi kartlarına hızlı erişim</span>
+  </header>
+
+  <main class="grid">
+    <!-- 24 adet bağlantı -->
+    <a class="card" href="kart1.html"><h2>Kart 01</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart2.html"><h2>Kart 02</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart3.html"><h2>Kart 03</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart4.html"><h2>Kart 04</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart5.html"><h2>Kart 05</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart6.html"><h2>Kart 06</h2><p>Bilgi kartı</p></a>
+
+    <a class="card" href="kart7.html"><h2>Kart 07</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart8.html"><h2>Kart 08</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart9.html"><h2>Kart 09</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart10.html"><h2>Kart 10</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart11.html"><h2>Kart 11</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart12.html"><h2>Kart 12</h2><p>Bilgi kartı</p></a>
+
+    <a class="card" href="kart13.html"><h2>Kart 13</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart14.html"><h2>Kart 14</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart15.html"><h2>Kart 15</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart16.html"><h2>Kart 16</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart17.html"><h2>Kart 17</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart18.html"><h2>Kart 18</h2><p>Bilgi kartı</p></a>
+
+    <a class="card" href="kart19.html"><h2>Kart 19</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart20.html"><h2>Kart 20</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart21.html"><h2>Kart 21</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart22.html"><h2>Kart 22</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart23.html"><h2>Kart 23</h2><p>Bilgi kartı</p></a>
+    <a class="card" href="kart24.html"><h2>Kart 24</h2><p>Bilgi kartı</p></a>
+  </main>
+
+  <footer>
+    © KARSU
+  </footer>
+
+</body>
+</html>
