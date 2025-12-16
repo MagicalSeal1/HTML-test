@@ -1,0 +1,33 @@
+.options {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options button {
+  background: #0b1220;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.options button.correct {
+  background-color: #16a34a; /* yeşil */
+  color: #fff;
+}
+
+.options button.wrong {
+  background-color: #dc2626; /* kırmızı */
+  color: #fff;
+}
+
+button#resetBtn {
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
