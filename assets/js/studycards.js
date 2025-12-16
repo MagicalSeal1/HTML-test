@@ -1,88 +1,134 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const card = document.getElementById("card");
-  if (!card) return; // index.html ise çık
+let data = [];
+let index = 0;
+let isFlipped = false;
+let isSliding = false;
 
-  let data = [];
-  let index = 0;
+let startX = 0;
+let currentX = 0;
+let hasMoved = false;
+const SWIPE_THRESHOLD = 60;
 
-  let startX = 0;
-  let currentX = 0;
-  let hasMoved = false;
-  const SWIPE_THRESHOLD = 60;
+const card = document.getElementById("card");
+const question = document.getElementById("question");
+const answer = document.getElementById("answer");
+const counter = document.getElementById("counter");
+const jumpInput = document.getElementById("jumpInput");
+const scene = document.querySelector(".scene");
 
-  const question = document.getElementById("question");
-  const answer = document.getElementById("answer");
-  const counter = document.getElementById("counter");
-  const jumpInput = document.getElementById("jumpInput");
-  const scene = document.querySelector(".scene");
+/* URL param → JSON seçimi */
+const params = new URLSearchParams(window.location.search);
 
-  fetch("data/deneme.json")
-    .then(res => res.json())
-    .then(json => {
-      data = json;
-      render();
-    });
+const dataName = params.get("data");
+if (!dataName) {
+  document.body.innerHTML = `
+    <h2 style="color:#fff">Veri seçilmedi</h2>
+    <p style="color:#9ca3af">Lütfen ana sayfadan bir kart seçin.</p>
+  `;
+  throw new Error("data parametresi yok");
+}
 
-  function render(direction = "") {
-    card.style.transition = "none";
-    card.classList.remove("flip", "slide-left", "slide-right");
-    card.getBoundingClientRect();
+const jsonPath = `/HTML-test/assets/data/${dataName}.json`;
 
-    question.textContent = data[index].soru;
-    answer.textContent = data[index].cevap;
-    counter.textContent = `/ ${data.length}`;
-    jumpInput.value = index + 1;
-
-    requestAnimationFrame(() => {
-      card.style.transition = "";
-      if (direction) card.classList.add(direction);
-    });
-  }
-
-  card.addEventListener("click", () => {
-    if (hasMoved) return;
-    card.classList.toggle("flip");
+fetch(jsonPath)
+  .then(r => {
+    if (!r.ok) throw new Error("JSON bulunamadı");
+    return r.json();
+  })
+  .then(json => {
+    document.getElementById("pageTitle").textContent = json.title;
+    document.getElementById("pageDescription").textContent = json.description;
+    data = json.cards;
+    index = 0;
+    render();
   });
 
-  document.getElementById("next").onclick = () => {
-    index = (index + 1) % data.length;
-    render("slide-right");
-  };
+function render(direction = "") {
+  isSliding = true;
+  isFlipped = false;
 
-  document.getElementById("prev").onclick = () => {
-    index = (index - 1 + data.length) % data.length;
-    render("slide-left");
-  };
+  /* Flip’i anında kapat */
+  card.style.transition = "none";
+  card.classList.remove("flip", "slide-left", "slide-right");
 
-  jumpInput.onchange = () => {
-    const val = parseInt(jumpInput.value, 10);
-    if (val >= 1 && val <= data.length) {
-      index = val - 1;
-      render();
+  /* Safari reflow zorlaması */
+  card.offsetHeight;
+
+  /* İçerik */
+  question.textContent = data[index].soru;
+  answer.textContent = data[index].cevap;
+  counter.textContent = `/ ${data.length}`;
+  jumpInput.value = index + 1;
+
+  requestAnimationFrame(() => {
+    card.style.transition = "";
+
+    if (direction) {
+      card.classList.add(direction);
     }
-  };
 
-  scene.addEventListener("touchstart", e => {
-    startX = e.touches[0].clientX;
-    currentX = startX;
-    hasMoved = false;
+    setTimeout(() => {
+      isSliding = false;
+    }, 420); // slide animasyon süresi
   });
+}
 
-  scene.addEventListener("touchmove", e => {
-    currentX = e.touches[0].clientX;
-    if (Math.abs(currentX - startX) > 10) hasMoved = true;
-  });
+/* TAP = FLIP (slide sırasında KAPALI) */
+card.addEventListener("click", () => {
+  if (hasMoved || isSliding) return;
 
-  scene.addEventListener("touchend", () => {
-    if (!hasMoved) return;
-    const diff = startX - currentX;
-
-    if (Math.abs(diff) > SWIPE_THRESHOLD) {
-      index = diff > 0
-        ? (index + 1) % data.length
-        : (index - 1 + data.length) % data.length;
-      render(diff > 0 ? "slide-right" : "slide-left");
-    }
-  });
+  isFlipped = !isFlipped;
+  card.classList.toggle("flip", isFlipped);
 });
 
+/* BUTONLAR */
+document.getElementById("next").onclick = () => {
+  if (isSliding) return;
+  index = (index + 1) % data.length;
+  render("slide-right");
+};
+
+document.getElementById("prev").onclick = () => {
+  if (isSliding) return;
+  index = (index - 1 + data.length) % data.length;
+  render("slide-left");
+};
+
+jumpInput.onchange = () => {
+  const val = parseInt(jumpInput.value, 10);
+  if (val >= 1 && val <= data.length) {
+    index = val - 1;
+    render();
+  }
+};
+
+/* SWIPE */
+scene.addEventListener("touchstart", e => {
+  startX = e.touches[0].clientX;
+  currentX = startX;
+  hasMoved = false;
+}, { passive: true });
+
+scene.addEventListener("touchmove", e => {
+  currentX = e.touches[0].clientX;
+  if (Math.abs(currentX - startX) > 12) {
+    hasMoved = true;
+  }
+}, { passive: true });
+
+scene.addEventListener("touchend", () => {
+  if (!hasMoved || isSliding) return;
+
+  const diff = startX - currentX;
+
+  if (Math.abs(diff) > SWIPE_THRESHOLD) {
+    if (diff > 0) {
+      index = (index + 1) % data.length;
+      render("slide-right");
+    } else {
+      index = (index - 1 + data.length) % data.length;
+      render("slide-left");
+    }
+  }
+
+  hasMoved = false;
+});
