@@ -25,12 +25,14 @@ const optionsEl = document.getElementById("options");
 const correctEl = document.getElementById("correctCount");
 const wrongEl = document.getElementById("wrongCount");
 const resetBtn = document.getElementById("resetBtn");
+let answered = false; // yeni değişken
 
 function render() {
   const cardData = data[index];
   questionEl.textContent = cardData.soru;
   optionsEl.innerHTML = "";
-  
+  answered = false; // her yeni soruda cevap sıfırlanır
+
   cardData.options.forEach((opt, i) => {
     const btn = document.createElement("button");
     btn.textContent = opt;
@@ -40,10 +42,10 @@ function render() {
 }
 
 function checkAnswer(selected, btn) {
-  const correctIndex = data[index].answer;
+  if (answered) return; // eğer zaten cevaplandıysa işlem yapma
+  answered = true;      // artık cevap verildi
 
-  // Eğer zaten cevaplandıysa tekrar sayma
-  if (btn.classList.contains("correct") || btn.classList.contains("wrong")) return;
+  const correctIndex = data[index].answer;
 
   if (selected === correctIndex) {
     btn.classList.add("correct");
@@ -51,7 +53,7 @@ function checkAnswer(selected, btn) {
   } else {
     btn.classList.add("wrong");
     wrongCount++;
-    // Doğru cevabı göster
+    // doğru cevabı göster
     optionsEl.children[correctIndex].classList.add("correct");
   }
 
