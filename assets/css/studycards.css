@@ -1,0 +1,168 @@
+:root {
+  --bg: #0b0f19;
+  --card: #111827;
+  --accent: #38bdf8;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --border: #1f2937;
+
+  /* iOS status bar rengi */
+  background-color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* ⚠️ height şart – overscroll beyazını kesen ana nokta */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #0f172a; /* overscroll arkası */
+  overscroll-behavior: none;
+}
+
+/* Ana gövde */
+body {
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 24px 16px;
+  padding-top: calc(24px + env(safe-area-inset-top));
+  padding-bottom: calc(24px + env(safe-area-inset-bottom));
+
+  /* Gradient KORUNDU ama üst renk status bar ile aynı */
+  background: linear-gradient(
+    180deg,
+    #0f172a 0%,
+    #0b0f19 55%,
+    #0b0f19 100%
+  );
+
+  /* Dokunma / kart flip çakışmaz */
+  touch-action: manipulation;
+
+  /* ⚠️ overflow:hidden KALMALI
+     beyaz/gri flash’ın %90 sebebi bu */
+  overflow: hidden;
+
+  -webkit-overflow-scrolling: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+header span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.status {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.status input {
+  width: 60px;
+  padding: 6px 8px;
+  background: #0b1220;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  text-align: center;
+}
+
+.scene {
+  width: 100%;
+  max-width: 420px;
+  perspective: 1200px;
+}
+
+.card {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+
+.card.flip {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #111827, #0b1220);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.card-face h2 {
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.card-face.back {
+  transform: rotateY(180deg);
+  color: var(--accent);
+}
+
+.controls {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.slide-left {
+  animation: slideLeft 0.4s ease;
+}
+
+.slide-right {
+  animation: slideRight 0.4s ease;
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(-40px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideRight {
+  from { transform: translateX(40px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
