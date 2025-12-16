@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Çoktan Seçmeli Kartlar</title>
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/mcq.css">
+</head>
+<body>
+
+<header>
+  <h1 id="pageTitle">Çoktan Seçmeli Kartlar</h1>
+  <span id="pageDescription">Bilgini test et!</span>
+</header>
+
+<div class="status">
+  <span>Doğru: <span id="correctCount">0</span></span>
+  <span>Yanlış: <span id="wrongCount">0</span></span>
+  <button id="resetBtn">Sıfırla</button>
+</div>
+
+<div class="scene">
+  <div id="card" class="card">
+    <div class="card-face front">
+      <h2 id="question"></h2>
+      <div id="options" class="options"></div>
+    </div>
+  </div>
+</div>
+
+<div class="controls">
+  <button id="prev">◀ Önceki</button>
+  <button id="next">Sonraki ▶</button>
+</div>
+
+<script src="assets/js/mcq.js"></script>
+</body>
+</html>
