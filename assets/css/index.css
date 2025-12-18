@@ -105,10 +105,6 @@ header span {
   max-height: 5000px;
 }
 
-.section-title + .dropdown-content {
-  display: none;
-}
-
 /* Ok aşağı → yukarı */
 .section-title.open .arrow {
   transform: rotate(180deg);
