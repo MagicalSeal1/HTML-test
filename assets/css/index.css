@@ -44,6 +44,10 @@ header span {
   gap: 20px;
 }
 
+.dropdown-group {
+  grid-column: 1 / -1;
+}
+
 /* === SECTION TITLE → DROPDOWN BAŞLIĞI === */
 .section-title {
   grid-column: 1 / -1;
