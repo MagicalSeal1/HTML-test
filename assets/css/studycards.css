@@ -92,19 +92,17 @@ header span {
 
 /* ÖNEMLİ: absolute + inset:0 */
 .card-face {
+  display: flex;
+  flex-direction: column;  
   justify-content: center; /* dikey */
   align-items: center;     /* yatay */
   text-align: center;
+  
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, #111827, #0b1220);
   border: 1px solid var(--border);
   border-radius: 18px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
 
   padding: 24px;
   backface-visibility: hidden;
