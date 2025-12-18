@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
   
-    <!-- Favicon -->
-    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
-    
-    <!-- iOS Ana Ekran -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-    
-    <!-- Android / PWA -->
-    <link rel="manifest" href="/HTML-test/manifest.json">
-    <meta name="theme-color" content="#0f172a">
-    
-    <!-- iOS PWA -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- iOS Ana Ekran -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   
-    <!-- ORTAK CSS -->
-    <link rel="stylesheet" href="assets/css/common.css">
-    <link rel="stylesheet" href="assets/css/studycards.css">
-    <title>KARSU Bilgi Kartı</title>
+  <!-- Android / PWA -->
+  <link rel="manifest" href="/HTML-test/manifest.json">
+  <meta name="theme-color" content="#0f172a">
   
-    <style>
+  <!-- iOS PWA -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- ORTAK CSS -->
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/studycards.css">
+  <title>KARSU Bilgi Kartı</title>
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="back-btn" aria-label="Geri"><</a>
+    <div class="header-center">
+      <h1 id="pageTitle">Bilgi Kartları</h1>
+      <span id="pageDescription">Zamanı değerlendir!</span>
+    </div>
+  </header>
   
-    </style>
-  </head>
+  <div class="status">
+    <label>Soru</label>
+    <input id="jumpInput" type="number" min="1" />
+    <span id="counter"></span>
+  </div>
   
-  <body>
-    <header>
-      <a href="index.html" class="back-btn" aria-label="Geri"><</a>
-      <div class="header-center">
-        <h1 id="pageTitle">Bilgi Kartları</h1>
-        <span id="pageDescription">Zamanı değerlendir!</span>
+  <div class="scene">
+    <div id="card" class="card">
+      <div class="card-face front">
+        <h2 id="question"></h2>
       </div>
-    </header>
-    
-    <div class="status">
-      <label>Soru</label>
-      <input id="jumpInput" type="number" min="1" />
-      <span id="counter"></span>
-    </div>
-    
-    <div class="scene">
-      <div id="card" class="card">
-        <div class="card-face front">
-          <h2 id="question"></h2>
-        </div>
-        <div class="card-face back">
-          <h2 id="answer"></h2>
-        </div>
+      <div class="card-face back">
+        <h2 id="answer"></h2>
       </div>
     </div>
-    
-    <div class="controls">
-      <button id="prev">◀ Önceki</button>
-      <button id="next">Sonraki ▶</button>
-    </div>
-    
-    <script src="assets/js/studycards.js"></script>
-    
-  </body>
+  </div>
+  
+  <div class="controls">
+    <button id="prev">◀ Önceki</button>
+    <button id="next">Sonraki ▶</button>
+  </div>
+  
+  <script src="assets/js/studycards.js"></script>
+  
+</body>
 </html>
