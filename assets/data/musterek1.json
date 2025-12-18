@@ -1,510 +1,510 @@
 {
-  "title": "MDK 3-15 (MT-101-5) Karargâhlarda Teşkilat ve Harekât Planlama Usullleri Doktrini",
+  "title": "MDK 3-15 (MT-101-5) KarargÃ¢hlarda TeÅŸkilat ve HarekÃ¢t Planlama Usullleri Doktrini",
   "description": "126 Soru",
   "cards": [
     {
-      "soru": "Kuvvet Komutanlıkları arasında ortak olarak genel karargah subaylarının görevlendirildiği başkanlıklar hangileridir?",
-      "cevap": "• Personel Başkanlığı\n• İstihbarat Başkanlığı\n• Harekat Başkanlığı\n• Lojistik Başkanlığı\n• Plan ev Prensipler Başkanlığı"
+      "soru": "Kuvvet KomutanlÄ±klarÄ± arasÄ±nda ortak olarak genel karargah subaylarÄ±nÄ±n gÃ¶revlendirildiÄŸi baÅŸkanlÄ±klar hangileridir?",
+      "cevap": "â€¢ Personel BaÅŸkanlÄ±ÄŸÄ±\nâ€¢ Ä°stihbarat BaÅŸkanlÄ±ÄŸÄ±\nâ€¢ Harekat BaÅŸkanlÄ±ÄŸÄ±\nâ€¢ Lojistik BaÅŸkanlÄ±ÄŸÄ±\nâ€¢ Plan ev Prensipler BaÅŸkanlÄ±ÄŸÄ±"
     },
     {
-      "soru": "Hedefler seviyelerine göre kaça ayırlır?",
+      "soru": "Hedefler seviyelerine gÃ¶re kaÃ§a ayÄ±rlÄ±r?",
       "cevap": "1. Siyasi Hedefler\n2. Askeri Hedefler"
     },
     {
-      "soru": "Soyut anlamda arzu edilen etkiyi, somut anlamda ise herhangi bir silah/vasıtanın yöneltildiği nokta tesis ve bölgeler ile girişilen faaliyetin fiziki sonucuna ne ad verilir?",
+      "soru": "Soyut anlamda arzu edilen etkiyi, somut anlamda ise herhangi bir silah/vasÄ±tanÄ±n yÃ¶neltildiÄŸi nokta tesis ve bÃ¶lgeler ile giriÅŸilen faaliyetin fiziki sonucuna ne ad verilir?",
       "cevap": "Hedef"
     },
     {
-      "soru": "Harekatın maksadının ne olduğunu ve nasıl gerçekleştirileceğini ortaya koyan ortak hedef, araç ve yoları ifade eden gösterim metoduna ne ad verilir?",
-      "cevap": "Harekat Hatları"
+      "soru": "HarekatÄ±n maksadÄ±nÄ±n ne olduÄŸunu ve nasÄ±l gerÃ§ekleÅŸtirileceÄŸini ortaya koyan ortak hedef, araÃ§ ve yolarÄ± ifade eden gÃ¶sterim metoduna ne ad verilir?",
+      "cevap": "Harekat HatlarÄ±"
     },
     {
-      "soru": "Hedefler ve KSN'lerde arzu edilen etkinin elde edilip edilemediğini tespit etmeye yarayan ölçülebilir kriterlere ne ad verilir?",
-      "cevap": "İstenen Son Durum ( Başarı Kriterleri)"
+      "soru": "Hedefler ve KSN'lerde arzu edilen etkinin elde edilip edilemediÄŸini tespit etmeye yarayan Ã¶lÃ§Ã¼lebilir kriterlere ne ad verilir?",
+      "cevap": "Ä°stenen Son Durum ( BaÅŸarÄ± Kriterleri)"
     },
     {
-      "soru": "Ağırlık merkezini etkilemek üzere Doğrudan Yaklaşım ne zaman tercih edilir?",
-      "cevap": "Düşmana nazaran çok üstün olunduğunda"
+      "soru": "AÄŸÄ±rlÄ±k merkezini etkilemek Ã¼zere DoÄŸrudan YaklaÅŸÄ±m ne zaman tercih edilir?",
+      "cevap": "DÃ¼ÅŸmana nazaran Ã§ok Ã¼stÃ¼n olunduÄŸunda"
     },
     {
-      "soru": "Ağırlık merkezini etkilemek üzere Dolaylı Yaklaşım ne zaman tercih edilir?",
-      "cevap": "Elde yeterli kuvvet olmadığı ya da zaiyat riskinden kaçınıldığı zaman"
+      "soru": "AÄŸÄ±rlÄ±k merkezini etkilemek Ã¼zere DolaylÄ± YaklaÅŸÄ±m ne zaman tercih edilir?",
+      "cevap": "Elde yeterli kuvvet olmadÄ±ÄŸÄ± ya da zaiyat riskinden kaÃ§Ä±nÄ±ldÄ±ÄŸÄ± zaman"
     },
     {
-      "soru": "Kuvvet Komutanlıklarında oluşturulan başkanlıklar haricinde ihtiyaç ve seviyesine göre hangi başkanlıklar da kurulabilir?",
-      "cevap": "• Sivil-Asker İşbirliği\n• Teknik Başkanlık\n• Araştırma Geliştirme\n• Bilimsel Karar Destek\n• Başçarkçılık"
+      "soru": "Kuvvet KomutanlÄ±klarÄ±nda oluÅŸturulan baÅŸkanlÄ±klar haricinde ihtiyaÃ§ ve seviyesine gÃ¶re hangi baÅŸkanlÄ±klar da kurulabilir?",
+      "cevap": "â€¢ Sivil-Asker Ä°ÅŸbirliÄŸi\nâ€¢ Teknik BaÅŸkanlÄ±k\nâ€¢ AraÅŸtÄ±rma GeliÅŸtirme\nâ€¢ Bilimsel Karar Destek\nâ€¢ BaÅŸÃ§arkÃ§Ä±lÄ±k"
     },
     {
-      "soru": "TÜMAS nasıl hazırlanır?",
-      "cevap": "Barışta Bakanlar Kurulu kararı ile yürürlüğe giren MGSB doğrutlusunda"
+      "soru": "TÃœMAS nasÄ±l hazÄ±rlanÄ±r?",
+      "cevap": "BarÄ±ÅŸta Bakanlar Kurulu kararÄ± ile yÃ¼rÃ¼rlÃ¼ÄŸe giren MGSB doÄŸrutlusunda"
     },
     {
-      "soru": "Taarruz edilecek hedefler listesi nasıl oluşur?",
+      "soru": "Taarruz edilecek hedefler listesi nasÄ±l oluÅŸur?",
       "cevap": "Kritik Hassasiyetlerin belirlenmesi ile"
     },
     {
       "soru": "KSN'ler nelerden belirlenir?",
-      "cevap": "Kritik İhtiyaçlar ve Hassasiyetlerden"
+      "cevap": "Kritik Ä°htiyaÃ§lar ve Hassasiyetlerden"
     },
     {
-      "soru": "Planlama faaliyetine ne zaman başlanır?",
-      "cevap": "Üst makamdan bir direktif/veçhe/emir/talimat alınarak"
+      "soru": "Planlama faaliyetine ne zaman baÅŸlanÄ±r?",
+      "cevap": "Ãœst makamdan bir direktif/veÃ§he/emir/talimat alÄ±narak"
     },
     {
-      "soru": "Planlar genel olarak kaç başlık altında sınıflandırılır?",
-      "cevap": "1. Harekat Planları\n2. İhtimalat Planları\n3. Müteakip Harekat Planları"
+      "soru": "Planlar genel olarak kaÃ§ baÅŸlÄ±k altÄ±nda sÄ±nÄ±flandÄ±rÄ±lÄ±r?",
+      "cevap": "1. Harekat PlanlarÄ±\n2. Ä°htimalat PlanlarÄ±\n3. MÃ¼teakip Harekat PlanlarÄ±"
     },
     {
-      "soru": "Kuvvetlerin özelliği, kabiliyetleri, hareket serbestisi, fiziki gücü ve savaşma azminin dayandığı/güç aldığı özellikler, bölgeler ve asimetrik etki oluşturacak kabiliyetlere ne ad verilir?",
-      "cevap": "Ağırlık Merkezi"
+      "soru": "Kuvvetlerin Ã¶zelliÄŸi, kabiliyetleri, hareket serbestisi, fiziki gÃ¼cÃ¼ ve savaÅŸma azminin dayandÄ±ÄŸÄ±/gÃ¼Ã§ aldÄ±ÄŸÄ± Ã¶zellikler, bÃ¶lgeler ve asimetrik etki oluÅŸturacak kabiliyetlere ne ad verilir?",
+      "cevap": "AÄŸÄ±rlÄ±k Merkezi"
     },
     {
-      "soru": "Özel Nitelikli istihbarat faaliyetleri kullanılan birliğin seviyesine ve cinsine göre farklı isimler alır. Bunlar nelerdir?",
-      "cevap": "1. Harp Alanı Stratejik İstih. Hazırlığı (HASİH) (Stratejik)\n2. Harekat Alanı Müşterek İstih. Hazırlığı (HAMİH) (Stratejik)\n3. Müşterek Harekat Bölgesi İstih. Hazırlığı (MHBİH) (Operatif)\n4. Muharebe Sahası İstih. Hazırlığı (MSİH) (Taktik)"
+      "soru": "Ã–zel Nitelikli istihbarat faaliyetleri kullanÄ±lan birliÄŸin seviyesine ve cinsine gÃ¶re farklÄ± isimler alÄ±r. Bunlar nelerdir?",
+      "cevap": "1. Harp AlanÄ± Stratejik Ä°stih. HazÄ±rlÄ±ÄŸÄ± (HASÄ°H) (Stratejik)\n2. Harekat AlanÄ± MÃ¼ÅŸterek Ä°stih. HazÄ±rlÄ±ÄŸÄ± (HAMÄ°H) (Stratejik)\n3. MÃ¼ÅŸterek Harekat BÃ¶lgesi Ä°stih. HazÄ±rlÄ±ÄŸÄ± (MHBÄ°H) (Operatif)\n4. Muharebe SahasÄ± Ä°stih. HazÄ±rlÄ±ÄŸÄ± (MSÄ°H) (Taktik)"
     },
     {
       "soru": "Stratejik hedefler neyi belirler?",
-      "cevap": "Siyasi hedeflere ulaşmada SK nın oynayacağı rolü belirler."
+      "cevap": "Siyasi hedeflere ulaÅŸmada SK nÄ±n oynayacaÄŸÄ± rolÃ¼ belirler."
     },
     {
-      "soru": "Vazife başarıldığında oluşması istenen politik ve askeri şartların genel olarak ifadesine ne ad verilir?",
-      "cevap": "İstenen Son Durum"
+      "soru": "Vazife baÅŸarÄ±ldÄ±ÄŸÄ±nda oluÅŸmasÄ± istenen politik ve askeri ÅŸartlarÄ±n genel olarak ifadesine ne ad verilir?",
+      "cevap": "Ä°stenen Son Durum"
     },
     {
-      "soru": "Komutanın doğru kararı süratli verebilmesi için elde yeterli veri olmadığı durumlarda temel prensip nedir?",
-      "cevap": "Kararda Doğruluk - İcrada Sürat"
+      "soru": "KomutanÄ±n doÄŸru kararÄ± sÃ¼ratli verebilmesi iÃ§in elde yeterli veri olmadÄ±ÄŸÄ± durumlarda temel prensip nedir?",
+      "cevap": "Kararda DoÄŸruluk - Ä°crada SÃ¼rat"
     },
     {
-      "soru": "Özel nitelikli istihbarat faaliyetlerinde hangi veriler elde edilir?",
-      "cevap": "Belirli bir durum söz konusudur."
+      "soru": "Ã–zel nitelikli istihbarat faaliyetlerinde hangi veriler elde edilir?",
+      "cevap": "Belirli bir durum sÃ¶z konusudur."
     },
     {
-      "soru": "AKVES2'in oluşumunda hangi ilkeden istifade edilir?",
-      "cevap": "TÜMEVARIM"
+      "soru": "AKVES2'in oluÅŸumunda hangi ilkeden istifade edilir?",
+      "cevap": "TÃœMEVARIM"
     },
     {
-      "soru": "Stratejik seviyede ulusal strateji ve politikanın formülasyonunu, kuvvet yapısına dayanan karar verme sürecini ve kriz durumunda icra edilecek H/T'leri destekleyen İstihbarat Hazırlığı hangisidir?",
-      "cevap": "HASİH"
+      "soru": "Stratejik seviyede ulusal strateji ve politikanÄ±n formÃ¼lasyonunu, kuvvet yapÄ±sÄ±na dayanan karar verme sÃ¼recini ve kriz durumunda icra edilecek H/T'leri destekleyen Ä°stihbarat HazÄ±rlÄ±ÄŸÄ± hangisidir?",
+      "cevap": "HASÄ°H"
     },
     {
-      "soru": "Düşmanın Ağırlık Merkezini tespit etmek için hangi sorulara cevap aranır?",
-      "cevap": "1. Düşman gücünü nereden alıyor?\n2. Düşman en çok neyine güveniyor?"
+      "soru": "DÃ¼ÅŸmanÄ±n AÄŸÄ±rlÄ±k Merkezini tespit etmek iÃ§in hangi sorulara cevap aranÄ±r?",
+      "cevap": "1. DÃ¼ÅŸman gÃ¼cÃ¼nÃ¼ nereden alÄ±yor?\n2. DÃ¼ÅŸman en Ã§ok neyine gÃ¼veniyor?"
     },
     {
-      "soru": "MPK harekatın ne kadarlık bölümünü tasarlar?",
-      "cevap": "10 ila 30 günlük"
+      "soru": "MPK harekatÄ±n ne kadarlÄ±k bÃ¶lÃ¼mÃ¼nÃ¼ tasarlar?",
+      "cevap": "10 ila 30 gÃ¼nlÃ¼k"
     },
     {
-      "soru": "Ön Emir (Hazırlık) hangi AKVES safhasından sonra yayınlanır?",
-      "cevap": "1. Vazifenin alınması ve ön inceleme"
+      "soru": "Ã–n Emir (HazÄ±rlÄ±k) hangi AKVES safhasÄ±ndan sonra yayÄ±nlanÄ±r?",
+      "cevap": "1. Vazifenin alÄ±nmasÄ± ve Ã¶n inceleme"
     },
     {
-      "soru": "İstenen son durumun gerçekleşmesini takiben yapılacak harekata ilişkin esasları ortaya koyan plan hangisidir?",
-      "cevap": "Müteakip Harekat Planı (Barış zamanında yapılmaz)"
+      "soru": "Ä°stenen son durumun gerÃ§ekleÅŸmesini takiben yapÄ±lacak harekata iliÅŸkin esaslarÄ± ortaya koyan plan hangisidir?",
+      "cevap": "MÃ¼teakip Harekat PlanÄ± (BarÄ±ÅŸ zamanÄ±nda yapÄ±lmaz)"
     },
     {
-      "soru": "Harekat planlamasında ne esas alınır?",
+      "soru": "Harekat planlamasÄ±nda ne esas alÄ±nÄ±r?",
       "cevap": "Harp Prensipleri"
     },
     {
-      "soru": "Harekatın planlamasından kim sorumludur?",
+      "soru": "HarekatÄ±n planlamasÄ±ndan kim sorumludur?",
       "cevap": "Planlama Grubu"
     },
     {
-      "soru": "Barış zamanında yapılan senaryoya dayalı planlama faaliyetine ne ad verilir?",
-      "cevap": "Önceden Planlama"
+      "soru": "BarÄ±ÅŸ zamanÄ±nda yapÄ±lan senaryoya dayalÄ± planlama faaliyetine ne ad verilir?",
+      "cevap": "Ã–nceden Planlama"
     },
     {
-      "soru": "Kriz Mukabele ve Harp planlaması kim tarafıdan icra edilir?",
-      "cevap": "GENKUR seviyesinde krizde SKKHM bünyesinde teşkil edilen, MPK ve MKK tarafından"
+      "soru": "Kriz Mukabele ve Harp planlamasÄ± kim tarafÄ±dan icra edilir?",
+      "cevap": "GENKUR seviyesinde krizde SKKHM bÃ¼nyesinde teÅŸkil edilen, MPK ve MKK tarafÄ±ndan"
     },
     {
-      "soru": "Müşterek Harekat Planlama Faaliyeti nasıl bir süreçtir?",
-      "cevap": "GENKUR'un hükümet direktifi/TÜMAS dökümanını dikkate alarak hazırladığı harekat planlama direktifi ile başlayan bir süreçtir."
+      "soru": "MÃ¼ÅŸterek Harekat Planlama Faaliyeti nasÄ±l bir sÃ¼reÃ§tir?",
+      "cevap": "GENKUR'un hÃ¼kÃ¼met direktifi/TÃœMAS dÃ¶kÃ¼manÄ±nÄ± dikkate alarak hazÄ±rladÄ±ÄŸÄ± harekat planlama direktifi ile baÅŸlayan bir sÃ¼reÃ§tir."
     },
     {
-      "soru": "SKKHM de hangi komutanlıklar bulunur?",
-      "cevap": "1. GENKUR Başkanlıklar\n2. Kuvvet Komutanlıkları\n3. Jandarma Genel Komutanlığı\n4. Sahil Güvenlik Komutanlığı temsilcileri"
+      "soru": "SKKHM de hangi komutanlÄ±klar bulunur?",
+      "cevap": "1. GENKUR BaÅŸkanlÄ±klar\n2. Kuvvet KomutanlÄ±klarÄ±\n3. Jandarma Genel KomutanlÄ±ÄŸÄ±\n4. Sahil GÃ¼venlik KomutanlÄ±ÄŸÄ± temsilcileri"
     },
     {
-      "soru": "TSK'nın harpte esas harp karargahı neresidir?",
+      "soru": "TSK'nÄ±n harpte esas harp karargahÄ± neresidir?",
       "cevap": "SKKHM"
     },
     {
-      "soru": "2021- Herhangi bir seviyede harekat planlanırken hangi seviyelerin ihtiyaçları göz önüne alınır?",
-      "cevap": "2 üst seviyenin maksat ve niyeti ile 2 alt seviyenin ihtiyaçları"
+      "soru": "2021- Herhangi bir seviyede harekat planlanÄ±rken hangi seviyelerin ihtiyaÃ§larÄ± gÃ¶z Ã¶nÃ¼ne alÄ±nÄ±r?",
+      "cevap": "2 Ã¼st seviyenin maksat ve niyeti ile 2 alt seviyenin ihtiyaÃ§larÄ±"
     },
     {
-      "soru": "MPK Kimlerden oluşur?",
-      "cevap": "1. GENKUR 2.Bşk. (Başkan)\n2. Kuvvet Kur.Bşk. ları\n3. GENKUR Krgh. Bşk.ları\n4. Özel Kuvvetler Komutanı\n5. Sahil Güvenlik K. Ve ilgili diğer pers."
+      "soru": "MPK Kimlerden oluÅŸur?",
+      "cevap": "1. GENKUR 2.BÅŸk. (BaÅŸkan)\n2. Kuvvet Kur.BÅŸk. larÄ±\n3. GENKUR Krgh. BÅŸk.larÄ±\n4. Ã–zel Kuvvetler KomutanÄ±\n5. Sahil GÃ¼venlik K. Ve ilgili diÄŸer pers."
     },
     {
-      "soru": "Muharebe sahasını şekillendirme dar anlamda nedir?",
-      "cevap": "Komutanın muharebe sahasındaki her türlü etki tepki ve tedbirleri almasıdır."
+      "soru": "Muharebe sahasÄ±nÄ± ÅŸekillendirme dar anlamda nedir?",
+      "cevap": "KomutanÄ±n muharebe sahasÄ±ndaki her tÃ¼rlÃ¼ etki tepki ve tedbirleri almasÄ±dÄ±r."
     },
     {
-      "soru": "MKK harekatın ne kadarlık bölümünü tasarlar?",
-      "cevap": "3 ila 10 günlük"
+      "soru": "MKK harekatÄ±n ne kadarlÄ±k bÃ¶lÃ¼mÃ¼nÃ¼ tasarlar?",
+      "cevap": "3 ila 10 gÃ¼nlÃ¼k"
     },
     {
-      "soru": "MKK Kimlerden oluşur?",
-      "cevap": "1. GENKUR Hrk. Bşk. (Başkan)\n2. Kuvvet Hrk.Bşk. ları\n3. Müşterek Merkez Temsilcileri"
+      "soru": "MKK Kimlerden oluÅŸur?",
+      "cevap": "1. GENKUR Hrk. BÅŸk. (BaÅŸkan)\n2. Kuvvet Hrk.BÅŸk. larÄ±\n3. MÃ¼ÅŸterek Merkez Temsilcileri"
     },
     {
-      "soru": "Müşterek merkezler kime bağlı olarak cari harekatın plana uygun olarak icrasını takip eder?",
-      "cevap": "GENKUR 2. Bşk."
+      "soru": "MÃ¼ÅŸterek merkezler kime baÄŸlÄ± olarak cari harekatÄ±n plana uygun olarak icrasÄ±nÄ± takip eder?",
+      "cevap": "GENKUR 2. BÅŸk."
     },
     {
-      "soru": "SKKHM'de açılacak olan Müşterek Merkezler nelerdir?",
-      "cevap": "1. Müş. Personel Mrk. / Müş. Loj. Mrk.\n2. Müş. İstihbarat Mrk. / Müş. Sağlık Mrk.\n3. Müş. Harekat Mrk. / Müş. MEBS Mrk.\n4. Müş. Özel Krgh. Bölümü\n5. Müşterek Politik-Askeri İşlemler Mrk."
+      "soru": "SKKHM'de aÃ§Ä±lacak olan MÃ¼ÅŸterek Merkezler nelerdir?",
+      "cevap": "1. MÃ¼ÅŸ. Personel Mrk. / MÃ¼ÅŸ. Loj. Mrk.\n2. MÃ¼ÅŸ. Ä°stihbarat Mrk. / MÃ¼ÅŸ. SaÄŸlÄ±k Mrk.\n3. MÃ¼ÅŸ. Harekat Mrk. / MÃ¼ÅŸ. MEBS Mrk.\n4. MÃ¼ÅŸ. Ã–zel Krgh. BÃ¶lÃ¼mÃ¼\n5. MÃ¼ÅŸterek Politik-Askeri Ä°ÅŸlemler Mrk."
     },
     {
-      "soru": "Harekat planlama direktifi güncelleneceği zaman kim tarafından hazırlanır?",
+      "soru": "Harekat planlama direktifi gÃ¼ncelleneceÄŸi zaman kim tarafÄ±ndan hazÄ±rlanÄ±r?",
       "cevap": "MPK"
     },
     {
-      "soru": "Başlangıç durumu ile başarılacak son durum arasındaki bütün faaliyetleri birbirini takip eden mantıklı bir sıra dahilinde düşünebilmesi ve elindeki kuvvetlerini buna göre düzenleyebilmesi neyin tanımıdır?",
-      "cevap": "Muharebe sahasının canlandırılması"
+      "soru": "BaÅŸlangÄ±Ã§ durumu ile baÅŸarÄ±lacak son durum arasÄ±ndaki bÃ¼tÃ¼n faaliyetleri birbirini takip eden mantÄ±klÄ± bir sÄ±ra dahilinde dÃ¼ÅŸÃ¼nebilmesi ve elindeki kuvvetlerini buna gÃ¶re dÃ¼zenleyebilmesi neyin tanÄ±mÄ±dÄ±r?",
+      "cevap": "Muharebe sahasÄ±nÄ±n canlandÄ±rÄ±lmasÄ±"
     },
     {
-      "soru": "Sorunu tespit etmek nasıl mümkün olur?",
-      "cevap": "Muharebe sahasını canlandırmakla"
+      "soru": "Sorunu tespit etmek nasÄ±l mÃ¼mkÃ¼n olur?",
+      "cevap": "Muharebe sahasÄ±nÄ± canlandÄ±rmakla"
     },
     {
-      "soru": "Sorunu çözmek ne ile mümkün olur?",
-      "cevap": "Muharebe sahasını şekillendirmekle"
+      "soru": "Sorunu Ã§Ã¶zmek ne ile mÃ¼mkÃ¼n olur?",
+      "cevap": "Muharebe sahasÄ±nÄ± ÅŸekillendirmekle"
     },
     {
-      "soru": "Muharebe sahasını şekillendirme geniş anlamda nedir?",
-      "cevap": "Dostu, düşmanı, tarafsızı ve ortamı şekillendirmektir."
+      "soru": "Muharebe sahasÄ±nÄ± ÅŸekillendirme geniÅŸ anlamda nedir?",
+      "cevap": "Dostu, dÃ¼ÅŸmanÄ±, tarafsÄ±zÄ± ve ortamÄ± ÅŸekillendirmektir."
     },
     {
-      "soru": "SKKHM'deki planlama fonksiyonları kim tarafından yerine getirilir?",
-      "cevap": "1. MPK\n2. MKK\n3. Müşterek Merkezler"
+      "soru": "SKKHM'deki planlama fonksiyonlarÄ± kim tarafÄ±ndan yerine getirilir?",
+      "cevap": "1. MPK\n2. MKK\n3. MÃ¼ÅŸterek Merkezler"
     },
     {
-      "soru": "İyi bir muharebe emri hangi özelliklere sahip olmalıdır?",
-      "cevap": "1. Açıklık – Bütünlük – Kısalık\n2. Ast Komutanların Yetkisini Tanıma\n3. Olumlu ifadelerin kullanılması\n4. Kapsamı net olmayan ifadelerden kaç\n5. Otoriter İfade - Zamanlılık"
+      "soru": "Ä°yi bir muharebe emri hangi Ã¶zelliklere sahip olmalÄ±dÄ±r?",
+      "cevap": "1. AÃ§Ä±klÄ±k â€“ BÃ¼tÃ¼nlÃ¼k â€“ KÄ±salÄ±k\n2. Ast KomutanlarÄ±n Yetkisini TanÄ±ma\n3. Olumlu ifadelerin kullanÄ±lmasÄ±\n4. KapsamÄ± net olmayan ifadelerden kaÃ§\n5. Otoriter Ä°fade - ZamanlÄ±lÄ±k"
     },
     {
-      "soru": "Otomatik veya elle doldurulan , durum haritalarında gösterilmesi uygun olmayan bilgileri ve ilave ayrıntıları ihtiva eden?",
-      "cevap": "Bilgi Çizelgeleri"
+      "soru": "Otomatik veya elle doldurulan , durum haritalarÄ±nda gÃ¶sterilmesi uygun olmayan bilgileri ve ilave ayrÄ±ntÄ±larÄ± ihtiva eden?",
+      "cevap": "Bilgi Ã‡izelgeleri"
     },
     {
-      "soru": "Muharebe hizmet desteği ve geri bölge harekatına ilişkin faaliyetlerin takip ve kontrol edildiği komuta yeri hangisidir?",
+      "soru": "Muharebe hizmet desteÄŸi ve geri bÃ¶lge harekatÄ±na iliÅŸkin faaliyetlerin takip ve kontrol edildiÄŸi komuta yeri hangisidir?",
       "cevap": "Geri Komuta Yeri"
     },
     {
-      "soru": "Komuta yerlerinde alınması gereken tedbirler nasıl sınıflandırılır?",
+      "soru": "Komuta yerlerinde alÄ±nmasÄ± gereken tedbirler nasÄ±l sÄ±nÄ±flandÄ±rÄ±lÄ±r?",
       "cevap": "1. Taktik Komuta Yeri\n2. Esas Komuta Yeri\n3. Geri Komuta Yeri"
     },
     {
-      "soru": "Komuta devamlılığının sağlanması ihtiyacı hangi durumlarda ortaya çıkar?",
-      "cevap": "1. K.nın yaralanma, hastalık, ölme gibi nedenlerle komuta edemez hale gelmesi\n2. Komuta yerinin geçici-daimi olarak elden çıkması\n3. Komuta ve Komuta yeri değişikliğinin aynı anda gerçekleşmesi"
+      "soru": "Komuta devamlÄ±lÄ±ÄŸÄ±nÄ±n saÄŸlanmasÄ± ihtiyacÄ± hangi durumlarda ortaya Ã§Ä±kar?",
+      "cevap": "1. K.nÄ±n yaralanma, hastalÄ±k, Ã¶lme gibi nedenlerle komuta edemez hale gelmesi\n2. Komuta yerinin geÃ§ici-daimi olarak elden Ã§Ä±kmasÄ±\n3. Komuta ve Komuta yeri deÄŸiÅŸikliÄŸinin aynÄ± anda gerÃ§ekleÅŸmesi"
     },
     {
-      "soru": "Bir komutanın komutanlık yetkilerini kendi komutasındaki en uygun komutana devretmesine ne denir?",
-      "cevap": "Komuta Değişikliği"
+      "soru": "Bir komutanÄ±n komutanlÄ±k yetkilerini kendi komutasÄ±ndaki en uygun komutana devretmesine ne denir?",
+      "cevap": "Komuta DeÄŸiÅŸikliÄŸi"
     },
     {
-      "soru": "Komuta kontrol fonksiyonlarının aynı komutanlığın bir karargahından diğerine devredilmesine ne denir?",
-      "cevap": "Komuta Yeri Değişikliği"
+      "soru": "Komuta kontrol fonksiyonlarÄ±nÄ±n aynÄ± komutanlÄ±ÄŸÄ±n bir karargahÄ±ndan diÄŸerine devredilmesine ne denir?",
+      "cevap": "Komuta Yeri DeÄŸiÅŸikliÄŸi"
     },
     {
-      "soru": "Esas Komuta yeinin kaybı halinde Komuta Yerinin değişimi için ilk seçenek hangisidir?",
+      "soru": "Esas Komuta yeinin kaybÄ± halinde Komuta Yerinin deÄŸiÅŸimi iÃ§in ilk seÃ§enek hangisidir?",
       "cevap": "Yedek Komuta Yeri"
     },
     {
-      "soru": "Genellikle prensip koyan veya özel bir faaliyeti emreden  emir tipi hangisidir?",
+      "soru": "Genellikle prensip koyan veya Ã¶zel bir faaliyeti emreden  emir tipi hangisidir?",
       "cevap": "Direktif"
     },
     {
-      "soru": "Veçhenin maksadı nedir?",
-      "cevap": "Operatif seviyede komutanlıkların harekatına yön vermek ve rehberlik etmektir."
+      "soru": "VeÃ§henin maksadÄ± nedir?",
+      "cevap": "Operatif seviyede komutanlÄ±klarÄ±n harekatÄ±na yÃ¶n vermek ve rehberlik etmektir."
     },
     {
-      "soru": "Komuta yerleri genellikle nasıl tesis ve teşkil edilir?",
+      "soru": "Komuta yerleri genellikle nasÄ±l tesis ve teÅŸkil edilir?",
       "cevap": "1. Taktik Komuta Yeri\n2. Esas Komuta Yeri\n3. Geri Komuta Yeri"
     },
     {
-      "soru": "Muharebe Emirleri kaça ayrılır?",
-      "cevap": "1. Harekat Emirleri\n2. İdari ve Lojistik Emirler\n3. Yönergeler – Devamlı talimatlar\n4. Ön Emirler\n5. Münferit Emirler"
+      "soru": "Muharebe Emirleri kaÃ§a ayrÄ±lÄ±r?",
+      "cevap": "1. Harekat Emirleri\n2. Ä°dari ve Lojistik Emirler\n3. YÃ¶nergeler â€“ DevamlÄ± talimatlar\n4. Ã–n Emirler\n5. MÃ¼nferit Emirler"
     },
     {
-      "soru": "Komuta yerlerinin devamlılığını sağlamaya yönelik faaliyetler nelerdir?",
-      "cevap": "1. Dağılma\n2. Aldatma\n3. Düşman ateş destek vasıtaları ve hava kuvveti menzili dışına yerleşme\n4. Daimi tahkimatların hazırlanması"
+      "soru": "Komuta yerlerinin devamlÄ±lÄ±ÄŸÄ±nÄ± saÄŸlamaya yÃ¶nelik faaliyetler nelerdir?",
+      "cevap": "1. DaÄŸÄ±lma\n2. Aldatma\n3. DÃ¼ÅŸman ateÅŸ destek vasÄ±talarÄ± ve hava kuvveti menzili dÄ±ÅŸÄ±na yerleÅŸme\n4. Daimi tahkimatlarÄ±n hazÄ±rlanmasÄ±"
     },
     {
-      "soru": "Harekat ile ilgili olmayan veya harekatın etkisi altında bulunmayan konulara ait emirlere ne ad verilir?",
+      "soru": "Harekat ile ilgili olmayan veya harekatÄ±n etkisi altÄ±nda bulunmayan konulara ait emirlere ne ad verilir?",
       "cevap": "Normal Emirler"
     },
     {
-      "soru": "Harekatın tek bir yönü ile ilgili olup emirlerin tamamlayıcı kısmına ne ad verilir?",
+      "soru": "HarekatÄ±n tek bir yÃ¶nÃ¼ ile ilgili olup emirlerin tamamlayÄ±cÄ± kÄ±smÄ±na ne ad verilir?",
       "cevap": "Emir Ekleri"
     },
     {
-      "soru": "Karargah Subayları vazifenin başarılmasını kolaylaştırmak için hangi kayıtları tutar?",
-      "cevap": "1. Cerideler\n2. Durum Haritaları\n3. Bilgi Çizelgeleri\n4. İş günlükleri"
+      "soru": "Karargah SubaylarÄ± vazifenin baÅŸarÄ±lmasÄ±nÄ± kolaylaÅŸtÄ±rmak iÃ§in hangi kayÄ±tlarÄ± tutar?",
+      "cevap": "1. Cerideler\n2. Durum HaritalarÄ±\n3. Bilgi Ã‡izelgeleri\n4. Ä°ÅŸ gÃ¼nlÃ¼kleri"
     },
     {
-      "soru": "Alınan ve gönderilen rapor ve mesajların, meydana gelen önemli olayların ve bunlara yönelik yapılan işlemlerin bir zaman sırası ile 24 saatine göre kaydedildiği resmi yayınlar hangisidir?",
+      "soru": "AlÄ±nan ve gÃ¶nderilen rapor ve mesajlarÄ±n, meydana gelen Ã¶nemli olaylarÄ±n ve bunlara yÃ¶nelik yapÄ±lan iÅŸlemlerin bir zaman sÄ±rasÄ± ile 24 saatine gÃ¶re kaydedildiÄŸi resmi yayÄ±nlar hangisidir?",
       "cevap": "Ceride"
     },
     {
-      "soru": "Cereyan eden harekatın grafik olarak gösterilmesine ne denir?",
-      "cevap": "Durum Haritası"
+      "soru": "Cereyan eden harekatÄ±n grafik olarak gÃ¶sterilmesine ne denir?",
+      "cevap": "Durum HaritasÄ±"
     },
     {
-      "soru": "Harekat planlarının icrası sürecisinde kritik noktalarda istenilen başarının elde edilmemesi ihtimaline yönelik hazırlanan başarısızlığı telafi planlarına ne ad verilir?",
-      "cevap": "İhtimalat Planları"
+      "soru": "Harekat planlarÄ±nÄ±n icrasÄ± sÃ¼recisinde kritik noktalarda istenilen baÅŸarÄ±nÄ±n elde edilmemesi ihtimaline yÃ¶nelik hazÄ±rlanan baÅŸarÄ±sÄ±zlÄ±ÄŸÄ± telafi planlarÄ±na ne ad verilir?",
+      "cevap": "Ä°htimalat PlanlarÄ±"
     },
     {
-      "soru": "Durum muhakemelerinin yapılmasında, planların, emirlerin ve raporların hazırlanmasında faydalanılmak üzere her karargah şubesinin/kısmının kendi görevleri ile ilgili bilgileri not ettiği ve son durumu gösteren?",
-      "cevap": "İş Günlüğü"
+      "soru": "Durum muhakemelerinin yapÄ±lmasÄ±nda, planlarÄ±n, emirlerin ve raporlarÄ±n hazÄ±rlanmasÄ±nda faydalanÄ±lmak Ã¼zere her karargah ÅŸubesinin/kÄ±smÄ±nÄ±n kendi gÃ¶revleri ile ilgili bilgileri not ettiÄŸi ve son durumu gÃ¶steren?",
+      "cevap": "Ä°ÅŸ GÃ¼nlÃ¼ÄŸÃ¼"
     },
     {
-      "soru": "Uygulamanın ayrıntıları bakımından daha az seçim hakkı tanıyan?",
+      "soru": "UygulamanÄ±n ayrÄ±ntÄ±larÄ± bakÄ±mÄ±ndan daha az seÃ§im hakkÄ± tanÄ±yan?",
       "cevap": "Komut / Emir"
     },
     {
-      "soru": "Tehdit değerlendirmeleri esas alınarak yapılan planlamalar hangisidir?",
-      "cevap": "Harekat Planları"
+      "soru": "Tehdit deÄŸerlendirmeleri esas alÄ±narak yapÄ±lan planlamalar hangisidir?",
+      "cevap": "Harekat PlanlarÄ±"
     },
     {
-      "soru": "Emirler kaç genel sınıfa ayrılır?",
+      "soru": "Emirler kaÃ§ genel sÄ±nÄ±fa ayrÄ±lÄ±r?",
       "cevap": "1. Muharebe Emirleri\n2. Normal (Rutin) Emirler"
     },
     {
-      "soru": "Harekat risk değerlendirmelerini de içerecek şekilde çevre şartları, hazırlık durumu, tehçhizat ve dost birlik faaliyetleri ve bu faaliyetlerden kaynaklanan tehlikelerle ilişkili riske ne ad verilir?",
-      "cevap": "Tesadüfi Risk"
+      "soru": "Harekat risk deÄŸerlendirmelerini de iÃ§erecek ÅŸekilde Ã§evre ÅŸartlarÄ±, hazÄ±rlÄ±k durumu, tehÃ§hizat ve dost birlik faaliyetleri ve bu faaliyetlerden kaynaklanan tehlikelerle iliÅŸkili riske ne ad verilir?",
+      "cevap": "TesadÃ¼fi Risk"
     },
     {
-      "soru": "Ön Emir (Planlama) hangi AKVES safhasından sonra yayınlanır?",
+      "soru": "Ã–n Emir (Planlama) hangi AKVES safhasÄ±ndan sonra yayÄ±nlanÄ±r?",
       "cevap": "3. Ana Fikir"
     },
     {
-      "soru": "Karar Toplantısı hangi AKVES safhasından sonra yayınlanır?",
-      "cevap": "4. Harekat Tarzları"
+      "soru": "Karar ToplantÄ±sÄ± hangi AKVES safhasÄ±ndan sonra yayÄ±nlanÄ±r?",
+      "cevap": "4. Harekat TarzlarÄ±"
     },
     {
-      "soru": "Harekat Tasarısı hangi AKVES safhasından sonra yayınlanır?",
-      "cevap": "4. Komutanın Kararını Vermesi"
+      "soru": "Harekat TasarÄ±sÄ± hangi AKVES safhasÄ±ndan sonra yayÄ±nlanÄ±r?",
+      "cevap": "4. KomutanÄ±n KararÄ±nÄ± Vermesi"
     },
     {
-      "soru": "Fayda-Mahzur mukayesesinde ulaşılan sonuçların sayısal olarak bir tabloda ifade edilmesine ne ad verilir?",
-      "cevap": "Sayısal Mukayese Yöntemi"
+      "soru": "Fayda-Mahzur mukayesesinde ulaÅŸÄ±lan sonuÃ§larÄ±n sayÄ±sal olarak bir tabloda ifade edilmesine ne ad verilir?",
+      "cevap": "SayÄ±sal Mukayese YÃ¶ntemi"
     },
     {
-      "soru": "Hangi seviyedeki birlikler  askeri harekatın planlamasında AKVES kullanır?",
-      "cevap": "Tabur ve eşidi birlikler ile üst seviye komutanlar"
+      "soru": "Hangi seviyedeki birlikler  askeri harekatÄ±n planlamasÄ±nda AKVES kullanÄ±r?",
+      "cevap": "Tabur ve eÅŸidi birlikler ile Ã¼st seviye komutanlar"
     },
     {
-      "soru": "Bölük ve eşidi birlikler ile daha ast seviyelerde harekatın planlanmasında ve emirlerin hazırlanmasında ne kullanır?",
-      "cevap": "Kıta Sevk ve İdare Usülü (KSIU) veya Görev Planlaması"
+      "soru": "BÃ¶lÃ¼k ve eÅŸidi birlikler ile daha ast seviyelerde harekatÄ±n planlanmasÄ±nda ve emirlerin hazÄ±rlanmasÄ±nda ne kullanÄ±r?",
+      "cevap": "KÄ±ta Sevk ve Ä°dare UsÃ¼lÃ¼ (KSIU) veya GÃ¶rev PlanlamasÄ±"
     },
     {
-      "soru": "Çeşitli tehlikelere maruz kalmaktan kaynaklanan kayıpların veya bozulmaların şiddeti ve olasılığına ne ad verilir?",
+      "soru": "Ã‡eÅŸitli tehlikelere maruz kalmaktan kaynaklanan kayÄ±plarÄ±n veya bozulmalarÄ±n ÅŸiddeti ve olasÄ±lÄ±ÄŸÄ±na ne ad verilir?",
       "cevap": "Risk"
     },
     {
-      "soru": "Kuvvetin korunması ve görevin başarısı için riskin değerlendirilmesi ve kontrol edilmesi sürecine ne ad verilir?",
-      "cevap": "Risk Yönetimi"
+      "soru": "Kuvvetin korunmasÄ± ve gÃ¶revin baÅŸarÄ±sÄ± iÃ§in riskin deÄŸerlendirilmesi ve kontrol edilmesi sÃ¼recine ne ad verilir?",
+      "cevap": "Risk YÃ¶netimi"
     },
     {
-      "soru": "Risk Yönetiminin prensipleri nelerdir?",
-      "cevap": "1. Hem planlamada hem de uygulamada kullanmak\n2. Asla gereksiz risk almamak\n3. Komuta zincirinde uygun kademede risk kararları almak\n4. Faydalar maliyetin üzerinde ise riski kabul etmek"
+      "soru": "Risk YÃ¶netiminin prensipleri nelerdir?",
+      "cevap": "1. Hem planlamada hem de uygulamada kullanmak\n2. Asla gereksiz risk almamak\n3. Komuta zincirinde uygun kademede risk kararlarÄ± almak\n4. Faydalar maliyetin Ã¼zerinde ise riski kabul etmek"
     },
     {
-      "soru": "Harekat planlamasına ilişkin ana durum muhakemelerinin, plan ve emirlerin hazırlandığı ve takip edildiği harp karargahları nerelerdir?",
+      "soru": "Harekat planlamasÄ±na iliÅŸkin ana durum muhakemelerinin, plan ve emirlerin hazÄ±rlandÄ±ÄŸÄ± ve takip edildiÄŸi harp karargahlarÄ± nerelerdir?",
       "cevap": "Taktik ve Esas Komuta yerleri"
     },
     {
-      "soru": "Düşmanın veya bir tehdidin varlığından kaynaklanan tehlikelerle ilişkili risklere ne ad verilir?",
+      "soru": "DÃ¼ÅŸmanÄ±n veya bir tehdidin varlÄ±ÄŸÄ±ndan kaynaklanan tehlikelerle iliÅŸkili risklere ne ad verilir?",
       "cevap": "Taktik Risk"
     },
     {
-      "soru": "Bilgilendirme Toplantısı hangi AKVES safhasından sonra yapılır?",
+      "soru": "Bilgilendirme ToplantÄ±sÄ± hangi AKVES safhasÄ±ndan sonra yapÄ±lÄ±r?",
       "cevap": "2. Vazifenin Tahlili"
     },
     {
-      "soru": "Risk yönetiminin kaç aşaması vardır?",
-      "cevap": "1. Tehlikeleri tanımlama\n2. Tehlikeleri değerlendirme\n3. Kontrol tedbirleri geliştirme ve risk kararlarını alma\n4. Kontrol tedbirleri uygulama ve nezaret\n5. Değerlendirme"
+      "soru": "Risk yÃ¶netiminin kaÃ§ aÅŸamasÄ± vardÄ±r?",
+      "cevap": "1. Tehlikeleri tanÄ±mlama\n2. Tehlikeleri deÄŸerlendirme\n3. Kontrol tedbirleri geliÅŸtirme ve risk kararlarÄ±nÄ± alma\n4. Kontrol tedbirleri uygulama ve nezaret\n5. DeÄŸerlendirme"
     },
     {
-      "soru": "Risk yönetimi sürecinde dikkate alınacak faktörler nelerdir?",
-      "cevap": "1. Aşamaları sıra ile uygulamak\n2. Her aşamaya ayrılacak zamanı tespit etmek\n3. Her aşamada geri besleme yapmak\n4. Tüm personeli sürece dahil etmek"
+      "soru": "Risk yÃ¶netimi sÃ¼recinde dikkate alÄ±nacak faktÃ¶rler nelerdir?",
+      "cevap": "1. AÅŸamalarÄ± sÄ±ra ile uygulamak\n2. Her aÅŸamaya ayrÄ±lacak zamanÄ± tespit etmek\n3. Her aÅŸamada geri besleme yapmak\n4. TÃ¼m personeli sÃ¼rece dahil etmek"
     },
     {
-      "soru": "İstihbaratın üretim ve kullanım faaliyetleri kaça ayrılır?",
-      "cevap": "1. Genel Nitelikli İstihbarat Faaliyetleri\n2. Özel Nitelikli İstihbarat Faaliyetleri"
+      "soru": "Ä°stihbaratÄ±n Ã¼retim ve kullanÄ±m faaliyetleri kaÃ§a ayrÄ±lÄ±r?",
+      "cevap": "1. Genel Nitelikli Ä°stihbarat Faaliyetleri\n2. Ã–zel Nitelikli Ä°stihbarat Faaliyetleri"
     },
     {
       "soru": "Genel nitelikli istihbarat faaliyetlerinde hangi veriler elde edilir?",
-      "cevap": "Belirli bir durum yerine OLASI durumlar dikkate alınarak muhtemel istihbarat ihtiyaçlarına yönelik veriler"
+      "cevap": "Belirli bir durum yerine OLASI durumlar dikkate alÄ±narak muhtemel istihbarat ihtiyaÃ§larÄ±na yÃ¶nelik veriler"
     },
     {
-      "soru": "Atanmış bir komutanın verilen vazifenin yerine getirilmesi için emrine ve kontrolüne verilmiş kuvvetler üzerinde emretme ve yönetme yetkisini kullanmasına ne ad verilir?",
+      "soru": "AtanmÄ±ÅŸ bir komutanÄ±n verilen vazifenin yerine getirilmesi iÃ§in emrine ve kontrolÃ¼ne verilmiÅŸ kuvvetler Ã¼zerinde emretme ve yÃ¶netme yetkisini kullanmasÄ±na ne ad verilir?",
       "cevap": "Komuta Kontrol"
     },
     {
-      "soru": "Askeri hizmette bir komutanın rütbe ve makamı gereği ast kademeler üzerinde kullandığı adli, idari, mali ve harekata dair hususları kapsayan yasal yetkiye ne ad verilir?",
+      "soru": "Askeri hizmette bir komutanÄ±n rÃ¼tbe ve makamÄ± gereÄŸi ast kademeler Ã¼zerinde kullandÄ±ÄŸÄ± adli, idari, mali ve harekata dair hususlarÄ± kapsayan yasal yetkiye ne ad verilir?",
       "cevap": "Komuta"
     },
     {
-      "soru": "Yasaların verdiği imkanlar ölçüsünde komuta etme gücünü kullanma hak ve özgürlüğüne ne denir?",
+      "soru": "YasalarÄ±n verdiÄŸi imkanlar Ã¶lÃ§Ã¼sÃ¼nde komuta etme gÃ¼cÃ¼nÃ¼ kullanma hak ve Ã¶zgÃ¼rlÃ¼ÄŸÃ¼ne ne denir?",
       "cevap": "Yetki"
     },
     {
-      "soru": "Komutanın birliğin faaliyetleri, başarı ve başarısızlıkları için kabul ettiği hukuki ve ahlaki yükümlülüğe ne ad verilir?",
+      "soru": "KomutanÄ±n birliÄŸin faaliyetleri, baÅŸarÄ± ve baÅŸarÄ±sÄ±zlÄ±klarÄ± iÃ§in kabul ettiÄŸi hukuki ve ahlaki yÃ¼kÃ¼mlÃ¼lÃ¼ÄŸe ne ad verilir?",
       "cevap": "Sorumluluk"
     },
     {
-      "soru": "Komuta Kontrol Teşkilatı hangi unsurlardan oluşur?",
-      "cevap": "1. İrtibatlar\n2. Harekat Merkezleri\n3. Haber Toplama Sistemleri\n4. Karargahlar\n5. Tesisler"
+      "soru": "Komuta Kontrol TeÅŸkilatÄ± hangi unsurlardan oluÅŸur?",
+      "cevap": "1. Ä°rtibatlar\n2. Harekat Merkezleri\n3. Haber Toplama Sistemleri\n4. Karargahlar\n5. Tesisler"
     },
     {
-      "soru": "Kaç çeşit Risk vardır?",
-      "cevap": "1. Taktik Risk\n2. Tesadüfi Risk"
+      "soru": "KaÃ§ Ã§eÅŸit Risk vardÄ±r?",
+      "cevap": "1. Taktik Risk\n2. TesadÃ¼fi Risk"
     },
     {
-      "soru": "Karargahın Amiri kimdir?",
-      "cevap": "Kurmay / Erkan Başkanı"
+      "soru": "KarargahÄ±n Amiri kimdir?",
+      "cevap": "Kurmay / Erkan BaÅŸkanÄ±"
     },
     {
-      "soru": "Komutana bilgi sağlamak, onun adına inceleme ve koordinede bulunmak, komutan tarafından verilecek karara katkı sağlamak amaçlarıyla vazife, faaliyet alanları, direktif, prensip emirleri ve yönergeler göz önüne alınarak teşkil edilen kurum?",
+      "soru": "Komutana bilgi saÄŸlamak, onun adÄ±na inceleme ve koordinede bulunmak, komutan tarafÄ±ndan verilecek karara katkÄ± saÄŸlamak amaÃ§larÄ±yla vazife, faaliyet alanlarÄ±, direktif, prensip emirleri ve yÃ¶nergeler gÃ¶z Ã¶nÃ¼ne alÄ±narak teÅŸkil edilen kurum?",
       "cevap": "Karargah"
     },
     {
-      "soru": "Özel sahada bilgi ve eğitimi olan, genel karargah subayına nazaran ilgi alanları sınırlı, ancak teknik, mesleki bilgi ve benzeri konularda geniş bilgi sahibi karargah personeli hangisidir?",
-      "cevap": "Özel Karargah Subayı"
+      "soru": "Ã–zel sahada bilgi ve eÄŸitimi olan, genel karargah subayÄ±na nazaran ilgi alanlarÄ± sÄ±nÄ±rlÄ±, ancak teknik, mesleki bilgi ve benzeri konularda geniÅŸ bilgi sahibi karargah personeli hangisidir?",
+      "cevap": "Ã–zel Karargah SubayÄ±"
     },
     {
-      "soru": "Plan Prensipler, MEBS, Denetleme ve Değerlendirme başkanlıkları teşkil edilmeyen karargahlarda söz konusu görevler hangi başkanlık tarafından icra edilir?",
-      "cevap": "Harekat Başkanlığı"
+      "soru": "Plan Prensipler, MEBS, Denetleme ve DeÄŸerlendirme baÅŸkanlÄ±klarÄ± teÅŸkil edilmeyen karargahlarda sÃ¶z konusu gÃ¶revler hangi baÅŸkanlÄ±k tarafÄ±ndan icra edilir?",
+      "cevap": "Harekat BaÅŸkanlÄ±ÄŸÄ±"
     },
     {
-      "soru": "Genel Karargah Subaylarının sorumlulukları nelerdir?",
-      "cevap": "• Bilgi elde etmekten\n• Bilgileri tahlil ederek K.lık üzerindeki tesir-sonuçlarını belirlemekten\n• K.nın en iyi kararı vermesi için zamanında ve doğru teklifler arz etmekten"
+      "soru": "Genel Karargah SubaylarÄ±nÄ±n sorumluluklarÄ± nelerdir?",
+      "cevap": "â€¢ Bilgi elde etmekten\nâ€¢ Bilgileri tahlil ederek K.lÄ±k Ã¼zerindeki tesir-sonuÃ§larÄ±nÄ± belirlemekten\nâ€¢ K.nÄ±n en iyi kararÄ± vermesi iÃ§in zamanÄ±nda ve doÄŸru teklifler arz etmekten"
     },
     {
-      "soru": "Genel Karargah Subayları kime karşı sorumludurlar?",
-      "cevap": "Kurmay / Erkan Başkanı"
+      "soru": "Genel Karargah SubaylarÄ± kime karÅŸÄ± sorumludurlar?",
+      "cevap": "Kurmay / Erkan BaÅŸkanÄ±"
     },
     {
-      "soru": "Genel Karargah Subayları seviyelerine göre kimlerden oluşur?",
-      "cevap": "• Başkan\n• Daire Başkanı\n• Şube Müdürü\n• Bağlısı subaylar"
+      "soru": "Genel Karargah SubaylarÄ± seviyelerine gÃ¶re kimlerden oluÅŸur?",
+      "cevap": "â€¢ BaÅŸkan\nâ€¢ Daire BaÅŸkanÄ±\nâ€¢ Åube MÃ¼dÃ¼rÃ¼\nâ€¢ BaÄŸlÄ±sÄ± subaylar"
     },
     {
-      "soru": "Özel Karargah Subayları hangileridir?",
-      "cevap": "• GENSEK, MEBS, Bütçe Maliye, Merkez,\n• İstihkam, İnşaat-Emlak,\n• Stratejik Etüd, Askeri Tarih, Bilimsel Karar Destek\n• KBRN, Hava Savunma, Merkez K.\n• Denetleme ve Değerlendirme, Kara-Hava, Deniz-Hava"
+      "soru": "Ã–zel Karargah SubaylarÄ± hangileridir?",
+      "cevap": "â€¢ GENSEK, MEBS, BÃ¼tÃ§e Maliye, Merkez,\nâ€¢ Ä°stihkam, Ä°nÅŸaat-Emlak,\nâ€¢ Stratejik EtÃ¼d, Askeri Tarih, Bilimsel Karar Destek\nâ€¢ KBRN, Hava Savunma, Merkez K.\nâ€¢ Denetleme ve DeÄŸerlendirme, Kara-Hava, Deniz-Hava"
     },
     {
-      "soru": "Küçük birlik karargahlarında Kurmay / Erkan Başkanlığı görevini kim yapar?",
-      "cevap": "İdari Başkan / İcra Subayı"
+      "soru": "KÃ¼Ã§Ã¼k birlik karargahlarÄ±nda Kurmay / Erkan BaÅŸkanlÄ±ÄŸÄ± gÃ¶revini kim yapar?",
+      "cevap": "Ä°dari BaÅŸkan / Ä°cra SubayÄ±"
     },
     {
-      "soru": "Komutanın doğrudan idare ve kontrolü altında bulunan subaylara ne ad verilir?",
-      "cevap": "Şahsi Karargah Subayları"
+      "soru": "KomutanÄ±n doÄŸrudan idare ve kontrolÃ¼ altÄ±nda bulunan subaylara ne ad verilir?",
+      "cevap": "Åahsi Karargah SubaylarÄ±"
     },
     {
-      "soru": "Komutan yardımcısı hangi halde Kurmay/Erkan başkanına emir verebilir?",
-      "cevap": "Komutan tarafından yetki verildiğinde"
+      "soru": "Komutan yardÄ±mcÄ±sÄ± hangi halde Kurmay/Erkan baÅŸkanÄ±na emir verebilir?",
+      "cevap": "Komutan tarafÄ±ndan yetki verildiÄŸinde"
     },
     {
       "soru": "Genel olarak bir karargah kimleri ihtiva eder?",
-      "cevap": "• Kurmay Başkanı / Erkan Başkanı\n• Karargah Grubu (Genel-Özel-Şahsi Krgh. Subayları)\n• İrtibat Subayları"
+      "cevap": "â€¢ Kurmay BaÅŸkanÄ± / Erkan BaÅŸkanÄ±\nâ€¢ Karargah Grubu (Genel-Ã–zel-Åahsi Krgh. SubaylarÄ±)\nâ€¢ Ä°rtibat SubaylarÄ±"
     },
     {
-      "soru": "Bir amaca yönelik görev, sorumluluk ve yetkilerin tayin taksim ve dağıtılması işlemine ne ad verilir?",
-      "cevap": "Teşkilatlanma"
+      "soru": "Bir amaca yÃ¶nelik gÃ¶rev, sorumluluk ve yetkilerin tayin taksim ve daÄŸÄ±tÄ±lmasÄ± iÅŸlemine ne ad verilir?",
+      "cevap": "TeÅŸkilatlanma"
     },
     {
-      "soru": "Yardımcı Karargah Faaliyetleri nelerdir?",
-      "cevap": "Denetleme ve Değerlendirme, Hukuksal Boyut, Bilimsel Karar Destek, Merkez Şube, İstihkam Desteği"
+      "soru": "YardÄ±mcÄ± Karargah Faaliyetleri nelerdir?",
+      "cevap": "Denetleme ve DeÄŸerlendirme, Hukuksal Boyut, Bilimsel Karar Destek, Merkez Åube, Ä°stihkam DesteÄŸi"
     },
     {
-      "soru": "Karargah faaliyetleri hangi Ana Faaliyet Sahalarına bölünür?",
-      "cevap": "Personel, İstihbarat, İKK, Hrk.Eğt., Lojistik, Plan ve Prensipler, MEBS, Maliye ve Bütçe, Konsept ve Doktrin geliştirme"
+      "soru": "Karargah faaliyetleri hangi Ana Faaliyet SahalarÄ±na bÃ¶lÃ¼nÃ¼r?",
+      "cevap": "Personel, Ä°stihbarat, Ä°KK, Hrk.EÄŸt., Lojistik, Plan ve Prensipler, MEBS, Maliye ve BÃ¼tÃ§e, Konsept ve Doktrin geliÅŸtirme"
     },
     {
-      "soru": "Karargahın teşkilatlanması NE esas alınarak planlanır ve uygulanır?",
+      "soru": "KarargahÄ±n teÅŸkilatlanmasÄ± NE esas alÄ±narak planlanÄ±r ve uygulanÄ±r?",
       "cevap": "Vazifenin yerine getirilmesi"
     },
     {
-      "soru": "Genel Karargah Subayları hangi konular ile ilgilenir?",
-      "cevap": "K.nın bizzat kontrol etmeye karar verdiği veya kanu-Yön.lerle sorumlusu belirlenmiş olan faaliyetler dışında kalan ve K.nın sorumlu olduğu tüm faaliyet alanları"
+      "soru": "Genel Karargah SubaylarÄ± hangi konular ile ilgilenir?",
+      "cevap": "K.nÄ±n bizzat kontrol etmeye karar verdiÄŸi veya kanu-YÃ¶n.lerle sorumlusu belirlenmiÅŸ olan faaliyetler dÄ±ÅŸÄ±nda kalan ve K.nÄ±n sorumlu olduÄŸu tÃ¼m faaliyet alanlarÄ±"
     },
     {
-      "soru": "Karargah, birlik ve kurum çalışanları tarafından herhangi bir konu veya sorunun incelenmesi ve ilgili komutana onama-reddetmekten başka bir iş bırakmayacak şekilde bir hal tarzı arz edilmesine ne ad verilir?",
-      "cevap": "Olgunlaştırılmış (Tekamül etmiş) karargah çalışması"
+      "soru": "Karargah, birlik ve kurum Ã§alÄ±ÅŸanlarÄ± tarafÄ±ndan herhangi bir konu veya sorunun incelenmesi ve ilgili komutana onama-reddetmekten baÅŸka bir iÅŸ bÄ±rakmayacak ÅŸekilde bir hal tarzÄ± arz edilmesine ne ad verilir?",
+      "cevap": "OlgunlaÅŸtÄ±rÄ±lmÄ±ÅŸ (TekamÃ¼l etmiÅŸ) karargah Ã§alÄ±ÅŸmasÄ±"
     },
     {
       "soru": "Planlamada hangi sorulara cevap verilir?",
-      "cevap": "1. Kim?\n2. Ne Maksatla?\n3. Ne zaman?\n4. Nerede?\n5. Nasıl?  * Ne yapacak?"
+      "cevap": "1. Kim?\n2. Ne Maksatla?\n3. Ne zaman?\n4. Nerede?\n5. NasÄ±l?  * Ne yapacak?"
     },
     {
-      "soru": "Harp prensipleri dikkate alınarak belirli bir amacı gerçekleştirmek için harekete geçmeden önce yapılacak faaliyetlerin zaman, mekan ve kaynak unsurlarının saptanmasına ne ad verilir?",
+      "soru": "Harp prensipleri dikkate alÄ±narak belirli bir amacÄ± gerÃ§ekleÅŸtirmek iÃ§in harekete geÃ§meden Ã¶nce yapÄ±lacak faaliyetlerin zaman, mekan ve kaynak unsurlarÄ±nÄ±n saptanmasÄ±na ne ad verilir?",
       "cevap": "Planlama"
     },
     {
-      "soru": "Komutanın öncelikli vazifesi nedir?",
-      "cevap": "Karargahını değil, komuta ettiği tüm bağlılarını idare etmektir."
+      "soru": "KomutanÄ±n Ã¶ncelikli vazifesi nedir?",
+      "cevap": "KarargahÄ±nÄ± deÄŸil, komuta ettiÄŸi tÃ¼m baÄŸlÄ±larÄ±nÄ± idare etmektir."
     },
     {
-      "soru": "Bilgilerin yayınlanmasında neler kullanılır?",
-      "cevap": "1. Emir\n2. Mesaj\n3. Brifingler\n4. Şahsi Temas\n5. Rapor ve Özetler"
+      "soru": "Bilgilerin yayÄ±nlanmasÄ±nda neler kullanÄ±lÄ±r?",
+      "cevap": "1. Emir\n2. Mesaj\n3. Brifingler\n4. Åahsi Temas\n5. Rapor ve Ã–zetler"
     },
     {
-      "soru": "Denetlemeler  ne maksatla yapılır?",
-      "cevap": "Komutan veya karargahı tarafından ferdi veya ekip halinde birliğin durumunu tespit etmek için"
+      "soru": "Denetlemeler  ne maksatla yapÄ±lÄ±r?",
+      "cevap": "Komutan veya karargahÄ± tarafÄ±ndan ferdi veya ekip halinde birliÄŸin durumunu tespit etmek iÃ§in"
     },
     {
-      "soru": "Karargah Ziyaretleri ne maksatla yapılır?",
-      "cevap": "1. Komutana bilgi temin etmek\n2. Emirlerin/talimatların icra edilmesini görmek\n3. Ast birlik komutanlarına yardım etmek"
+      "soru": "Karargah Ziyaretleri ne maksatla yapÄ±lÄ±r?",
+      "cevap": "1. Komutana bilgi temin etmek\n2. Emirlerin/talimatlarÄ±n icra edilmesini gÃ¶rmek\n3. Ast birlik komutanlarÄ±na yardÄ±m etmek"
     },
     {
-      "soru": "Özel karargah subaylarının Sayısı, Görevleri ve Bağlantıları nelere göre değişir?",
-      "cevap": "• TMK\n• Komutanın İstekleri\n• Komutanlığın seviyesine\n• Kuvvet Komutanlıklarının özelliklerine"
+      "soru": "Ã–zel karargah subaylarÄ±nÄ±n SayÄ±sÄ±, GÃ¶revleri ve BaÄŸlantÄ±larÄ± nelere gÃ¶re deÄŸiÅŸir?",
+      "cevap": "â€¢ TMK\nâ€¢ KomutanÄ±n Ä°stekleri\nâ€¢ KomutanlÄ±ÄŸÄ±n seviyesine\nâ€¢ Kuvvet KomutanlÄ±klarÄ±nÄ±n Ã¶zelliklerine"
     },
     {
-      "soru": "Olgunlaşmış Karargah çalışmasında en önemli husus nedir?",
-      "cevap": "Komutanın Ana Fikrinin doğru anlaşılmasıdır."
+      "soru": "OlgunlaÅŸmÄ±ÅŸ Karargah Ã§alÄ±ÅŸmasÄ±nda en Ã¶nemli husus nedir?",
+      "cevap": "KomutanÄ±n Ana Fikrinin doÄŸru anlaÅŸÄ±lmasÄ±dÄ±r."
     },
     {
-      "soru": "Karargahın amiri olan Kurmay/Erkan Başkanı; karargahın uygun şekilde çalışmasından kime karşı sorumludur?",
+      "soru": "KarargahÄ±n amiri olan Kurmay/Erkan BaÅŸkanÄ±; karargahÄ±n uygun ÅŸekilde Ã§alÄ±ÅŸmasÄ±ndan kime karÅŸÄ± sorumludur?",
       "cevap": "Komutana"
     },
     {
-      "soru": "Karargah çalışmalarında süreç kaça ayrılır?",
-      "cevap": "1. Karar Öncesi\n2. Karar Sonrası"
+      "soru": "Karargah Ã§alÄ±ÅŸmalarÄ±nda sÃ¼reÃ§ kaÃ§a ayrÄ±lÄ±r?",
+      "cevap": "1. Karar Ã–ncesi\n2. Karar SonrasÄ±"
     },
     {
-      "soru": "Uzun zaman alacak harekat için stratejik planları, takip edilecek genel prensipleri ve genel maksatları ifade eden emir tipi hangisidir?",
-      "cevap": "Veçhe"
+      "soru": "Uzun zaman alacak harekat iÃ§in stratejik planlarÄ±, takip edilecek genel prensipleri ve genel maksatlarÄ± ifade eden emir tipi hangisidir?",
+      "cevap": "VeÃ§he"
     },
     {
-      "soru": "Karargah faaliyetleri kaç temel görev etrafında toplanmıştır?",
-      "cevap": "1. Bilgi toplanması\n2. Durum Muhakemelerinin Yapılması\n3. Tekliflerin Yapılması\n4. Plan ve Emirlerin hazırlanması\n5. Takip ve Kontrol"
+      "soru": "Karargah faaliyetleri kaÃ§ temel gÃ¶rev etrafÄ±nda toplanmÄ±ÅŸtÄ±r?",
+      "cevap": "1. Bilgi toplanmasÄ±\n2. Durum Muhakemelerinin YapÄ±lmasÄ±\n3. Tekliflerin YapÄ±lmasÄ±\n4. Plan ve Emirlerin hazÄ±rlanmasÄ±\n5. Takip ve Kontrol"
     },
     {
-      "soru": "Birleşik harekatı sevk-idare etmek için görevlendirilmiş olan K.lığa yardım etmek üzere birleşik harekata katılan devletlerin Sklarına veya kuvvet unsurlarına mensup personelden teşkil edilen karargah hangisidir?",
-      "cevap": "Birleşik Karargah"
+      "soru": "BirleÅŸik harekatÄ± sevk-idare etmek iÃ§in gÃ¶revlendirilmiÅŸ olan K.lÄ±ÄŸa yardÄ±m etmek Ã¼zere birleÅŸik harekata katÄ±lan devletlerin SklarÄ±na veya kuvvet unsurlarÄ±na mensup personelden teÅŸkil edilen karargah hangisidir?",
+      "cevap": "BirleÅŸik Karargah"
     },
     {
-      "soru": "2 veya daha fazla kuvvet unsurundan oluşan karargah hangisidir?",
-      "cevap": "Müşterek Karargah"
+      "soru": "2 veya daha fazla kuvvet unsurundan oluÅŸan karargah hangisidir?",
+      "cevap": "MÃ¼ÅŸterek Karargah"
     },
     {
-      "soru": "Şahsi Karargah Subayları hangileridir?",
-      "cevap": "• Emir Subayı/Astsubayı\n• Adli müşavir/Disiplin Subayı"
+      "soru": "Åahsi Karargah SubaylarÄ± hangileridir?",
+      "cevap": "â€¢ Emir SubayÄ±/AstsubayÄ±\nâ€¢ Adli mÃ¼ÅŸavir/Disiplin SubayÄ±"
     },
     {
       "soru": "Koordine etme neleri gerektirir?",
-      "cevap": "1. Şahsi İnsiyatif\n2. İş birliği ruhu \n3. Müşterek gayret\n4. Sorumluluk Duyma"
+      "cevap": "1. Åahsi Ä°nsiyatif\n2. Ä°ÅŸ birliÄŸi ruhu \n3. MÃ¼ÅŸterek gayret\n4. Sorumluluk Duyma"
     },
     {
       "soru": "Bir karargah Durum Muhakemesi neleri ihtiva eder?",
-      "cevap": "Mevcut kaynakların kullanılabileceğini, olayları ve sonuçları ve teklifleri"
+      "cevap": "Mevcut kaynaklarÄ±n kullanÄ±labileceÄŸini, olaylarÄ± ve sonuÃ§larÄ± ve teklifleri"
     }
   ]
 }
