@@ -79,8 +79,6 @@ header span {
   border-color: var(--accent);
 }
 
-
-
 /* Ok işareti */
 .section-title .arrow {
   transition: transform 0.25s ease;
@@ -97,7 +95,7 @@ header span {
 
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s ease;
+  transition: max-height 0.5s ease;
 }
 
 /* Açık hali */
