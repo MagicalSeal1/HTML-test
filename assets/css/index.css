@@ -44,14 +44,59 @@ header span {
   gap: 20px;
 }
 
+/* === SECTION TITLE → DROPDOWN BAŞLIĞI === */
 .section-title {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1; /* ⬅️ tüm satırı kaplasın */
   margin: 12px 0 4px;
+  padding: 14px 18px;
+
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--accent);
   letter-spacing: 0.4px;
-  opacity: 0.9;
+
+  color: var(--accent);
+  opacity: 0.95;
+
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.section-title:hover {
+  border-color: var(--accent);
+}
+
+/* Ok işareti */
+.section-title .arrow {
+  transition: transform 0.25s ease;
+}
+
+/* === DROPDOWN İÇERİĞİ === */
+.dropdown-content {
+  grid-column: 1 / -1; /* ⬅️ grid’i bozmaz */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+/* Açık hali */
+.section-title.open + .dropdown-content {
+  max-height: 3000px;
+}
+
+/* Ok aşağı → yukarı */
+.section-title.open .arrow {
+  transform: rotate(180deg);
 }
 
 a.menu-card {
