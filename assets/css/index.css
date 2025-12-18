@@ -75,6 +75,8 @@ header span {
   border-color: var(--accent);
 }
 
+
+
 /* Ok işareti */
 .section-title .arrow {
   transition: transform 0.25s ease;
@@ -96,7 +98,11 @@ header span {
 
 /* Açık hali */
 .section-title.open + .dropdown-content {
-  max-height: 5000px;
+  display: grid;
+}
+
+.section-title + .dropdown-content {
+  display: none;
 }
 
 /* Ok aşağı → yukarı */
