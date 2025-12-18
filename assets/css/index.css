@@ -48,3 +48,88 @@
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 }
+
+/* ===============================
+   MENU CARD (AKTİF)
+   =============================== */
+a.menu-card {
+  background: linear-gradient(180deg, #111827, #0b1220);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 18px;
+
+  text-decoration: none;
+  color: var(--text);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+a.menu-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(56,189,248,0.15),
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+a.menu-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+a.menu-card:hover::before {
+  opacity: 1;
+}
+
+.menu-card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.menu-card p {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* ===============================
+   MENU CARD (PASİF / DEACTIVE)
+   =============================== */
+a.menu-card.deactive {
+  background: linear-gradient(180deg, #0b1220, #070b14);
+  border: 1px dashed var(--border);
+  color: var(--muted);
+
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+a.menu-card.deactive::before {
+  display: none;
+}
+
+a.menu-card.deactive:hover {
+  transform: none;
+  border-color: var(--border);
+}
+
+.menu-card.deactive h2 {
+  color: var(--muted);
+}
+
+.menu-card.deactive p {
+  color: #6b7280;
+  font-style: italic;
+}
+
