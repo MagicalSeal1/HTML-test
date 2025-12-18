@@ -9,3 +9,46 @@
   /* iOS status bar rengi */
   background-color: #0f172a;
 }
+
+.app-header {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+/* Geri butonu – akıştan bağımsız */
+.back-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1.4rem;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+}
+
+.back-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Ortalanmış başlık alanı */
+.header-center {
+  text-align: center;
+}
+
+.header-center h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.header-center span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
