@@ -1,0 +1,542 @@
+{
+  "title": "Dz.K.K.lýðý Operatif Seviye Harekât Planlama Talimnamesi",
+  "description": "134 Soru",
+  "cards": [
+    {
+      "soru": "Vazife Tahlilinin ilk adýmý nedir?",
+      "cevap": "Üst komutanlýðýn direktif/emrinin tam olarak anlaþýlmasýdýr."
+    },
+    {
+      "soru": "Aðýrlýk merkezinin Taktik Seviyedeki karþýlýðý nedir?",
+      "cevap": "Hedefler"
+    },
+    {
+      "soru": "Deniz harekat alandaki Mekan ve Zaman faktörleri nasýl dengelenebilir?",
+      "cevap": "Hedeflerin sayýsý ve kapsamý azaltýlarak"
+    },
+    {
+      "soru": "Faktör analizi hangi soruya cevap arar?",
+      "cevap": "Kuvvet, zaman, mekan ve bilginin harekata olan etkileri nedir?"
+    },
+    {
+      "soru": "Faktör analizinde hangi yaklaþým kullanýlýr?",
+      "cevap": "Faktör > Çýkarým > Deðerlendirme yaklaþýmý"
+    },
+    {
+      "soru": "Operatif Seviye hedefler neyi içerir?",
+      "cevap": "Stratejik seviye K.lýk tarafýndan verilen vazifenin baþarýlabilmesi için harekat bölgesinde nelerin yapýlmasý gerektiðine iliþkin hususlarý"
+    },
+    {
+      "soru": "Askeri Ýstenen Son Durum hangi direktif ile belirlenir?",
+      "cevap": "GENKURca harekat planlama direktifinde"
+    },
+    {
+      "soru": "Ýyi bir planlamada hangi sorulara cevap verilir?",
+      "cevap": "• Kim?\n• Ne Maksatla?\n• Ne Zaman?\n• Nerede? * Nasýl?\n• Ne Yapacak?"
+    },
+    {
+      "soru": "Vazifenin Tahlili aþamasýnda; Üst komutanlýðýn direktif/emrinin incelenmesi neticesinde hangi hususlar açýkça anlaþýlmýþ olmalýdýr?",
+      "cevap": "1. Üst Komutanlýðýn vazifesi\n2. Üst Komutanlýðýn Niyeti\n3. Tahditler"
+    },
+    {
+      "soru": "Aðýrlýk Merkezinin tespit edilmesinde TÜMEVARIM yaklaþýmý kullanýlýrken analize nereden baþlanýr?",
+      "cevap": "Kritik kabiliyetlerden baþlanýr, sýrasýyla Kritik Ýhtiyaçlar ve Kritik hassasiyetler belirlenir ve buradan Aðýrlýk Merkezi tespit edilir."
+    },
+    {
+      "soru": "Vazifenin Tahlili aþamasý ne ile baþlar?",
+      "cevap": "Komutan tarafýndan verilecek Ön Emir (Hazýrlýk)"
+    },
+    {
+      "soru": "Vazifenin Tahlili safhasýnýn en önemli çýktýsý nedir?",
+      "cevap": "Harekat tasaraýmýnýn ana elamanlarýnýn oluþturulmasý"
+    },
+    {
+      "soru": "Üst K.lýðýn hedeflerinin gerçekleþebilmesi için elde edilen mevcut bilgiller ve HBÝH'den elde edilen çýktýlarý da göz önünde bulundurarak görevlerin ayrýntýlý þekilde analiz edilmesi AKVES'in hangi aþamasýndadýr?",
+      "cevap": "2. Bölüm: Vazifenin Tahlili"
+    },
+    {
+      "soru": "AKVES; 2. Bölüm= Vazifenin Tahlili aþamasýnýn maksadý nedir?",
+      "cevap": "Ne yapýlmasý gerektiðinin açýkça tanýmlanmasýdýr."
+    },
+    {
+      "soru": "K. Krgh. Ast Üst ve komþu birliklerden alýnan isth. ihtiyaçlarýnýn, ÖÝÝ ve DÝÝ olarak belirlenip emareler þeklinde tahlil edildiði, bu emareleri teyit / tekzip edecek emir/istekler haline getirildiði ve toplama vasýtalarýnýn görevlendirildiði plan?",
+      "cevap": "Haber Toplama Planý (HTP)"
+    },
+    {
+      "soru": "Üst komutanlýðýn vazifesi nereden elde edilir?",
+      "cevap": "Harekat Planlama Direktifi/Kuvvet veçhesinden elde edilir."
+    },
+    {
+      "soru": "Risklerin tanýmlanmasý ve seviyelerinin tespit edilerek kontrol edilmesi yani yönetilmesi hangi süreci oluþturur?",
+      "cevap": "Risk Yönetimi"
+    },
+    {
+      "soru": "Harekat tasarýmýnda her bir harekat hattý için belirlenen KSN'lerin sonuncusu ayný zamanda nedir?",
+      "cevap": "O hattýn Baþarý Kriteridir."
+    },
+    {
+      "soru": "Baþarý Kriteri nedir?",
+      "cevap": "Hedefe baþarý ile ulaþýldýðýnda durumun nasýl olacaðýnýn tarifidir."
+    },
+    {
+      "soru": "Aðýrlýk merkezinin tespit edilememesi durumunda Harekat Hatlarý nasýl oluþturulur?",
+      "cevap": "KSN'lerin operatif seviye hedeflere baðlanmasý suretiyle"
+    },
+    {
+      "soru": "Bir harekat hattý üzerinde belirlenmiþ bir KSN'nin saðlanamamasý durumunda alýnacak tedbirleri planlayabilmek için ne tesis edilir?",
+      "cevap": "Karar Noktalarý"
+    },
+    {
+      "soru": "Etki edildiðinde, düþmana karþý avantaj saðlayacak / baþarý elde edilmesine somut katkýda bulunacak coðrafi bölge, kritik olaylar/faktörþer topluluðunu veya kritik imkan ve kabiliyetleri içeren sürece ne ad verilir?",
+      "cevap": "KSN (Bir aðýrlýk merkezi deðildir!)"
+    },
+    {
+      "soru": "Harekatýn tasarýmýnda Aðýrlýk Merkezlerinin belirlenmesinde sonraki adým nedir?",
+      "cevap": "Düþman Aðýrlýk Merkezlerine etki edecek ve dost Aðýrlýk Merkezlerini koruyacak \"KSN\" nin belirlenmesidir."
+    },
+    {
+      "soru": "Aðýrlýk Merkezinin tespit edilmesinde hangi analitik yaklaþým kullanýlýr?",
+      "cevap": "Tümdengelim ve Tümevarým"
+    },
+    {
+      "soru": "Risk yönetiminde sürecin tek elden yönetilmesinden kim sorumludur?",
+      "cevap": "Harekat Planlama Grubu"
+    },
+    {
+      "soru": "Aðýrlýk Merkezinin tespit edilmesinde TÜMDENGELÝM yaklaþýmý kullanýlýrken analize nereden baþlanýr?",
+      "cevap": "Aðýrlýk merkezinden baþlanýr, sýrasýyla Kritik Kabiliyetler, Kritik Ýhtiyaçlar ve Ýstismar edilecek Kritik Hassasiyetler tespit edilir."
+    },
+    {
+      "soru": "Risk Yönetimi aþamalarý nelerdir?",
+      "cevap": "1. Tehlikeleri tanýmlama\n2. Tehlikeleri Deðerlendirme\n3. Kontrol Tedbirleri geliþtirme ve Risk Kararlarýný alma\n4. Kontrol tedbirlerini uygulama \n5. Nezaret ve deðerlendirme"
+    },
+    {
+      "soru": "Çeþitli tehlikelere maruz kalmaktan kaynaklanan kayýplarýn veya bozulmalarýn þiddeti ve olasýlýðýna ne ad verilir?",
+      "cevap": "Risk"
+    },
+    {
+      "soru": "Kritik ihtiyaçlarýn; direkt/dolaylý olarak etki altýna alýnabilecek, belirgin ve etkili sonuçlar doðurabilecek, hassas ve taarruza açýk olmasý yönüyle istismar edilebilecek bileþenlere ne ad verilir?",
+      "cevap": "Kritik Hassasiyetler"
+    },
+    {
+      "soru": "Karþýlanmadýðý taktirde, kritik kabiliyetleri tamamen etkisiz kýlan hayati öneme haiz durum, kaynak veya özelliklere ne ad verilir?",
+      "cevap": "Kritik Ýhtiyaçlar"
+    },
+    {
+      "soru": "Aðýrlýk Merkezine iþlerlik kazandýran kabiliyetlere ne ad verilir?",
+      "cevap": "Kiritk Kabiliyetler"
+    },
+    {
+      "soru": "Hasara uðramasý, etkisiz hale getirilmesi veya kaybedilmesi halinde baþarýsýzlýða yol açacak, muhabere gücünün dengesini bozacak ve zayýflatacak kuvvet, coðrafi bölge, kaynak veya psikolojik unsurlar ne olabilir?",
+      "cevap": "Aðýrlýk Merkezi"
+    },
+    {
+      "soru": "Risk Yönetimi ilk olarak ne ile baþlar?",
+      "cevap": "Vazifenin alýnmasýndan bilgilendirme brifingine kadar geçen sürede risklerin tespit edilmesi ile baþlar."
+    },
+    {
+      "soru": "Ýstenen son durumun gerçekleþmesini takiben yapýlacak harekata iliþkin esaslarý ortaya koyan plan hangisidir?",
+      "cevap": "Müteakip Harekat Planlarý (Barýþta Yapýlmaz!)"
+    },
+    {
+      "soru": "Genel nitelikli istihbarat faaliyetlerinde ne tür veriler elde edilir?",
+      "cevap": "Belirli bir durum yerine olasý durumlar dikkate alýnara muhtemel istihbarat ihtiyaçlarýna yönelik"
+    },
+    {
+      "soru": "Ýstihbaratýn üretim ve kullaným faaliyetleri kaça ayrýlýr?",
+      "cevap": "• Genel nitelikli istihbarat faaliyetleri\n• Özel nitelikli istihbarat faaliyetleri"
+    },
+    {
+      "soru": "Güncellenmiþ Harekat Planlama Direktifi kim tarafýndan hazýrlanýr?",
+      "cevap": "MPK (Müþterek Planlama Kurulu)"
+    },
+    {
+      "soru": "Planlar hangi faaliyetler ile denenerek geliþtirilir?",
+      "cevap": "• Hrk. Analizleri\n• Benzetim destekli seminerler\n• Harp Oyunlarý\n• Tatbikatlar\n• Plan Tatbikatý/Çalýþmalarý"
+    },
+    {
+      "soru": "Müþterek harekatýn planlanmasýnda hangi unsurlar mevcuttur?",
+      "cevap": "• Muhtemel Hrk.Bölgeleri\n• Hrk.a katýlacak kuvvetler\n• Harbin siyasi maksadý\n• Maksadý gerçekleþtirecek hedef-zaman faktörleri kullanýlarak risk hesabý\n• Senaryolara dayandýrýlarak oluþturulur."
+    },
+    {
+      "soru": "Düþmanýn Ýmkan ve Kabiyetlerinin (DÝK) belirlenmesi kapsamýnda; Düþmanýn her harekat tarzý hangi kriterlere uygun olmalýdýr?",
+      "cevap": "1. Uygunluk\n2. Kabul edilebilirlik\n3. Yapýlabilirlik\n4. Farklýlýk\n5. Düþman doktriniyle uyumlu olmasý"
+    },
+    {
+      "soru": "Harekatýn planlamasýnda NE esas alýný?",
+      "cevap": "Harp Prensipleri"
+    },
+    {
+      "soru": "Harekat Alaný Ýstihbarat Hazýrlýðý faaliyetleri neyi inceler?",
+      "cevap": "Belirli bir coðrafi alan içerisindeki düþman imkan ve kabiliyetleri (DÝK) veya DÝK'leri ile birlikte fiziki koþullarýn harekatýn her safhasýnda harekat planlarýný nasýl etkileyebileceðini inceleyen sürekli bir faaliyettir."
+    },
+    {
+      "soru": "Harekat planlarýnýn icrasý sürecinde, kritik noktalarda istenilen baþarýnýn elde edilememesi ihtimaline yönelik hazýrlanan plan hangisidir?",
+      "cevap": "Ýhtimalat Planlarý (Baþarýsýzlýðý Telafi Planlarý)"
+    },
+    {
+      "soru": "Özel ihtisasý gerektiren ilgi alanlarýnda ve teferruatlý yazýlmasý gereken konularda hangi planlar hazýrlanýr?",
+      "cevap": "Harekat Planlarý"
+    },
+    {
+      "soru": "Tehdit deðerlendirmeleri esas alýnarak yapýlan planlar hangisidir?",
+      "cevap": "Harekat Planlarý (Belirlenen senaryo/faraziyelere dayanýr)"
+    },
+    {
+      "soru": "Genel olarak Planlar kaç baþlýk altýnda sýnýflandýrýlýr?",
+      "cevap": "• Harekat Planlarý\n• Ýhtimalat Planlarý\n• Müteakip Harekat Planlarý"
+    },
+    {
+      "soru": "Planlama neye odaklýdýr?",
+      "cevap": "Sonuçlara odaklýdýr. Dinamiktir. Geleceði yönlendirir."
+    },
+    {
+      "soru": "Planlama faaliyetine nasýl baþlanýr?",
+      "cevap": "Üst makamdan bir Direktif/Veçhe/Emir/Talimat alýnarak"
+    },
+    {
+      "soru": "Harekat planlamasý NE amaçlar?",
+      "cevap": "Askeri harekattan beklenen hedeflere ulaþmak için gerekli askeri þartlarý saðlayacak faaliyetlerin belirlenmesini"
+    },
+    {
+      "soru": "Operatif seviye Harekat Planlama Talimnamesi hangi gaye ile hazýrlanmýþtýr?",
+      "cevap": "DzKK, Ana Ast Komutanlýklarý, GGK ile teþkil ediliðinde GK/GG/GB için kapsamlý bir harekat planlama rehberi olmasý gayesi ile hazýrlanmaktadýr."
+    },
+    {
+      "soru": "Tahlil edilmiþ vazifede; açýklýk, sadelik ve bütünlük saðlamak için hangi sorulara cevap verilir?",
+      "cevap": "1. Kim?\n2. Ne Maksatla?\n3. Ne Yapacak?\nEðer biliniyorsa; Ne zaman? ve Nerede? Sorularýna da cevap verilir."
+    },
+    {
+      "soru": "Kuvvetin özelliði, kabiliyetleri, harekat serbestisi, fiziki gücü ve savaþma azminn dayandýðý/güç aldýðý özellikler, bölgeler ve asimetrik etki oluþturacak kabiliyetlere ne ad verilir?",
+      "cevap": "Aðýrlýk Merkezi"
+    },
+    {
+      "soru": "Bir harekatýn baþarýlý bir þekilde planlanýp icrasý için haber toplanýlmasý gereken alan hangisidir?",
+      "cevap": "Ýlgi Alaný"
+    },
+    {
+      "soru": "GENKUR'un hazýrladýðý Harekat Planlama Direktifi sonrasýnda faaliyet nedir?",
+      "cevap": "Kuvvet Harekat Veçhesi hazýrlanýr ve ast birliklere yayýmlanýr."
+    },
+    {
+      "soru": "TSK'da planlama süreci ne ile baþlar?",
+      "cevap": "GENKUR'un hazýrladýðý Harekat Planlama Direktifi"
+    },
+    {
+      "soru": "AKVES; 1. Bölüm= Vazifenin Alýnmasý ve Ön Ýnceleme aþamasýnýn maksatý nedir?",
+      "cevap": "Geliþen bir krizin tüm yönleriyle anlaþýlmasý ve yapýlacak detaylý planýn saðlam temeller üzerine oturtulmasýnýn saðlanmasýdýr."
+    },
+    {
+      "soru": "Harekat planlama sürecinin istihbarat ihtiyaçlarý ne ile karþýlanýr?",
+      "cevap": "Özel Nitelikli Ýstihbarat Faaliyetleri ile"
+    },
+    {
+      "soru": "Operatif seviye Harekat Planlama Talimnamesi hazýrlanýrken ne esas alýnýr?",
+      "cevap": "AKVES.  Deniz Hrk. Yöneik örneklere önelik verilirken, geçmiþ dönemlerde icra edilen hrk. Deniz harekatý boyutuyla incelenir."
+    },
+    {
+      "soru": "Özel Nitelikli Ýstihbarat faaliyetleri kullanýlan birliðin seviyesine ve cinsine göre farklý isimler alýr.Söz konusu faaliyetler nelerdir?",
+      "cevap": "• HASÝH (stratejik seviye) Harp Alaný Stratejik Ýsth. Haz.\n• HAMÝH (stratejik seviye) Harekât Alaný Müþterek Ýsth. Haz.\n• MHBÝH (operatif seviye) Müþterek Hrk. Bölg. Ýsth. Haz.\n• MSÝH (taktik seviye) Muharebe sahasý Ýsth. Haz."
+    },
+    {
+      "soru": "Dz.K.K. Lýðý Durum Muhakemesi Talimnamesi neyi belirlemek için hazýrlanmýþtýr?",
+      "cevap": "Taktik seviyede deniz harekatýnda komutan durum muhakemesi çözümüne yönelik esaslarý belirler"
+    },
+    {
+      "soru": " TSK'da her seviyedeki karargahýn teþkili, faaliyetleri ve sorumluluklarý ile harekat planlama sürecinin sistem bütünlüðü içinde yerine getirilmesine yönelik esaslarý, usulleri ve prensipleri açýklayan doküman hangisidir?",
+      "cevap": "TSK Karargahlarda Teþkilat ve Harekat Planlama Usulleri Doktrini"
+    },
+    {
+      "soru": "AKVES'in oluþturulmasýnda hangi ilkeden istifade edilir?",
+      "cevap": "Tümevarým ilkesinden. (AKVES Harekatýn icrasýný içermez!)"
+    },
+    {
+      "soru": "Komutanýn ve karargahýn bir durumu analiz etmek, vazifeyi ortaya koymak, bu vazifenin ifasýna yönelik ihtiyaçlarý ortaya çýkarmak, vazifenin yerine getirilmesinde uygulanacak en iyi yöntemi saptamak için takip edeceði usulleri içeren sürece ne ad verilir?",
+      "cevap": "AKVES (Askeri Karar Verme Süreci)"
+    },
+    {
+      "soru": "Harekat bölgesi istihbarat hazýrlýðý kaç aþamadan oluþur?",
+      "cevap": "• Hrk.ýn icra edileceði alanýn tanýmlanmasý\n• Hrk.ýn icra edileceði alanýn etkilerinin belirlenmesi\n• Düman durumunun incelenmesi\n• Bilgilerin sentesi sonucunda düþmana ait deðerlendirme yapýlmasý"
+    },
+    {
+      "soru": "Düþmanýn aðýrlýk merkezini tespit etmek için hangi sorulara cevap bulunmaya çalýþýlýr?",
+      "cevap": "• Düþman gücünü nereden alýyor?\n• Düþman en çok neyine güveniyor?\n• Tespit edilen düþmanýn dayanak noktasý kendi unsurlarým ile etki altýna alýnabiliyor mu?"
+    },
+    {
+      "soru": "Birleþik Koruyucu Harekatýn nasýl bir harekattýr?",
+      "cevap": "Operatif Seviyede bir karargah tarafýndan sevk ve idare edilmiþ deniz harekatý"
+    },
+    {
+      "soru": "Harpte düþmana göre faaliyetin oraný veya ritmine ne ad verilir?",
+      "cevap": "Harekatýn temposu"
+    },
+    {
+      "soru": "Ýstihbarat Durum Muhakemesi ve harekat durum muhakemesinin birleþtirilmiþ grafik görünümüne ne ad verilir?",
+      "cevap": "Karar Destek Krokisi"
+    },
+    {
+      "soru": "Vazife baþarýldýðýnda oluþmasý istenen politik ve askeri þartlarýn genel olarak ifadesine ne ad verilir?",
+      "cevap": "Ýstenen Son Durum"
+    },
+    {
+      "soru": "Tehdit silahlarýnýn azami atýþ menzilleri dikkate alýnarak bir kuvvetin emniyetli bir þekilde harekat icra edebileceði etrafýndaki bir bölge ve sektöre ne ad verilir?",
+      "cevap": "Hayati saha"
+    },
+    {
+      "soru": "Halihazýrda kabul edilen harp prensipleri nelerdir?",
+      "cevap": "Hedef, Emir ve Komuta birliði taarruz, Siklet merkezi, kuvvet tasarrufu, manevra, baskýn, emniyet, sadelik, moral ve hkuka uygunluk"
+    },
+    {
+      "soru": "Etki sahasýnýn dýþ sýnýrýndan itibaren uzanan tehdidin beklendiði sahava veya sektöre ne ad verilir?",
+      "cevap": "Ýlgi Sahasý"
+    },
+    {
+      "soru": "Harekatta düþmanýn aðýrlýk merkezlerinde istenen etkiyi yaratabilmek için belirlenen KSN/KN'de oluþturulacak etkilerin gerçekleþtirilebilmesi için faaliyetlerin eþzamanlý ve uyumluluk içinde düzenlenmesine ne ad verilir?",
+      "cevap": "Sýralama"
+    },
+    {
+      "soru": "Deniz harekatýnda unsurlarýn sevk ve idaresiyle doðrudan ilgili olan veya olmasý muhtemel kara, deniz, hava bölgelerinin bütününe ne ad verilir?",
+      "cevap": "Harp Alaný"
+    },
+    {
+      "soru": "Muharebe sahasýnda düþmaný zayýf duruma düþürerek durum üstünlüðü saðlamak ve insiyatifin ele geçirilip dost birlikleri güçlü kýlmak için Hrk baþlamadan önce ve süresince icra edilen taktik, operatif ve stratejik faaliyetlere ne ad verilir?",
+      "cevap": "Muharebe Sahasýnýn Þekillendirilmesi"
+    },
+    {
+      "soru": "Tehdit deðerlendirmeleri esas alýnarak yapýlan planlara ne ad verilir?",
+      "cevap": "Harekat Planý"
+    },
+    {
+      "soru": "Harekat alanýnýn vazifenin ifasý için icra edilecek deniz harekatý ile bu harekata iliþkin lojistik faaliyetlerin icrasý için tahsis edilen sahaya ne ad verilir?",
+      "cevap": "Harekat Bölgesi"
+    },
+    {
+      "soru": "Bir yada daha fazla harekat bölgesindeki deniz harekatýnýn icrasý ve onlara ait idari faaliyetlerin yürütülmesi için gerekli olan alana ne ad verilir?",
+      "cevap": "Harekat Alaný"
+    },
+    {
+      "soru": "Harekatýn planlamasýnda göz önünde bulundurulmasý gereken ya da harekatýn seyrine etki edebilecek, ayrýntýlý olarak incelenmesi gereken hususlara ne ad verilir?",
+      "cevap": "Faktör"
+    },
+    {
+      "soru": "Hayati sahanýn dýþ sýnýrýndan itibaren uzanan, gözetleme yapýlabilen (kontrol altýnda tutulabilen) ve tehdide hayati sahaya girmeden silahlarýmýzla angaje olunabilecek saha hangisidir?",
+      "cevap": "Etki Sahasý"
+    },
+    {
+      "soru": "Dost kuvvetlerin harekatý veya dost kuvvetlerin yanýlarak yapacaklarý hücumlardan korunacak þekilde sýnýrsýz D/A harekatý yapýlmasýna müsaade etmek amacýyla tesis edilen, sýnýrlarý tespit edilmiþ sahalara ne ad verilir?",
+      "cevap": "Deniz Karakol Sahalarý"
+    },
+    {
+      "soru": "Harekat tarzlarýnýn tahlilinde her biir hareket tarzýnýn tes edilmesi maksadýyla iki tarafýn karþýlýk hareketlerinin etki tekpki karþý tepki anlayýþý içerisinde incelenmesine ne ad verilir?",
+      "cevap": "Harp Oyunlamasý"
+    },
+    {
+      "soru": "Üst rütbeli bir subaya, astlarýna emirler vermesi için tanýnan askeri yetki ve sorumluluða ne ad verilir?",
+      "cevap": "Tam Komuta"
+    },
+    {
+      "soru": "Kaybedilmesi veya ateþe maruz kalmasý durumunda dost kuvvetlerin yapacaðý harekatýn baþarýsýný hýzlandýran düþmana ait yüksek deðerdeki hedefe ne ad verilir?",
+      "cevap": "Yüksek Öncelikli Hedef"
+    },
+    {
+      "soru": "Düþman komutanýn görevini baþarýyla tamamlanmasý için ihtiyaç duyduðu vasýtaya ne ad verilir?",
+      "cevap": "Yüksek Deðerde Hedef"
+    },
+    {
+      "soru": "Kararlar almak ve bu kararlara baðlý olarak emirler yayýnlamak için kullanýlan þahsi güçe ne ad verilir?",
+      "cevap": "Yetki"
+    },
+    {
+      "soru": "Kuvvet Komutanlýklarýnýn bir harekatýn sevk ve idaresine ait genel prensip hedef ve stratejik planlarý ast birliklerine duyurmak için kullandýklarý emir þekli hangisidir?",
+      "cevap": "Veçhe"
+    },
+    {
+      "soru": "Bir komutanlýðý üst makamca emredilen / durumdan çýkarýlan maksadýn hasýl edilebilmesi için belirlenen görev veya görevlerin bütününe ne ad verilir?",
+      "cevap": "Vazife"
+    },
+    {
+      "soru": "KSN'lerde azami etkinin saðlanmasý için yer, zaman ve maksat açýsýndan faaliyetlerin düzenlenmesine ne ad verilir?",
+      "cevap": "Uyumluluk"
+    },
+    {
+      "soru": "Harekat bölgesinin muharip unsurlarýn fiilen deniz harekatýný icra ettikleri bölüme ne ad verilir?",
+      "cevap": "Muharebe Sahasý"
+    },
+    {
+      "soru": "GENKUR'un hükümet direktifini (verilmiþse) ve/veya TÜMAS dökümanýný dikkate alarak hazýrladýý direktif nedir?",
+      "cevap": "TSK Harekat Planlama Direktifi"
+    },
+    {
+      "soru": "Muharebenin baþlangýcýndan hedef ele geçirilinceye kadar geçen süreçte fiziki ortam ile dost ve düþman kuvvetlerin vazife ekseninde bir arada muhakeme edilerek muharebenin nasýl olabileceðinin zihinde canlandýrýlmasýna ne ad verilir?",
+      "cevap": "Muharebe Sahasýnýn Canlandýrýlmasý"
+    },
+    {
+      "soru": "Üst makam tarafýndan, vazife ile ilgili harekatýn icra edilme amacýyla emrine verilen kuvvetlere görevler verilebilmesi için bir komutana tanýnan yetkiye ne denir?",
+      "cevap": "Taktik Komuta"
+    },
+    {
+      "soru": "Kýsa, orta ve uzun vadeli dönemlere ýþýk tutacak þekilde sürekli olarak hazýrlanan/güncellenen ve TÜMAS'ýn hazýrlanmasýna esas teþkil eden küresel ve bölgesel geliçmeleri ve TR'nin menfaat ve güvenliðine olan etkilerini ortaya koyan deðerlendirme nedir?",
+      "cevap": "Politik Askeri Durum Deðerlendirmesi"
+    },
+    {
+      "soru": "Önceden hazýrlanmýþ, brbiriyle baðlantýlý taktik durumlarý içeren ve bu durumlarýn ferdi olarak veya karargah çalýþmasý þeklinde çözümlenmesine imkan veren tatbikata ne ad verilir?",
+      "cevap": "Plan Tatbikatý"
+    },
+    {
+      "soru": "Müþterek Komutan tarafýndan içerisinde operatif seviyede harekatýn planlandýðý ve icra edildiði sahaya ne ad verilir?",
+      "cevap": "Müþterek Harekat Alaný"
+    },
+    {
+      "soru": "Ýstenen son durumun gerçekleþmesini takiben yapýlacak harekata iliþkin esaslarý ortaya koyan plana ne ad verilir?",
+      "cevap": "Müteakip Harekat Planý"
+    },
+    {
+      "soru": "Gözden geçirilmiþ karar toplantýsý hangi hususlarý içermelidir?",
+      "cevap": "• Durum Deðerlendirmesi\n• Mevcut plana olan etkisi\n• Muhtemel plan deðiþiklikleri\n• Mevcut plandaki riskler\n• Teklifler"
+    },
+    {
+      "soru": "TSKnýn ANYS-KNNlarla verilen vazifelerinin; MGSB ve diðer ÖSBleri, tekn., eko., politik, tehdit, askeri  ve politik-askeri DD ýþýðýnda ele alýnarak belirlenen Milli Askeri Hedefler ve Milli Ask.Stratejiyi ortaya koyan?",
+      "cevap": "TÜMAS"
+    },
+    {
+      "soru": "AKVES; 4. Bölüm= Harekat Tarzlarýnýn Hazýrlanmasý, Tahlili ve Mukayesesi ne ile baþlar ne ile sona erer?",
+      "cevap": "• Komutanýn ana fikrini ayrýntýlý bir þekilde gözden geçirme ile baþlar\n• Karar toplantýsý ile sona erer"
+    },
+    {
+      "soru": "Milli siyasetin uygulanmasýnda ve milli hedeflere ulaþýlmasýnda fiziki olarak kullanýlmak üzere geliþtirilen vev milli gücün kullanýma hazýr en dinamik unsurunu oluþturan güce ne ad verilir?",
+      "cevap": "Askeri Güç"
+    },
+    {
+      "soru": "Harekat tarzlarýnýn tahlilinin icrasý için kaç temel teknik bulunur?",
+      "cevap": "1. Þerit Tekniði\n2. KSNlerin incelenmesi tekniði\n3. Kutu Tekniði"
+    },
+    {
+      "soru": "Kritik olaylara istenen etkinin yapýlabilmesi için gerekli reaksiyon süresini tanýyan karar noktlarý nelerdir?",
+      "cevap": "Zaman vey Coðrafi ve Planlama unsurlarýdýr."
+    },
+    {
+      "soru": "Vazifenin baþarýlmasýný ve kararlarý etkileyen olaylara ne ad verilir?",
+      "cevap": "Kritik Olaylar"
+    },
+    {
+      "soru": "Muhaberenin baþtan sona bir harp oyunu þeklinde zihinde canlandýrmasý suretiyle Htlerin fayda ve mahzurlarýný tespit ve ihtiyaçlarý belirlemek amacýyla yapýlan deðerlendirmeye ne ad verilir?",
+      "cevap": "H/T'lerin tahlili"
+    },
+    {
+      "soru": "Geçerlilik Testinde hangi sorulara cevap aranýr?",
+      "cevap": "• Uygunluk  * Farklýlýk\n• Uygulanabilirlik/Tatbik Kabiliyeti\n• Kabul Edilebilirlik\n• Tamamiyet\n• Doktrine Uyum  * Hukuka Uygunluk"
+    },
+    {
+      "soru": "Karar Noktalarý ve KSN'ler üzerinde inceleme yapýlmak suretiyle icra edilen teknik hangisidir?",
+      "cevap": "KSN'lerin incelenmesi tekniði"
+    },
+    {
+      "soru": "Harekat Tarzlarýnýn ifade edilmesi nasýl olmalýdýr?",
+      "cevap": "Basit, anlaþýlýr, noksansýz olmalý ve Kim?, Ne Zaman?, Nerede?, Nasýl? Ne yapmak? Sorularýna cevap vermelidir?"
+    },
+    {
+      "soru": "Harekatýn icrasý esnasýnda önemli anlarýn ve önemli olaylarýn üzerinde yoðunlaþarak icra edilen teknik hangisidir?",
+      "cevap": "Kutu tekniði"
+    },
+    {
+      "soru": "AKVES; 4. Bölüm= Harekat Tarzlarýnýn Hazýrlanmasý, Tahlili ve Mukayesesinde hangi yaklaþým esas alýnýr?",
+      "cevap": "TÜMEVARIM"
+    },
+    {
+      "soru": "Komutanýn vazifenin baþarýlmasý için en uygun H/T'ýný seçmesine yardýmcý olmak üzere Durum Muhakemeleri hazýrladýðý AKVES aþamasý hangisidir?",
+      "cevap": "4. Bölüm= Harekat Tarzlarýnýn Hazýrlanmasý, Tahlili ve Mukayesesi"
+    },
+    {
+      "soru": "AKVES; 4. Bölüm= Harekat Tarzlarýnýn Hazýrlanmasý, Tahlili ve Mukayesesi faaliyetlerinde hangi soruya cevap aranýr?",
+      "cevap": "Görevi en etkili ve verimli þekilde baþarmak  için harekat nasýl icra edilir?"
+    },
+    {
+      "soru": "AKVES; 3. Bölüm= Ana Fikir nasýl tanýmlanýr?",
+      "cevap": "Komutan harekat planlama grubuna bir baþlama noktasý saðlamak, kendi bilgi ve tecrübelerini aktarmak maksadýyla en açýk tarzda ana fikrini ifade eder. Ana Fikir baðlayýcý olmaktan ziyade Yol Göstericidir."
+    },
+    {
+      "soru": "Hükümet direktifini yerine getirebilmesi için Silahlý Kuvvetlerin yapmasý gereken faaliyetlere ne ad verilir?",
+      "cevap": "Görevler"
+    },
+    {
+      "soru": "Risk Yönetimi genel olarak harekat planlama sürecinin hangi 2 aþamasýnda icra edilir?",
+      "cevap": "1. Vazifenin Tahlili \n2. Harekat Tarzlarýnýn geliþtirilmesi"
+    },
+    {
+      "soru": "Harekat Tarzlarýnýn arasýndaki önemli fark genellikle ne ile ilgilidir?",
+      "cevap": "Nasýl ve Nerede sorularý ile ilgilidir."
+    },
+    {
+      "soru": "AKVES; 6. Bölüm= Planýn Tamamlanmasý safhasýnýn nihai ürünü nedir?",
+      "cevap": "Taslak Harekat Planý ve Ekleri"
+    },
+    {
+      "soru": "Bir harekatýn safhalandýrýlmasýnda amaç nedir?",
+      "cevap": "Devamlýlýk ile temponun sürdürülmesi ve gereksiz duraklamalarýn önüne geçilmesidir."
+    },
+    {
+      "soru": "Planlar ne zaman gözden geçirilir?",
+      "cevap": "Plan Çalýþmasý, Plan Tatbikatý ve Harp Oyunu esnasýnda. Ayrýca büyük çaplý tatbikatlarda planýn uygulanabilirliði denenir."
+    },
+    {
+      "soru": "Periyodik inceleme nedir?",
+      "cevap": "Planlarýn geçerliliklerini koruyabilmesi için belirli aralýklarla yapýlan normal bir karargah faaliyetidir."
+    },
+    {
+      "soru": "Planýn incelenmesi hangi konulara yoðunlaþýr?",
+      "cevap": "• Yeni tehdide\n• Kuvvetlerin mevcudiyetine ve hareket kabiliyetine\n• Ýlave destek planlarýna ihtiyaç olup olmadýðýna"
+    },
+    {
+      "soru": "AKVES; 8. Bölüm= Planýn Gözden Geçirilmesi safhasýnda kaç uygulama vardýr?",
+      "cevap": "1. Durum Deðerlendirmesi neticesinde\no Ýnceleme\no Periyodik inceleme"
+    },
+    {
+      "soru": "AKVES; 8. Bölüm= Planýn Gözden Geçirilmesi safhasýnýn maksadý nedir?",
+      "cevap": "Geliþtirilen ve onaylanan harekat planýný muhtelif vasýtalarla deneyerek (tatbikat, eðitim ve simülasyonlar vb.) veya gerçekleyerek icra etmektir."
+    },
+    {
+      "soru": "Harekatta safha safha hedefe ilerlemenin incelenmesi þeklinde icra edilen teknik hangisidir?",
+      "cevap": "Þerit Tekniði"
+    },
+    {
+      "soru": "Planýn esas bölümünü oluþturan metin kýsmý hangi baþlýklardan oluþur?",
+      "cevap": "1. Durum\n2. Vazife\n3. Ýcra\n4. Ýdari destek\n5. Komuta ve Muhabere"
+    },
+    {
+      "soru": "Harekatýn icrasý boyunca harekatýn gidiþatýna etki etmeye ve gerekli deðiþikliklerin yapýlmasýna yardýmcý olmak maksadýyla kullanýlabilecek yöntemler nelerdir?",
+      "cevap": "• Harekat Ýcra Emri\n• Koordinasyon Emri\n• Planýn Deðiþtirilmesi"
+    },
+    {
+      "soru": "Muharebe fonksiyonlarýnýn birbiri ile bütünleþmesi hangi AKVES safhasýnda yapýlýr?",
+      "cevap": "AKVES; 6. Bölüm= Planýn Tamamlanmasý"
+    },
+    {
+      "soru": "Harekat tasarýsý; harekat emrinin hangi maddesi için esas teþkil eder?",
+      "cevap": "Ýcra Maddesi"
+    },
+    {
+      "soru": "Harekatýn Ýcrasýnýn Tasviri hangi düþüncelere cevap verecek þekilde ortaya konmalýdýr?",
+      "cevap": "1. Görev Org. Ve Tertiplenme\n2. Öncelikli hedeflere yönelik plan\n3. Muh. Ve EH ile ilgili hususlar\n4. Destek saðlanan ve koord. Ýçinde olunmasý gereken makamlarla irtibat saðlanmasý"
+    },
+    {
+      "soru": "Komutan harekat tasarýsý nedir?",
+      "cevap": "Kararýn ayrýntýlý olarak ifade edilmesidir."
+    },
+    {
+      "soru": "AKVES; 5. Bölüm= Karar Toplantýsý ve Komutanýn Kararýný Vermesi aþamasýnýn maksadý nedir?",
+      "cevap": "Mukayesesi yapýlmýþ H/T'lerin karar toplantýsý ile komutana arz edilmesi ve karara esas olarak seçilen H/T'lerin harekat tasarasýna ve plana dönüþtürülmesi aþamasýnda K.nýn nihai emrini almaktýr."
+    },
+    {
+      "soru": "H/T'lerin mukayesesinde kaç farklý yöntem kullanýlýr?",
+      "cevap": "1. Fayda-Mahzur Mukayesesi\n2. Düþman Hareket Tarzlarýna Etkinlik Mukayesesi\n3. Komutan Kriterleri Açýsýndan Mukayesesi\no Sayýsal Mukayese *Kategorik Mukayese\n4. Harp Prensipleri Açýsýnda Mukayesesi"
+    },
+    {
+      "soru": "AKVES; 7. Bölüm= Planýn Onaylanmasý ve Yayýmlanmasý safhasýnýn maksadý nedir?",
+      "cevap": "Oluþturulan Taslak Harekat Planýnýn onaylanmasý için Üst Komutanlýða gönderilmesi ve onayý müteakip yayýnlanmasýdýr."
+    },
+    {
+      "soru": "Alýnabilecek tüm tedbirlere raðmen, riskin derecesi yüksek (Y) ve Aþýrý Yüksek (AY) seviyesini koruyorsa risk nasýl ifade edilir?",
+      "cevap": "Kabul Edilemez"
+    }
+  ]
+}

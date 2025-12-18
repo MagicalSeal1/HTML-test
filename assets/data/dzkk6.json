@@ -1,0 +1,582 @@
+{
+  "title": "Deniz Hukuku",
+  "description": "144 Soru",
+  "cards": [
+    {
+      "soru": "HYDROLANT / HYDROPAC (Hydrographic Warning of Atlantic / Pasific) mesajlar hangi kurum tarafýndan yayýnlanmaktadýr?",
+      "cevap": "ABD Dz.K.K. Hidrografi Dairesi"
+    },
+    {
+      "soru": "Eðer bir nehir doðrudan denize akýyor ise bu nehrin aðzýna çizilecek Esas Hat hangisidir?",
+      "cevap": "Nehir aðzýnýn Alçak Su zamanýndaki banklarý arasýnda çizilen hat"
+    },
+    {
+      "soru": "Bir körfezin tarihi körfez statüsünde olabilme þartý nedir?",
+      "cevap": "Beyan eden devlet; Körfez üzerinde Açýk, Etkili, Uzun süreli ve devamlý mahiyette egemenlik uyguladýðýný ve uygulamakta olduðunu ve diðer devletlerin de bunu tanýdýðýný ispatlayabilmelidir."
+    },
+    {
+      "soru": "Türkiye Körfezlerinden hangisinde Düz Esas Hatlar ile Ýç Sular Rejimi uygulanamaz?",
+      "cevap": "Antalya Körfezi"
+    },
+    {
+      "soru": "Bir deniz girintisinin deniz hukuku bakýmýndan Körfez sayýlabilmesi için hangi özelliklere sahip olmasý gerekir?",
+      "cevap": "\" Kara içinde belirgin bir girinti olmasý,\n\" Körfezdeki su alanýnýn, körfez aðzýna çizilecek hattýn çapýný oluþturduðu yarým dairenin alanýndan fazla olmasý,\n\" Körfez aðzýnýn 2 ucu arasýndaki mesafenin 24 Mil'den fazla olmamasý gerekir.\n"
+    },
+    {
+      "soru": "Türkiye Körfezlerinden hangilerinde Düz Esas Hatlar ile Ýç Sular Rejimi uygulanabilir?",
+      "cevap": "\" Ýskenderun Körfezi\n\" Edremit Körfezi\n\" Ýzmir Körfezi\n\" Fethiye Körfezi\n"
+    },
+    {
+      "soru": "GKRY hangi ülkeler ile ortay hat esasýna göre Doðu Akdenizdeki deniz alanlarýný da kapsayacak þekilde MEB ilanýnda bulunmuþtur.",
+      "cevap": "\" Mýsýr\n\" Ýsrail\n\" Lübnan\n"
+    },
+    {
+      "soru": "Savaþ Gemilerinin Uluslararasý Statüdeki haklarý nelerdir?",
+      "cevap": "1. Yargýlama ve egemenlik haklarýndan muaftýr.\n2. Limanda polis K. Ýzni ile çýkabilir\n3. Arama/denetleme yapýlamaz\n4. Baþka bayrak taþýmasý istenemez\n5. Aykýrý hareketde sorun diplomatik yollardan çözülür\n6. Zapt/Müsadere edilemez\n7. Vergi istenemez"
+    },
+    {
+      "soru": "Deniz ile çevrili, Alçak-Su zamaný su üzerinde, Yüksek-Su zamanýnda ise su altýnda kalan doðal olarak þekillenmiþ toprak parçasýna ne ad verilir?",
+      "cevap": "Alçak Su Yükseltisi"
+    },
+    {
+      "soru": "Körfez sayýlabilme þartlarýndan muaf tutulan körfezler hangileridir?",
+      "cevap": "Tarihi Körfezler"
+    },
+    {
+      "soru": "Çatýþma esnasýnda batýrýlmýþ Savaþ gemilerinde Batýran taraf Mülkiyet hakkýna sahipmidir?",
+      "cevap": "Hayýr"
+    },
+    {
+      "soru": "Adalarýn ve Kayalýklarýn karasularý varmýdýr?",
+      "cevap": "\" Her adanýn karasuyu ve bunun ölçüldüðü bir esas hattý vardýr.\n\" Kayalýklarýn ise Yüksek su zamanýnda su üzerinde kalýyorsa karasuyu mevcuttur.\n"
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Gemide, Mürettebat yine Mürettebata karþý suç iþleyip karaya kaçarsa, yaptýrým ne olur?",
+      "cevap": "Kýyý devleti Komutanýn talebi üzerine Suçluyu gemiye iade etmesi gerekir. Talep olmazsa kýyý devleti yargýlar."
+    },
+    {
+      "soru": "Uluslararasý hukukta hava sahasý kaç sýnýfa ayrýlmýþtýr?",
+      "cevap": "1. Milli Hava Sahasý (Kara ülkesinin, iç sularýn,takýmada sularýnýn ve karasularýnýn üzeri)\n2. Uluslar arasý Hava Sahasý (Bitiþik Bölgelerin, MEB'lerin Açýk Denizlerin üzeri)\n"
+    },
+    {
+      "soru": "Kýta sahanlýðý karasularýnýn ölçülmeye baþladýðý esas hattan itibaren ne kadar mesafeyi aþamaz?",
+      "cevap": "\" 350 Deniz Milini aþamaz veya\n\" 2500 metre derinlikleri birleþtiren hattan öteye 100 deniz milini aþamaz.\n"
+    },
+    {
+      "soru": "Bir kýyý devletinin kýta sahanlýðý, nereleri kapsar?",
+      "cevap": "O ülkenin karasularýnýn ötesinde, kýta kenarýnýn dýþ eþiðine kadar veya bu eþik daha az mesafede ise, esas hatlardan itibaren 200 Deniz Mili mesafeye kadar olan sualtý alanlarýný, deniz yataðýný ve toprak altýný kapsar."
+    },
+    {
+      "soru": "Açýk Denizlerin Serbestliði neleri kapsar?",
+      "cevap": "\" Seyrüsefer Serbestisi\n\" Açýk Deniz üzerinden uçma S.\n\" Denizaltý kablolarý ve petrol borularý döþeme S.\n\" Suni adalar/Tesisler inþa etme S.\n\" Balýk Avlama S.\n\" Bilimsel Araþtýrma S.\n"
+    },
+    {
+      "soru": "Herhangi bir devletin münhasýr ekonomik bölgesine, karasularýna, iç sularýna veya takýmada sularýna dahil olmayan tüm deniz alanlarýna ne ad verilir?",
+      "cevap": "Açýk Deniz"
+    },
+    {
+      "soru": "Türkiye 16 Mart 2012'DE Bakanlar Kurulu kararý ile Doðu Akdenizde TPAO'ya Suriye sýnýrýndan baþlayarak hangi boylama kadar olan bölgede Pertol Arama ruhsatý vererek Türk Deniz Yetki alanýnýn sýnýrlarýný zýmnen çizmiþtir?",
+      "cevap": "028-00'D"
+    },
+    {
+      "soru": "Takým ada esas hatlarý çizilirken en fazla kaç mil olmalýdýr?",
+      "cevap": "100 deniz milini geçmeyecektir. %3'ü 125 deniz milini aþmamak üzere geçebilir."
+    },
+    {
+      "soru": "Yapay adalar ve sahilden açýk tesislerin karasuyu varmýdýr?",
+      "cevap": "Hayýr yoktur."
+    },
+    {
+      "soru": "Kýyý devletinin ülkesine dahil olan deniz alanlarýnda temel ilke nedir?",
+      "cevap": "Kýyý devletinin Egemenliði"
+    },
+    {
+      "soru": "Türkiye'nin karasularý Ege, Akdeniz ve Karadeniz'de nasýl uygulanmaktadýr?",
+      "cevap": "\" Ege'de 6 Mil,\n\" Karadeniz'de 12 Mil,\n\" Akdeniz'de 12 Mil.\n"
+    },
+    {
+      "soru": "Türk karasularýna iliþkin esaslar hangi kanun ile düzenlenmiþtir?",
+      "cevap": "2674 sayýlý Karasularý Kanunu"
+    },
+    {
+      "soru": "Kýyý devletinin üzerinde egemenlik haklarýna sahip olduðu, esas hatlardan deniz tarafýna doðru ölçülen, iç sularý ve kara ülkesini çevreleyen deniz kuþaðýna ne ad verilir?",
+      "cevap": "Kara Sularý"
+    },
+    {
+      "soru": "Marmara denizi hangi istisna ile Türkiye'nin iç sularýna dahildir?",
+      "cevap": "Montrö ile tesis edilen Geçiþ Serbestisi "
+    },
+    {
+      "soru": "Ýç sulara örnekleri sayýnýz?",
+      "cevap": "\" Koy/Körfezler\n\" Kapalý Denizler\n\" Limanlar ve Bazý Kanallar\n\" Lagünler\n"
+    },
+    {
+      "soru": "Karasularýnýn ölçüldüðü esas hatlarýn kara tarafýnda kalan bölümüne ne ad verilir?",
+      "cevap": "Ýç Sular"
+    },
+    {
+      "soru": "Devletin ülkesine dahil olan deniz alanlarý hangileridir?",
+      "cevap": "\" Ýç Sular\n\" Kara Sularý\n\" Takýmada Sularý\n"
+    },
+    {
+      "soru": "Takým ada esas hatlarý içindeki su alaný ile karalarýn oraný nasýl olmalýdýr?",
+      "cevap": "Su alaný, karalarýn en çok 9 katý olabilir"
+    },
+    {
+      "soru": "Sahil hattýnýn kýyý içlerine doðru derin girintilere sahip olmasý veya kýyýnýn hemen yakýnýnda ada gruplarý olmasý halinde kýyý devleti hangi hattý uygulayabilir?",
+      "cevap": "Düz Esas Hat"
+    },
+    {
+      "soru": "Savaþ gemileri de dahil olmak üzere deniz ve hava vasýtalarýnýn mürettebat veya yolcularý tarafýndan ele geçirilmesi Deniz Haydutluðu sayýlýr mý?",
+      "cevap": "Hayýr. Ancak bu vasýta daha sonra deniz haydutluðu ile ilgili bir faaliyette bulunursa deniz haydut gemisi olur."
+    },
+    {
+      "soru": "2013-   Yasa dýþý eylemin deniz haydutluðu suçu teþkil etmesi için hangi þart gerekir?",
+      "cevap": "Kiþisel Menfaatler için yapýlmýþ olmasý gerekir. Siyasi eylemler Deniz Haydutluðu sayýlmaz."
+    },
+    {
+      "soru": "Denizde Silahlý Soygun hangi sularda yapýlan suçlar olarak tanýmlanmýþtýr?",
+      "cevap": "Ýç sularda, Karasularýnda, Takýmada sularýnda veya milli hava sahasýnda"
+    },
+    {
+      "soru": "Deniz Haydutluðu hangi sularda yapýlan suçlar olarak tanýmlanmýþtýr?",
+      "cevap": "Uluslararasý Sularda (Açýk Deniz, MEB ve Bitiþik Bölge) veya uluslararasý hava sahasýnda, yada egemenliðe tabi olmayan yerde"
+    },
+    {
+      "soru": "Türk Ceza Kanununa göre hangi hallerde suç Türkiye'de iþlenmiþ sayýlýr?",
+      "cevap": "\" Türk Kara ve hava sahalarý ile Türk karasularýnda\n\" Açýk denizde ve üzerindeki hava sahasýndaki Türk araçlarýnda,\n\" Türk deniz ve hava savaþ araçlarýnda,\n\" Türkiye'nin kýta sahanýðýnda veya MEB'nde tesisli sabit platformlarda\n"
+    },
+    {
+      "soru": "Hangi durumlarda þüphelenilen gemi durdurularak ziyaret edilebilir ve belgeleri incelenebilir?",
+      "cevap": "\" Deniz haydutluðu yapan gemi\n\" Köle ticareti yapan gemi\n\" Yetkisiz yayýn yapan gemi\n\" Bandýrasý olmayan gemi\n\" Yabancý bayrak taþýmasý / hiç bayrak taþýmamasýna raðmen gerçekte bandýrasý yaklaþan savaþ gemisi ile ayný olan gemi\n"
+    },
+    {
+      "soru": "Hava sahasýnýn sýnýrlarý nasýl belirlenmiþtir?",
+      "cevap": "1. Uçuþ için gerekli hava tepkisinin son bulduðu yükseklik\n2. Atmosferin sona erdiði Y.\n3. Yer çekiminin bittiði Y.\n4. Devletin etkin denetim kurduðu Y.\n5. Uydu yörüngesinin dünyaya en yakýn olduðu Y.\n6. Devletin güvenliðinin gerektirdiði Y.\n"
+    },
+    {
+      "soru": "1982 Birleþmiþ Milletler Deniz Hukuku Sözleþmesi (BMDHS) hangi konferansýn sonucu olarak ortaya çýkmýþýtýr?",
+      "cevap": "3'ÜNCÜ Birleþmiþ Milletler Deniz Hukuku Konferansý"
+    },
+    {
+      "soru": "Deniz Hukuku konularýný düzenleyen sözleþmeler hangileridir?",
+      "cevap": "\" 1958 Cenevre Sözleþmeleri\n\" 1982 BMDHS\n"
+    },
+    {
+      "soru": "1958 Cenevre Sözleþmeleri ve 1982 BMDHS'ne taraf olmayan ülkeler deniz hukukundan doðan iliþkileri nasýl devam etmektedir?",
+      "cevap": "Uluslararasý Teamül Hukuku Kurallarýna göre"
+    },
+    {
+      "soru": "\"Sahildar devlet tarafýndan resmen kabul edilmiþ büyük ölçekli deniz haritalarýnda belirtildiði þekliyle sahil boyunca uzayan en düþük cezir hattý\" nedir?",
+      "cevap": "Karasularýnýn geniþliðinin ölçülmeye baþlandýðý Normal Esas Hat"
+    },
+    {
+      "soru": "Barýþ, Kamu Düzeni ve Güvenliðe halel getirebileceði deðerlendirilen ve bu neden Zararsýz Geçiþi bozan durumlar nelerdir?",
+      "cevap": "1. Kuvvet Kullanma/Tehdit\n2. Tatbikat,  Hava vasýtasýnýn uçurulmasý\n3. Ýstihbarat,   Araþtýrma yapma\n4. Ýletiþimi Bozma,   Propaganda Yapma\n5. Mal/Para/Kiþinin bildirilmemesi\n6. Kirliliðe neden olma,   Balýkçýlýk, Geçiþle ilgisiz faaliyet\n"
+    },
+    {
+      "soru": "Türkiye'nin karasularýnýn çizilmesi için hangi hat kullanýlmaktadýr?",
+      "cevap": "Alçak Su Hattý"
+    },
+    {
+      "soru": "2012-   Özel bir gemi/hava vasýtasý bir savaþ gemisi/hava vasýtasý takibindeykn açýk denizden bir devletin karasularýna/hava sahasýna girerse takip için yapýlmasý gereken nedir?",
+      "cevap": "Takibin sürdürülmesi için Kýyý Devletinin onayý gerekir."
+    },
+    {
+      "soru": "Savaþ gemilerine sýðýnma baþvurusu nasýl yapýlýr?",
+      "cevap": "Ýç hukukumuza göre Savaþ gemilerine sýðýnma baþvurusu yapýlamaz."
+    },
+    {
+      "soru": "Uluslararasý korunma baþvurusu hangi kuruma yapýlýr?",
+      "cevap": "Valiliklere,  Sýnýr kapýlarýna yapýlanlar ise derhal Valiliðe bildirilir."
+    },
+    {
+      "soru": "Avrupa dýþýndan iltica maksadýyla gelen kiþiler nasýl adlandýrýlýr?",
+      "cevap": "Þartlý Mülteci"
+    },
+    {
+      "soru": "Seyir halindeki bir gemi tarafýndan denizde baþýboþ mayýn, benzeri cisimler ve patlayýcý maddeler bulunduðunda, mevkii ve diðer bilgileri hakkýnda hangi kurumlara haber vermesi gerekir?",
+      "cevap": "\" Dz.K.K.lýðý veya S.G.K.lýðý baðlýsý deniz birliðine, veya\n\" Diðer askeri birliklere, yoksa\n\" Denizcilik Müsteþarlýðý Bölge Müdürlükleri veya\n\" Liman Baþkanlýklarýna, yoksa Mülki Makamlara\n"
+    },
+    {
+      "soru": "Türkiye'de NAVTEX mesajlarý \"Dünya Seyir Uyarý Sistemi Coðrafi Deniz Alaný (NAVAREA)\" sistemi çerçevesinde hangi kurum tarafýndan yayýnlanmaktadýr?",
+      "cevap": "Kýyý Emniyeti Genel Müdürlüðü"
+    },
+    {
+      "soru": "Denizlerde seyir emniyetine tehlike oluþturacak faaliyetlerin ilan edilmesinde neler kullanýlmaktadýr?",
+      "cevap": "\" Seyir Duyurularý (NOTMAR/Navigational Warning)\n\" NAVTEX Mesajlarý\n\" HYDROLANT / HYDROPAC Mesajlarý\n"
+    },
+    {
+      "soru": "Türk Boðazlarýnda seyir emniyetine iliþkin olarak hangi tüzük uygulanmaktadýr?",
+      "cevap": "8 Ekim 1998 tarihli, Türk Boðazlarý Deniz Trafik Düzeni Tüzüðü"
+    },
+    {
+      "soru": "Su üstü gemileri ve Denizaltýlara iliþkin seyir emniyet kurallarýnýn çoðu hangi tüzük ile belirlenmiþtir?",
+      "cevap": "1972 tarihli Denizde Çatýþmayý Önleme Tüzüðü"
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Karada, Mürettebat - Kýyý devleti vatandaþý OLAN Yabancýya karþý suç iþleyip Gemiye kaçarsa, yaptýrým ne olur?",
+      "cevap": "Komutanýn suçlu mürettebatý Kýyý devletine  iade etmesi gerekir. Ancak iade etmemesi durumunda Kýyý devleti yetkilileri zorla gemiye girerek bu þahsý yakalama haklarý yoktur."
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Karada, Mürettebat - Kýyý devleti vatandaþý OLMAYAN Yabancýya karþý suç iþleyip Gemiye kaçarsa, yaptýrým ne olur?",
+      "cevap": "Komutanýn suçlu mürettebatý Kýyý devletine talep halinde iade etmesi gerekir."
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Karada, Mürettebat - yine Mürettebata karþý suç iþleyip Gemiye kaçarsa, yaptýrým ne olur?",
+      "cevap": "Komutanýn suçlu mürettebatý Kýyý devletine teslim etme zorunluluðu yoktur."
+    },
+    {
+      "soru": "Seyir Duyurularý kim tarafýndan yayýnlanmaktadýr?",
+      "cevap": "SHOD Baþkanlýðý"
+    },
+    {
+      "soru": "Türkiye'nin esas hatlarýný saptama yetkisi kime verilmiþtir?",
+      "cevap": "Bakanlar Kuruluna"
+    },
+    {
+      "soru": "Yabancý gemilere karþý bayrak devletinin müsaadesi alýnmadan Bitiþik Bölgede hangi ihlaller nedeniyle polisiye tedbirler alýnabilir?",
+      "cevap": "1. Maliye\n2. Muhaceret\n3. Saðlýk\n4. Gümrük Ýhlalleri\n5. Arkeolojik vb.\nilgili ihlaller"
+    },
+    {
+      "soru": "2009Ö-  3984 sayýlý Denizde Zapt ve Müsadere Kanununa göre; Düþmana ait olup, zapt ve müsadereye tabi olan gemiler hangisidir?",
+      "cevap": "Açýk Deniz Balýkçýlýðýna tahsis edilmiþ gemiler\""
+    },
+    {
+      "soru": "2012-   Yanyana iki ülkenin deniz sýnýrý nasýl belirlenir?",
+      "cevap": "Karasýnýrlarýnýn birleþtiði noktadan denize doðru çizilen dik bir çizgi ile"
+    },
+    {
+      "soru": "2011-   Düz Esas Hatlarýn uygulanmasýnda genel kural nedir?",
+      "cevap": "Düz Esas Hatlarýn sahilin genel istikametinden ayrýlmamasý ve kapladýklarý deniz alanlarýnýn kara parçasý ile yakýndan baðlý olmasýdýr."
+    },
+    {
+      "soru": "2012-   Sýcak Takip ne zaman baþlar ve sona erir?",
+      "cevap": "Yabancý gemi veya vasýtalarýndan biri takibi yapan ülkenin  Ýç Sularý, Karasularý, Takýmada sularý veya Bitiþik Bölgelsindeyken baþlar, Yabancý devletin karasularýna girene kadar sürdürülebilir."
+    },
+    {
+      "soru": "2012-   Zararsýz Geçiþ Askýya alýnabilir mi?",
+      "cevap": "Ön bildirim yapýldýðý takdirde ve ayrýmcý karakterde olmadýkça belirli kesimlerde güvenlik gerekçeleri ile askýya alýnabilir."
+    },
+    {
+      "soru": "Ulusal hava sahasýna girecek yabancý bir hava vasýtasý için devletin yetkili makamlarýnca verilecek izin türleri nelerdir?",
+      "cevap": "1. Askeri uçaðýn ziyareti için Diplomatik Klerans verilmesi\n2. Chicago Havacýlýk Sözleþmesine tabi olarak ticari hava yollarýna verilen genel izin\n"
+    },
+    {
+      "soru": "B.M. Sözleþmesine dayanan Meþru Müdafaa Hakký hangi 6 þarta baðlýdýr?",
+      "cevap": "1. Silahlý Saldýrý\n2. Saldýrýnýn devletin Egemenliðine, Baðýmsýzlýðýna ve Bütünlüðüne yapýlmasý\n3. Mevcudiyet\n4. Zaruret\n5. Orantýlý Kuvvet Kullanýmý\n6. Kuvvet kullanýmýnýn BMGK'nýn tedbirine kadar sürdürme\n"
+    },
+    {
+      "soru": "Uluslararasý Adalet Divaný'na çözümsüzlüðün taþýnma þartý nedir?",
+      "cevap": "Muhatap ülkenin de müsade etmesi"
+    },
+    {
+      "soru": "Ülkelerin B.M. þartýna uygun olarak, barýþ döneminde milli menfaatlerin korunmasýna iliþkin alabileceði Askeri Olmayan önlemler nelerdir?",
+      "cevap": "1. Diplomatik Önlemler\n2. Ekonomik Önlemler\n3. Yargýsal Önlemler\n"
+    },
+    {
+      "soru": "Uyruksuz Gemi statüsünün belirlenmesindeki kýstaslar nelerdir?",
+      "cevap": "1. Milliyet beyanýnýn olmamasý\n2. Birden fazla milliyet beyaný\n3. Çeliþkili/Tutarsýz Milliyet beyaný\n4. Ýntikali esnasýnda bayrak deðiþtirmesi\n5. Kaptanýnýn olmamasý, tanýtýcý iþaret taþýmamasý\n6. Milliyet beyanýný reddetmesi\n"
+    },
+    {
+      "soru": "Sýcak takip ne zaman baþlar?",
+      "cevap": "Yabancý gemi tarafýndan duyulabilecek/görülebilecek mesafeden durmaýna iliþkin görünür/ses iþaretlerinin verilmesiyle"
+    },
+    {
+      "soru": "Sýcak takip yetkisi hangi vasýtalara verilmiþtir?",
+      "cevap": "Savaþ Gemileri, Askeri hava vasýtalarý veya kýyý devleti tarafýndan yetkilendirilmiþ ve ayýrýcý iþaretleri bulunan gemi/hava vasýtalarý"
+    },
+    {
+      "soru": "Korsanlýk ve Deniz Haydutluðu arasýndaki en temel fark nedir?",
+      "cevap": "Korsanlýk devlet otoritesi altýnda gerçekleþtirilen yasal bir savaþ faaliyetidir. Deniz Haydutluðu ise her türlü devlet otoritesini reddeden kanunsuz bir faaliyettir."
+    },
+    {
+      "soru": "Yabancý gemilere karþý bayrak devletinin müsaadesi alýnmadan MEB'de hangi ihlaller nedeniyle polisiye tedbirler alýnabilir?",
+      "cevap": "Doðal Kaynaklarýyla ilgili ihlaller"
+    },
+    {
+      "soru": "Deniz savaþlarýnda Korsanlarýn kullanýlmasý ne ile son bulmuþtur?",
+      "cevap": "Paris Kongresinde (16 Nisan 1856) Büyük Britanya, Avusturya, Prusya, Rusya, Sardinya ve Osmanlý Devletinin imzalarýyla"
+    },
+    {
+      "soru": "Hukukun uygulanmasý kapsamýnda hangi gemiler Türk Gemisi olarak kabul edilir?",
+      "cevap": "1. Sahibi Türk Olan\n2. Çoðunluk hisseleri veya sahiplerinin çoðunun Türk olduðu\n3. Yöneticilerinin çoðunluðu Türk olmak kaydýyla, Türk yasalarýna göre kurulmuþ Tüzel kiþilere ait gemiler\n"
+    },
+    {
+      "soru": "Deniz haydutluðu, Soykýrým ve Bazý Savaþ suçlarý her devlet tarafýndan yargýlanabilir ve cezalandýrýlabilir. Bu durum yasal yetkinin 5 temel dayanaðýndan hangisi dahilindedir?",
+      "cevap": "Evrensellik"
+    },
+    {
+      "soru": "Türk Ceza Kanununa göre Aþaðý sýnýrý enaz 1 yýl hapis cezasý gerektiren bir suçu yabancý ülkede Türkiye'nin zararýna iþlediði ve kendisi Türkiye'de bulunduðu takdirde Türk Kanunlarýna göre cezalandýrýlýr. Yasal yetkinin 5 dayanaðýndan hangisidir?",
+      "cevap": "Koruyuculuk"
+    },
+    {
+      "soru": "Edilgen Kiþilik ilkesi neye dayanmaktadýr?",
+      "cevap": "Yargý yetkisi suçun iþlendiði yer ve failin milliyetine bakýlmaksýzýn, Kurbanýn milliyetine dayanmaktadýr."
+    },
+    {
+      "soru": "Uluslararasý hukuka göre iþlenen suçlara yönelik yasal yetkinin 5 temel dayanaðý hangileridir?",
+      "cevap": "1. Suçun o devletin ülkesinde iþlenip iþlenmediði\n2. Milliyet\n3. Edilgen Kiþilik\n4. Koruyuculuk\n5. Evrensellik\n"
+    },
+    {
+      "soru": "Savaþan Olmayanlarýn Tahliyesi Harekatý ilgili ülkeyle yapýlan bir anlaþma yoksa hangi çerçevede yürütülür?",
+      "cevap": "BMGK / TBMM kararý çerçevesinde yürütülür"
+    },
+    {
+      "soru": "Savaþ, iç karýþýklýk veya felaketler nedeniyle yaþamlarý tehlikeye giren T.C. personeli ve aileleri ile Vatandaþlarýnýn emniyetle ve süratli tahliyesi amacýyla Savaþan Olmayanlarýn Tahliyesi Harekatýnýn uygulama emri yetkisi kimdedir?",
+      "cevap": "Genel Kurmay Baþkanlýðýnda"
+    },
+    {
+      "soru": "Kýyý devletinin MEB ve Kýta Sahanlýðýndaki yabancý gemi/hava vasýtasý/kiþiler üzerindeki yetki sýnýrlarý nelerdir?",
+      "cevap": "Doðal Kaynaklarýn iþletilmesi/araþtýrýlmasý"
+    },
+    {
+      "soru": "Kýyý devletinin Bitiþik Bölgesindeki yabancý gemi/hava vasýtasý/kiþiler üzerindeki yetki sýnýrlarý nelerdir?",
+      "cevap": "Gümrük, Maliye, Göç ve Saðlýk"
+    },
+    {
+      "soru": "Türk savaþ gemileri ve S.K. Personelinin deniz haydutluðu ve/veya uluslararasý hukuka aykýrý yasadýþý faaliyetlere engel olunmasý maksadýyla uluslararasý sularda görevlendirilmesine kim karar ve yetki veriri?",
+      "cevap": "Bakanlar kurulu kararý ile TBMM Ýzin/Yetkisi"
+    },
+    {
+      "soru": "Egemen bir devlete ait olan ve denizde kaybolan hangi mallar yabancýlar tarafýndan kurtarýldýðýnda kaybeden devlete iade edilmelidir?",
+      "cevap": "\" Hurda Hava vasýtalarý\n\" Batmýþ Gemiler\n\" Eðitim Torpidolarý\n\" Denemesi yapýlan G/M'ler\n\" Hedef Dronlar\n"
+    },
+    {
+      "soru": "Türkiye ve diðer devletler hukuka uygun olarak uluslararasý sularda seyir/uçuþa tehlike teþkil edebilecek þekilde icra edeceði faaliyetleri bildirmek için kullandýklarý sisteme ne ad verilir?",
+      "cevap": "NOTMAR veya NOTAM"
+    },
+    {
+      "soru": "Yabancý gemilere karþý bayrak devletinin müsaadesi alýnmadan Kýta Sahanlýðýn'da hangi ihlaller nedeniyle polisiye tedbirler alýnabilir?",
+      "cevap": "Deniz Tabanýna iliþkin ihlaller"
+    },
+    {
+      "soru": "Savaþ Gemisinin tanýmýnda bulunan özellikleri nelerdir?",
+      "cevap": "1. S.K. iþaretlerini taþýyan\n2. Milliyetini belirtici iþaretlerini taþýyan\n3. Devlet tarafýndan resmen görevlendirilmiþ\n4. Ýsmi S.K.in hizmet/eþidi görev listesinde yer alan\n5. Bir subayýn komutasýnda olan\n6. S.K. disiplinindeki persolle donatýlmýþ\n"
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Gemide, Mürettebat - Kýyý devleti vatandaþý olan Yabancýya karþý suç iþleyip karaya kaçarsa, yaptýrým ne olur?",
+      "cevap": "Kýyý devleti Suçlu mürettebatý iade etme zorunluluðu yoktur. Komutan da iadesini talep edemez."
+    },
+    {
+      "soru": "Takýmada Sularýndan Zararsýz geçiþte Denizaltýlarýn seyri nasýl olmaldýýr?",
+      "cevap": "Denizaltýlar Satýhta seyretmeli ve bayrak çekmiþ olmalýlar"
+    },
+    {
+      "soru": "Denizaltýlar da dahil, Savaþ Gemileri Zararsýz Geçiþ hakkýndan yararlanabilir mi?",
+      "cevap": "Yararlanýrlar. Denizlatýlar Satýhta ve Bayrak çekerek seyrederler."
+    },
+    {
+      "soru": "Uluslararasý Sular'ýn kapsamý nedir?",
+      "cevap": "\" Bitiþik Bölge\n\" Münhasýr Ekonomik Bölge\n\" Açýk Denizler\n"
+    },
+    {
+      "soru": "Türkiye'nin Ege ve Akdeniz'de MEB'leri nasýl belirlenmiþtir?",
+      "cevap": "Türkiye'nin Ege ve Akdeniz'de MEB ilaný YOKTUR!"
+    },
+    {
+      "soru": "4 Aralýk 1997'de Bulgaristan ile deniz yetki alanlarý sýnýrlandýrmasý konusunda yapýlan anlaþmada 9 ve 10 numaralý noktalar hangi devleti de ilgilendirdiðinden ileri bir dönemde sonuçlandýrýlmasý kararý alýnmýþtýr?",
+      "cevap": "Romanya"
+    },
+    {
+      "soru": "Karadeniz'deki MEB ilaný hakkýnda SSCB'nin daðýlmasý sonrasýnda Türkiye hangi devletlerle yeni bir anlaþma yaparak 1978'de belirlenen kýta sahanlýðýný teyit etmiþtir?",
+      "cevap": "\" Ukrayna\n\" Rusya Federasyonu\n\" Gürcistan \n"
+    },
+    {
+      "soru": "Karadeniz'de kýta sahanlýðýnýn sýnýrlandýrmasýna dair ilk antlaþma hangi devlet ile yapýlmýþtýr?",
+      "cevap": "23 Haziran 1978, SSCB ile yapýlmýþtýr."
+    },
+    {
+      "soru": "Kýyýdaþ olmayan devletlerin MEB üzerindeki Egemenlik Hak ve Yetkileri nelerdir?",
+      "cevap": "\" Seyrüsefer Serbestîsi\n\" Uçma Serbestîsi\n\" Denizaltý kablolarý ve petrol boru hatlarý döþeme\n\" Canlý kaynaklar bakiyesinin uygun bir bölümünü avlama, (Rýza ile)\n\" Denize iliþkin Bilimsel Araþtýrmalar yapma (Rýza ile)\n"
+    },
+    {
+      "soru": "Kýyý devleti MEB üzerindeki Egemenlik Hak ve Yetkileri nelerdir?",
+      "cevap": "\" Suni Adalar/Tesisler,  Bilimsel Araþtýrma yapma,\n\" Çevre korunmasý,  Ekonomik amaçlý tesis yapma/iþletme,\n\" Tesislerin etrafýnda 500 metreden az \"Güvenlik Bölgesi\" kurma,\n\" Avlanýlacak canlýlarýn av hacmini tespit,\n\" Gemiye çýkma, Denetim, El Koyma "
+    },
+    {
+      "soru": "Kýyý devleti MEB üzerinde avlanýlacak canlý kaynaklarýn miktarýný saptama hakkýna sahipmidir?",
+      "cevap": "Evet"
+    },
+    {
+      "soru": "Bir devletin egemenlik alanýna girmeyen tüm deniz sahalarýný kapsayan Sulara ne ad verilir?",
+      "cevap": "Uluslararasý Sular"
+    },
+    {
+      "soru": "Takýmada deniz yollarý dýþýndaki Takýmada sularýnda uçuþ serbestisi var mýdýr?",
+      "cevap": "Hayýr"
+    },
+    {
+      "soru": "Türkiye Akdeniz'de MEB ilan etmemiþ olmakla beraber 2 Mart 2004 tarihli notasý ile hangi mevkide Deniz yataðý, Deniz yataðýnýn altý ve üzerindeki su kütlesi dahil tüm haklarýný saklý tuttuðunu belirtmiþtir?",
+      "cevap": "32-16'18D"
+    },
+    {
+      "soru": "Kýyý devleti MEB'deki seyir ve uçuþ serbestisine kýsýtlama getirebilir mi?",
+      "cevap": "Hayýr (MEB'de Seyir ve Uçuþ serbestisini esas alan Açýk Deniz rejimi uygulanýr)"
+    },
+    {
+      "soru": "Münhasýr Ekonomik Bölge (MEB) kavramý uluslararasý hukuka ne zaman girmiþtir?",
+      "cevap": "1982 BMDHS ile"
+    },
+    {
+      "soru": "Denizaltýlar Transit Geçiþi nasýl icra eder?",
+      "cevap": "Normal çalýþma düzeninde, Yani dalmýþ durumda geçebilir."
+    },
+    {
+      "soru": "Türkiye'nin çevre denizlerindeki Bitiþik Bölgeleri nerelerdir?",
+      "cevap": "Türkiye'nin çevre denizlerimizde Bitiþik Bölgel ilaný YOKTUR!"
+    },
+    {
+      "soru": "Bitiþik Bölge karasularý geniþliðinin ölçülmeye baþlandýðý esas hatlardan itibaren KAÇ deniz milin ötesine geçemez?",
+      "cevap": "24 Deniz Mili"
+    },
+    {
+      "soru": "2011-   Karasularýndan deniz tarafýnda doðru uzanan, kýyý devletinin karasularýnda Gümrük, Maliye, Göç, Saðlýk ve Arkeolojik nesnelerin korunmasý konusundaki kanunlarýnýn ihlal edilmesini engellemek ve cezalandýrmak için yetkiyi elinde bulundurduðu saha?",
+      "cevap": "Bitiþik Bölge"
+    },
+    {
+      "soru": "Hava sahasýnýn sýnýrý, uçaklarýn uçabildiði en yüksek irtifa, uydularýn yörüngede durabildiði en düþük irtifa hangi klavuzda tanýmlanmýþtýr?",
+      "cevap": "Hava ve Füze Savaþýnda Uygulanabilecek Uluslararasý Hukuka Ýliþkin Klavuz"
+    },
+    {
+      "soru": "Münhasýr Ekonomik Bölge (MEB) karasularý geniþliðinin ölçülmeye baþlandýðý esas hatlardan itibaren KAÇ deniz milin ötesine geçemez?",
+      "cevap": "200 Deniz Mili"
+    },
+    {
+      "soru": "Kýyý devletinin Doðal Kaynaklar üzerinde sahip olduðu haklar hangi yetkileri kapsar?",
+      "cevap": "\" Arama\n\" Ýþletme\n\" Koruma\n\" Düzenleme\n"
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Kýyý Vatandaþý, Mürettebat/Mürettebat dýþý bir Personele karþý suç iþler ise yaptýrým ne olur?",
+      "cevap": "Komutanýn Yerel yetkililere teslim etme görevi vardýr."
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Mürettebat olmayan/Bayrak Devleti Vatandaþý olmayan biri Personele karþý suç iþler ise yaptýrým ne olur?",
+      "cevap": "Komutan Yerel yetkililere teslim edebilir. Ancak etmez ise kýyý devleti Komutaný teslim etmeye zorlayamaz."
+    },
+    {
+      "soru": "Yabancý Savaþ Gemisinin personeli üzerinde hangi þartta Kýyý devletinin yargý yetkisi bulunur?",
+      "cevap": "Görev harici nedenlerle kýyýya çýkmýþ personel tarafýndan, herhangi bir ihlal durumunda kýyý devleti makamlarýnca soruþturmaya tabi tutulabilir ve yargýlanabilir."
+    },
+    {
+      "soru": "Daha önce iç sulara dahi deðil iken, Düz Esas Hatlarýn uygulanmasý sonucunda iç sularda kalan sularda Zararsýz Geçiþ uygulanabilir mi?",
+      "cevap": "Evet"
+    },
+    {
+      "soru": "Kýyý devletinin MEB'de sahip olduðu ekonomik nitelikli haklarýný kaç grupta toplarýz?",
+      "cevap": "1. 200 mile kadar olan bölgenin su kütlesi, deniz yataðý ve toprak altýndaki doðal kaynaklar üzerindeki haklarý,\n2. Belirtilen deniz alanýnýn iþletilmesi ile ilgili olan haklar\n"
+    },
+    {
+      "soru": "Kýyý devleti Zararsýz Geçiþi Askýya alabilir mi?",
+      "cevap": "1982 BMDHS'ne göre güvenliðin korunmasý için Askýya Alabilir. Önceden bildirilmeli, Ayrým yapýlmamalýdýr."
+    },
+    {
+      "soru": "Türkiye 1982 BMDHS'ne taraf mýdýr?",
+      "cevap": "Sözleþmenin hazýrlýk çalýþmalarýna katýlmasýna raðmen kabül oylamasýnda ret oyu kullanmýþtýr. Taraf deðildir."
+    },
+    {
+      "soru": "Türkiye Kýbrýs Barýþ Harekatý sýrasýnda 6 Aðustos 1974'de 714 sayýlý NOTAM ile bütün uçaklarýn Türk Hava Kontrol Ünitesine rapor vermlerini istemiþtir. Bahse konu NOTAM hangi plan doðrultusunda kaldýrýlmýþtýr?",
+      "cevap": "Rogers Planý"
+    },
+    {
+      "soru": "Muhasamatýn yakýn olduðu veya baþladýðý durumlarda devletler tarafýndan meþru müdafaa kapsamýnda gemilerin çevresinde tesis edilen ve kriz/savaþ durumuna göre veya emirle yürülüðe giren bölgeye ne denir?",
+      "cevap": "Tanýma Emniyet Menzili (TEM)"
+    },
+    {
+      "soru": "Uluslararasý hava seyrüsefer ilkeleri ve tekniklerinin geliþtirilmesi ve uçuþ emniyetinin arttýrýlmasý maksadýyla Þikago Konvansiyoun çerçevesinde hangi örgüt oluþturulmuþtur?",
+      "cevap": "Uluslararasý Sivil Havacýlýk Örgütü (ICAO)"
+    },
+    {
+      "soru": "MEB, Açýk Denizler ve herhangi bir milli egemenlik alaný dýþýndaki alanlar (Antartika gibi) üzerindeki hava sahalarý hangisidir?",
+      "cevap": "Uluslararasý Hava Sahasý"
+    },
+    {
+      "soru": "Dz.K.K.na ait hava araçlarý ile bunlarý uçuran pilotlar tarafýndan uyulmasý gereken genel kurallar, usuller, görerek ve alet uçuþ kurallarý hangi yönergede belirtilmiþtir?",
+      "cevap": "Dz.K.K.lýðý Genel Uçuþ Kurallarý Yönergesi (DKY 165-1(C))"
+    },
+    {
+      "soru": "\"Tedafüi Deniz Alanlarý\" veya \"Deniz Kontrol Alanlarý\" için Uluslararasý hukukta coðrafi sýnýrlarý / uygulanacak kontrol derecesi için nasýl bir sýnýrlama getirilmiþtir?",
+      "cevap": "Tehdidin gerektirdiði makul seviye"
+    },
+    {
+      "soru": "Karasularýnýn ölçülmeye baþlandýðý Esas Hatlardan itibaren en çok 200 Deniz Mili geniþlikteki deniz alanlarýnýn deniz yataðý ve toprak altý ile üzerindeki sularýn canlý/cansýz doðal kaynaklarý üzerinde kýyý devletine ekonomik haklarýn tanýnmasýný öngören?",
+      "cevap": "Münhasýr Ekonomik Bölge (MEB)"
+    },
+    {
+      "soru": "BMDHS'ne göre Transit Geçiþ'in uygulanmayacaðý Milletlerarasý Boðaz Türleri hangileridir? (4 maddenin ilk 2'si)",
+      "cevap": "\" Uzun süredir uygulanmakta olan milletlerarasý konvansiyonlarla geçiþ rejimi özel olarak düzenlenmiþ boðazlar\n\" Ýçinde açýk denizden / MEB'den geçen ve seyrüsefer/hidrografik hususiyetleri bakýmýndan uygun benzerlikte su  yolu olan boðazlar\n"
+    },
+    {
+      "soru": "1982 BMDHS'ne göre Milletlerarasý Boðaz nasýl tanýmlanmýþtýr?",
+      "cevap": "MEB kavramýnýn çýkmasýndan sonra, Bir açýk deniz kesimi ile bir devletin MEB'ini birleþtiren su yollarý ile ayný/2 ayrý devletin MEB'lerini birleþtiren su yollar"
+    },
+    {
+      "soru": "Barýþ döneminde Kýyý devleti herhangi bir nedenle uluslararasý boðazda Transit Geçiþi engelleyebilir mi?",
+      "cevap": "Hayýr Engelleyemez."
+    },
+    {
+      "soru": "Transit Geçiþ nerelerde uygulanýr?",
+      "cevap": "Açýk Deniz kesiminin/MEB'in bir kýsmý ile \nAçýk Deniz kesiminin/MEB'in diðer kýsmýný birleþtiren ve \ntamamýyla karasularý ile kaplý boðazlarda\n"
+    },
+    {
+      "soru": "Uluslararasý hukuk ilkelerine göre bir devlet, silahlý bir saldýrýya karþý savunma tedbirleri almak için ilan edeceði deniz alanlarýna ne ad verilir?",
+      "cevap": "\"Tedafüi Deniz Alanlarý\" veya \"Deniz Kontrol Alanlarý\""
+    },
+    {
+      "soru": "Gemi ve hava vasýtalarýnýn normal çalýþma düzeninde sürekli ve kesintisiz geçiþ maksadýyla seyir ve uçuþ serbestisi uygulamasý neyin tanýmýdýr?",
+      "cevap": "Transit Geçiþ"
+    },
+    {
+      "soru": "Savaþ Gemileri veya devlete ait diðer gemilerin mülkiyeti hangi þartlarda bir baþka devlete geçebilir?",
+      "cevap": "1. Çatýþma esnasýnda, batýrýlmadan önce ele geçilmesi/teslim olmasýyla\n2. Uluslar arasý anlaþma ile\n3. Uluslar arasý hukuk ve bayrak devletinin iç hukukuna uygun olarak geminin açýkça terk edilmesi, satýþý ya da hibesi yoluyla\n"
+    },
+    {
+      "soru": "2012-   Savaþ gemisinin Ýç sularda/Limanda bulunduðu sýrada, Gemide, Mürettebat - Kýyý devleti vatandaþý olmayan Yabancýya karþý suç iþleyip karaya kaçarsa, yaptýrým ne olur?",
+      "cevap": "Kýyý devleti Komutanýn talebi üzerine Suçluyu gemiye iade etmesi gerekir. Talep olmazsa kýyý devleti yargýlar."
+    },
+    {
+      "soru": "Zararsýz geçiþ hakký serbest uçuþ hakkýný kapsar mý?",
+      "cevap": "Hayýr"
+    },
+    {
+      "soru": "BMDHS'ne göre Transit Geçiþ'in uygulanmayacaðý Milletlerarasý Boðaz Türleri hangileridir? (4 maddenin son 2'si)",
+      "cevap": "\" Boðaz devletinin bir adasý ile ana kýtasý arasýnda yeralan, adanýn deniz tarafýndaki Aç.Dz'de/MEBde seyrüsefer/hidrgrfik özl.leri bakýmýndan uygun benzerlikte geçiþ yeri olan\n\" Aç.Dz'in / MEB'in bir parçasýyla yabancý devletin karasularý arasýnda yer a"
+    },
+    {
+      "soru": "Zararsýz Geçiþ'de Durma ve Demirleme hangi þartlarda yapýlabilir?",
+      "cevap": "1. Hava ve Deniz þartlarý kaçýnýlmaz þekilde gerektirdiði takdirde\n2. Bir zorunlu neden/ tehlike nedeniyle\n3. Kazaya uðramýþ kiþilere, gemilere veya uçaklara yardým amacýyla\n"
+    },
+    {
+      "soru": "Geçiþ hangi þartlarda Zararsýz sayýlýr?",
+      "cevap": "Kýyý devletinin barýþýna, düzenine veya güvenliðine bir halel getirmediði sürece"
+    },
+    {
+      "soru": "Yabancý savaþ gemileri Türk Ýç sularýnda bulunduklarý sürede karþýlaþtýklarý bir olay nedeniyle yargýlanabilirlermi?",
+      "cevap": "Hayýr. Ancak sebep olacaklarý zararlarýn Türk Yargý organlarýnca tespit edilmesi kabul edilmiþtir."
+    },
+    {
+      "soru": "Takýmada devletinin sularýndan geçiþ yapan gemiler, Takýmada devleti tarafýndan belirlenen koridor ekseninden KAÇ milden fazla sapma yapmamasý gerekir?",
+      "cevap": "25 Deniz Mili,   Kýyýya eksenin etrafýndaki en yakýn adalar arasýndaki mesafenin %10'undan daha fazla yaklaþmayacaktýr."
+    },
+    {
+      "soru": "NOTAM/NOTMAR ile bilidirilmiþ tehlikeli sahanýn uluslararasý sularýnda ve hava sahasýnda herhangi bir devletin gemisi yada uçaðý bulunabilir mi?",
+      "cevap": "Bu sahalardaki faaliyetlere engel olmamak kaydýyla bulunabilirler. (Ýstihbarat Toplayabilirler)"
+    },
+    {
+      "soru": "Türkiye 1982 BMDHS'ne hangi madde ve konular yüzünden ret oyu kullanarak taraf olmamýþtýr?",
+      "cevap": "\" Karasularýnýn geniþliði (3. Md.)\n\" Bitiþik bölgeler (33. Md.)\n\" Adalar Rejimi (121. Md.)\n\" Kapalý/Yarý Kap. Denizler (74. Md.)\n\" Karþýlýklý-Bitiþik Kýyýlarý olan Devletler ararsýndaki MEB ve Kýta sahanlýðý sýnýrlandýrmasý (83. Md.)\n"
+    },
+    {
+      "soru": "MEB içerisinde Bilimsel Araþtýrma için kýyý devletinin müsaadesi gerekmekle birlikte hangi ülkeler bu çalýþmalar için ön bildirim zorunluluðu getirilemeyeceðini öne sürmektedir.",
+      "cevap": "ABD ve Ýngiltere"
+    },
+    {
+      "soru": "Türkiye'nin Karadeniz'deki MEB'nde Bilimsel Araþtýrmalar nasýl yapýlabilir?",
+      "cevap": "Ýzne Tabidir."
+    },
+    {
+      "soru": "Takýmada deniz yollarýndan geçiþte Denizaltýlarýn seyri nasýl olmaldýýr?",
+      "cevap": "Normal Çalýþma þeklinde (Dalýþ durumunda olabilir)"
+    }
+  ]
+}

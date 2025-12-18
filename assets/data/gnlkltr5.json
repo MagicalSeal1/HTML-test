@@ -1,0 +1,298 @@
+{
+  "title": "T.C. Anayasasý",
+  "description": "73 Soru",
+  "cards": [
+    {
+      "soru": "TBMM'de kabul edilen yasalarý CB kaç gün içinde onaylar?",
+      "cevap": "15 gün"
+    },
+    {
+      "soru": "Kamu Denetçiliði kurumu neyi inceler?",
+      "cevap": "Ýdarenin iþleyiþi ile ilgili þikayetleri (TBMM'ye baðlý çalýþýr)"
+    },
+    {
+      "soru": "Kamu Denetçisi nasýl seçilir?",
+      "cevap": "TBMM tarafýndan, Gizli oyla, 4 yýllýðýna seçilir."
+    },
+    {
+      "soru": "Milletvekili Olamayacaklar kimlerdir?",
+      "cevap": "Enaz ilkokul mezunu olmayanlar ve Kýsýtlýlar\nAskerlikle iliþkisi olanlar  * Kamu hizmetinden yasaklýlar\nTaksirli suçlar hariç 1 yýldan fazla hapis alanlar\nZimmet, … suçlardan affedilseler dahi ceza alanlar"
+    },
+    {
+      "soru": "Cumhurbaþkaný ve TBMM seçimleri kaç yýlda bir yapýlýr?",
+      "cevap": "Ayný günde, 5 yýlda 1"
+    },
+    {
+      "soru": "Seçimler hangi þartlarda ertelenebilir?",
+      "cevap": "Savaþ nedeniyle 1 yýl ertelenir. Savaþ devam ediyorsa tekrarlanabilir."
+    },
+    {
+      "soru": "Ara seçim yapýlma þartlarý nelerdir?",
+      "cevap": "MM sayýsý % 5 azalýrsa 3 ay içinde\nHer dönem sadece 1 kez \nBaþlangýçtan sonra 30 ay beklenir\nGenel seçime 1 yýl kala yapýlmaz\nÝlin temsilcisi kalmamýþsa; 90 günden sonraki ilk Pazar."
+    },
+    {
+      "soru": "YSK üyeleri kimlerden oluþur?",
+      "cevap": "7 Asil üye, 4 Yedek Üye\n6 Yargýtay – 5 Danýþtay"
+    },
+    {
+      "soru": "Belli bir konuda bilgi edinmek için yapýlan incelemeye ne ad verilir?",
+      "cevap": "Meclis Araþtýrmasý"
+    },
+    {
+      "soru": "Kanun teklifini kim verir?",
+      "cevap": "Milletvekilleri"
+    },
+    {
+      "soru": "Seçim kanunlarý hangi ilkeleri baðdaþtýracak biçimde düzenlenir?",
+      "cevap": "Temsilde Adalet\nYönetimde Ýstikrar"
+    },
+    {
+      "soru": "Savaþ ilaný kimin yetkisindedir?",
+      "cevap": "TBMM (Tatilde ise CB TSK kullanýlmasýna karar verir)"
+    },
+    {
+      "soru": "TBMM her yýl hangi gün toplanýr?",
+      "cevap": "Ekim ayýnýn ilk günü (En çok 3 ay tatil)"
+    },
+    {
+      "soru": "TBMM Baþkanlýk Divaný kimlerden oluþur?",
+      "cevap": "Meclis Baþkaný\nBaþkan Vekilleri\nKatip Üyeler\nÝdare Amirleri"
+    },
+    {
+      "soru": "Siyasi parti gruplarý en az kaç üyeden oluþur",
+      "cevap": "20"
+    },
+    {
+      "soru": "TBMM toplanma oraný kaçtýr?",
+      "cevap": "ÜTS 1/3"
+    },
+    {
+      "soru": "TBMM'de karar verme oraný nedir?",
+      "cevap": "Katýlanlarýn Salt çoðunluðu.  Hiçbir zaman karar yeter sayýsý ÜTS 1/4den az olamaz"
+    },
+    {
+      "soru": "TBMM'nin bilgi edinme ve denetleme yollarý nelerdir?",
+      "cevap": "Meclis Araþtýrmasý\nGenel Görüþme\nMeclis Soruþturmasý\nYazýlý Soru"
+    },
+    {
+      "soru": "TBMM'nin görevleri nelerdir?",
+      "cevap": "Kanun koymak/deðiþtirmek/kaldýrmak\nSavaþ Ýlaný   * UA Antlaþmalarý onaylamak\nBütçe ve Kesin Hesap tekliflerini görüþmek\nPara basýlmasýna karar vermek\nÜTS 3/5 ile Genel/Özel af ilaný"
+    },
+    {
+      "soru": "Yurtdýþý yasaðý nasýl kýsýtlanabilir?",
+      "cevap": "Hakim kararýyla"
+    },
+    {
+      "soru": "Anayasaya göre Temel Hak ve Hürriyetler nasýl sýnýrlandýrýlabilir?",
+      "cevap": "Özlerine dokunulmadan, yalnýzca Anayasanýn ilgili maddelerinde belirtilen sebeplere baðlý olarak ANCAK KANUNLARLA sýnýrlanabilir."
+    },
+    {
+      "soru": "Temel Hak ve Hürriytler hangi þartlarda kullanýlmasý durdurulabilir?",
+      "cevap": "Savaþ durumunda\nSeferberlikte\nOlaðanüstü hallerde"
+    },
+    {
+      "soru": "Kiþi dokunulmazlýðý, maddi ve manevi varlýðý kapsamý dýþýndaki haller nelerdir?",
+      "cevap": "Meþru Müdafaa\nAyaklanma-Ýsyan Bastýrýlmasý\nYakalama-Tutuklama sýrasýnda\nTutuklunun kaçmasý\nOlaðanüstü hallerde"
+    },
+    {
+      "soru": "Zorla Çalýþtýrma sayýlmayacak haller nelerdir?",
+      "cevap": "Tutukluluk süresince çalýþmalar\nOlaðanüstü durumlarda vatandaþlardan istenecek hizmetler\nÜlke ihtiyaçlarýnýn zorunlu kýldýðýnda vatandaþlýk ödevi olan beden ve fikri çalýþmalar"
+    },
+    {
+      "soru": "Üst - Belge - Eþya aranma þartlarý nelerdir?",
+      "cevap": "Milli Güvenlik\nKamu Düzeni\nSuçun Önlenmesi\nGenel Saðlýðýn & Ahlakýn Korunmasý\nBaþkalarýnýn haklarýnýn korunmasý"
+    },
+    {
+      "soru": "Üst - Belge - Eþya aranma için karar ne kadar süre içerisinde Hakim onayýna sunulur?",
+      "cevap": "24 saat içinde"
+    },
+    {
+      "soru": "Hakim kararýný el koymadan itibaren kaç saat içinde açýklamalýdýr. Aksi halde el koyma kendiliðinden kalkar!",
+      "cevap": "48 saat"
+    },
+    {
+      "soru": "Siyasi partiler nasýl kapatýlýr?",
+      "cevap": "Yargýtay Cumhuriyet Baþsavcýsýnýn açacaðý dava ile; Anayasa Mahkemesince kapatýlýr."
+    },
+    {
+      "soru": "Seyahat Hürriyetini kanunla kýsýtlamak için istisnalarý nelerdir?",
+      "cevap": "Suç, soruþturma ve kovuþturmasý sebebiyle\nSuçun iþlenmesini önlemek"
+    },
+    {
+      "soru": "Siyasi partilere üye olamayacaklar kimlerdir?",
+      "cevap": "Hakimler-Savcýlar\nYüksek Yargý Mensuplarý\nKamu Memurlarý – TSK Mensuplarý\nÝþçi olmayan diðer kamu görevlileri\nYüksek öðretim öncesi öðrenciler"
+    },
+    {
+      "soru": "Vatandaþlar nasýl sýnýrdýþý edilir?",
+      "cevap": "EDÝLEMEZ! Yurda giriþi engellenemez"
+    },
+    {
+      "soru": "Düzeltme ve Cevap hakký nasýl düzenlenir?",
+      "cevap": "Ancak kiþilerin Haysiyet ve Þereflerine dokunulmasý veya kendileriyle ilgili gerçeðe aykýrý yayýnlar yapýlmasý halinde tanýnýr ve kanunla düzenlenir. (Müracattan sonra 7 gün içinde Hakim karar verir)"
+    },
+    {
+      "soru": "Grev-Lokavt konusunda uyuþmazlýðý hangi kurum çözer?",
+      "cevap": "Yüksek Hakem Kurulu (Kararý kesindir)"
+    },
+    {
+      "soru": "Spor federasyonlarýnýn spor faaliyetlerinin yönetimine/disiplinine iliþkin kararlarýna karþý nereye baþvurulur?",
+      "cevap": "Tahkim Kurulu (Kararý kesindir)"
+    },
+    {
+      "soru": "Seçimler; yargý yönetim ve denetiminde hangi esaslara göre yapýlýr?",
+      "cevap": "Serbest  * Eþit\nGizli  * Tek Dereceli\nGenel Oy * Döküm\nAçýk Sayým"
+    },
+    {
+      "soru": "Anayasanýn deðiþtirilemez maddeleri nelerdir?",
+      "cevap": "Cumhuriyettir\nTC, demokratik, laik ve sosyal bir hukuk devletidir.\nTürkiye devleti, ülkesi ve millletiyle bölünmez bir bütündür. Dili Türkçedir. Bayrak, Milli Marþ ve Baþkent.\nÝlk 3 madde deðiþtirilemez deðiþtirilmesi teklif edilemez."
+    },
+    {
+      "soru": "Kimler oy kullanamaz?",
+      "cevap": "Silah altýndaki Erbaþ/Erler\nAskeri Öðrenciler\nTaksirli suçlardan hüküm giyenler hariç hükümlüler"
+    },
+    {
+      "soru": "Partiler yabancýlardan yardým alabilir mi?",
+      "cevap": "Alamaz! Parti kapatýlýr."
+    },
+    {
+      "soru": "Yerleþme Hürriyetini kanunla kýsýtlamak için istisnalarý nelerdir?",
+      "cevap": "Suç iþlenmesini önlemek\nSosyal ve ekonomik geliþmeyi saðlamak\nSaðlýklý ve düzenli kentleþmeyi saðlamak\nKamu mallarýný korumak"
+    },
+    {
+      "soru": "Danýþtay üyeleri nasýl seçilir?",
+      "cevap": "HSYK tarafýndan; 1.Sýnýf Ýdari Yargý hakim/savcýlarý arasýndan ¾\nCB tarafýndan ¼ ü seçilir."
+    },
+    {
+      "soru": "Hakimler ve Savcýlarda yaþ haddi nedir?",
+      "cevap": "65 yaþýný bitirinceye kadar"
+    },
+    {
+      "soru": "Anayasa Mahkemesi üyeleri kimlerden oluþur?",
+      "cevap": "Toplam 15 üyeden oluþur.\nTBMM 3 Üye (2 Sayýþtay + 1 Baro)\nCB 12 Üye (3 Yargýtay + 2 Danýþtay + 3 YÖK + 4 Üst kademe yönetici vs.)"
+    },
+    {
+      "soru": "Anayasa Mahkemesi üye olma þartlarý nelerdir?",
+      "cevap": "45 yaþýný doldurmuþ\nÖðretim üyeleri Prof/Doç.\nAvukatlar 20 yýllýk\nYöneticiler 20 Yýllýk\nHakim-Savcýlar 20 Yýllýk"
+    },
+    {
+      "soru": "Anayasa Mahkemesinin görevleri nelerdir?",
+      "cevap": "Kanun-Kararnamelerin, TBMM Ýçtüzüðünün Anayasaya uygunluðu\nBireysel baþvurularý karara baðlar\nAnayasa deðiþikliklerini þekil bakýmýndan inceler."
+    },
+    {
+      "soru": "Yüce Divanda savcýlýk görevini kim yerine getir?",
+      "cevap": "Cumhuriyet Baþsavcýsý ve Vekili"
+    },
+    {
+      "soru": "Anayasa mahkemesi dava açma süresi ne kadardýr?",
+      "cevap": "60 gün"
+    },
+    {
+      "soru": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu hangi kuruluþlardan oluþur?",
+      "cevap": "Atatürk Araþtýrma Merkezi\nTürk Dil Kurumu\nTürk Tarih Kurumu\nAtatürk Kültür Merkezi"
+    },
+    {
+      "soru": "Yargýtay Cumhuriyet Baþsavcýsý/Vekili kim tarafýndan seçilir?",
+      "cevap": "Cumhurbaþkaný tarafýndan 4 yýllaðýna"
+    },
+    {
+      "soru": "Yargýtay üyeleri nasýl seçilir?",
+      "cevap": "1.Sýnýf Adli Yargý Hakim ve Cumhuriyet Savcýlarý arasýndan; HSYK ÜTS'nýn salt çoðunluðu ile seçilir."
+    },
+    {
+      "soru": "Adli ve Ýdari mahkemeler arasýndaki uyuþmazlýklara hangi mercii bakar?",
+      "cevap": "Uyuþmazlýk Mahkemesi (Baþkaný Anayasa Mahkemesince atanýr)"
+    },
+    {
+      "soru": "Merkezi Yönetim bütçesi kapsamýndaki kamu idareleri ile SGK bütün gelir/giderleri ile mallarýný TBMM adýna denetleyen kurum hangisidir?",
+      "cevap": "Sayýþtay"
+    },
+    {
+      "soru": "Sayýþtay kararlarýna karþý ne kadar süre içerisinde Karar Düzeltmesi istenebilir?",
+      "cevap": "1 kereye mahsus 15 gün içerisinde"
+    },
+    {
+      "soru": "HSYK Kaç üyeden oluþur?",
+      "cevap": "13 üyeden oluþur. 2 Daire halinde çalýþýr."
+    },
+    {
+      "soru": "Toplumu ve Devlet faaliyetlerini ilgilendiren belli bir konunun TBMM Genel Kurulunda görüþülmesine ne ad verilir?",
+      "cevap": "Genel Görüþme"
+    },
+    {
+      "soru": "Seçim kanununda yapýlan deðiþiklikler ne kadar süre içerisinde yapýlan seçimlerde kullanýlmaz?",
+      "cevap": "1 Yýl"
+    },
+    {
+      "soru": "Adliye mahkemelerince verilen ve kanunun baþka bir adli yargý merciine býrakmadýðý karar ve hükümlerin son inceleme mercii neresidir?",
+      "cevap": "Yargýtay"
+    },
+    {
+      "soru": "Seçimlerin yenilenmesine TBMM nasýl karar verebilir?",
+      "cevap": "ÜTS'nin 3/5 ile"
+    },
+    {
+      "soru": "Cumhurbaþkaný Yardýmcýlarý ve Bakanlar hakkýnda 106.madde 5/6/7 fýkralarý uyarýnca yapýlan soruþturmaya ne ad verilir?",
+      "cevap": "Meclis Soruþturmasý"
+    },
+    {
+      "soru": "Cumhurbaþkaný Yardýmcýlarý ve Bakanlara verilen Yazýlý sorulara ne kadar süre içerisinde cevap verilir?",
+      "cevap": "15 gün"
+    },
+    {
+      "soru": "Ýdari mahkemelerce verilen ve kanunun baþka bir idari yargý merciine býrakmadýðý karar ve hükümlerin son inceleme mercii neresidir?",
+      "cevap": "Danýþtay"
+    },
+    {
+      "soru": "YÖK üyeleri kimlerden oluþur?",
+      "cevap": "Üniversitelerce seçilen ve CB’nin onayladýðý üyeler ile\nCB tarafýndan seçilen üyeler"
+    },
+    {
+      "soru": "Cumhurbaþkaný seçilebilme þartlarý nelerdir?",
+      "cevap": "40 yaþýný doldurmuþ olmak\nYüksek Öðrenim Yapmýþ olmak\nMilletvekili seçilebilen\nTürk vatandaþý"
+    },
+    {
+      "soru": "Cumhurbaþkaný makamý boþalýrsa seçim esaslarý nelerdir?",
+      "cevap": "45 gün içinde seçim yapýlýr.\nYardýmcý vekalet eder.\nGenel seçime 1 yýl/daha az kaldýysa Milletvekili seçimleri de yenilenir."
+    },
+    {
+      "soru": "Devlet Denetleme Kurulu üyelerini kim atar?",
+      "cevap": "Cumhurbaþkaný"
+    },
+    {
+      "soru": "MGK üyeleri kimlerdir?",
+      "cevap": "Cumhurbaþkaný (Baþkan) ve Yardýmcýlarý\nAdalet Bakaný\nMSB\nÝçiþleri ve Dýþiþleri Bakanlarý\nGENKUR ve Kuvvet Komutanlarý"
+    },
+    {
+      "soru": "Hangi disiplin cezalarý Yargý Denetimi dýþýndadýr?",
+      "cevap": "TSK ve Hakimler/Savcýlara verilen"
+    },
+    {
+      "soru": "MGK Gündemini kim belirler?",
+      "cevap": "Cumhurbaþkaný yardýmcýlarý ve GENKUR'un önerileri dikkate alýnarak Cumhurbaþkaný tarafýndan belirlenir."
+    },
+    {
+      "soru": "Cumhurbaþkaný tarafýndan ilan edilen olaðanüstü hal yönetiminin süresi ne kadardýr?",
+      "cevap": "6 ayý geçemez, her defasýnda 4 ay uzar."
+    },
+    {
+      "soru": "Dekanlarý kim atar?",
+      "cevap": "YÖK"
+    },
+    {
+      "soru": "Kamu Tüzel kiþiliði nasýl kurulur?",
+      "cevap": "Kanunla / CB Kararnamesi ile"
+    },
+    {
+      "soru": "MGK tavsiye kararlarýný kime verir?",
+      "cevap": "Cumhurbaþkanýna"
+    },
+    {
+      "soru": "Cumhurbaþkanýna baðlý çalýþan Devlet Denetleme Kurulu hangi kuruluþlarda Ýdari Soruþturma/Ýnceleme/Araþtýrma/Denetleme yapar?",
+      "cevap": "Tüm kamu kurumlarýnda\nSermayesinin yarýdan fazlasý kamuda olanlar\nKamu kurumu niteliðindeki mesleki kuruluþlar\nHer düzeydeki iþçi ve iþveren meslek kuruluþlarý\nKamuya yararlý dernekler/vakýflar"
+    },
+    {
+      "soru": "Rektörleri kim atar?",
+      "cevap": "Cumhurbaþkaný"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "title": "Ýdare Hukukuna Giriþ",
+  "description": "34 Soru",
+  "cards": [
+    {
+      "soru": "Hukukumuzda \"Kanuna Dayanma Ýlkesi\"nin istisnalarý nelerdir?",
+      "cevap": "• Olaðan dönem Cumhurbaþkaný kararnameleri\n• Olaðanüstü hal Cumhurbaþkaný kararnameleri"
+    },
+    {
+      "soru": "Anayasamýzda tanýnmýþ temel ilkelerden Ýdare Hukuku bakýmýndan en önemli olaný hangisidir?",
+      "cevap": "Hukuk Devleti Ýlkesi"
+    },
+    {
+      "soru": "Ortaçaðda hakim olan ve devlet, kralýn kiþisel mülkü olarak kabul edilen anlayýþ hangisidir?",
+      "cevap": "Mülk-Devlet Anlayýþý"
+    },
+    {
+      "soru": "Kamunun refahý ve selameti için her türlü önlemi alabilen, bu amaçla kiþilerin hak ve özgürlüklerine alabildiðine müdahale edebilen, onlara külfetler yükleyebilen ve fakat tüm bunlarý yaparken idaresi hukuka baðlý olmayan devlet anlayýþý hangisidir?",
+      "cevap": "Polis Devlet Anlayýþý"
+    },
+    {
+      "soru": "Hukuk devleti ilk olarak nerede ortaya çýktý?",
+      "cevap": "Almanya"
+    },
+    {
+      "soru": "Hukuk Devletinin GENEL GEREKLERÝ nelerdir?",
+      "cevap": "• Yasama hukuka baðlý olmalýdýr\n• Yargý hukuka baðlý olmalýdýr\n• Yürütme hukuka baðlý olmalýdýr"
+    },
+    {
+      "soru": "Hukuk Devletinin ÖZEL GEREKLERÝ nelerdir?",
+      "cevap": "• Ýdare yargýsal denetime tabi olmalýdýr\n• Hakimler baðýmsýz ve teminatlý olmalýdýr\n• Ýdari faaliyetler önceden bilinebilir olmalýdýr\n• Ýdarenin mali sorumluluðu mevcut olmalýdýr"
+    },
+    {
+      "soru": "Ayný durumda bulunan kiþilerin ayný iþleme tabi tutulmasýna ne ad verilir?",
+      "cevap": "Nispi Eþitlik"
+    },
+    {
+      "soru": "Ýdarenin kamu gücünü kullanarak yaptýðý iþlere hangi yargý bakar?",
+      "cevap": "Ýdari Yargý"
+    },
+    {
+      "soru": "Merkezi Ýdare kendi içinde kaça ayrýlýr?",
+      "cevap": "• Baþkent Teþkilatý\n• Taþra Teþkilatý"
+    },
+    {
+      "soru": "Kanunun herkese eþit olarak uygulanmasýna ne ad verilir?",
+      "cevap": "Mutlak Eþitlik"
+    },
+    {
+      "soru": "Cumhurbaþkaný yardýmcýlarýnýn ve bakanlarýn atanmasý Yürütmenin hangi fonksiyonudur?",
+      "cevap": "Hükümet Fonksiyonu"
+    },
+    {
+      "soru": "Belli bir amacýn gerçekleþtirilmesi için kurulan örgüt veya bu amaca ulaþmak için yürütülen planlý insan faaliyetine ne denir?",
+      "cevap": "Ýdare"
+    },
+    {
+      "soru": "Kamu idaresi ile Özel idareler arasýndaki farklar nelerdir?",
+      "cevap": "• Amaçlarý farklýdýr\n• Kamu idareleri “Kamu Gücü” ile donatýlmýþtýr.\n• Kamu idareleri özel kiþiler karþýsýnda üstün konumdadýr.\n• K.Ý. Kuruluþu ve çalýþmasý kanunlarla düzenlenmiþtir."
+    },
+    {
+      "soru": "Ýdare hukukunun konusunu ne oluþturur?",
+      "cevap": "Kamu Ýdareleri / Devlet Ýdaresi"
+    },
+    {
+      "soru": "Anayasamýza göre Ýdare Organý kaça ayrýlýr?",
+      "cevap": "• Merkezi Ýdare\n• Yerinden Yönetim Kuruluþlarý"
+    },
+    {
+      "soru": "Yerinden Yönetim Kuruluþlarý kendi içinde kaça ayrýlýr?",
+      "cevap": "• Yer Yönünden YYK (Mahalli Ýdareler)\n• Hizmet Yönünden YYK"
+    },
+    {
+      "soru": "Anayasamýza göre Ýdare Organý kimlerden oluþur?",
+      "cevap": "Yürütme Organýnýn; Cumhurbaþkaný, Cumhurbaþkaný Yrd.larý ve Bakanlar dýþýnda kalan kýsmýdýr."
+    },
+    {
+      "soru": "Yürütme organý kimlerden oluþur?",
+      "cevap": "• Cumhurbaþkaný\n• Bakanlar Kurulu\n• Olaðanüstü Hal Yönetimi\n• Ýdare"
+    },
+    {
+      "soru": "Devlet dýþýndaki Diðer Kamu Tüzel Kiþileri kimlerdir?",
+      "cevap": "• Ýl Özel Ýdaresi\n• Belediye * Barolar\n• Köy  * TRT\n• Üniversite * Kit\n• Meslek Kuruluþlarý vs."
+    },
+    {
+      "soru": "Hizmet Yönünden YYK'lar anayasamýzda kaça ayrýlýr?",
+      "cevap": "• Yükseköðretim Kuruluþ&Üst Kuruluþlarý\n• Radyo ve TV Kuruluþlarý\n• Atatürk Kültür, Dil ve Tarih Yüksek Kurumu\n• Kamu kurumu niteliðindeki meslek kuruluþlarý"
+    },
+    {
+      "soru": "Yürütme fonksiyonu kaç kýsýmdan oluþur?",
+      "cevap": "• Ýdari Fonksiyon\n• Hükümet Fonksiyonu"
+    },
+    {
+      "soru": "Ýdare Hukukunun uygulama alanýnýn tespiti için hangi ölçütler kullanýlýr?",
+      "cevap": "• Kamu Gücü Ölçütü\n• Kamu Hizmeti"
+    },
+    {
+      "soru": "Cumhurbaþkanýnýn TBMM tarafýndan kabul edilen kanunu bir kez daha görüþülmek üzere geri göndermesi veya Resmi Gazetede yayýnlamasý Yürütmenin hangi fonksiyonudur?",
+      "cevap": "Hükümet Fonksiyonu"
+    },
+    {
+      "soru": "Yürütme organýnýn baþka devletlerle olan iliþkileri Yürütmenin hangi fonksiyonudur?",
+      "cevap": "Hükümet Fonksiyonu"
+    },
+    {
+      "soru": "Yürütme organýnýn Yargý organýyla olan iliþkileri Yürütmenin hangi fonksiyonudur?",
+      "cevap": "Hükümet Fonksiyonu"
+    },
+    {
+      "soru": "Ýdare fonksiyonunun amacý nedir?",
+      "cevap": "Kamu Yararýný Gerçkeleþtirmek"
+    },
+    {
+      "soru": "Ýdare fonksiyonunun konusu nedir?",
+      "cevap": "Kamu Hizmetleri"
+    },
+    {
+      "soru": "Ýdare fonksiyonu nasýl yürütülür?",
+      "cevap": "Ýdari iþlem ve Eylemlerle"
+    },
+    {
+      "soru": "Ýdare fonksiyonu nasýl yerine getirilir?",
+      "cevap": "Kamu gücünü kullanarak"
+    },
+    {
+      "soru": "Ýdare fonksiyonu nasýl harekete geçer?",
+      "cevap": "Kendiliðinden"
+    },
+    {
+      "soru": "Ýdare Hukukunun Asýl Kaynkalarý nelerdir?",
+      "cevap": "• Yazýlý Kaynaklar (Anayasa,Kanun,Ant.,CB Kararnamesi)\n• Yazýsýz Kaynaklar (Örf ve Adet)"
+    },
+    {
+      "soru": "Ýdare Hukukunun Yardýmýcý Kaynkalarý nelerdir?",
+      "cevap": "• Ýçtihat (Yargý Kararlarý)\n• Doktrin (Bilimsel Görüþler)"
+    },
+    {
+      "soru": "Geleneksel olarak devletin hukuki fonksiyonlarý kaça ayrýlýr?",
+      "cevap": "• Yasama fonksiyonu\n• Yürütme fonksiyonu\n• Yargý fonksiyonu"
+    }
+  ]
+}

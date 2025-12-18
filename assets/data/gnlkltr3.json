@@ -1,0 +1,910 @@
+{
+  "title": "Uluslararasý Hukuk Temel Ders Kitabý",
+  "description": "226 Soru",
+  "cards": [
+    {
+      "soru": "UA hukukun evrensel bir hukuk düzeni haline geldiðinin tartýþmasýz tescili hangi olay sayýlýr?",
+      "cevap": "Birleþmiþ Milletlerin kurulmasý"
+    },
+    {
+      "soru": "Bir UA antlaþmaya taraf olan devletin, o antlaþmaya genel olarak taraf olmasýna raðmen 1/daha fazla hükmünün kendisi için uygulanmamasýný veya farklý uygulanmasýný saðlayan tek taraflý bildirime ne ad verilir?",
+      "cevap": "Çekince"
+    },
+    {
+      "soru": "UA Anlaþmalarýn Türk iç hukuk düzeninde yürürlüðe girebilmesi için ne gerekir?",
+      "cevap": "Resmi Gazetede yayýnlanmasý"
+    },
+    {
+      "soru": "Devletler iç örgütlenmelerinin niteliðine göre kaça ayrýlýr?",
+      "cevap": "1. Basit (Tekil) Devletler\n2. Bileþik Devletler (Monarþi-Federatif) Commonwealth – ABD, Rusya, Arj., Avustralya"
+    },
+    {
+      "soru": "Devletler özelliklerine kaça ayrýlýr?",
+      "cevap": "1. Tam baðýmsýz devletler\n2. Sýnýrlý baðýmsýz devletler"
+    },
+    {
+      "soru": "Bir ulusun baðýmsýz olmak / bir baþka devlete baðlý olmak ve içerde dilediði bir yönetim biçini seçmek yönünde kendi kaderini kendisinin tayin etmesi hakký neyin tanýmýdýr?",
+      "cevap": "Self-Determinasyon (WW-2 sonrasý )"
+    },
+    {
+      "soru": "Devletlerin egemenliðini sýnýrlayan 2 temel etken nedir?",
+      "cevap": "1. Dýþ iliþkilerde ve kendi ülkesindeki yetkilerini kullanýrken UA hukuktan kaynaklanan kýsýtlamalar\n2. Bir Devlet için diðer UA birimlerin etki ve yönlendirmesinden tamamen baðýmsýz hareket etme imkaný olmamasý"
+    },
+    {
+      "soru": "Baðýmýsýzlýk kavramýnýn 2 temel unsuru nedir?",
+      "cevap": "1. Devletin dýþ iliþkilerinde karar otoritesi\n2. Devletin kendi ülkesinde hiçbir otoriteye  baðlý olmadan karar alma yetkisi"
+    },
+    {
+      "soru": "Bir insan topluluðunun hukuken Devlet olma vasfýný kazanabilmesi için hangi unsurlara sahip olmalýdýr?",
+      "cevap": "1. Sürekli bir insan topluluðu\n2. Sýnýrlarý belirli bir ülke\n3. Hükümet / Kurulu otorite\n4. Baðýmsýzlýk ve diðer ülkelerle münasebet kurabilme kapasitesi"
+    },
+    {
+      "soru": "Belirli haklarýn veya sorumluluklarýn kendilerine o hukuk düzeni tarafýndan bahsedilmiþ olma durumuna ne denir?",
+      "cevap": "Hak ehliyeti"
+    },
+    {
+      "soru": "Bir kiþinin hukuk kiþisi sayýlmasý için ne gerekir?",
+      "cevap": "Hukuk düzeninin ona doðrudan haklar vermesi ve/veya sorumluluklar yüklemesi yeterlidir."
+    },
+    {
+      "soru": "Türk iç hukukuna göre antlaþmalarýnýn sona erdirilmesi, uygulamasýnýn durdurulmasý veya uygulama alanýnýn deðiþtirildiðinin tespiti nasýl olur?",
+      "cevap": "Cumhurbaþkanlýðý karar ile"
+    },
+    {
+      "soru": "UA anlaþmalarýn deðiþitirlmesi için çoðunluk oraný nedir?",
+      "cevap": "2/3"
+    },
+    {
+      "soru": "UA Örgütlerin, UA hukuk kiþisi sayýlmasýnýn temel nedeni nedir?",
+      "cevap": "Herhangi bir UA örgüte devletler tarafýndan bazý haklarýn ve sorumluluklarýn yüklenmiþ olmasýdýr."
+    },
+    {
+      "soru": "Çekinceler hangi aþamada yapýlmalýdýr?",
+      "cevap": "Ýmza, Onaylama, Katýlma"
+    },
+    {
+      "soru": "Kýbrýs Cumhuriyeti ne tür bir devlettir?",
+      "cevap": "Sýnýrlý Yetkili"
+    },
+    {
+      "soru": "Herhangi 2/daha fazla devlet, aralarýnda yaptýklarý antlaþmada, diðer devletlerle yapacaklarý antlaþmalarla diðer devletlere daha geniþ haklar tanýrlarsa, bu daha geniþ haklarý birbirlerine tanýma vaadlerine ne ad verilir?",
+      "cevap": "En çok gözetilen ulus kaydý"
+    },
+    {
+      "soru": "Bir UA Antlaþmanýn 3. ülke için yükümlülük doðurmasý için ne gerekir?",
+      "cevap": "Açýk Kabul"
+    },
+    {
+      "soru": "Uluslararasý antlaþmalarýnýn uygulanmasýna iliþkin hukuk prensipleri nelerdir?",
+      "cevap": "1. Ahde Vefa\n2. Sadece taraflar için haklar-yükümlülükler doðurmasý\n3. Devletin devamlýlýðý\n4. Antlaþmalar geriye yürütülemez"
+    },
+    {
+      "soru": "Uluslararasý antlaþmalarýnýn uygulanmasýa iliþkin en temel prensip hangisidir?",
+      "cevap": "Ahde vefa"
+    },
+    {
+      "soru": "Türkiye'nin taraf olduðu antlaþmalara iliþkin geçersizlik nedenleri öne sürmek kiminyetkisindedir?",
+      "cevap": "Bakanlar Kurulu kararnamesi ile"
+    },
+    {
+      "soru": "Mutlak geçersizlik ve Nispi Geçersizlik ne zaman ileri sürülebilir?",
+      "cevap": "1. Mutlak: Her zaman \n2. Nispi: taraf devletçe bilindiði anda"
+    },
+    {
+      "soru": "Nispi butlan nedenleri nelerdir?",
+      "cevap": "1. UA Ant. Yapma kurallarýna aykýrý davranma\n2. Temsilcinin hata yapmasý\n3. Temsilcinin rüþvet ile ayartýlmasý"
+    },
+    {
+      "soru": "Mutlak Geçersizlik nedenleri nelerdir?",
+      "cevap": "1. Ant. Ýmzlamaya yetkili temsilciler üzerinde baský yapmak\n2. Devlet üzerinde kuvvet tehdidi/kullanýmý\n3. Buyruk kurala aykýrýlýk"
+    },
+    {
+      "soru": "Hukuksal iþlemin iptalini gerektiren nedenler kaça ayrýlýr?",
+      "cevap": "1. Mutlak Ýptal Nedenleri\n2. Nispi Butlan Nedenleri"
+    },
+    {
+      "soru": "Ýlgili hukuksal iþlemin hiç doðmamýþ sayýlmasýna neden olacak kadar aðýr geçersizlik nedenlerine ne denir?",
+      "cevap": "Yok Sayýlma Nedenleri"
+    },
+    {
+      "soru": "Hukukta geçersizlik nedenleri nelerdir?",
+      "cevap": "1. Yok sayýlma nedenleri\n2. Ýptal nedenleri"
+    },
+    {
+      "soru": "Usulüne uygun yürürlüðe konulmuþ UA antlaþmalara karþý Anayasa'ya aykýrýlýk davasý açýlabilir mi?",
+      "cevap": "AÇILAMAZ!"
+    },
+    {
+      "soru": "Birbirleri ile çeliþen bir antlaþmanýn taraflarýnýn tamamý ayný devletler ise kural nedir?",
+      "cevap": "Kronolojik olarak daha yeni tarihli olan antlaþma geçerlidir."
+    },
+    {
+      "soru": "UA akarsu anlaþmazlýklarýnýn en iyi çözüm yolu olarak ne gösterilebilir?",
+      "cevap": "Hakça kullanýmý gözeten UA antlaþmalarýn devletler arasýnda akdedilmesi"
+    },
+    {
+      "soru": "UA Hukukun baþat hukuk kiþisi kimdir?",
+      "cevap": "Devlet"
+    },
+    {
+      "soru": "Bir devlet tek taraflý olarak baþka bir bir devlete ait ülkenin bir bölümünü veya tamamýný ele geçirmesine ne ad verilir?",
+      "cevap": "Ýlhak (Günümüzde geçersizdir)"
+    },
+    {
+      "soru": "Savaþ sonucunda bir toprak parçasýnýn elde edilmesine ne denir?",
+      "cevap": "Fetih (Günümüzde geçersizdir)"
+    },
+    {
+      "soru": "Baþka bir devlete ait topraklar üzerinde hakimiyet kurulmasý ne çeþit bir ülke kazanma yöntemidir?",
+      "cevap": "Zamanaþýmý (Ýtiraz hakimiyeti engeller)"
+    },
+    {
+      "soru": "Yeni oluþan arazide egemenlik iddiasýnda bulunmak için ne gerekir?",
+      "cevap": "Arazinin devletin ülkesinde oluþmasý gerekir. (Açýk denizde oluþan adalarda egemenlik iddiasýnda bulunulamaz)"
+    },
+    {
+      "soru": "Ýþgal yoluyla ülke edinebilmek için ne gerekir?",
+      "cevap": "1. Fiili olarak o topraklarda hakimiyet kurmak\n2. Ýlgili ülke parçasýný kendi ülkesine dahil etme niyetinin varlýðý"
+    },
+    {
+      "soru": "Tarihsel olarak hiç kimseye ait olmayan ülkenin bir devlet tarafýndan edinilmesine ne ad verilir?",
+      "cevap": "Ýþgal ( Sahipsiz Topraklar için)"
+    },
+    {
+      "soru": "Ülkenin kazanýlmasý ve kaybedilmesine iliþkin yol ve yöntemler nelerdir?",
+      "cevap": "1. Ýþgal\n2. Arazi oluþumu\n3. Zamanaþýmý\n4. Fetih ve Ýlhak\n5. Yargý Kararlarý  * Devir"
+    },
+    {
+      "soru": "Hava sahasýnýn dýþýndaki uzay alaný devletin ülkesi sayýlýr mý?",
+      "cevap": "SAYILMAZ!"
+    },
+    {
+      "soru": "UA sivil uçaklarýn uçmasýna iliþkin düzenlemeler BM'nin hangi kuruluþu eliyle gerçekleþtirilir?",
+      "cevap": "UA Sivil Havacýlýk Örgütü (ICAO)"
+    },
+    {
+      "soru": "Kiel kanalýnýn statüsü ve geçiþ rejimi hangi sözleþme ile oluþturulmuþtur?",
+      "cevap": "1919 Versailles Antlaþmasý"
+    },
+    {
+      "soru": "Birden fazla devlet tarafýndan, belirli maksat / maksatlara yönelik \"kurumsal ve sürekli\" hale getirilmiþ bir iþbirliði yapýsýna ne ad verilir?",
+      "cevap": "UA Örgüt"
+    },
+    {
+      "soru": "Süveyþ kanalýnýn statüsü ve geçiþ rejimi hangi sözleþme ile oluþturulmuþtur?",
+      "cevap": "1888 Ýstanbul Sözleþmesi"
+    },
+    {
+      "soru": "UA Antlaþmalarýn BM organlarý önünde varlýðýnýn öne sürülebilmesi için ne gerekir?",
+      "cevap": "Anlaþmanýn BM Genel Sekreterliðine tescil ettirilmesi (Gizli Anlaþmalarýn varlýðýný önlemek)"
+    },
+    {
+      "soru": "Mutlak Ülke Egemenliði kuramý çoðunlukla kim tarafýndan savunulmuþtur?",
+      "cevap": "Üst kýyýdaþ"
+    },
+    {
+      "soru": "Aþaðý kýyýdaþ devletlere bir akarsuyun \"doðal\" mecrasýnda akmasýný yukarý kýyýdaþ devletlerden talep etme hakkýný hangi kuram verir?",
+      "cevap": "Mutlak Ülke Bütünlüðü Kuramý (Harmon Doktrini)"
+    },
+    {
+      "soru": "Fýrat-Dicle nehirlerinin alt kýyýdaþý hangi devlettir?",
+      "cevap": "Irak"
+    },
+    {
+      "soru": "Baþka bir devlette doðan akarsuyun kendi ülkesine geçtiði devlete ne ad verilir?",
+      "cevap": "Alt Kýyýdaþ"
+    },
+    {
+      "soru": "Kendi topraklarýnda bir UA akarsuyun doðduðu devlete ne ad verilir?",
+      "cevap": "Üst Kýyýdaþ"
+    },
+    {
+      "soru": "Herhangi bir sýnýrlamaya tabi olmaksýzýn yetki kullanmaya ne denir?",
+      "cevap": "Egemenlik"
+    },
+    {
+      "soru": "Þayet sýnýr akarsu su ise sýnýr nereye tekabül eder?",
+      "cevap": "Thalweg Çizgisi (Suyun en derin olduðu noktalarý takip eden çizgi)"
+    },
+    {
+      "soru": "Þayet sýradaðlar sýnýr olarak belirlenmiþ ise, sýnýr nereye tekabül eder?",
+      "cevap": "Sýradaðlarýn en yüksek noktasýndan geçen çizgi"
+    },
+    {
+      "soru": "Sýnýrlarýn belirlenmesinde hangi unsurlar dikkate alýnmaktadýr?",
+      "cevap": "1. Antlaþma yoluyla\n2. Anlaþmazlýk halinde belirlenmesi için 3. bir tarafa havale edilmesiyle"
+    },
+    {
+      "soru": "Devletler arasýndaki sýnýrlar kaç yöntemle belirlenir?",
+      "cevap": "1. Antlaþma yoluyla\n2. Anlaþmazlýk halinde belirlenmesi için 3. bir tarafa havale edilmesiyle"
+    },
+    {
+      "soru": "Üzerinde devletin tam ve münhasýr bir biçimde egemen olduðu, sýnýrlarý belli bir coðrafi alaný ifade eden terim nedir?",
+      "cevap": "Ülke"
+    },
+    {
+      "soru": "UA Hukukun neredeyse yegane kiþisi (sujesi) kimdir?",
+      "cevap": "Devletler"
+    },
+    {
+      "soru": "Panama kanalýnýn statüsü ve geçiþ rejimi hangi sözleþme ile oluþturulmuþtur?",
+      "cevap": "1903 Hay-Bunau Varilla Sözleþmesi"
+    },
+    {
+      "soru": "19. yy ortalarýnda, Avrupa kýtasý dýþýnda UA Hukuk kiþisi olan ilk Hristiyan olmayan ülke hangisidir?",
+      "cevap": "Osmanlý Devleti"
+    },
+    {
+      "soru": "Cumhurbaþkanýnca yapýlan teknik veya idari nitelikteki anlaþmalar hangi þartlarla Resmi Gazetede yayýnlanmayabilir?",
+      "cevap": "1. Ýktisadi veya ticari nitelikte olmamak\n2. Özel hukuk hükümlerine tabi gerçek ve tüzel kiþilerin haklarýný ilgilendirmemek\n3. Türk kanunlarýna deðiþiklik getirmemek"
+    },
+    {
+      "soru": "UA Hukukun en önemli kaynaðý hangisidir?",
+      "cevap": "UA Antlaþmalar"
+    },
+    {
+      "soru": "Yapýlageliþ konusunda belli bir bölgede 2/daha fazla devlet arasýnda bir uygulama birliði varsa ?",
+      "cevap": "Bölgesel Yapýlageliþ"
+    },
+    {
+      "soru": "Yapýlageliþ konusunda tüm dünyada ayný uygulama söz konusu ise ?",
+      "cevap": "Genel Yapýlageliþ"
+    },
+    {
+      "soru": "Bir yapýlageliþi güçlendirdiði düþünülen kanýtlar nelerdir?",
+      "cevap": "1. Ulusal ve/veya UA Yargý kararlarý\n2. UA organlarýn uygulamalarý\n3. BM Genel Kurulunun kararlarý"
+    },
+    {
+      "soru": "Devletlerin söz konusu bir uygulamayý yaparken, bu uygulamanýn hukukun bir gereði olduðunu kabul ediyor olmalarýný ne ifade eder?",
+      "cevap": "Subjektif (Psikolojik) Öðe"
+    },
+    {
+      "soru": "Objektif Öðe (Genel Uygulama)nýn sürekli ve tekdüze þekide olmasý gerektiði hangi kararda belirtilmiþtir?",
+      "cevap": "UAD'nin Asylum Davasý (Kolombiya-Peru)1950"
+    },
+    {
+      "soru": "Bir yapýlageliþ kuralýnýn oluþabilmesi için hangi öðelerin bulunmasý gerekir?",
+      "cevap": "1. Objektif Öðe (Genel Uygulama)\n2. Sübjektif Öðe (Psikolojik)"
+    },
+    {
+      "soru": "Günümüzde yapýlageliþin (teamülün) öneminin nispeten azalmasýnda ne önemli rol oynamýþtýr?",
+      "cevap": "Bunlarýn çoðunluðunun antlaþmalar vasýtasýyla yazýlý hale gelmesi"
+    },
+    {
+      "soru": "Hukukun kaynaklarý kendi aralarýnda kaça ayrýlýr?",
+      "cevap": "1. Baðlayýcý Kaynaklar = UA Ant, Yapýlageliþ, Hukukun genel prensipleri\n2. Yardýmcý Kaynaklar = Mahkeme Kararlarý, Öðreti"
+    },
+    {
+      "soru": "Usulüne uygun yürürlüðe konulmuþ temel hak ve özgürlüklere iliþkin UA antlaþmalarla kanunlar çatýþýrsa hangisi esas alýnýr?",
+      "cevap": "UA Antlaþma hükümleri"
+    },
+    {
+      "soru": "Hukukun genel ilkeleri nelerdir?",
+      "cevap": "1. Baðýmsýzlýk * Ýyi Niyet\n2. Zararýn giderimi * Yargý kararýnýn uygulanmasý\n3. Ölçülülük * Özel kurallar genelden önce gelir\n4. Sonraki kural öncekini kaldýrýr * kusur sorumluluðu\n5. Ýç hukukun tüketilmesi"
+    },
+    {
+      "soru": "UA hukukun dünya ülkeleri arasýnda yaygýnlaþmasýna iliþkin dönüm noktasý nedir?",
+      "cevap": "Milletler Cemiyeti'nin kurulmasýdýr."
+    },
+    {
+      "soru": "UA kuruluþlarca alýnan baðlayýcý niteliði olmayan kararlarý ifade eden hukuk biçimi?",
+      "cevap": "Yumuþak Hukuk (Devletlerin siyasi bildirileri)"
+    },
+    {
+      "soru": "UA hukukun yaygýnlaþmasýna yol açan geliþmelerden ilki nedir?",
+      "cevap": "Sömürgecilik"
+    },
+    {
+      "soru": "Modern UA hukuka hakim olan temel prensipler ne zaman ve nerede oluþmaya-uygulamaya baþlanmýþtýr?",
+      "cevap": "16. ve 17. yyda Avrupalý ülkeler arasýnda"
+    },
+    {
+      "soru": "UAD'nin zorunlu yargý yetkisini kabul etmenin 3 yolu nedir?",
+      "cevap": "1. Özel bir antlaþma ile tanýma\n2. Mevcut bir UA Antlaþma ile tanýma\n3. Bir deklarasyon ile tanýma"
+    },
+    {
+      "soru": "UA Hukukta sadece UA Barýþ ve güvenliðin tehdit edilmesi, bozulmasý / bir saldýrý olmasý durumunda HANGÝ Kurum üstün bir siyasal otorite gibi hareket ederek yaptýrým kararlarý alma yetkisine sahiptir?",
+      "cevap": "BM Güvenlik Konseyi"
+    },
+    {
+      "soru": "UA Hukukun hukuk olma niteliðini sorgulayanlarýn eksiklik olarak deðerledirdikleri yönü nedir?",
+      "cevap": "UA Hukukta üstün siyasal otorite tarafýndan uygulanan bir yaptýrýmlar sistemi yoktur."
+    },
+    {
+      "soru": "Devletler dýþýnda eylemleri ile UA hukuk kurallarýnýn oluþumuna kimler katký saðlar?",
+      "cevap": "UA Örgütler ve uluslarüstü örgütler"
+    },
+    {
+      "soru": "Yapýlageliþ hukuku kurallarýnýn ve hukukun genel prensiplerinin oluþumunda esas rolü kim oynar?",
+      "cevap": "Devletler"
+    },
+    {
+      "soru": "UA Hukuk kurallarýnýn doðuþunda asýl aktör kimdir?",
+      "cevap": "Devletlerdir"
+    },
+    {
+      "soru": "UA Hukuka yöneltilebilecek tek eleþtiri nedir?",
+      "cevap": "Belirli bir konu/meseleye iliþkin UA hukuk kuralý/kurallarýnýn ne olduðunun saptanmasýndaki zorluk"
+    },
+    {
+      "soru": "Devletler belirli bir kural üzerindeki uzlaþýlarýný nasýl ifade ederler?",
+      "cevap": "• Eylemleri ile (Yapýlageliþ Hukuku)\n• Ýþlemleri ile (antlaþmalar hukuku)\n• Ýç Hukuk düzenlemeleri ile (Hukukun genel prensipleri)"
+    },
+    {
+      "soru": "UA Hukuk kurallarýný hangi birimler oluþturur?",
+      "cevap": "Baþta devletler  olmak üzere bu hukuk kurallarýný uygulamak durumunda olan birimler"
+    },
+    {
+      "soru": "Devletler, UA Örgütler ve UA toplumu oluþturan diðer birimler arasýndaki iliþkileri düzenleyen, yani bir düzene baðlayan uyulmasý zorunlu kurallar bütününe ne ad verilir?",
+      "cevap": "Uluslararasý Hukuk"
+    },
+    {
+      "soru": "UA hukukun düzenlediði konular nelerdir?",
+      "cevap": "1. Ýnsan Haklarý\n2. Ekonomik Ýliþkiler\n3. Çevrenin Korunmasý\n4. Uzay\n5. UA Deniz Yataðý"
+    },
+    {
+      "soru": "UA antlaþmalar incelenirken bir UA antlaþma yapmanýn aþamalarý dikkate alýndýðýnda antlaþmalar kaç farklý yönü ile ele alýnmalýdýr?",
+      "cevap": "1. Yapýlýþý\n2. Baðlayýcý hale gelmesi\n3. Yürürlüðe girmesi\n4. Deðiþtirilmesi\n5. Sona erdirilmesi"
+    },
+    {
+      "soru": "UA Hukuk açýsýndan bir antlaþmanýn yürürlüðe girebilmesi için, ne gerekir?",
+      "cevap": "Taraflarýn antlaþma ile baðlayýcý hale gelmelerine iliþkin iþlemleri tamamlamalarý ve bunu birbirlerine bildirmeleri"
+    },
+    {
+      "soru": "Bir anlaþmanýn hüküm doðurmasý yani uygulanmaya baþlanabilmesi için ne gerekir?",
+      "cevap": "Yürürlüðe konulmasý"
+    },
+    {
+      "soru": "TBMM onayý gerekmeden Cumhurbaþkaný tarafýndan onaylanacak UA Antlaþma konularý nelerdir?",
+      "cevap": "1. UA ant. Dayanan / kanun verdiði yetkiyle yaplan eko.-ticari/teknik ant.\n2. Türk kanunlarýnda deðiþiklik yapmayan"
+    },
+    {
+      "soru": "TBMM'nin 2 ay içerisinde bilgisine sunulacak UA Antlaþma konularý nelerdir?",
+      "cevap": "1. Ekonomik, ticari/teknik iliþkiler\n2. Geçerlilik süresi 1 yýlý geçmeyen\n3. Devlet maliyesine yük getirmeyen\n4. Kiþi hallerine ve Türklerin dýþardaki mülkiyetlerine dokunmayan\n5. Türk kanunlarýný deðiþtirmeyen"
+    },
+    {
+      "soru": "UA Antlaþmalarýn baðlayýcý hale gelmesi için; 1982 anayasasý onaylama yetkisini kime vermiþtir?",
+      "cevap": "Bakanlar Kuruluna. (Bazý UA anlaþmalar için TBMM onayý uygun bulunmuþtur)"
+    },
+    {
+      "soru": "Bir UA Antlaþma metni ne zaman/ne ile baðlayýcý kýlýnabilir?",
+      "cevap": "1. Ýmza ile\n2. Mektup, Belge veya nota deðiþimi"
+    },
+    {
+      "soru": "UA Antlaþma metninin kesin olduðu an ne zamandýr?",
+      "cevap": "Þayet taraflar baþka bir yöntem belirlememiþse; Metnin altýna imza attýklarý an."
+    },
+    {
+      "soru": "Devletler veya UA Örgütler antlaþma metninin yazýlmasýnda hangi dili yazým dili olarak seçebilir?",
+      "cevap": "Ýstedikleri bir dili"
+    },
+    {
+      "soru": "Özellikle çok taraflý antlaþmalarýnýn hazýrlanmasýnda hangi yöntem kullanýlmaktadýr?",
+      "cevap": "UA Konferans Yöntemi"
+    },
+    {
+      "soru": "UA antlaþmalar yapýlýrken UA Örgütler adýna yetkili sayýlan kiþiler kimlerdir?",
+      "cevap": "Genel Sekreter ve Yardýmcýlarý (O örgütün en yüksek dereceli görevlisi)"
+    },
+    {
+      "soru": "UA antlaþmalar yapýlýrken herhangi bir yetki belgesine ihtiyaç duymadan bu yetkiye sahip olduðu (SINIRLI YETKÝLÝ) kabul edilen kiþiler kimlerdir?",
+      "cevap": "1. Diplomatik Misyon (Görev) Þefleri\n2. Diplomasi temsilcileri (Büyükelçiler)"
+    },
+    {
+      "soru": "Antlaþmalarýn devletler arasýnda yazýlý olarak yapýlmasý hangi antlaþmada yer almýþtýr?",
+      "cevap": "1969 Viyana Antlaþmalar Hukuku Sözleþmesi"
+    },
+    {
+      "soru": "Devletler ile UA örgütler arasýnda yapýlan veya UA örgütlerin kendi aralarýnda yaptýklarý UA Antlaþmalar ne ile düzenlenmektedir?",
+      "cevap": "1986 - Viyana Devletler ve UA Örgütler arasýnda veya UA Örgütler arasýnda Antlaþmalar Hukuku Sözleþmesi"
+    },
+    {
+      "soru": "Ülkesellik Prensibinin istisnalarý nelerdir?",
+      "cevap": "1. Kapitülasyonlarla verilen cezai yargý baðýþýklýklarý e dokunulmazlýklar\n2. Yabancý devletlerin ve UA örgütlerin resmi görevlilerine “” “”"
+    },
+    {
+      "soru": "Bütün çok taraflý antlaþmalarý ifade kavrama ne ad verlir?",
+      "cevap": "Konvansiyon"
+    },
+    {
+      "soru": "Çoðu kez bir UA Antlaþmayý tamamlayýcý nitelikteki antlaþmalara ne ad verilir?",
+      "cevap": "Protokol"
+    },
+    {
+      "soru": "Çoðu kez UA kuruluþlarý kuran antlaþmalara ne ad verilir?",
+      "cevap": "Þart"
+    },
+    {
+      "soru": "Çok taraflý UA Antlaþmalara ne ad verilir?",
+      "cevap": "Sened"
+    },
+    {
+      "soru": "Belirli bir konuya iliþkin çok sayýda ülke arasýnda yapýlan ve o konuya iliþkin kurallar yaratan UA irade uyuþmalarýna ne ad verilir?",
+      "cevap": "Sözleþme"
+    },
+    {
+      "soru": "Onaylama gerektiren genel bir irade uyuþmasýna ne ad verilir?",
+      "cevap": "Andlaþma / Antlaþma"
+    },
+    {
+      "soru": "Devletler arasýndaki belirli bir konuya iliþkin varýlan ve onay iþlemi gerektirmeyen irade uyuþmasýna ne ad verilir?",
+      "cevap": "Anlaþma"
+    },
+    {
+      "soru": "Yapýlageliþ ile UA Antlaþmalar arasýnda ne fark vardýr?",
+      "cevap": "1. Yapýlageliþ kurallarý itiraz etmemiþ devletler için baðlacýyý iken\n2. UA Antlaþmalar sadece kendisine taraf olanlar için baðlayýcýdýr."
+    },
+    {
+      "soru": "UA Hukuk kiþileri arasýnda hukuksal bir sonuç elde etmek maksadýyla devletler ve/veya UA örgütler arasýnda yapýlan yazýlý irade uyuþmalarýna ne ad verilir?",
+      "cevap": "UA Antlaþma"
+    },
+    {
+      "soru": "UA hukukun baðlayýcý kaynaklarý arasýnda hiyerarþik bir sýralama oluþturulursa nasýl olur?",
+      "cevap": "1. Yapýlageliþ kurallarýndan üstün kurallar\n2. UA Antlaþmalar\n3. Yapýlageliþ Kurallarý\n4. Hukukun genel ilkeleri"
+    },
+    {
+      "soru": "Hukuksal kararýn bir parçasý olarak mahkemenin hukuka uygun bir karar almasýný ifade eden terim?",
+      "cevap": "Hakkaniyet"
+    },
+    {
+      "soru": "Hakkaniyetle ilgili en büyük eleþtiri nedir?",
+      "cevap": "Subjektifliðidir."
+    },
+    {
+      "soru": "UA antlaþmalar yapýlýrken herhangi bir yetki belgesine ihtiyaç duymadan bu yetkiye sahip olduðu (GENEL YETKÝLÝ) kabul edilen kiþiler kimlerdir?",
+      "cevap": "1. Devlet Baþkanlarý\n2. Hükümet Baþkanlarý (Baþbakanlar) \n3. Dýþiþleri Bakanlarý"
+    },
+    {
+      "soru": "Açýk Deniz'de denizlerin hukuki durumu nedir?",
+      "cevap": "Serbestlik"
+    },
+    {
+      "soru": "Devletlerin kiþiler / mülkler üzerindeki yetkileri nelerdir?",
+      "cevap": "1. Düzenleme yapma (Kural Koyma)\n2. Zorlayýcý tedbirler uygulama (yargýlama yetkisi de dahil)"
+    },
+    {
+      "soru": "Uzayýn ve gök cisimlerinin araþtýrýlmasý ve kullanýmý hangi ilkeye dayanýr?",
+      "cevap": "Serbestlik"
+    },
+    {
+      "soru": "Geçici olarak kurulan \"Uzayýn Barýþçýl Maksatlarla Kullanýmý Komitesi\" 1959 yýlýnda kalýcý hale getirildiðinde üye ülkeler hangileridir?",
+      "cevap": "• ABD\n• Ýngiltere\n• SSCB"
+    },
+    {
+      "soru": "Hava yolu ile iletiþimde temel prensip nedir?",
+      "cevap": "UA - Ulusal Hava Sahasý ayrýmý yapýlmadan Haberleþme Serbestliði ilkesi"
+    },
+    {
+      "soru": "Sivil Uçuþlar için oluþturulmuþ rejim esas olarak kim tarafýndan düzenlenir?",
+      "cevap": "Chiago UA Sivil Havacýlýk Sözleþmesi"
+    },
+    {
+      "soru": "Ulusal Hava sahasýnda temel ilke nedir?",
+      "cevap": "Devletin Egemenliði"
+    },
+    {
+      "soru": "UA Sivil Havacýlýk Örgütü tarafýndan oluþturulan \"Hava Trafik Hizmetleri\" baþlýðýyla yapýlan düzenlemede Sivil Uçuþlara tahsis edilen hava koridorlarýnýn geniþliði nedir?",
+      "cevap": "10 mil (Ýzlemeleri tavsiye edilir)"
+    },
+    {
+      "soru": "UA Hava sahasýnda hava ulaþýmýna iliþkin temel ilke nedir?",
+      "cevap": "Uçuþ Serbestliði"
+    },
+    {
+      "soru": "UA Hava sahasýnýn statüsü nedir?",
+      "cevap": "Serbestlik (Ulusal Egemenlik kurulamaz!)"
+    },
+    {
+      "soru": "UA Hava Sahasý nerelerden oluþur?",
+      "cevap": "• Açýk Denizler\n• Bitiþik Bölge\n• MEB\n• Kuzey Kutbu\n• Güney Kutbu"
+    },
+    {
+      "soru": "Havanýn kullanýmýnýn kurallara baðlanmasý meselesi modern anlamda ilk defa ne zaman gündeme alýnmýþtýr?",
+      "cevap": "1880 Oxford UA Hukuk Enstitüsü toplantý"
+    },
+    {
+      "soru": "Uzay aracýný fýrlatan devlet ile fýrlatýldýðý devlet farklý ise doðabilecek zararlara iliþkin sorumluluk nasýldýr?",
+      "cevap": "iki ülke de UA sorumluluða sahiptir."
+    },
+    {
+      "soru": "Devletin açýk denizlerdeki kendi uyruðundaki gemiler üzerinde münhasýr yetkiye sahip olmasýna ne ad verilir?",
+      "cevap": "Bayrak Yasasý"
+    },
+    {
+      "soru": "Uzayýn çevresel unsurlarýnýn korunmasýna iliþkin temel yükümlülük nedir?",
+      "cevap": "Devletlerin uzayýn doðal ortamýný bozabilecek faaliyetlerden kaçýnmasý"
+    },
+    {
+      "soru": "Herhangi bir devletin iç sularý, MEB ve karasularýný oluþturmayan, yani herhangi bir devletin egemenliði altýnda bulunmayan deniz alanlarýnýn tümüne ne ad verilir?",
+      "cevap": "Açýk Deniz"
+    },
+    {
+      "soru": "Ada sayýlan ancak Ýnsan yerleþimini veya kendi ekonomik hayatýný idame ettiremeyen kayalýklarýn Karasuyu-MEB-Kýta Sahanlýðý olur mu?",
+      "cevap": "Karasuyu olur - MEB/Kýta Sahanlýðý olmaz."
+    },
+    {
+      "soru": "Adalar hangi þartta MEB ve Kýta Sahanlýðýna sahip olabilir?",
+      "cevap": "Ýnsan yerleþimini veya kendi ekonomik hayatýný idame ettirebilmesi"
+    },
+    {
+      "soru": "Adalar hangi þartta Karasuyuna sahip olabilir?",
+      "cevap": "• Doðal olarak oluþmuþ\n• Normalde sürekli su üzerinde kalan\nSu üzerinde sürekli kalmayanlar karasuyuna sahip olmaz ama düz esas esas çizgide kullanýlýr."
+    },
+    {
+      "soru": "Türkiye hangi denizlerde MEB ilan etmiþtir?",
+      "cevap": "Sadece Karadeniz'de (1986)"
+    },
+    {
+      "soru": "Esas çizgiden itibaren 200 NM uzaklýða kadar ilan edilebilen, karasularýnýn ötesinde ve ona bitiþik deniz alaný hangisidir?",
+      "cevap": "MEB"
+    },
+    {
+      "soru": "Akdeniz ve Egede kýta sahanlýðý sýnýrý ne zaman oluþturulmuþtur?",
+      "cevap": "OLUÞTURULMAMIÞTIR!"
+    },
+    {
+      "soru": "Türkiye-Bulgaristan kýta sahanlýðý sýnýrý ne zaman oluþturulmuþtur?",
+      "cevap": "1997"
+    },
+    {
+      "soru": "Türkiye-SSCB kýta sahanlýðý sýnýrý ne zaman oluþturulmuþtur?",
+      "cevap": "1978 (Ukrayna, Rusya ve Gürcistan haleftir)"
+    },
+    {
+      "soru": "Kýyý devleti doðal kaynak arama ve iþletme için gerekli tesis/platformlar etrafýnda kaç metre çapýnda Güvenlik Alaný ilan edebilir?",
+      "cevap": "500 metre"
+    },
+    {
+      "soru": "1982 III. BM Deniz Hukuku Sözleþmesinde Kýta Sahanlýðý nereye kadar uzanýr?",
+      "cevap": "• 200 metre derinliðe kadar\n• Esas çizgiden 200 NM uzaklýða kadar\n• 350 NM yi aþamaz (Doðal uzantý/kýta marjý 200NM yi aþýyorsa)"
+    },
+    {
+      "soru": "1982 III. BM Deniz Hukuku Sözleþmesinde Bitiþik Bölge \"esas çizgiden itibaren\" kaç NM belirlenmiþtir?",
+      "cevap": "24 NM (12 KS + 12 BB)"
+    },
+    {
+      "soru": "Bir devletin açýk denizlerde, uyrukluðunda olmayan yabancý gemiler üzerinde müdahale etme yetkisi hangi suçlarda bulunur?",
+      "cevap": "• Deniz Haydutluðu  (Tüm Devletler)\n• Köle Ticareti\n• Ýzinsiz Yayýn Yapan (Zarar Gören Devlet)\n• Uyruksuz Gemiler"
+    },
+    {
+      "soru": "Hukuka aykýrý kuvvet kullanýlmasý hangi mahkeme kararlarýnda Barýþa Karþý Suç olarak sayýlmýþtýr?",
+      "cevap": "Nüremberg ve Tokyo Mahkemeleri"
+    },
+    {
+      "soru": "UA Ekonomi hukuku hangi konularý düzenler?",
+      "cevap": "o UA Ticaret – UA Ekonomik Birlikler\no UA Özel Hukuk – UA Ýþ Dünyasý\no UA Finansal Düzenlemeler – Ekonomik Kalkýnma\no UA Vergilendirme – UA Fikri Haklar"
+    },
+    {
+      "soru": "BM Kurucu Antlaþmasý savaþ kavramý yerine hangi terimleri kullanýlýr?",
+      "cevap": "Kuvvet Tehdidi / Kuvvet Kullanma"
+    },
+    {
+      "soru": "UA Ekonomi terimi ilk kez kim tarafýndan kullanýlmýþtýr?",
+      "cevap": "Ernst Feilchenfeld (1938)"
+    },
+    {
+      "soru": "UA ticarete dair ortaya çýkan ilk UA kurum hangisidir?",
+      "cevap": "UA Þeker Birliði (1902) ve Komisyonu"
+    },
+    {
+      "soru": "Modern anlamda UA Çevre Hukukunun genellikle ne ile baþladýðý kabul edilir?",
+      "cevap": "1972 Stockholm Konferansý"
+    },
+    {
+      "soru": "UAD'nin resmi dilleri nelerdir?",
+      "cevap": "Ýngilizce ve Fransýzca"
+    },
+    {
+      "soru": "Devletlerin UAD yargý yetkisini tanýmasý kaç yolla olur?",
+      "cevap": "o Tahkimname (Özel Anlaþma) ile\no Kabul yoluyla tanýma\no Antlaþma ile\no Tek taraflý bildiri ile"
+    },
+    {
+      "soru": "Özellikle WW1 ve WW2 arasý dönemde en çok kullanýlan uyuþmazlýk çözüm yolu hangisidir?",
+      "cevap": "Uzlaþtýrma"
+    },
+    {
+      "soru": "Uyuþmazýðýn 3. tarafça soruþturulmasýný ve çözüm öngören bir rapor hazýrlanmasýný ifade eden çözüm yolu hangisidir?",
+      "cevap": "Uzlaþtýrma (Soruþturma+Arabuluculuk)"
+    },
+    {
+      "soru": "UA Uyuþmazlýklarýn Çözüm yollarýnýn en basit ve en çok kullanýlaný hangisidir?",
+      "cevap": "Görüþme (Karþý Tarafý Ýkna)"
+    },
+    {
+      "soru": "UA Uyuþmazlýklarýn Çözüm yollarý kaça ayrýlýr?",
+      "cevap": "• Diplomatik (Yargý Dýþý)\no Görüþme – Soruþturma – Arabuluculuk – Uzlaþtýrma – Bölgesel Kuruluþ/Antlaþmalar\n• Hukuksal (Yargýsal)\no Hakemlik - Mahkeme"
+    },
+    {
+      "soru": "Uzaya gönderilen araç / cisimler üzerindeki mülkiyet hakký nasýldýr?",
+      "cevap": "Kayýtlý olduðu ülke sýnýrlarý dýþýnda bulunursa kayýt ülkesine iade edilmeleri gerekir."
+    },
+    {
+      "soru": "Devletin Sorumluluðu kapsamýnda; bir devletin baþka bir devletin hukuka aykýrý eylemlerinde Sorumluluðu Ortadan kaldýran haller nelerdir?",
+      "cevap": "• Rýza\n• Meþru Müdafaa\n• Mücbir Sebep\n• Tehlike\n• Zaruret Hali"
+    },
+    {
+      "soru": "Devletin egemenliði altýnda olmayan ama sadece bazý egemen yetkileri münhasýran kullandýðý deniz alanlarý hangileridir?",
+      "cevap": "• Bitiþik Bölge\n• Balýkçýlýk Bölgesi\n• Kýta Sahanlýðý\n• MEB"
+    },
+    {
+      "soru": "Barýþa karþý bir tehdit olduðunu ya da barýþýn bozulduðunu veya bir saldýrýnýn söz konusu olduðunu belirleme yetkisi hangi kuruma aittir?",
+      "cevap": "Güvenlik Konseyine"
+    },
+    {
+      "soru": "Meþru müdafaa hakkýný doðuran asýl þart nedir?",
+      "cevap": "Silahlý Saldýrý"
+    },
+    {
+      "soru": "Türkiye'ye kabul edilen yabancýlar için kaç ayrý hukuki statü öngörülmüþtür?",
+      "cevap": "• Mülteci (Avrupa’dan gelen)\n• Þartlý Mülteci (Avrupa dýþýnda gelen)\n• Ýkincil Koruma (Geri Gönderilemeyen)\n• Geçici Koruma (Kitlesel)"
+    },
+    {
+      "soru": "Mülteci statüsü almasý uygun görülmeyen, ancak ülkesine dönüþü insan haklarý ihlali nedeniyle mümkün olmayanlara ne sýfat verilir?",
+      "cevap": "Fiili Mülteci"
+    },
+    {
+      "soru": "Mülteci kavramý hangi sözleþme ile tanýmlanmýþtýr?",
+      "cevap": "1951-Cenevre- Mültecilerin Statüsüne dair sözleþme"
+    },
+    {
+      "soru": "Mülteci statüsüne ve iliþkin haklara dair UA hukukun temel belgesi hangisidir?",
+      "cevap": "1951-Cenevre- Mültecilerin Statüsüne dair sözleþme"
+    },
+    {
+      "soru": "Göç hukukunun öngördüðü koþullara uygun olmayan kiþilerin baþka ülke topraklarýna geçip orada yerleþim aramalarýna ne ad verilir?",
+      "cevap": "Yasadýþý Göçmen"
+    },
+    {
+      "soru": "Devletlerin, insan haklarýný sistematik olarak ihlal eden devletlere karþý yaptýrýmlarý nelerdir?",
+      "cevap": "• Silahlý Kuvvet Kullanýmý (BM Güvenlik Konseyi kararý þartý)\n• Siyasi, Ekonomik ve benzeri yaptýrýmlar"
+    },
+    {
+      "soru": "Ýnsan haklarýný UA bir sözleþme konusu olarak düzeneleme çabalarý ilk baþladýðý bölge neresidir?",
+      "cevap": "Amerika Kýtasý"
+    },
+    {
+      "soru": "Ýnsan Haklarý Evrensel Beyannamesinden sonra ortaya çýkan ilk önemli evrensel insan haklarý düzenlemeleri hangileridir?",
+      "cevap": "• Medeni ve Siyasal Haklar Sözleþmesi\n• Ekonomik, Sosyal ve Kültürel Haklar Söleþmesi\nÝKÝZ SÖZLEÞMELER"
+    },
+    {
+      "soru": "Günümüzde Ýnsan Haklarý kaça ayrýlýr?",
+      "cevap": "• Medeni ve Siyasal Haklar\n• Ekonomik, Sosyal ve Kültürel Haklar"
+    },
+    {
+      "soru": "Evrensel boyutta düþünüldüðünde, Ýnsan Haklarý kavramýnýn içeriðini dolduran ilk kapsamlý belge hangisidir?",
+      "cevap": "BM Ýnsan Haklarý Evrensel Beyannamesi (Devletleri Baðlayýcý Deðil)"
+    },
+    {
+      "soru": "UA Hukuk sisteminin asli yargý organý hangisidir?",
+      "cevap": "UA Adalet Divaný"
+    },
+    {
+      "soru": "Devlet Balýkçýlýk bölgesinde hangi kaynaklar üzerinde münhasýr haklara sahiptir?",
+      "cevap": "Canlý Kaynaklar üzerinde"
+    },
+    {
+      "soru": "Kýyýnýn belirli çýkýntýlarý ve kýyýya çok yakýn konumlanmýþ adalarý birer \"esas nokta\" olarak alýnarak bu noktalar harita üzerinde düz çizgiler ile birleþtirildiðinde bulunan yöntem hangisidir?",
+      "cevap": "Düz Esas Çizgi yöntemi"
+    },
+    {
+      "soru": "Deniz alanlarýnýn ölçümünde esas alýnacak çizginin kýyý ile denizin alçak dalga durumundaki birleþme çizgisinin esas alýnmasýna ne denir?",
+      "cevap": "Normal Esas Çizgi yöntemi"
+    },
+    {
+      "soru": "Deniz alanlarý nereden itibaren ölçülmeye baþlanýr?",
+      "cevap": "Esas çizgi = kýyý çizgisinden"
+    },
+    {
+      "soru": "Deniz alanlarý kaça ayrýlýr?",
+      "cevap": "1. Devlet Egemenliði altýndaki deniz alanlarý\n2. Devletin münhasýr yetkiler kullandýðý deniz alanlarý\n3. Açýk denizler ve Tabaný"
+    },
+    {
+      "soru": "1. Cenevre Deniz Hukuku Konferansý (1958) hangi deniz hukuku anlaþmalarýný kabul etmiþtir?",
+      "cevap": "1. Karasularý ve Bitiþik Bölge Konv.\n2. Açýk deniz Konv.\n3. Kýta Sahanlýðý Konv.\n4. Balýkçýlýk ve Açýk Denizlerin Canlý kaynaklarýnýn korunmasý Konv."
+    },
+    {
+      "soru": "1982 BM Deniz Hukuku Sözleþmesinin düzenleme konularý nelerdir?",
+      "cevap": "1. Dz.lerde Ulaþým Haklarý / Karasularý Sýnýrý\n2. Ekonomik Yetkiler / Deniz yataðýndaki doðal kaynaklar\n3. Dar boðazlardan geçiþ\n4. Canlý kaynaklarýn korunmasý / Deniz çevresinin korunmasý\n5. Bilimsel araþtýrma rejimi"
+    },
+    {
+      "soru": "Deniz Hukukunun temel belgesi hangisidir?",
+      "cevap": "1982 BM Deniz Hukuku Sözleþmesi"
+    },
+    {
+      "soru": "Hangi konferans sonucunda, Karasularý dýþýnda bitiþik bölge, balýkçýlýk bölgesi ve kýta sahanlýðý gibi deniz alanlarý hukuki zemin kazanmýþtýr?",
+      "cevap": "1. Cenevre Deniz Hukuku Konferansý (1958)"
+    },
+    {
+      "soru": "UA Antlaþmalar ile deniz alanlarýnda devletlerin yetkilerini daha belirgin hale getirilmesi, hatta yeni yetki alanlarý oluþturulmasý için ilk adým nasýl atýlmýþtýr?",
+      "cevap": "1930 La Hey Konferanslarý"
+    },
+    {
+      "soru": "Modern ulus devletler arasýnda denizlerden yararlanmaya iliþkin 17.yy. baþlardan 19.yy sonlarýna kadar geçerli hukuksal prensip neydi?",
+      "cevap": "Denizlerin Serbestliði"
+    },
+    {
+      "soru": "Denizlerden yararlanmanýn temel yöntemleri sýrasýyla nedir?",
+      "cevap": "1. Canlý kaynak & mineral elde etme\n2. Ulaþým\n3. Ýletiþim ve nakil maksaylarýyla kullaným\n4. Askeri maksatlarla kullaným"
+    },
+    {
+      "soru": "Bir devletin Bitiþik Bölgeye sahip olma þartý nedir?",
+      "cevap": "Ýlan Edilmesi"
+    },
+    {
+      "soru": "Devlet Kýta Sahanlýðý ve MEB üzerinde hangi münhasýr haklara sahiptir?",
+      "cevap": "Doðal kaynaklar üzerinde; Arama ve Ýþletme"
+    },
+    {
+      "soru": "Denize dökülen akarsularda Düz Esas çizgi nasýl oluþturulur?",
+      "cevap": "Akarsuyun düþük dalga durumunda iki aðýz noktasýnýn birleþtirilmesi ile"
+    },
+    {
+      "soru": "Devlet Karasularý dýþýnda ve karasularýna bitiþik bölgede hangi yetkilere sahiptir?",
+      "cevap": "a. Gümrük\nb. Saðlýk\nc. Maliye\nd. Göç\nKonularýnda devlet yasalarýný uygulama ve yargýsal denetimde bulunma"
+    },
+    {
+      "soru": "Diplomatlarýn aile fertleri ayný haklara sahip midir?",
+      "cevap": "Evet"
+    },
+    {
+      "soru": "Diplomatlar vergilendirme ve gümrük yükümlülüklerinden muaf mýdýr?",
+      "cevap": "Evet"
+    },
+    {
+      "soru": "Diplomatik misyon içerisinde olanlarýn, Hukuki ve idari yargýlamadan baðýþýklýk konusunda istisnalar nelerdir?",
+      "cevap": "a. Kiralanan taþýnmazlara iliþkin iþlemler\nb. Þahsi miras/ticari kiþiler ile ilgili iþlemleri"
+    },
+    {
+      "soru": "Dokunulmazlýk, baðýþýklýk ve ayrýcalýklardan kýsmen ya da tamamen yararlanacak kiþiler kimlerdir?",
+      "cevap": "1. Diplomatik misyon þefleri\n2. Misyonun diplomatik rütbe taþýyan üyeleri\na. Büyükelçiler, Müsteþar, Baþkatip, 2.Katip, 3.Katip, Ataþeler"
+    },
+    {
+      "soru": "Devlet hangi yetkisine binaen ülkesindeki yabancýlarýn özellikle taþýnmaz mallarýný millileþtirme yetkisine sahiptir?",
+      "cevap": "Ülkesel Yetkisi"
+    },
+    {
+      "soru": "Devletin münhasýr yetkilerinin baþýnda ne gelir?",
+      "cevap": "Devletin ülkesi üzerindeki yetkisi"
+    },
+    {
+      "soru": "Evrensellik prensibinin hukuken geçerli olduðu suçlar nelerdir?",
+      "cevap": "1. Savaþ Suçlarý\n2. Uyuþturucu Kaçakçýlýðý, Uçak Kaçýrma/Sabotaj, Irk Ayrýmcýlýðý\n3. Diplomatlara saldýrý, rehin alma ve iþkence\n4. Aðýr Ýnsan Haklarý ihlalleri ve soykýrým"
+    },
+    {
+      "soru": "Evrensel yargý yetkisinin hukuken geçerli kabul edildiði ilk suç hangisi olmuþtur?",
+      "cevap": "Haydutluk (Korsanlýk)"
+    },
+    {
+      "soru": "Bir devletin suçun iþlendiði yer, kimin tarafýndan iþlendiði ve etkilerine bakmaksýzýn sadece suçu iþleyenin kendisi tarafýndan yakalanmýþ olmasýna dayanarak yakaladýðý bu kiþi üzerinde cezai yetkisini kullanabilmesi hangi prensibin tanýmýdýr?",
+      "cevap": "Evrensellik Prensibi"
+    },
+    {
+      "soru": "Koruma Prensibi günümüzde daha ziyade hangi durumlarda kullanýlýr?",
+      "cevap": "Silahlý Bölücü ve terörizm kapsamýnda deðerlendirilebilecek eylemleri gerçekleþtirenlere yönelik"
+    },
+    {
+      "soru": "Dünya bankasýnýn 5 alt birimi nelerdir?",
+      "cevap": "• UA Ýmar ve Kalkýnma Bankasý\n• UA Kalkýnma Birliði\n• UA Finans Kurumu\n• Çok taraflý yatýrým garanti ajansý\n• UA Yatýrým uyuþmazlýklarý Çözüm Merkezi"
+    },
+    {
+      "soru": "Evrensellik prensibi gereði belirli bir kiþiyi birden fazla ülke yargýlama ve cezalandýrma yetkisini kullanabilmesini ifade eden yetkiye ne denir?",
+      "cevap": "Yarýþan Yetkiler"
+    },
+    {
+      "soru": "Denizaltýlar nasýl Zararsýz Geçiþ yapar?",
+      "cevap": "Su üstünde ve bayraklarý çekili olarak"
+    },
+    {
+      "soru": "Devletlerin kiþiler ve kurumlar üzerinde ceza kurallarýný uygulama yetkisinin iç hukuklarýnda hangi ölçütlere dayandýrýlýr?",
+      "cevap": "1. Ülkesellik Prensibi (En Yaygýn)\n2. Vatandaþlýk Prensibi\n3. Koruma Prensibi\n4. Evrensellik Prensibi\n5. Pasif Kiþisellik (En az yaygýn)"
+    },
+    {
+      "soru": "Bir Açýk Deniz/MEB ile baþka bir Açýk Deniz/MEB'i birbirine baðlayan Takýmada sularýnda geçiþ rejimi nedir?",
+      "cevap": "Takýmada Geçiþi (Transit Geçiþ ile ayný)"
+    },
+    {
+      "soru": "Takýmada sularýnda geçiþ rejimi nedir?",
+      "cevap": "Zararsýz Geçiþ"
+    },
+    {
+      "soru": "Birbirleri ile coðrafi, ekonomik ve siyasi olarak sýký sýkýya baðlý ya da öyle olduðu tarihi olarak kabul edilen adalar grubundan oluþan devlete ne ad verilir?",
+      "cevap": "Takýmada Devleti"
+    },
+    {
+      "soru": "1936 tarihli Montrö Boðazlar sözleþmesi daha sonra daha ayrýntýlý þekilde hangi tüzük ile düzenlenmiþtir?",
+      "cevap": "1998 tarihli Türk Boðazlarý Deniz Trafik Düzeni Tüzüðü"
+    },
+    {
+      "soru": "Transit ve Zararsýz geçiþ haklarý hangi vasýtalara tanýnmýþtýr?",
+      "cevap": "• Transit Geçiþ Hakký: Uçaklar ve Gemiler\n• Zararsýz Geçiþ Hakký: Gemiler"
+    },
+    {
+      "soru": "Bir Açýk Deniz/MEB ile baþka bir devletin karasularýný birleþtiren boðazlarda hangi geçiþ rejimi uygulanýr?",
+      "cevap": "Zararsýz Geçiþ (Durdurulamaz)"
+    },
+    {
+      "soru": "Transit geçiþ hangi boðazlarda kullanýlýr?",
+      "cevap": "Bir Açýk Deniz/MEB ile baþka bir Açýk Deniz/MEB arasýnda yer alan ve UA ulaþýmda kullanýlan boðazlarda"
+    },
+    {
+      "soru": "Uluslararasý Boðazlarda geçiþ rejimi nedir?",
+      "cevap": "Transit Geçiþ (Sürekli ve Hýzlý Geçiþ)"
+    },
+    {
+      "soru": "2 tarafý ayný devletin ülkesince çevrelenmiþ, ve sadece o ülkenin karasularýndan oluþan ve 2 ayrý deniz parçasýný baðlayan dar ve doðal geçit alanlarýna ne ad verilir?",
+      "cevap": "Boðaz (Karasuyu gibi)"
+    },
+    {
+      "soru": "6 NM'nin üzerinde karasularý geniþliði tespit etmeye yetkili makam kimdir?",
+      "cevap": "Cumhurbaþkaný (Eskiden Bakanlar Kurulu)"
+    },
+    {
+      "soru": "Ege Denizi'nde Türkiye'nin karasularý kaç mildir?",
+      "cevap": "6 NM (1982 Karasularý Kanunu)"
+    },
+    {
+      "soru": "Takýmadalar en kenarlarýndaki adalarý birleþtirerek oluþturulan düz esas çizgiler kaç mili geçemez?",
+      "cevap": "Her biri 100 deniz milini geçemez."
+    },
+    {
+      "soru": "Hangi hallerde kýyý devletinin ceza yasalarý gemi içerisinde cereyan eden eylemlere uygulanabilir?",
+      "cevap": "• Gemideki olay kýyý devletine uzanýyorsa/barýþ ve düzeni bozuyorsa\n• Kýyý devletinin müdahalesi kaptan/bayrak devleti tarafýndan talep edilmiþse\n• Kaçakçýlýk / uyuþturucu kaçakçýlýðýna karþý"
+    },
+    {
+      "soru": "Bir kýyý girintisinin körfez sayýlarak aðzýnýn bir çizgi ile kapatýlabilmesi için hangi ölçütler vardýr?",
+      "cevap": "1. Kýyýnýn aðzýný kapatan çizgi en fazla 24 NM olmalý\n2. Körfez alanýnýn, kapatan çizgiyi çap olarak alan dairenin yarý alanýna eþit/fazla olmasý\nAncak bir körfez tarihsel olarak körfez kabul ediliyorsa bu kriterlere bakýlmaz."
+    },
+    {
+      "soru": "Bir yabancý geminin geçiþinin zararsýz olma niteliðini bozan eylemler nelerdir?",
+      "cevap": "• Zorlayýcý bir neden olmadan durmak\n• Dinleme faaliyetleri yapmak\n• Balýk avlamak\n• Tatbikat yapmak\n• Geçiþ ile baðdaþmayacak eylemler yapmak"
+    },
+    {
+      "soru": "Yabancý gemilerin bir ülkenin karasularýndan önceden izin almaksýzýn bir baþka deniz alanýna geçmek için veya o ülkenin iç sularýna ulaþmak için geçiþ yapma hakkýna ne denir?",
+      "cevap": "Zararsýz Geçiþ Hakký"
+    },
+    {
+      "soru": "Karasularýnda kýyýdevletinin düzenleme yapma ve uygulama yetkisine münhasýran sahip olmasýnýn 2 istisnasý nedir?",
+      "cevap": "• Devlet gemilerinin karasularýndan zararsýz geçiþ hakký\n• Ýç sularda ve kara ülkesinde olduðu gibi yabancýlara tanýnan bazý dokunulmazlýk ve ayrýcalýklar"
+    },
+    {
+      "soru": "1982 BM III. Deniz Hukuku Sözleþmesi'ne göre kararsularý max ne kadar ilan edilebilir?",
+      "cevap": "12 NM'ye kadar"
+    },
+    {
+      "soru": "Fiziki olarak bir kýyý devletinin kýyýlarý etrafýnda belirli bir uzaklýða kadar giden ve o devletin egemenliði altýndaki deniz alanýný ifade eden terim?",
+      "cevap": "Karasularý"
+    },
+    {
+      "soru": "Türk limanlarýna girecek savaþ gemileri ne kadar önceden izin almak zorundadýr?",
+      "cevap": "• Yabancý savaþ gemileri 15 gün önceden\n• Nükleer savaþ gemileri 1 ay önceden"
+    },
+    {
+      "soru": "Türkiye'nin iç sularýnýn geniþliðini, yani esas çizgileri saptama yetkisi kime verilmiþtir?",
+      "cevap": "1982 tarih ve 2674 sayýlý Karasularý Kanunu ile Bakanlar Kurulu"
+    },
+    {
+      "soru": "Gemilerin iç sulara ve limanlara izinsiz geçme haklarýna istisnalar nelerdir?",
+      "cevap": "• Zor durumda kalmýþ ve sýðýnma arayan gemiler\n• UA Hakemliðin kararlarý doðrultusunda bazý limanlarýn izin dýþý býrakýlmasý"
+    },
+    {
+      "soru": "Karasularýnda geçiþ rejimi nedir?",
+      "cevap": "Zararsý Geçiþ"
+    },
+    {
+      "soru": "Ýç sulardaki geçiþ rejimi nedir?",
+      "cevap": "Kýyý devleti egemenliði (izin gerekir)"
+    },
+    {
+      "soru": "Bir kýyý devletinin esas çizgisi ile kara ülkesi arasýnda kalan deniz alanlarýný ifade eden nedir?",
+      "cevap": "Ýç sular (Kýyý Devletinin tam egemenliði)"
+    },
+    {
+      "soru": "Bitiþik Bölgenin geliþimi hangi yasa ile baþlamýþtýr?",
+      "cevap": "1736 Ýngiltere'nin \"Hovering Act\" yasasý"
+    },
+    {
+      "soru": "Karadeniz ve Akdeniz'de Türkiye'nin karasularý kaç mildir?",
+      "cevap": "12 NM (1982 Karasularý Kanunu)"
+    }
+  ]
+}
