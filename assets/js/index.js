@@ -1,5 +1,5 @@
-document.querySelectorAll(".dropdown-toggle").forEach(btn => {
-  btn.addEventListener("click", () => {
-    btn.classList.toggle("open");
+document.querySelectorAll('.section-title').forEach(title => {
+  title.addEventListener('click', () => {
+    title.classList.toggle('open');
   });
 });
