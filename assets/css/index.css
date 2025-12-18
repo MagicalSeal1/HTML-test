@@ -44,11 +44,20 @@ header span {
   gap: 20px;
 }
 
+.grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
 /* === SECTION TITLE → DROPDOWN BAŞLIĞI === */
 .section-title {
-  
-  max-width: 1100px;
-  grid-column: 1 / -1; /* ⬅️ tüm satırı kaplasın */
+  grid-column: 1 / -1;
+  width: 100%;
+  box-sizing: border-box;
+
   margin: 12px 0 4px;
   padding: 14px 18px;
 
@@ -81,7 +90,9 @@ header span {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
-  grid-column: 1 / -1; /* ⬅️ grid’i bozmaz */
+  grid-column: 1 / -1;
+  width: 100%;
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
@@ -93,7 +104,7 @@ header span {
 
 /* Açık hali */
 .section-title.open + .dropdown-content {
-  max-height: 3000px;
+  max-height: 5000px;
 }
 
 /* Ok aşağı → yukarı */
