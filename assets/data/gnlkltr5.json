@@ -1,298 +1,298 @@
 {
-  "title": "T.C. Anayasası",
+  "title": "T.C. AnayasasÄ±",
   "description": "73 Soru",
   "cards": [
     {
-      "soru": "TBMM'de kabul edilen yasaları CB kaç gün içinde onaylar?",
-      "cevap": "15 gün"
+      "soru": "TBMM'de kabul edilen yasalarÄ± CB kaÃ§ gÃ¼n iÃ§inde onaylar?",
+      "cevap": "15 gÃ¼n"
     },
     {
-      "soru": "Kamu Denetçiliği kurumu neyi inceler?",
-      "cevap": "İdarenin işleyişi ile ilgili şikayetleri (TBMM'ye bağlı çalışır)"
+      "soru": "Kamu DenetÃ§iliÄŸi kurumu neyi inceler?",
+      "cevap": "Ä°darenin iÅŸleyiÅŸi ile ilgili ÅŸikayetleri (TBMM'ye baÄŸlÄ± Ã§alÄ±ÅŸÄ±r)"
     },
     {
-      "soru": "Kamu Denetçisi nasıl seçilir?",
-      "cevap": "TBMM tarafından, Gizli oyla, 4 yıllığına seçilir."
+      "soru": "Kamu DenetÃ§isi nasÄ±l seÃ§ilir?",
+      "cevap": "TBMM tarafÄ±ndan, Gizli oyla, 4 yÄ±llÄ±ÄŸÄ±na seÃ§ilir."
     },
     {
       "soru": "Milletvekili Olamayacaklar kimlerdir?",
-      "cevap": "Enaz ilkokul mezunu olmayanlar ve Kısıtlılar\nAskerlikle ilişkisi olanlar  * Kamu hizmetinden yasaklılar\nTaksirli suçlar hariç 1 yıldan fazla hapis alanlar\nZimmet, … suçlardan affedilseler dahi ceza alanlar"
+      "cevap": "Enaz ilkokul mezunu olmayanlar ve KÄ±sÄ±tlÄ±lar\nAskerlikle iliÅŸkisi olanlar  * Kamu hizmetinden yasaklÄ±lar\nTaksirli suÃ§lar hariÃ§ 1 yÄ±ldan fazla hapis alanlar\nZimmet, â€¦ suÃ§lardan affedilseler dahi ceza alanlar"
     },
     {
-      "soru": "Cumhurbaşkanı ve TBMM seçimleri kaç yılda bir yapılır?",
-      "cevap": "Aynı günde, 5 yılda 1"
+      "soru": "CumhurbaÅŸkanÄ± ve TBMM seÃ§imleri kaÃ§ yÄ±lda bir yapÄ±lÄ±r?",
+      "cevap": "AynÄ± gÃ¼nde, 5 yÄ±lda 1"
     },
     {
-      "soru": "Seçimler hangi şartlarda ertelenebilir?",
-      "cevap": "Savaş nedeniyle 1 yıl ertelenir. Savaş devam ediyorsa tekrarlanabilir."
+      "soru": "SeÃ§imler hangi ÅŸartlarda ertelenebilir?",
+      "cevap": "SavaÅŸ nedeniyle 1 yÄ±l ertelenir. SavaÅŸ devam ediyorsa tekrarlanabilir."
     },
     {
-      "soru": "Ara seçim yapılma şartları nelerdir?",
-      "cevap": "MM sayısı % 5 azalırsa 3 ay içinde\nHer dönem sadece 1 kez \nBaşlangıçtan sonra 30 ay beklenir\nGenel seçime 1 yıl kala yapılmaz\nİlin temsilcisi kalmamışsa; 90 günden sonraki ilk Pazar."
+      "soru": "Ara seÃ§im yapÄ±lma ÅŸartlarÄ± nelerdir?",
+      "cevap": "MM sayÄ±sÄ± % 5 azalÄ±rsa 3 ay iÃ§inde\nHer dÃ¶nem sadece 1 kez \nBaÅŸlangÄ±Ã§tan sonra 30 ay beklenir\nGenel seÃ§ime 1 yÄ±l kala yapÄ±lmaz\nÄ°lin temsilcisi kalmamÄ±ÅŸsa; 90 gÃ¼nden sonraki ilk Pazar."
     },
     {
-      "soru": "YSK üyeleri kimlerden oluşur?",
-      "cevap": "7 Asil üye, 4 Yedek Üye\n6 Yargıtay – 5 Danıştay"
+      "soru": "YSK Ã¼yeleri kimlerden oluÅŸur?",
+      "cevap": "7 Asil Ã¼ye, 4 Yedek Ãœye\n6 YargÄ±tay â€“ 5 DanÄ±ÅŸtay"
     },
     {
-      "soru": "Belli bir konuda bilgi edinmek için yapılan incelemeye ne ad verilir?",
-      "cevap": "Meclis Araştırması"
+      "soru": "Belli bir konuda bilgi edinmek iÃ§in yapÄ±lan incelemeye ne ad verilir?",
+      "cevap": "Meclis AraÅŸtÄ±rmasÄ±"
     },
     {
       "soru": "Kanun teklifini kim verir?",
       "cevap": "Milletvekilleri"
     },
     {
-      "soru": "Seçim kanunları hangi ilkeleri bağdaştıracak biçimde düzenlenir?",
-      "cevap": "Temsilde Adalet\nYönetimde İstikrar"
+      "soru": "SeÃ§im kanunlarÄ± hangi ilkeleri baÄŸdaÅŸtÄ±racak biÃ§imde dÃ¼zenlenir?",
+      "cevap": "Temsilde Adalet\nYÃ¶netimde Ä°stikrar"
     },
     {
-      "soru": "Savaş ilanı kimin yetkisindedir?",
-      "cevap": "TBMM (Tatilde ise CB TSK kullanılmasına karar verir)"
+      "soru": "SavaÅŸ ilanÄ± kimin yetkisindedir?",
+      "cevap": "TBMM (Tatilde ise CB TSK kullanÄ±lmasÄ±na karar verir)"
     },
     {
-      "soru": "TBMM her yıl hangi gün toplanır?",
-      "cevap": "Ekim ayının ilk günü (En çok 3 ay tatil)"
+      "soru": "TBMM her yÄ±l hangi gÃ¼n toplanÄ±r?",
+      "cevap": "Ekim ayÄ±nÄ±n ilk gÃ¼nÃ¼ (En Ã§ok 3 ay tatil)"
     },
     {
-      "soru": "TBMM Başkanlık Divanı kimlerden oluşur?",
-      "cevap": "Meclis Başkanı\nBaşkan Vekilleri\nKatip Üyeler\nİdare Amirleri"
+      "soru": "TBMM BaÅŸkanlÄ±k DivanÄ± kimlerden oluÅŸur?",
+      "cevap": "Meclis BaÅŸkanÄ±\nBaÅŸkan Vekilleri\nKatip Ãœyeler\nÄ°dare Amirleri"
     },
     {
-      "soru": "Siyasi parti grupları en az kaç üyeden oluşur",
+      "soru": "Siyasi parti gruplarÄ± en az kaÃ§ Ã¼yeden oluÅŸur",
       "cevap": "20"
     },
     {
-      "soru": "TBMM toplanma oranı kaçtır?",
-      "cevap": "ÜTS 1/3"
+      "soru": "TBMM toplanma oranÄ± kaÃ§tÄ±r?",
+      "cevap": "ÃœTS 1/3"
     },
     {
-      "soru": "TBMM'de karar verme oranı nedir?",
-      "cevap": "Katılanların Salt çoğunluğu.  Hiçbir zaman karar yeter sayısı ÜTS 1/4den az olamaz"
+      "soru": "TBMM'de karar verme oranÄ± nedir?",
+      "cevap": "KatÄ±lanlarÄ±n Salt Ã§oÄŸunluÄŸu.  HiÃ§bir zaman karar yeter sayÄ±sÄ± ÃœTS 1/4den az olamaz"
     },
     {
-      "soru": "TBMM'nin bilgi edinme ve denetleme yolları nelerdir?",
-      "cevap": "Meclis Araştırması\nGenel Görüşme\nMeclis Soruşturması\nYazılı Soru"
+      "soru": "TBMM'nin bilgi edinme ve denetleme yollarÄ± nelerdir?",
+      "cevap": "Meclis AraÅŸtÄ±rmasÄ±\nGenel GÃ¶rÃ¼ÅŸme\nMeclis SoruÅŸturmasÄ±\nYazÄ±lÄ± Soru"
     },
     {
-      "soru": "TBMM'nin görevleri nelerdir?",
-      "cevap": "Kanun koymak/değiştirmek/kaldırmak\nSavaş İlanı   * UA Antlaşmaları onaylamak\nBütçe ve Kesin Hesap tekliflerini görüşmek\nPara basılmasına karar vermek\nÜTS 3/5 ile Genel/Özel af ilanı"
+      "soru": "TBMM'nin gÃ¶revleri nelerdir?",
+      "cevap": "Kanun koymak/deÄŸiÅŸtirmek/kaldÄ±rmak\nSavaÅŸ Ä°lanÄ±   * UA AntlaÅŸmalarÄ± onaylamak\nBÃ¼tÃ§e ve Kesin Hesap tekliflerini gÃ¶rÃ¼ÅŸmek\nPara basÄ±lmasÄ±na karar vermek\nÃœTS 3/5 ile Genel/Ã–zel af ilanÄ±"
     },
     {
-      "soru": "Yurtdışı yasağı nasıl kısıtlanabilir?",
-      "cevap": "Hakim kararıyla"
+      "soru": "YurtdÄ±ÅŸÄ± yasaÄŸÄ± nasÄ±l kÄ±sÄ±tlanabilir?",
+      "cevap": "Hakim kararÄ±yla"
     },
     {
-      "soru": "Anayasaya göre Temel Hak ve Hürriyetler nasıl sınırlandırılabilir?",
-      "cevap": "Özlerine dokunulmadan, yalnızca Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ANCAK KANUNLARLA sınırlanabilir."
+      "soru": "Anayasaya gÃ¶re Temel Hak ve HÃ¼rriyetler nasÄ±l sÄ±nÄ±rlandÄ±rÄ±labilir?",
+      "cevap": "Ã–zlerine dokunulmadan, yalnÄ±zca AnayasanÄ±n ilgili maddelerinde belirtilen sebeplere baÄŸlÄ± olarak ANCAK KANUNLARLA sÄ±nÄ±rlanabilir."
     },
     {
-      "soru": "Temel Hak ve Hürriytler hangi şartlarda kullanılması durdurulabilir?",
-      "cevap": "Savaş durumunda\nSeferberlikte\nOlağanüstü hallerde"
+      "soru": "Temel Hak ve HÃ¼rriytler hangi ÅŸartlarda kullanÄ±lmasÄ± durdurulabilir?",
+      "cevap": "SavaÅŸ durumunda\nSeferberlikte\nOlaÄŸanÃ¼stÃ¼ hallerde"
     },
     {
-      "soru": "Kişi dokunulmazlığı, maddi ve manevi varlığı kapsamı dışındaki haller nelerdir?",
-      "cevap": "Meşru Müdafaa\nAyaklanma-İsyan Bastırılması\nYakalama-Tutuklama sırasında\nTutuklunun kaçması\nOlağanüstü hallerde"
+      "soru": "KiÅŸi dokunulmazlÄ±ÄŸÄ±, maddi ve manevi varlÄ±ÄŸÄ± kapsamÄ± dÄ±ÅŸÄ±ndaki haller nelerdir?",
+      "cevap": "MeÅŸru MÃ¼dafaa\nAyaklanma-Ä°syan BastÄ±rÄ±lmasÄ±\nYakalama-Tutuklama sÄ±rasÄ±nda\nTutuklunun kaÃ§masÄ±\nOlaÄŸanÃ¼stÃ¼ hallerde"
     },
     {
-      "soru": "Zorla Çalıştırma sayılmayacak haller nelerdir?",
-      "cevap": "Tutukluluk süresince çalışmalar\nOlağanüstü durumlarda vatandaşlardan istenecek hizmetler\nÜlke ihtiyaçlarının zorunlu kıldığında vatandaşlık ödevi olan beden ve fikri çalışmalar"
+      "soru": "Zorla Ã‡alÄ±ÅŸtÄ±rma sayÄ±lmayacak haller nelerdir?",
+      "cevap": "Tutukluluk sÃ¼resince Ã§alÄ±ÅŸmalar\nOlaÄŸanÃ¼stÃ¼ durumlarda vatandaÅŸlardan istenecek hizmetler\nÃœlke ihtiyaÃ§larÄ±nÄ±n zorunlu kÄ±ldÄ±ÄŸÄ±nda vatandaÅŸlÄ±k Ã¶devi olan beden ve fikri Ã§alÄ±ÅŸmalar"
     },
     {
-      "soru": "Üst - Belge - Eşya aranma şartları nelerdir?",
-      "cevap": "Milli Güvenlik\nKamu Düzeni\nSuçun Önlenmesi\nGenel Sağlığın & Ahlakın Korunması\nBaşkalarının haklarının korunması"
+      "soru": "Ãœst - Belge - EÅŸya aranma ÅŸartlarÄ± nelerdir?",
+      "cevap": "Milli GÃ¼venlik\nKamu DÃ¼zeni\nSuÃ§un Ã–nlenmesi\nGenel SaÄŸlÄ±ÄŸÄ±n & AhlakÄ±n KorunmasÄ±\nBaÅŸkalarÄ±nÄ±n haklarÄ±nÄ±n korunmasÄ±"
     },
     {
-      "soru": "Üst - Belge - Eşya aranma için karar ne kadar süre içerisinde Hakim onayına sunulur?",
-      "cevap": "24 saat içinde"
+      "soru": "Ãœst - Belge - EÅŸya aranma iÃ§in karar ne kadar sÃ¼re iÃ§erisinde Hakim onayÄ±na sunulur?",
+      "cevap": "24 saat iÃ§inde"
     },
     {
-      "soru": "Hakim kararını el koymadan itibaren kaç saat içinde açıklamalıdır. Aksi halde el koyma kendiliğinden kalkar!",
+      "soru": "Hakim kararÄ±nÄ± el koymadan itibaren kaÃ§ saat iÃ§inde aÃ§Ä±klamalÄ±dÄ±r. Aksi halde el koyma kendiliÄŸinden kalkar!",
       "cevap": "48 saat"
     },
     {
-      "soru": "Siyasi partiler nasıl kapatılır?",
-      "cevap": "Yargıtay Cumhuriyet Başsavcısının açacağı dava ile; Anayasa Mahkemesince kapatılır."
+      "soru": "Siyasi partiler nasÄ±l kapatÄ±lÄ±r?",
+      "cevap": "YargÄ±tay Cumhuriyet BaÅŸsavcÄ±sÄ±nÄ±n aÃ§acaÄŸÄ± dava ile; Anayasa Mahkemesince kapatÄ±lÄ±r."
     },
     {
-      "soru": "Seyahat Hürriyetini kanunla kısıtlamak için istisnaları nelerdir?",
-      "cevap": "Suç, soruşturma ve kovuşturması sebebiyle\nSuçun işlenmesini önlemek"
+      "soru": "Seyahat HÃ¼rriyetini kanunla kÄ±sÄ±tlamak iÃ§in istisnalarÄ± nelerdir?",
+      "cevap": "SuÃ§, soruÅŸturma ve kovuÅŸturmasÄ± sebebiyle\nSuÃ§un iÅŸlenmesini Ã¶nlemek"
     },
     {
-      "soru": "Siyasi partilere üye olamayacaklar kimlerdir?",
-      "cevap": "Hakimler-Savcılar\nYüksek Yargı Mensupları\nKamu Memurları – TSK Mensupları\nİşçi olmayan diğer kamu görevlileri\nYüksek öğretim öncesi öğrenciler"
+      "soru": "Siyasi partilere Ã¼ye olamayacaklar kimlerdir?",
+      "cevap": "Hakimler-SavcÄ±lar\nYÃ¼ksek YargÄ± MensuplarÄ±\nKamu MemurlarÄ± â€“ TSK MensuplarÄ±\nÄ°ÅŸÃ§i olmayan diÄŸer kamu gÃ¶revlileri\nYÃ¼ksek Ã¶ÄŸretim Ã¶ncesi Ã¶ÄŸrenciler"
     },
     {
-      "soru": "Vatandaşlar nasıl sınırdışı edilir?",
-      "cevap": "EDİLEMEZ! Yurda girişi engellenemez"
+      "soru": "VatandaÅŸlar nasÄ±l sÄ±nÄ±rdÄ±ÅŸÄ± edilir?",
+      "cevap": "EDÄ°LEMEZ! Yurda giriÅŸi engellenemez"
     },
     {
-      "soru": "Düzeltme ve Cevap hakkı nasıl düzenlenir?",
-      "cevap": "Ancak kişilerin Haysiyet ve Şereflerine dokunulması veya kendileriyle ilgili gerçeğe aykırı yayınlar yapılması halinde tanınır ve kanunla düzenlenir. (Müracattan sonra 7 gün içinde Hakim karar verir)"
+      "soru": "DÃ¼zeltme ve Cevap hakkÄ± nasÄ±l dÃ¼zenlenir?",
+      "cevap": "Ancak kiÅŸilerin Haysiyet ve Åereflerine dokunulmasÄ± veya kendileriyle ilgili gerÃ§eÄŸe aykÄ±rÄ± yayÄ±nlar yapÄ±lmasÄ± halinde tanÄ±nÄ±r ve kanunla dÃ¼zenlenir. (MÃ¼racattan sonra 7 gÃ¼n iÃ§inde Hakim karar verir)"
     },
     {
-      "soru": "Grev-Lokavt konusunda uyuşmazlığı hangi kurum çözer?",
-      "cevap": "Yüksek Hakem Kurulu (Kararı kesindir)"
+      "soru": "Grev-Lokavt konusunda uyuÅŸmazlÄ±ÄŸÄ± hangi kurum Ã§Ã¶zer?",
+      "cevap": "YÃ¼ksek Hakem Kurulu (KararÄ± kesindir)"
     },
     {
-      "soru": "Spor federasyonlarının spor faaliyetlerinin yönetimine/disiplinine ilişkin kararlarına karşı nereye başvurulur?",
-      "cevap": "Tahkim Kurulu (Kararı kesindir)"
+      "soru": "Spor federasyonlarÄ±nÄ±n spor faaliyetlerinin yÃ¶netimine/disiplinine iliÅŸkin kararlarÄ±na karÅŸÄ± nereye baÅŸvurulur?",
+      "cevap": "Tahkim Kurulu (KararÄ± kesindir)"
     },
     {
-      "soru": "Seçimler; yargı yönetim ve denetiminde hangi esaslara göre yapılır?",
-      "cevap": "Serbest  * Eşit\nGizli  * Tek Dereceli\nGenel Oy * Döküm\nAçık Sayım"
+      "soru": "SeÃ§imler; yargÄ± yÃ¶netim ve denetiminde hangi esaslara gÃ¶re yapÄ±lÄ±r?",
+      "cevap": "Serbest  * EÅŸit\nGizli  * Tek Dereceli\nGenel Oy * DÃ¶kÃ¼m\nAÃ§Ä±k SayÄ±m"
     },
     {
-      "soru": "Anayasanın değiştirilemez maddeleri nelerdir?",
-      "cevap": "Cumhuriyettir\nTC, demokratik, laik ve sosyal bir hukuk devletidir.\nTürkiye devleti, ülkesi ve millletiyle bölünmez bir bütündür. Dili Türkçedir. Bayrak, Milli Marş ve Başkent.\nİlk 3 madde değiştirilemez değiştirilmesi teklif edilemez."
+      "soru": "AnayasanÄ±n deÄŸiÅŸtirilemez maddeleri nelerdir?",
+      "cevap": "Cumhuriyettir\nTC, demokratik, laik ve sosyal bir hukuk devletidir.\nTÃ¼rkiye devleti, Ã¼lkesi ve millletiyle bÃ¶lÃ¼nmez bir bÃ¼tÃ¼ndÃ¼r. Dili TÃ¼rkÃ§edir. Bayrak, Milli MarÅŸ ve BaÅŸkent.\nÄ°lk 3 madde deÄŸiÅŸtirilemez deÄŸiÅŸtirilmesi teklif edilemez."
     },
     {
       "soru": "Kimler oy kullanamaz?",
-      "cevap": "Silah altındaki Erbaş/Erler\nAskeri Öğrenciler\nTaksirli suçlardan hüküm giyenler hariç hükümlüler"
+      "cevap": "Silah altÄ±ndaki ErbaÅŸ/Erler\nAskeri Ã–ÄŸrenciler\nTaksirli suÃ§lardan hÃ¼kÃ¼m giyenler hariÃ§ hÃ¼kÃ¼mlÃ¼ler"
     },
     {
-      "soru": "Partiler yabancılardan yardım alabilir mi?",
-      "cevap": "Alamaz! Parti kapatılır."
+      "soru": "Partiler yabancÄ±lardan yardÄ±m alabilir mi?",
+      "cevap": "Alamaz! Parti kapatÄ±lÄ±r."
     },
     {
-      "soru": "Yerleşme Hürriyetini kanunla kısıtlamak için istisnaları nelerdir?",
-      "cevap": "Suç işlenmesini önlemek\nSosyal ve ekonomik gelişmeyi sağlamak\nSağlıklı ve düzenli kentleşmeyi sağlamak\nKamu mallarını korumak"
+      "soru": "YerleÅŸme HÃ¼rriyetini kanunla kÄ±sÄ±tlamak iÃ§in istisnalarÄ± nelerdir?",
+      "cevap": "SuÃ§ iÅŸlenmesini Ã¶nlemek\nSosyal ve ekonomik geliÅŸmeyi saÄŸlamak\nSaÄŸlÄ±klÄ± ve dÃ¼zenli kentleÅŸmeyi saÄŸlamak\nKamu mallarÄ±nÄ± korumak"
     },
     {
-      "soru": "Danıştay üyeleri nasıl seçilir?",
-      "cevap": "HSYK tarafından; 1.Sınıf İdari Yargı hakim/savcıları arasından ¾\nCB tarafından ¼ ü seçilir."
+      "soru": "DanÄ±ÅŸtay Ã¼yeleri nasÄ±l seÃ§ilir?",
+      "cevap": "HSYK tarafÄ±ndan; 1.SÄ±nÄ±f Ä°dari YargÄ± hakim/savcÄ±larÄ± arasÄ±ndan Â¾\nCB tarafÄ±ndan Â¼ Ã¼ seÃ§ilir."
     },
     {
-      "soru": "Hakimler ve Savcılarda yaş haddi nedir?",
-      "cevap": "65 yaşını bitirinceye kadar"
+      "soru": "Hakimler ve SavcÄ±larda yaÅŸ haddi nedir?",
+      "cevap": "65 yaÅŸÄ±nÄ± bitirinceye kadar"
     },
     {
-      "soru": "Anayasa Mahkemesi üyeleri kimlerden oluşur?",
-      "cevap": "Toplam 15 üyeden oluşur.\nTBMM 3 Üye (2 Sayıştay + 1 Baro)\nCB 12 Üye (3 Yargıtay + 2 Danıştay + 3 YÖK + 4 Üst kademe yönetici vs.)"
+      "soru": "Anayasa Mahkemesi Ã¼yeleri kimlerden oluÅŸur?",
+      "cevap": "Toplam 15 Ã¼yeden oluÅŸur.\nTBMM 3 Ãœye (2 SayÄ±ÅŸtay + 1 Baro)\nCB 12 Ãœye (3 YargÄ±tay + 2 DanÄ±ÅŸtay + 3 YÃ–K + 4 Ãœst kademe yÃ¶netici vs.)"
     },
     {
-      "soru": "Anayasa Mahkemesi üye olma şartları nelerdir?",
-      "cevap": "45 yaşını doldurmuş\nÖğretim üyeleri Prof/Doç.\nAvukatlar 20 yıllık\nYöneticiler 20 Yıllık\nHakim-Savcılar 20 Yıllık"
+      "soru": "Anayasa Mahkemesi Ã¼ye olma ÅŸartlarÄ± nelerdir?",
+      "cevap": "45 yaÅŸÄ±nÄ± doldurmuÅŸ\nÃ–ÄŸretim Ã¼yeleri Prof/DoÃ§.\nAvukatlar 20 yÄ±llÄ±k\nYÃ¶neticiler 20 YÄ±llÄ±k\nHakim-SavcÄ±lar 20 YÄ±llÄ±k"
     },
     {
-      "soru": "Anayasa Mahkemesinin görevleri nelerdir?",
-      "cevap": "Kanun-Kararnamelerin, TBMM İçtüzüğünün Anayasaya uygunluğu\nBireysel başvuruları karara bağlar\nAnayasa değişikliklerini şekil bakımından inceler."
+      "soru": "Anayasa Mahkemesinin gÃ¶revleri nelerdir?",
+      "cevap": "Kanun-Kararnamelerin, TBMM Ä°Ã§tÃ¼zÃ¼ÄŸÃ¼nÃ¼n Anayasaya uygunluÄŸu\nBireysel baÅŸvurularÄ± karara baÄŸlar\nAnayasa deÄŸiÅŸikliklerini ÅŸekil bakÄ±mÄ±ndan inceler."
     },
     {
-      "soru": "Yüce Divanda savcılık görevini kim yerine getir?",
-      "cevap": "Cumhuriyet Başsavcısı ve Vekili"
+      "soru": "YÃ¼ce Divanda savcÄ±lÄ±k gÃ¶revini kim yerine getir?",
+      "cevap": "Cumhuriyet BaÅŸsavcÄ±sÄ± ve Vekili"
     },
     {
-      "soru": "Anayasa mahkemesi dava açma süresi ne kadardır?",
-      "cevap": "60 gün"
+      "soru": "Anayasa mahkemesi dava aÃ§ma sÃ¼resi ne kadardÄ±r?",
+      "cevap": "60 gÃ¼n"
     },
     {
-      "soru": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu hangi kuruluşlardan oluşur?",
-      "cevap": "Atatürk Araştırma Merkezi\nTürk Dil Kurumu\nTürk Tarih Kurumu\nAtatürk Kültür Merkezi"
+      "soru": "AtatÃ¼rk KÃ¼ltÃ¼r, Dil ve Tarih YÃ¼ksek Kurumu hangi kuruluÅŸlardan oluÅŸur?",
+      "cevap": "AtatÃ¼rk AraÅŸtÄ±rma Merkezi\nTÃ¼rk Dil Kurumu\nTÃ¼rk Tarih Kurumu\nAtatÃ¼rk KÃ¼ltÃ¼r Merkezi"
     },
     {
-      "soru": "Yargıtay Cumhuriyet Başsavcısı/Vekili kim tarafından seçilir?",
-      "cevap": "Cumhurbaşkanı tarafından 4 yıllağına"
+      "soru": "YargÄ±tay Cumhuriyet BaÅŸsavcÄ±sÄ±/Vekili kim tarafÄ±ndan seÃ§ilir?",
+      "cevap": "CumhurbaÅŸkanÄ± tarafÄ±ndan 4 yÄ±llaÄŸÄ±na"
     },
     {
-      "soru": "Yargıtay üyeleri nasıl seçilir?",
-      "cevap": "1.Sınıf Adli Yargı Hakim ve Cumhuriyet Savcıları arasından; HSYK ÜTS'nın salt çoğunluğu ile seçilir."
+      "soru": "YargÄ±tay Ã¼yeleri nasÄ±l seÃ§ilir?",
+      "cevap": "1.SÄ±nÄ±f Adli YargÄ± Hakim ve Cumhuriyet SavcÄ±larÄ± arasÄ±ndan; HSYK ÃœTS'nÄ±n salt Ã§oÄŸunluÄŸu ile seÃ§ilir."
     },
     {
-      "soru": "Adli ve İdari mahkemeler arasındaki uyuşmazlıklara hangi mercii bakar?",
-      "cevap": "Uyuşmazlık Mahkemesi (Başkanı Anayasa Mahkemesince atanır)"
+      "soru": "Adli ve Ä°dari mahkemeler arasÄ±ndaki uyuÅŸmazlÄ±klara hangi mercii bakar?",
+      "cevap": "UyuÅŸmazlÄ±k Mahkemesi (BaÅŸkanÄ± Anayasa Mahkemesince atanÄ±r)"
     },
     {
-      "soru": "Merkezi Yönetim bütçesi kapsamındaki kamu idareleri ile SGK bütün gelir/giderleri ile mallarını TBMM adına denetleyen kurum hangisidir?",
-      "cevap": "Sayıştay"
+      "soru": "Merkezi YÃ¶netim bÃ¼tÃ§esi kapsamÄ±ndaki kamu idareleri ile SGK bÃ¼tÃ¼n gelir/giderleri ile mallarÄ±nÄ± TBMM adÄ±na denetleyen kurum hangisidir?",
+      "cevap": "SayÄ±ÅŸtay"
     },
     {
-      "soru": "Sayıştay kararlarına karşı ne kadar süre içerisinde Karar Düzeltmesi istenebilir?",
-      "cevap": "1 kereye mahsus 15 gün içerisinde"
+      "soru": "SayÄ±ÅŸtay kararlarÄ±na karÅŸÄ± ne kadar sÃ¼re iÃ§erisinde Karar DÃ¼zeltmesi istenebilir?",
+      "cevap": "1 kereye mahsus 15 gÃ¼n iÃ§erisinde"
     },
     {
-      "soru": "HSYK Kaç üyeden oluşur?",
-      "cevap": "13 üyeden oluşur. 2 Daire halinde çalışır."
+      "soru": "HSYK KaÃ§ Ã¼yeden oluÅŸur?",
+      "cevap": "13 Ã¼yeden oluÅŸur. 2 Daire halinde Ã§alÄ±ÅŸÄ±r."
     },
     {
-      "soru": "Toplumu ve Devlet faaliyetlerini ilgilendiren belli bir konunun TBMM Genel Kurulunda görüşülmesine ne ad verilir?",
-      "cevap": "Genel Görüşme"
+      "soru": "Toplumu ve Devlet faaliyetlerini ilgilendiren belli bir konunun TBMM Genel Kurulunda gÃ¶rÃ¼ÅŸÃ¼lmesine ne ad verilir?",
+      "cevap": "Genel GÃ¶rÃ¼ÅŸme"
     },
     {
-      "soru": "Seçim kanununda yapılan değişiklikler ne kadar süre içerisinde yapılan seçimlerde kullanılmaz?",
-      "cevap": "1 Yıl"
+      "soru": "SeÃ§im kanununda yapÄ±lan deÄŸiÅŸiklikler ne kadar sÃ¼re iÃ§erisinde yapÄ±lan seÃ§imlerde kullanÄ±lmaz?",
+      "cevap": "1 YÄ±l"
     },
     {
-      "soru": "Adliye mahkemelerince verilen ve kanunun başka bir adli yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii neresidir?",
-      "cevap": "Yargıtay"
+      "soru": "Adliye mahkemelerince verilen ve kanunun baÅŸka bir adli yargÄ± merciine bÄ±rakmadÄ±ÄŸÄ± karar ve hÃ¼kÃ¼mlerin son inceleme mercii neresidir?",
+      "cevap": "YargÄ±tay"
     },
     {
-      "soru": "Seçimlerin yenilenmesine TBMM nasıl karar verebilir?",
-      "cevap": "ÜTS'nin 3/5 ile"
+      "soru": "SeÃ§imlerin yenilenmesine TBMM nasÄ±l karar verebilir?",
+      "cevap": "ÃœTS'nin 3/5 ile"
     },
     {
-      "soru": "Cumhurbaşkanı Yardımcıları ve Bakanlar hakkında 106.madde 5/6/7 fıkraları uyarınca yapılan soruşturmaya ne ad verilir?",
-      "cevap": "Meclis Soruşturması"
+      "soru": "CumhurbaÅŸkanÄ± YardÄ±mcÄ±larÄ± ve Bakanlar hakkÄ±nda 106.madde 5/6/7 fÄ±kralarÄ± uyarÄ±nca yapÄ±lan soruÅŸturmaya ne ad verilir?",
+      "cevap": "Meclis SoruÅŸturmasÄ±"
     },
     {
-      "soru": "Cumhurbaşkanı Yardımcıları ve Bakanlara verilen Yazılı sorulara ne kadar süre içerisinde cevap verilir?",
-      "cevap": "15 gün"
+      "soru": "CumhurbaÅŸkanÄ± YardÄ±mcÄ±larÄ± ve Bakanlara verilen YazÄ±lÄ± sorulara ne kadar sÃ¼re iÃ§erisinde cevap verilir?",
+      "cevap": "15 gÃ¼n"
     },
     {
-      "soru": "İdari mahkemelerce verilen ve kanunun başka bir idari yargı merciine bırakmadığı karar ve hükümlerin son inceleme mercii neresidir?",
-      "cevap": "Danıştay"
+      "soru": "Ä°dari mahkemelerce verilen ve kanunun baÅŸka bir idari yargÄ± merciine bÄ±rakmadÄ±ÄŸÄ± karar ve hÃ¼kÃ¼mlerin son inceleme mercii neresidir?",
+      "cevap": "DanÄ±ÅŸtay"
     },
     {
-      "soru": "YÖK üyeleri kimlerden oluşur?",
-      "cevap": "Üniversitelerce seçilen ve CB’nin onayladığı üyeler ile\nCB tarafından seçilen üyeler"
+      "soru": "YÃ–K Ã¼yeleri kimlerden oluÅŸur?",
+      "cevap": "Ãœniversitelerce seÃ§ilen ve CBâ€™nin onayladÄ±ÄŸÄ± Ã¼yeler ile\nCB tarafÄ±ndan seÃ§ilen Ã¼yeler"
     },
     {
-      "soru": "Cumhurbaşkanı seçilebilme şartları nelerdir?",
-      "cevap": "40 yaşını doldurmuş olmak\nYüksek Öğrenim Yapmış olmak\nMilletvekili seçilebilen\nTürk vatandaşı"
+      "soru": "CumhurbaÅŸkanÄ± seÃ§ilebilme ÅŸartlarÄ± nelerdir?",
+      "cevap": "40 yaÅŸÄ±nÄ± doldurmuÅŸ olmak\nYÃ¼ksek Ã–ÄŸrenim YapmÄ±ÅŸ olmak\nMilletvekili seÃ§ilebilen\nTÃ¼rk vatandaÅŸÄ±"
     },
     {
-      "soru": "Cumhurbaşkanı makamı boşalırsa seçim esasları nelerdir?",
-      "cevap": "45 gün içinde seçim yapılır.\nYardımcı vekalet eder.\nGenel seçime 1 yıl/daha az kaldıysa Milletvekili seçimleri de yenilenir."
+      "soru": "CumhurbaÅŸkanÄ± makamÄ± boÅŸalÄ±rsa seÃ§im esaslarÄ± nelerdir?",
+      "cevap": "45 gÃ¼n iÃ§inde seÃ§im yapÄ±lÄ±r.\nYardÄ±mcÄ± vekalet eder.\nGenel seÃ§ime 1 yÄ±l/daha az kaldÄ±ysa Milletvekili seÃ§imleri de yenilenir."
     },
     {
-      "soru": "Devlet Denetleme Kurulu üyelerini kim atar?",
-      "cevap": "Cumhurbaşkanı"
+      "soru": "Devlet Denetleme Kurulu Ã¼yelerini kim atar?",
+      "cevap": "CumhurbaÅŸkanÄ±"
     },
     {
-      "soru": "MGK üyeleri kimlerdir?",
-      "cevap": "Cumhurbaşkanı (Başkan) ve Yardımcıları\nAdalet Bakanı\nMSB\nİçişleri ve Dışişleri Bakanları\nGENKUR ve Kuvvet Komutanları"
+      "soru": "MGK Ã¼yeleri kimlerdir?",
+      "cevap": "CumhurbaÅŸkanÄ± (BaÅŸkan) ve YardÄ±mcÄ±larÄ±\nAdalet BakanÄ±\nMSB\nÄ°Ã§iÅŸleri ve DÄ±ÅŸiÅŸleri BakanlarÄ±\nGENKUR ve Kuvvet KomutanlarÄ±"
     },
     {
-      "soru": "Hangi disiplin cezaları Yargı Denetimi dışındadır?",
-      "cevap": "TSK ve Hakimler/Savcılara verilen"
+      "soru": "Hangi disiplin cezalarÄ± YargÄ± Denetimi dÄ±ÅŸÄ±ndadÄ±r?",
+      "cevap": "TSK ve Hakimler/SavcÄ±lara verilen"
     },
     {
-      "soru": "MGK Gündemini kim belirler?",
-      "cevap": "Cumhurbaşkanı yardımcıları ve GENKUR'un önerileri dikkate alınarak Cumhurbaşkanı tarafından belirlenir."
+      "soru": "MGK GÃ¼ndemini kim belirler?",
+      "cevap": "CumhurbaÅŸkanÄ± yardÄ±mcÄ±larÄ± ve GENKUR'un Ã¶nerileri dikkate alÄ±narak CumhurbaÅŸkanÄ± tarafÄ±ndan belirlenir."
     },
     {
-      "soru": "Cumhurbaşkanı tarafından ilan edilen olağanüstü hal yönetiminin süresi ne kadardır?",
-      "cevap": "6 ayı geçemez, her defasında 4 ay uzar."
+      "soru": "CumhurbaÅŸkanÄ± tarafÄ±ndan ilan edilen olaÄŸanÃ¼stÃ¼ hal yÃ¶netiminin sÃ¼resi ne kadardÄ±r?",
+      "cevap": "6 ayÄ± geÃ§emez, her defasÄ±nda 4 ay uzar."
     },
     {
-      "soru": "Dekanları kim atar?",
-      "cevap": "YÖK"
+      "soru": "DekanlarÄ± kim atar?",
+      "cevap": "YÃ–K"
     },
     {
-      "soru": "Kamu Tüzel kişiliği nasıl kurulur?",
+      "soru": "Kamu TÃ¼zel kiÅŸiliÄŸi nasÄ±l kurulur?",
       "cevap": "Kanunla / CB Kararnamesi ile"
     },
     {
-      "soru": "MGK tavsiye kararlarını kime verir?",
-      "cevap": "Cumhurbaşkanına"
+      "soru": "MGK tavsiye kararlarÄ±nÄ± kime verir?",
+      "cevap": "CumhurbaÅŸkanÄ±na"
     },
     {
-      "soru": "Cumhurbaşkanına bağlı çalışan Devlet Denetleme Kurulu hangi kuruluşlarda İdari Soruşturma/İnceleme/Araştırma/Denetleme yapar?",
-      "cevap": "Tüm kamu kurumlarında\nSermayesinin yarıdan fazlası kamuda olanlar\nKamu kurumu niteliğindeki mesleki kuruluşlar\nHer düzeydeki işçi ve işveren meslek kuruluşları\nKamuya yararlı dernekler/vakıflar"
+      "soru": "CumhurbaÅŸkanÄ±na baÄŸlÄ± Ã§alÄ±ÅŸan Devlet Denetleme Kurulu hangi kuruluÅŸlarda Ä°dari SoruÅŸturma/Ä°nceleme/AraÅŸtÄ±rma/Denetleme yapar?",
+      "cevap": "TÃ¼m kamu kurumlarÄ±nda\nSermayesinin yarÄ±dan fazlasÄ± kamuda olanlar\nKamu kurumu niteliÄŸindeki mesleki kuruluÅŸlar\nHer dÃ¼zeydeki iÅŸÃ§i ve iÅŸveren meslek kuruluÅŸlarÄ±\nKamuya yararlÄ± dernekler/vakÄ±flar"
     },
     {
-      "soru": "Rektörleri kim atar?",
-      "cevap": "Cumhurbaşkanı"
+      "soru": "RektÃ¶rleri kim atar?",
+      "cevap": "CumhurbaÅŸkanÄ±"
     }
   ]
 }
