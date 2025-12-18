@@ -122,6 +122,12 @@ a.menu-card {
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
+  width: auto;
+  display: flex;
+}
+
+.dropdown-content a.menu-card {
+  width: auto;
 }
 
 a.menu-card::before {
