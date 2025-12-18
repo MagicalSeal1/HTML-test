@@ -98,6 +98,10 @@ header span {
   transition: max-height 0.5s ease;
 }
 
+.section-title.open + .dropdown-content {
+  margin-top: 14px;
+}
+
 /* Açık hali */
 .dropdown-group .section-title.open + .dropdown-content {
   max-height: 5000px;
