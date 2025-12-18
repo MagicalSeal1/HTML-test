@@ -1,70 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  /* Gradient KORUNDU ama üst renk status bar ile aynı */
+  background: linear-gradient(
+    180deg,
+    #0f172a 0%,
+    #0b0f19 55%,
+    #0b0f19 100%
+  );
+  color: var(--text);
+  min-height: 100vh;
+  padding: 32px 16px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+header span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .grid {
   max-width: 1100px;
   margin: 0 auto;
-}
-
-/* TAB */
-.tabs {
-  max-width: 1100px;
-  margin: 0 auto 32px;
-  display: flex;
-  gap: 10px;
-}
-
-.tab {
-  flex: 1;
-  padding: 14px;
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  background: #0b1220;
-  color: var(--muted);
-  font-weight: 600;
-}
-
-.tab.active {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-/* TAB CONTENT */
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-/* KATEGORİ */
-.category-title {
-  margin: 28px 0 14px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--accent);
-}
-
-.category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 }
 
-/* ===============================
-   MENU CARD (AKTİF)
-   =============================== */
+.grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* === SECTION TITLE → DROPDOWN BAŞLIĞI === */
+.section-title {
+  grid-column: 1 / -1;
+  width: 100%;
+  box-sizing: border-box;
+
+  margin: 12px 0 4px;
+  padding: 14px 18px;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+
+  color: var(--accent);
+  opacity: 0.95;
+
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.section-title:hover {
+  border-color: var(--accent);
+}
+
+/* Ok işareti */
+.section-title .arrow {
+  transition: transform 0.25s ease;
+}
+
+/* === DROPDOWN İÇERİĞİ === */
+.dropdown-content {
+  grid-column: 1 / -1;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+/* Açık hali */
+.section-title.open + .dropdown-content {
+  max-height: 5000px;
+}
+
+/* Ok aşağı → yukarı */
+.section-title.open .arrow {
+  transform: rotate(180deg);
+}
+
 a.menu-card {
   background: linear-gradient(180deg, #111827, #0b1220);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 22px 18px;
-
   text-decoration: none;
   color: var(--text);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
@@ -102,28 +156,31 @@ a.menu-card:hover::before {
   color: var(--muted);
 }
 
-/* ===============================
-   MENU CARD (PASİF / DEACTIVE)
-   =============================== */
 a.menu-card.deactive {
   background: linear-gradient(180deg, #0b1220, #070b14);
   border: 1px dashed var(--border);
   color: var(--muted);
-
   cursor: not-allowed;
+
+  /* Etkileşim kapalı */
   pointer-events: none;
+
+  /* Görsel olarak pasif */
   opacity: 0.55;
+  transform: none;
+}
+
+/* Hover efektlerini iptal et */
+a.menu-card.deactive:hover {
+  transform: none;
+  border-color: var(--border);
 }
 
 a.menu-card.deactive::before {
   display: none;
 }
 
-a.menu-card.deactive:hover {
-  transform: none;
-  border-color: var(--border);
-}
-
+/* İçerik stili */
 .menu-card.deactive h2 {
   color: var(--muted);
 }
@@ -133,3 +190,9 @@ a.menu-card.deactive:hover {
   font-style: italic;
 }
 
+footer {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
