@@ -83,26 +83,37 @@ header span {
 
 .card {
   width: 100%;
-  min-height: 400px; /* minimum yükseklik */
+  min-height: 400px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s ease;
   cursor: pointer;
-  padding: 24px;
 }
 
+/* ÖNEMLİ: absolute + inset:0 */
 .card-face {
-  position: static; /* absolute yerine relative */
-  inset: auto;
+  position: absolute;
+  inset: 0;
   background: linear-gradient(180deg, #111827, #0b1220);
   border: 1px solid var(--border);
   border-radius: 18px;
+
   display: flex;
-  flex-direction: column; /* içerik dikey hizalanır */
-  align-items: stretch;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: stretch;
+
   padding: 24px;
   backface-visibility: hidden;
+}
+
+.card-face.front {
+  transform: rotateY(0deg);
+}
+
+.card-face.back {
+  transform: rotateY(180deg);
+  color: var(--accent);
 }
 
 .card.flip {
@@ -112,18 +123,6 @@ header span {
 .card-face h2 {
   font-size: 1.15rem;
   line-height: 1.4;
-}
-
-.card-face.front {
-  display: flex;
-  flex-direction: column; /* dikey hizalama */
-  align-items: stretch;   /* butonlar sorunun altına yayılır */
-  justify-content: flex-start;
-}
-
-.card-face.back {
-  transform: rotateY(180deg);
-  color: var(--accent);
 }
 
 .controls {
