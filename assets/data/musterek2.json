@@ -1,818 +1,818 @@
 {
-  "title": "Resmi Yazışma Usulleri ve Çalışma Esasları Yönergesi",
+  "title": "Resmi YazÄ±ÅŸma Usulleri ve Ã‡alÄ±ÅŸma EsaslarÄ± YÃ¶nergesi",
   "description": "203 Soru",
   "cards": [
     {
-      "soru": "Trafik olaylarıyla ilgili mesajların öncelik derecesi nedir?",
+      "soru": "Trafik olaylarÄ±yla ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Muhaberenin seyrine mutlak etkisi olacak durumlarda ilgili ve hayati öneme haiz mesajlar için ayrılmış öncelik derecesi hangisidir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Muhaberenin seyrine mutlak etkisi olacak durumlarda ilgili ve hayati Ã¶neme haiz mesajlar iÃ§in ayrÄ±lmÄ±ÅŸ Ã¶ncelik derecesi hangisidir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "SK bağlı birlik/personele toplu saldırı veya karşı koyma raporlarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "SK baÄŸlÄ± birlik/personele toplu saldÄ±rÄ± veya karÅŸÄ± koyma raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Taarruzun meydana gelmek üzere olduğu veya topçu ateşi / hava desteğinin hemen yapılacağı savaş bölgesi hakkındaki durum raporlarının öncelik derecesi nedir?",
+      "soru": "Taarruzun meydana gelmek Ã¼zere olduÄŸu veya topÃ§u ateÅŸi / hava desteÄŸinin hemen yapÄ±lacaÄŸÄ± savaÅŸ bÃ¶lgesi hakkÄ±ndaki durum raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Uçuş gruplarının kara/deniz harekatına uymaları ile ilgili emirlerin öncelik derecesi nedir?",
+      "soru": "UÃ§uÅŸ gruplarÄ±nÄ±n kara/deniz harekatÄ±na uymalarÄ± ile ilgili emirlerin Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Kara,Deniz,Hava kuvvetlerinin acil intikalleriyle ilgili mesajların öncelik derecesi nedir?",
+      "soru": "Kara,Deniz,Hava kuvvetlerinin acil intikalleriyle ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "SK mensubu ve personelinin yaralanması/ölümü ve bunlarla ilgili kaza ve olayların öncelik derecesi nedir?",
+      "soru": "SK mensubu ve personelinin yaralanmasÄ±/Ã¶lÃ¼mÃ¼ ve bunlarla ilgili kaza ve olaylarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Kasıtlı çıkarılan yangınlar ile ilgili mesajların öncelikk derecesi nedir?",
+      "soru": "KasÄ±tlÄ± Ã§Ä±karÄ±lan yangÄ±nlar ile ilgili mesajlarÄ±n Ã¶ncelikk derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Terör olayları ile ilgili mesajların öncelik derecesi nedir?",
+      "soru": "TerÃ¶r olaylarÄ± ile ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Asayiş olaylarıyla ilgili mesajların öncelik derecesi nedir?",
+      "soru": "AsayiÅŸ olaylarÄ±yla ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Kaçakçılık olaylarıyla ilgili mesajların öncelik derecesi nedir?",
+      "soru": "KaÃ§akÃ§Ä±lÄ±k olaylarÄ±yla ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Kara/Deniz harekatı ile müşterek çalışacak hava birliklerine verilecek harekatı etkileyecek emirlerin öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Kara/Deniz harekatÄ± ile mÃ¼ÅŸterek Ã§alÄ±ÅŸacak hava birliklerine verilecek harekatÄ± etkileyecek emirlerin Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Cezaevi olaylarıyla ilgili mesajların öncelik derecesi nedir?",
+      "soru": "Cezaevi olaylarÄ±yla ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Hava aracı intikal raporlarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Hava aracÄ± intikal raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Yüksek öncelik derecesi almaya lüzum göstermeyen fakat gideceği yere gecikmeden gitmesi gerekli olan bütün mesajlar hangi öncelik derecesini alır?",
+      "soru": "YÃ¼ksek Ã¶ncelik derecesi almaya lÃ¼zum gÃ¶stermeyen fakat gideceÄŸi yere gecikmeden gitmesi gerekli olan bÃ¼tÃ¼n mesajlar hangi Ã¶ncelik derecesini alÄ±r?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "Barış zamanı askeri harekatlar, programlar ve projeleri ile ilgili mesajlara hangi öncelik derecesi verilir?",
+      "soru": "BarÄ±ÅŸ zamanÄ± askeri harekatlar, programlar ve projeleri ile ilgili mesajlara hangi Ã¶ncelik derecesi verilir?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "İstikrarlı taktik harekat ile ilgili mesajlara hangi öncelik derecesi verilir?",
+      "soru": "Ä°stikrarlÄ± taktik harekat ile ilgili mesajlara hangi Ã¶ncelik derecesi verilir?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "Planlanan harekat ile ilgili harekat planları hangi öncelik derecesi alır?",
+      "soru": "Planlanan harekat ile ilgili harekat planlarÄ± hangi Ã¶ncelik derecesi alÄ±r?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "Zaman etkeninin daha yüksek bir öncelik olarak kullanılmasını gerektirmeyen durumlar hariç; birlik intikali, ikmal, teçhizat talebi ve intikal mesajları hangi öncelik derecesi alır?",
+      "soru": "Zaman etkeninin daha yÃ¼ksek bir Ã¶ncelik olarak kullanÄ±lmasÄ±nÄ± gerektirmeyen durumlar hariÃ§; birlik intikali, ikmal, teÃ§hizat talebi ve intikal mesajlarÄ± hangi Ã¶ncelik derecesi alÄ±r?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "Periyodik veya birleştirilmiş istihbarat raporları hangi öncelik derecesini alır?",
+      "soru": "Periyodik veya birleÅŸtirilmiÅŸ istihbarat raporlarÄ± hangi Ã¶ncelik derecesini alÄ±r?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "İdari, lojistik ve personel konuları hangi öncelik derecesini alır?",
+      "soru": "Ä°dari, lojistik ve personel konularÄ± hangi Ã¶ncelik derecesini alÄ±r?",
       "cevap": "Normal (RR)"
     },
     {
-      "soru": "KİŞİYE ÖZEL ibareli evrak mesaja ilgi yapılacaksa ilgi satırının sonuna hangi işaret konur?",
-      "cevap": "(K.Ö.)"
+      "soru": "KÄ°ÅÄ°YE Ã–ZEL ibareli evrak mesaja ilgi yapÄ±lacaksa ilgi satÄ±rÄ±nÄ±n sonuna hangi iÅŸaret konur?",
+      "cevap": "(K.Ã–.)"
     },
     {
-      "soru": "Her Adrese Yollanmamıştır (HAY) ibaresinin NATO kısaltması nedir?",
+      "soru": "Her Adrese YollanmamÄ±ÅŸtÄ±r (HAY) ibaresinin NATO kÄ±saltmasÄ± nedir?",
       "cevap": "NOTAL"
     },
     {
-      "soru": "Harekat Yıldırım (ZZ) mesajlara cevap verme süresi ne kadardır?",
+      "soru": "Harekat YÄ±ldÄ±rÄ±m (ZZ) mesajlara cevap verme sÃ¼resi ne kadardÄ±r?",
       "cevap": "Derhal"
     },
     {
-      "soru": "İnsan kaçakçılığı ve insan ticareti olaylarıyla ilgili mesajların öncelik derecesi nedir?",
+      "soru": "Ä°nsan kaÃ§akÃ§Ä±lÄ±ÄŸÄ± ve insan ticareti olaylarÄ±yla ilgili mesajlarÄ±n Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "Çok Acele (OO) mesajlara geldikten sonra ne kadar süre içerisinde derhal çekilme işlemi yapılır?",
+      "soru": "Ã‡ok Acele (OO) mesajlara geldikten sonra ne kadar sÃ¼re iÃ§erisinde derhal Ã§ekilme iÅŸlemi yapÄ±lÄ±r?",
       "cevap": "30 dakika ila 1 saat arasnda"
     },
     {
-      "soru": "Milli ve müttefik kuvvetlerin veya halkın güvenliğine önemli etkide bulunacak veya bulunan durumlarla ilgili çok acil mesajlar için ayrılmış öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Milli ve mÃ¼ttefik kuvvetlerin veya halkÄ±n gÃ¼venliÄŸine Ã¶nemli etkide bulunacak veya bulunan durumlarla ilgili Ã§ok acil mesajlar iÃ§in ayrÄ±lmÄ±ÅŸ Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Devam etmekte olan harekatın sevk ve idaresiyle ilgili mesajlar ile normal önceliğin yeterli olmayacağı diğer acil ve önemli mesajlar için ayrılmış öncelik derecesi nedir?",
+      "soru": "Devam etmekte olan harekatÄ±n sevk ve idaresiyle ilgili mesajlar ile normal Ã¶nceliÄŸin yeterli olmayacaÄŸÄ± diÄŸer acil ve Ã¶nemli mesajlar iÃ§in ayrÄ±lmÄ±ÅŸ Ã¶ncelik derecesi nedir?",
       "cevap": "Acele (PP)"
     },
     {
-      "soru": "İlk düşman temas raporları ve acil harekat ihtiyacıyla ilgili mesajların Öncelik Derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Ä°lk dÃ¼ÅŸman temas raporlarÄ± ve acil harekat ihtiyacÄ±yla ilgili mesajlarÄ±n Ã–ncelik Derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Son derece acil istihbarat raporlarının öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Son derece acil istihbarat raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Denizaltı SATIH ve KONTROL mesajlarının öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "DenizaltÄ± SATIH ve KONTROL mesajlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Harekatla ilgili olmaan ancak hayati öneme sahip mesajların öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Harekatla ilgili olmaan ancak hayati Ã¶neme sahip mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Büyük çaptaki taarruzların meydana gelmek üzere olduğunu ikaz eden mesajların öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "BÃ¼yÃ¼k Ã§aptaki taarruzlarÄ±n meydana gelmek Ã¼zere olduÄŸunu ikaz eden mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Beklenmedik zamanda dost kuvvetlerce işgal edilmiş  düşman hedeflerini bombalamaya giden uçakları yollarından çevirmek için çekilen mesajların öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Beklenmedik zamanda dost kuvvetlerce iÅŸgal edilmiÅŸ  dÃ¼ÅŸman hedeflerini bombalamaya giden uÃ§aklarÄ± yollarÄ±ndan Ã§evirmek iÃ§in Ã§ekilen mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Çok acil büyük stratejik kararları kapsayan mesajların öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Ã‡ok acil bÃ¼yÃ¼k stratejik kararlarÄ± kapsayan mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Harekat görevi alan/bu harekata herhangi bir nedenle iştirak eden birliklerin göndermek istediği mesajların öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Harekat gÃ¶revi alan/bu harekata herhangi bir nedenle iÅŸtirak eden birliklerin gÃ¶ndermek istediÄŸi mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Kendi birliklerimizin harekatıyla ilgili birlik intikaller ve varış raporlarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Kendi birliklerimizin harekatÄ±yla ilgili birlik intikaller ve varÄ±ÅŸ raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Harekat Yıldırım (ZZ) mesajlara geldikten sonra ne kadar süre içerisinde derhal çekilme işlemi yapılır?",
-      "cevap": "10 dakikadan daha az sürede."
+      "soru": "Harekat YÄ±ldÄ±rÄ±m (ZZ) mesajlara geldikten sonra ne kadar sÃ¼re iÃ§erisinde derhal Ã§ekilme iÅŸlemi yapÄ±lÄ±r?",
+      "cevap": "10 dakikadan daha az sÃ¼rede."
     },
     {
-      "soru": "Normal (RR) mesajlara cevap verme süresi ne kadardır?",
-      "cevap": "6 iş günü"
+      "soru": "Normal (RR) mesajlara cevap verme sÃ¼resi ne kadardÄ±r?",
+      "cevap": "6 iÅŸ gÃ¼nÃ¼"
     },
     {
-      "soru": "Acele (PP) mesajlara geldikten sonra ne kadar süre içerisinde derhal çekilme işlemi yapılır?",
-      "cevap": "1 ila 6 saat arasında"
+      "soru": "Acele (PP) mesajlara geldikten sonra ne kadar sÃ¼re iÃ§erisinde derhal Ã§ekilme iÅŸlemi yapÄ±lÄ±r?",
+      "cevap": "1 ila 6 saat arasÄ±nda"
     },
     {
-      "soru": "Normal (RR) mesajlara geldikten sonra ne kadar süre içerisinde derhal çekilme işlemi yapılır?",
-      "cevap": "6 saat ila Ertesi günkü çalışma saati başlangıcı arasında"
+      "soru": "Normal (RR) mesajlara geldikten sonra ne kadar sÃ¼re iÃ§erisinde derhal Ã§ekilme iÅŸlemi yapÄ±lÄ±r?",
+      "cevap": "6 saat ila Ertesi gÃ¼nkÃ¼ Ã§alÄ±ÅŸma saati baÅŸlangÄ±cÄ± arasÄ±nda"
     },
     {
-      "soru": "İlk düşman temasını açıklayan raporların öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Ä°lk dÃ¼ÅŸman temasÄ±nÄ± aÃ§Ä±klayan raporlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Barışta/Gerginlikte, yabancı ask.kuvvetlerin alışılanın dışındaki büyük intikal raporlarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "BarÄ±ÅŸta/Gerginlikte, yabancÄ± ask.kuvvetlerin alÄ±ÅŸÄ±lanÄ±n dÄ±ÅŸÄ±ndaki bÃ¼yÃ¼k intikal raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Düşmanın karşı taarruzunu rapor eden veya ilave destek talebi/iptal eden mesajların öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "DÃ¼ÅŸmanÄ±n karÅŸÄ± taarruzunu rapor eden veya ilave destek talebi/iptal eden mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "İhtiyattaki bir kuvveti gecikmeksizin muharebeye sokmak için verilecek taarruz emirlerinin öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Ä°htiyattaki bir kuvveti gecikmeksizin muharebeye sokmak iÃ§in verilecek taarruz emirlerinin Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Harekatın sürdürülebilmesi için zorunlu olan özel silahların lojistik desteğiyle ilgili mesajları öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "HarekatÄ±n sÃ¼rdÃ¼rÃ¼lebilmesi iÃ§in zorunlu olan Ã¶zel silahlarÄ±n lojistik desteÄŸiyle ilgili mesajlarÄ± Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Geniş çapta yayılmış sivil karışıklık / anarşik toplum olaylarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "GeniÅŸ Ã§apta yayÄ±lmÄ±ÅŸ sivil karÄ±ÅŸÄ±klÄ±k / anarÅŸik toplum olaylarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Ciddi derecede doğal afetleri bildirme ve ikaz raporlarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Ciddi derecede doÄŸal afetleri bildirme ve ikaz raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Acil durum yardımı, talebi veya bununla ilgili emirlerin öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Acil durum yardÄ±mÄ±, talebi veya bununla ilgili emirlerin Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Acil istihbarat raporlarının öncelik derecesi nedir?",
-      "cevap": "Çok Acele (OO)"
+      "soru": "Acil istihbarat raporlarÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Ã‡ok Acele (OO)"
     },
     {
-      "soru": "Bir taktik harekatın gelişen tarzına etkili olacak idari ve lojistik işlerin bildirilmesine ait mesajların öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "Bir taktik harekatÄ±n geliÅŸen tarzÄ±na etkili olacak idari ve lojistik iÅŸlerin bildirilmesine ait mesajlarÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Açıklanması yabancı ir devlet ile ilişkileri zararlı duruma sokacak bilgilere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "AÃ§Ä±klanmasÄ± yabancÄ± ir devlet ile iliÅŸkileri zararlÄ± duruma sokacak bilgilere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Düşman için kıymetli bilgiyi kapsayan fakat düşman için hiçbir zaman hayati önemi olmayan alışılmmış harekat ve muhabere raporlarına hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "DÃ¼ÅŸman iÃ§in kÄ±ymetli bilgiyi kapsayan fakat dÃ¼ÅŸman iÃ§in hiÃ§bir zaman hayati Ã¶nemi olmayan alÄ±ÅŸÄ±lmmÄ±ÅŸ harekat ve muhabere raporlarÄ±na hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Rutin istihbarat raporlarına hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Rutin istihbarat raporlarÄ±na hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Gelişmekte olan harekata ait konulara hangi gizlilik derecesi verilir?",
+      "soru": "GeliÅŸmekte olan harekata ait konulara hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Özel emniyeti olan telsiz freq. Tahsisleri veya güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Ã–zel emniyeti olan telsiz freq. Tahsisleri veya gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "güvenlik gerekçesiyle sık aralıklarla değiştirilen özel emniyeti olan çağrı işaretleri tahsislerine hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã¶zel emniyeti olan Ã§aÄŸrÄ± iÅŸaretleri tahsislerine hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Esas harekat ortamında etki sağlayabilecek birliklerimizin hüviyetlerini, kuvvetlerini ve kuruluşlarını bunlarla ilgili bell araç ve gereçlerin miktarını gösteren bilgilere hangi Gizlilik derecesi?",
-      "cevap": "Özel"
+      "soru": "Esas harekat ortamÄ±nda etki saÄŸlayabilecek birliklerimizin hÃ¼viyetlerini, kuvvetlerini ve kuruluÅŸlarÄ±nÄ± bunlarla ilgili bell araÃ§ ve gereÃ§lerin miktarÄ±nÄ± gÃ¶steren bilgilere hangi Gizlilik derecesi?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "İlmi ve teknik gelişmeler de dahil olmak üzere denetim bakım ve eğitim için kullanılan el kitapları ve belgelere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Ä°lmi ve teknik geliÅŸmeler de dahil olmak Ã¼zere denetim bakÄ±m ve eÄŸitim iÃ§in kullanÄ±lan el kitaplarÄ± ve belgelere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Tatbikat sonucu öğrenilen ve içeriğinin herhangi bir yabancı devlet tarafından öğrenilmesi arzu edilmeyen genel taktik derslerine güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Tatbikat sonucu Ã¶ÄŸrenilen ve iÃ§eriÄŸinin herhangi bir yabancÄ± devlet tarafÄ±ndan Ã¶ÄŸrenilmesi arzu edilmeyen genel taktik derslerine gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Kripto dışındaki muhabere araç ve gereçlerine güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Hizmete Özel"
+      "soru": "Kripto dÄ±ÅŸÄ±ndaki muhabere araÃ§ ve gereÃ§lerine gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Hizmete Ã–zel"
     },
     {
-      "soru": "Genel olarak içeriğinde bir bilgi olmayan fakat askeri yönden önemli bulunan araştırma veya bu gibi konularla ilgili teknik bilgilere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Genel olarak iÃ§eriÄŸinde bir bilgi olmayan fakat askeri yÃ¶nden Ã¶nemli bulunan araÅŸtÄ±rma veya bu gibi konularla ilgili teknik bilgilere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Çok Acele (OO) mesajlara cevap verme süresi ne kadardır?",
+      "soru": "Ã‡ok Acele (OO) mesajlara cevap verme sÃ¼resi ne kadardÄ±r?",
       "cevap": "48 saat"
     },
     {
-      "soru": "Belli harp yedekleri miktarlarına ait bilgilere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Belli harp yedekleri miktarlarÄ±na ait bilgilere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Yurt savunmasına ait programlara hangi gizlilik derecesi verilir?",
+      "soru": "Yurt savunmasÄ±na ait programlara hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Yabancı bir devlet için önemli bir konuyu kapsayan askeri eğitim öğretim ve tatbikatlar hakkındaki genel bilgilere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "YabancÄ± bir devlet iÃ§in Ã¶nemli bir konuyu kapsayan askeri eÄŸitim Ã¶ÄŸretim ve tatbikatlar hakkÄ±ndaki genel bilgilere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Kaynak koruması bakımından yüksek bir dereceye çıkarılmasına lüzum olmayan çalışma raporlarına güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Kaynak korumasÄ± bakÄ±mÄ±ndan yÃ¼ksek bir dereceye Ã§Ä±karÄ±lmasÄ±na lÃ¼zum olmayan Ã§alÄ±ÅŸma raporlarÄ±na gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Ekonomik alanda alınan önemli tedbirlere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Ekonomik alanda alÄ±nan Ã¶nemli tedbirlere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Özlük Dosyaları, sicil belgeleri, personele yönelik cezalar ve icra işlemlerine güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Ã–zlÃ¼k DosyalarÄ±, sicil belgeleri, personele yÃ¶nelik cezalar ve icra iÅŸlemlerine gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Gerekli izin temin edilmeden açığa çıktığında milli güvenliğimizi, saygınlık ve çıkarlarımızı ciddi biçiimde sarsacak ve diğer yandan yabancı bir devlete geniş yararlar temin edecek nitelikte olan evraklara hangi gizlilik derecesi verilir?",
+      "soru": "Gerekli izin temin edilmeden aÃ§Ä±ÄŸa Ã§Ä±ktÄ±ÄŸÄ±nda milli gÃ¼venliÄŸimizi, saygÄ±nlÄ±k ve Ã§Ä±karlarÄ±mÄ±zÄ± ciddi biÃ§iimde sarsacak ve diÄŸer yandan yabancÄ± bir devlete geniÅŸ yararlar temin edecek nitelikte olan evraklara hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Yurt savunması alanında olağanüstü tedbirlere hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Yurt savunmasÄ± alanÄ±nda olaÄŸanÃ¼stÃ¼ tedbirlere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "İçeriğinde personele ait psikolojik bozukluk tanısı bulunan evraklara güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Ä°Ã§eriÄŸinde personele ait psikolojik bozukluk tanÄ±sÄ± bulunan evraklara gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Esas harekat ortamından uzak mesafelerde bulunan bölgelerdeki birliklerimizin gücünü kimliğini ve niteliğini veya bunlarla ilgili belli donanım ve gerecin toplu miktarlarını bildiren bilgilere hangi gizlilik derecesi?",
-      "cevap": "Hizmete Özel"
+      "soru": "Esas harekat ortamÄ±ndan uzak mesafelerde bulunan bÃ¶lgelerdeki birliklerimizin gÃ¼cÃ¼nÃ¼ kimliÄŸini ve niteliÄŸini veya bunlarla ilgili belli donanÄ±m ve gerecin toplu miktarlarÄ±nÄ± bildiren bilgilere hangi gizlilik derecesi?",
+      "cevap": "Hizmete Ã–zel"
     },
     {
-      "soru": "Basına açıklanması gerekmeyen ve yalnı resmi amaçlar için kullanılacak teknik ve eğitim belgelerine güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Hizmete Özel"
+      "soru": "BasÄ±na aÃ§Ä±klanmasÄ± gerekmeyen ve yalnÄ± resmi amaÃ§lar iÃ§in kullanÄ±lacak teknik ve eÄŸitim belgelerine gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Hizmete Ã–zel"
     },
     {
-      "soru": "Seferberlik Planları ve yönergelerinin kısımlarına güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Hizmete Özel"
+      "soru": "Seferberlik PlanlarÄ± ve yÃ¶nergelerinin kÄ±sÄ±mlarÄ±na gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Hizmete Ã–zel"
     },
     {
-      "soru": "Harpte sivil üretimden askeri üretime yeni silah ve teçhizat üretimine geçiş/çevriilmesi bu amaçla ihtiyaç duyulan sanayi kuruluşlarının seferber edilmesini sağlamak için askeri ve milli kuruluş tarafından toplanmış bilgilere hangi Gizlilik derecesi?",
-      "cevap": "Özel"
+      "soru": "Harpte sivil Ã¼retimden askeri Ã¼retime yeni silah ve teÃ§hizat Ã¼retimine geÃ§iÅŸ/Ã§evriilmesi bu amaÃ§la ihtiyaÃ§ duyulan sanayi kuruluÅŸlarÄ±nÄ±n seferber edilmesini saÄŸlamak iÃ§in askeri ve milli kuruluÅŸ tarafÄ±ndan toplanmÄ±ÅŸ bilgilere hangi Gizlilik derecesi?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Belli kişilerin bilgilerine arz edilecek olan siyasal ve ekonomik bakımdan büyük önem taşıyan konulara hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Belli kiÅŸilerin bilgilerine arz edilecek olan siyasal ve ekonomik bakÄ±mdan bÃ¼yÃ¼k Ã¶nem taÅŸÄ±yan konulara hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Gizlilik derecelerinin kısaltmaları nerede kullanılabilir?",
-      "cevap": "Sadece Evrakın kayıt ve zimmet işlemlerinde kullanılabilir."
+      "soru": "Gizlilik derecelerinin kÄ±saltmalarÄ± nerede kullanÄ±labilir?",
+      "cevap": "Sadece EvrakÄ±n kayÄ±t ve zimmet iÅŸlemlerinde kullanÄ±labilir."
     },
     {
-      "soru": "Yetkili ve Sınırlı sayıda Evrak birimleri tarafından özel işleme tabi tutulması gereken Gelen-Giden mesajlar nelerdir?",
-      "cevap": "• Kontrollü Mesaj (Kontrollü Evrak büroları tarafından işlem yapılır)\n• Kripto işaretli mesajlar\n• Atomal İşaretli mesajlar\n• Kişiye Özel mesajlar\n• Özel Kodları kapsayan mesajlar"
+      "soru": "Yetkili ve SÄ±nÄ±rlÄ± sayÄ±da Evrak birimleri tarafÄ±ndan Ã¶zel iÅŸleme tabi tutulmasÄ± gereken Gelen-Giden mesajlar nelerdir?",
+      "cevap": "Â• KontrollÃ¼ Mesaj (KontrollÃ¼ Evrak bÃ¼rolarÄ± tarafÄ±ndan iÅŸlem yapÄ±lÄ±r)\nÂ• Kripto iÅŸaretli mesajlar\nÂ• Atomal Ä°ÅŸaretli mesajlar\nÂ• KiÅŸiye Ã–zel mesajlar\nÂ• Ã–zel KodlarÄ± kapsayan mesajlar"
     },
     {
-      "soru": "Hangi komutanlıklar düzeyinde Genel Evraklar 24 saat esasına göre çalışır?",
-      "cevap": "• GENKUR\n• Kuvvet Komutanlıkları\n• Ordu Komutanlığı (Eşidi)"
+      "soru": "Hangi komutanlÄ±klar dÃ¼zeyinde Genel Evraklar 24 saat esasÄ±na gÃ¶re Ã§alÄ±ÅŸÄ±r?",
+      "cevap": "Â• GENKUR\nÂ• Kuvvet KomutanlÄ±klarÄ±\nÂ• Ordu KomutanlÄ±ÄŸÄ± (EÅŸidi)"
     },
     {
-      "soru": "Bakanlık kurumlarının SADECE KENDİ ARALARINDA herhangi bir konunun olgunlaştırılması, sorunun çözülmesi/yazılı iletişim için kullandıkları ve belirli esaslara göre hazırlanan evrak?",
-      "cevap": "Askeri Yazı"
+      "soru": "BakanlÄ±k kurumlarÄ±nÄ±n SADECE KENDÄ° ARALARINDA herhangi bir konunun olgunlaÅŸtÄ±rÄ±lmasÄ±, sorunun Ã§Ã¶zÃ¼lmesi/yazÄ±lÄ± iletiÅŸim iÃ§in kullandÄ±klarÄ± ve belirli esaslara gÃ¶re hazÄ±rlanan evrak?",
+      "cevap": "Askeri YazÄ±"
     },
     {
-      "soru": "Bir evraka \"ÇOK GİZLİ\" gizlilik derecesi verilmesini belirlemeye en az hangi seviyedeki personel yetkilidir?",
-      "cevap": "En az Şube Müdürü"
+      "soru": "Bir evraka \"Ã‡OK GÄ°ZLÄ°\" gizlilik derecesi verilmesini belirlemeye en az hangi seviyedeki personel yetkilidir?",
+      "cevap": "En az Åube MÃ¼dÃ¼rÃ¼"
     },
     {
-      "soru": "Harp planları, gelecekteki ana-özel harekat planları ve ayrıntılarına hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Harp planlarÄ±, gelecekteki ana-Ã¶zel harekat planlarÄ± ve ayrÄ±ntÄ±larÄ±na hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Söz konusu harp planları ve harekatla ilgili olarak kuvvetlerimizin ve konvoylarımızın düzenine ve harekatına ait ayrıntılara hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "SÃ¶z konusu harp planlarÄ± ve harekatla ilgili olarak kuvvetlerimizin ve konvoylarÄ±mÄ±zÄ±n dÃ¼zenine ve harekatÄ±na ait ayrÄ±ntÄ±lara hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "İttifak görüşmeleri gibi konulara ait çok önemli siyasi belgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Ä°ttifak gÃ¶rÃ¼ÅŸmeleri gibi konulara ait Ã§ok Ã¶nemli siyasi belgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "İstihbarat ve düşman istihbarat faaliyetlerine karşı koyma servislerimizin elde ettiği başarılar, kullandığı yöntemler ve bunlarla ilgili görevlerimizi tehlikeye sokacak nitelikteki bilgilere hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Ä°stihbarat ve dÃ¼ÅŸman istihbarat faaliyetlerine karÅŸÄ± koyma servislerimizin elde ettiÄŸi baÅŸarÄ±lar, kullandÄ±ÄŸÄ± yÃ¶ntemler ve bunlarla ilgili gÃ¶revlerimizi tehlikeye sokacak nitelikteki bilgilere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Gelecekteki harekatta kullanılabilecek bazı özel teknik ve yöntemler ile bu nitelikteki teknik ve yöntemlerin uygulanması amacıyla kurulan birliklerin kuruluşları, yerleri vb. hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Gelecekteki harekatta kullanÄ±labilecek bazÄ± Ã¶zel teknik ve yÃ¶ntemler ile bu nitelikteki teknik ve yÃ¶ntemlerin uygulanmasÄ± amacÄ±yla kurulan birliklerin kuruluÅŸlarÄ±, yerleri vb. hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Saklı tutulması istenen konular, güvenlik tahkikat yazıları, disiplinle ilgili ve kişilere ait belgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "SaklÄ± tutulmasÄ± istenen konular, gÃ¼venlik tahkikat yazÄ±larÄ±, disiplinle ilgili ve kiÅŸilere ait belgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Kripto çözümlemenin önemli yönleri ve geliştirilmekte olan araç, gereç ve teçhizatla ilgili olduğu süree önemli bilgilere hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Kripto Ã§Ã¶zÃ¼mlemenin Ã¶nemli yÃ¶nleri ve geliÅŸtirilmekte olan araÃ§, gereÃ§ ve teÃ§hizatla ilgili olduÄŸu sÃ¼ree Ã¶nemli bilgilere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Gerekli izin alınmadan açıklandığında milletimizin çıkar ve prestijini sarsacak veya bir şahsın zarar görmesine neden olacak veya yabancı başka bir devlete yarar temin edecek evraklara hangi gizlilik derecesi verilir?",
-      "cevap": "Özel"
+      "soru": "Gerekli izin alÄ±nmadan aÃ§Ä±klandÄ±ÄŸÄ±nda milletimizin Ã§Ä±kar ve prestijini sarsacak veya bir ÅŸahsÄ±n zarar gÃ¶rmesine neden olacak veya yabancÄ± baÅŸka bir devlete yarar temin edecek evraklara hangi gizlilik derecesi verilir?",
+      "cevap": "Ã–zel"
     },
     {
-      "soru": "Savunmaya önemlli etkisi olan ilmi ve teknik ilerlemeler de dahil, harp mühimmatında yeni ve önemli gelişmeler ve bu nitelikleri taşıyan gelişme projelerine hangi gizlilik derecesi verilir?",
+      "soru": "Savunmaya Ã¶nemlli etkisi olan ilmi ve teknik ilerlemeler de dahil, harp mÃ¼himmatÄ±nda yeni ve Ã¶nemli geliÅŸmeler ve bu nitelikleri taÅŸÄ±yan geliÅŸme projelerine hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Yabancı bir devlete geniş yararlar sağlayacak durumdaki araç gereçlere hangi gizlilik derecesi verilir?",
+      "soru": "YabancÄ± bir devlete geniÅŸ yararlar saÄŸlayacak durumdaki araÃ§ gereÃ§lere hangi gizlilik derecesi verilir?",
       "cevap": "Gizlli"
     },
     {
-      "soru": "Düşman için hayati önemi olan bilgiyi içine alan harekat raporlarına hangi gizlilik derecesi verilir?",
+      "soru": "DÃ¼ÅŸman iÃ§in hayati Ã¶nemi olan bilgiyi iÃ§ine alan harekat raporlarÄ±na hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Önemli savunma tesisleri hakkında hayati öneme haiz askeri bilgilere hangi gizlilik derecesi verilir?",
+      "soru": "Ã–nemli savunma tesisleri hakkÄ±nda hayati Ã¶neme haiz askeri bilgilere hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Askeri harekata büyük çapta etki yapan genel moral hakkındaki olumsuz raporlara hangi gizlilik derecesi verilir?",
+      "soru": "Askeri harekata bÃ¼yÃ¼k Ã§apta etki yapan genel moral hakkÄ±ndaki olumsuz raporlara hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Muhabere istihbaratı ve önemli muhabere güvenlik tesisleri hakkında bilgilere hangi gizlilik derecesi verilir?",
+      "soru": "Muhabere istihbaratÄ± ve Ã¶nemli muhabere gÃ¼venlik tesisleri hakkÄ±nda bilgilere hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Askeri coğrafi bilgilere hangi gizlilik derecesi verilir?",
+      "soru": "Askeri coÄŸrafi bilgilere hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Sahra posta numaralarını taşıyan posta adresleri hariç! Harekat ortamında görevi yürüten birliklerimizin teşhis ve tanımlamalarını gösteren bilgilere hangi gizlilik derecesi verilir?",
+      "soru": "Sahra posta numaralarÄ±nÄ± taÅŸÄ±yan posta adresleri hariÃ§! Harekat ortamÄ±nda gÃ¶revi yÃ¼rÃ¼ten birliklerimizin teÅŸhis ve tanÄ±mlamalarÄ±nÄ± gÃ¶steren bilgilere hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Gelecekteki harekatta kullanılacak bazı yeni ve özel teknik/yöntemler ve bunlar için oluşturulmuş birliklerin kimlik ve kuruluşlarına hangi gizlilik derecesi verilir?",
+      "soru": "Gelecekteki harekatta kullanÄ±lacak bazÄ± yeni ve Ã¶zel teknik/yÃ¶ntemler ve bunlar iÃ§in oluÅŸturulmuÅŸ birliklerin kimlik ve kuruluÅŸlarÄ±na hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "İçerikleri sadece belli kişi çerçevesinde duyurulacak önemli siyasal haber ve talimatlara hangi gizlilik derecesi verilir?",
+      "soru": "Ä°Ã§erikleri sadece belli kiÅŸi Ã§erÃ§evesinde duyurulacak Ã¶nemli siyasal haber ve talimatlara hangi gizlilik derecesi verilir?",
       "cevap": "Gizli"
     },
     {
-      "soru": "Acele (PP) mesajlara cevap verme süresi ne kadardır?",
-      "cevap": "4 iş günü"
+      "soru": "Acele (PP) mesajlara cevap verme sÃ¼resi ne kadardÄ±r?",
+      "cevap": "4 iÅŸ gÃ¼nÃ¼"
     },
     {
-      "soru": "Harp bilgisi kapsamında bilimsel, teknik gelişmeler ve bunlarla ilgili olağanüstü önemli bilgilere hangi gizlilik derecesi verilir?",
-      "cevap": "Çok Gizli"
+      "soru": "Harp bilgisi kapsamÄ±nda bilimsel, teknik geliÅŸmeler ve bunlarla ilgili olaÄŸanÃ¼stÃ¼ Ã¶nemli bilgilere hangi gizlilik derecesi verilir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Evraka miad verilemediği durumlarda; evrakın süratle işlem yapılmasını gerektiren Evrak hangisidir?",
+      "soru": "Evraka miad verilemediÄŸi durumlarda; evrakÄ±n sÃ¼ratle iÅŸlem yapÄ±lmasÄ±nÄ± gerektiren Evrak hangisidir?",
       "cevap": "Acele Evrak"
     },
     {
-      "soru": "ZİMMETLE ilgili elektronik ortam kayıtları, çıktılar, defterler ve formlar kaç yıl süreyle muhafaza edilir?",
-      "cevap": "30 Yıl"
+      "soru": "ZÄ°MMETLE ilgili elektronik ortam kayÄ±tlarÄ±, Ã§Ä±ktÄ±lar, defterler ve formlar kaÃ§ yÄ±l sÃ¼reyle muhafaza edilir?",
+      "cevap": "30 YÄ±l"
     },
     {
-      "soru": "Güvenlik numaraları ne zaman sıfırlanır?",
-      "cevap": "Yıl başlarında"
+      "soru": "GÃ¼venlik numaralarÄ± ne zaman sÄ±fÄ±rlanÄ±r?",
+      "cevap": "YÄ±l baÅŸlarÄ±nda"
     },
     {
-      "soru": "Hangi yazılarda TASNİF DIŞI ibaresine yer verilir?",
-      "cevap": "NATO ülkeleri ve makamlarına gönderilecek yazışmalar hariç! Yazılarda yer verilmez."
+      "soru": "Hangi yazÄ±larda TASNÄ°F DIÅI ibaresine yer verilir?",
+      "cevap": "NATO Ã¼lkeleri ve makamlarÄ±na gÃ¶nderilecek yazÄ±ÅŸmalar hariÃ§! YazÄ±larda yer verilmez."
     },
     {
-      "soru": "NATO ülkeleri ve makamlarıyla karşılıklı gönderilen evrakın sınırlı bilgi içerdiğini ve evrakın özel işleme tabi tutulacağı anlamını taşıyan işaret hangisidir?",
+      "soru": "NATO Ã¼lkeleri ve makamlarÄ±yla karÅŸÄ±lÄ±klÄ± gÃ¶nderilen evrakÄ±n sÄ±nÄ±rlÄ± bilgi iÃ§erdiÄŸini ve evrakÄ±n Ã¶zel iÅŸleme tabi tutulacaÄŸÄ± anlamÄ±nÄ± taÅŸÄ±yan iÅŸaret hangisidir?",
       "cevap": "ATOMAL (Atomic)"
     },
     {
-      "soru": "Bakanlık kurumlarının her birinden başka bir yere evrak, paket, koli, mektup vb. sadece resmi kurum veya kuruluşlar vasıtasıyla gönderilmesine ne denir?",
-      "cevap": "Gönderi Usülü"
+      "soru": "BakanlÄ±k kurumlarÄ±nÄ±n her birinden baÅŸka bir yere evrak, paket, koli, mektup vb. sadece resmi kurum veya kuruluÅŸlar vasÄ±tasÄ±yla gÃ¶nderilmesine ne denir?",
+      "cevap": "GÃ¶nderi UsÃ¼lÃ¼"
     },
     {
-      "soru": "NATO'daki çok gizli yazışmalarda dikkati çekmek için üzere kullanılan güvenlik işareti nedir?",
-      "cevap": "KOZMİK (Cosmic)"
+      "soru": "NATO'daki Ã§ok gizli yazÄ±ÅŸmalarda dikkati Ã§ekmek iÃ§in Ã¼zere kullanÄ±lan gÃ¼venlik iÅŸareti nedir?",
+      "cevap": "KOZMÄ°K (Cosmic)"
     },
     {
-      "soru": "Kurum ve kuruluşların iş ve işlemleri sonucunda teşekkül eden belgelerin sistemli bir şekilde dosyalanmasını sağlamak üzere önceden hazırlanmış konu ve konu numaraları envanterine ne ad verilir?",
-      "cevap": "Standart Dosya Planı (SDP)"
+      "soru": "Kurum ve kuruluÅŸlarÄ±n iÅŸ ve iÅŸlemleri sonucunda teÅŸekkÃ¼l eden belgelerin sistemli bir ÅŸekilde dosyalanmasÄ±nÄ± saÄŸlamak Ã¼zere Ã¶nceden hazÄ±rlanmÄ±ÅŸ konu ve konu numaralarÄ± envanterine ne ad verilir?",
+      "cevap": "Standart Dosya PlanÄ± (SDP)"
     },
     {
-      "soru": "Bakanlık kurumlarının iletişimleri sırasında Metin, Ses ve Görüntü biçiminde oluşturdukları, gönderdikleri, sakladıkları evrak?",
+      "soru": "BakanlÄ±k kurumlarÄ±nÄ±n iletiÅŸimleri sÄ±rasÄ±nda Metin, Ses ve GÃ¶rÃ¼ntÃ¼ biÃ§iminde oluÅŸturduklarÄ±, gÃ¶nderdikleri, sakladÄ±klarÄ± evrak?",
       "cevap": "Resmi Bilgi"
     },
     {
-      "soru": "Bir bireysel işlemin, kurumsal fonksiyonun/işlemin yerine getirilmesi için alınmış/idarece hazırlanmış; … imzalanmış kurumsal belge kayıt sistemlerinde kayıt altına alınmış her türlü bilgi-dküman?",
+      "soru": "Bir bireysel iÅŸlemin, kurumsal fonksiyonun/iÅŸlemin yerine getirilmesi iÃ§in alÄ±nmÄ±ÅŸ/idarece hazÄ±rlanmÄ±ÅŸ; Â… imzalanmÄ±ÅŸ kurumsal belge kayÄ±t sistemlerinde kayÄ±t altÄ±na alÄ±nmÄ±ÅŸ her tÃ¼rlÃ¼ bilgi-dkÃ¼man?",
       "cevap": "Resmi Belge"
     },
     {
-      "soru": "Evrak çeşitleri nelerdir?",
-      "cevap": "• Gönderilen Makama Göre: (Milli – Müttefik Evrak)\n• Gizlilik Derecelerine Göre: (Kontrollü – Kontrolsüz Evrak)\n• Öncelik Derecelerine Göre : (Acele – Günlü Evrak)"
+      "soru": "Evrak Ã§eÅŸitleri nelerdir?",
+      "cevap": "Â• GÃ¶nderilen Makama GÃ¶re: (Milli Â– MÃ¼ttefik Evrak)\nÂ• Gizlilik Derecelerine GÃ¶re: (KontrollÃ¼ Â– KontrolsÃ¼z Evrak)\nÂ• Ã–ncelik Derecelerine GÃ¶re : (Acele Â– GÃ¼nlÃ¼ Evrak)"
     },
     {
-      "soru": "Personel Takdirlerine güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Hizmete Özel"
+      "soru": "Personel Takdirlerine gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Hizmete Ã–zel"
     },
     {
-      "soru": "Kontrolsüz Evrak hangi gizlilik derecelerini ihtiva eder?",
-      "cevap": "Gizli - Özel - Hizmete Özel"
+      "soru": "KontrolsÃ¼z Evrak hangi gizlilik derecelerini ihtiva eder?",
+      "cevap": "Gizli - Ã–zel - Hizmete Ã–zel"
     },
     {
-      "soru": "Etüt Formu'nun metin bölümü hangi başlıklardan oluşur?",
-      "cevap": "• Mesele\n• Faraziyeler\n• Meseleye tesir eden hususlar\n• İnceleme\n• Sonuç ve Teklifler"
+      "soru": "EtÃ¼t Formu'nun metin bÃ¶lÃ¼mÃ¼ hangi baÅŸlÄ±klardan oluÅŸur?",
+      "cevap": "Â• Mesele\nÂ• Faraziyeler\nÂ• Meseleye tesir eden hususlar\nÂ• Ä°nceleme\nÂ• SonuÃ§ ve Teklifler"
     },
     {
-      "soru": "Evrakın içeriğinin yerine getirilmesi KAÇ GÜNDEN uzun ise bu evraka ACELE evrak nitelemesi yapılamaz?",
-      "cevap": "7 iş gününden fazla ise"
+      "soru": "EvrakÄ±n iÃ§eriÄŸinin yerine getirilmesi KAÃ‡ GÃœNDEN uzun ise bu evraka ACELE evrak nitelemesi yapÄ±lamaz?",
+      "cevap": "7 iÅŸ gÃ¼nÃ¼nden fazla ise"
     },
     {
-      "soru": "Gelen ACELE ve GÜNLÜ evrakın işlem makamında dağıtımının yapılması ve ulaştırılmasının sorumluluğu kimdedir?",
+      "soru": "Gelen ACELE ve GÃœNLÃœ evrakÄ±n iÅŸlem makamÄ±nda daÄŸÄ±tÄ±mÄ±nÄ±n yapÄ±lmasÄ± ve ulaÅŸtÄ±rÄ±lmasÄ±nÄ±n sorumluluÄŸu kimdedir?",
       "cevap": "Evrak Birimlerinde"
     },
     {
-      "soru": "Genel Evrak şube hangi kısımlardan oluşur?",
-      "cevap": "• Kontrollü Evrak\n• Milli ve NATO Evrak\n• Mesaj Kontrol\n• Çoğaltma\n• Arşiv"
+      "soru": "Genel Evrak ÅŸube hangi kÄ±sÄ±mlardan oluÅŸur?",
+      "cevap": "Â• KontrollÃ¼ Evrak\nÂ• Milli ve NATO Evrak\nÂ• Mesaj Kontrol\nÂ• Ã‡oÄŸaltma\nÂ• ArÅŸiv"
     },
     {
       "soru": "Evrak birimleri nelerdir?",
-      "cevap": "• Genel Evrak\n• Muhabere (Haber) Merkezi\n• Başkanlık Sekreteri\n• Da.Bşk. İdari Şubeleri\n• Şubelerdeki İdari İşler Kısımları"
+      "cevap": "Â• Genel Evrak\nÂ• Muhabere (Haber) Merkezi\nÂ• BaÅŸkanlÄ±k Sekreteri\nÂ• Da.BÅŸk. Ä°dari Åubeleri\nÂ• Åubelerdeki Ä°dari Ä°ÅŸler KÄ±sÄ±mlarÄ±"
     },
     {
-      "soru": "Çalışma saatleri dışında gelen evrakın teslim alınma yetkisi kimdedir?",
-      "cevap": "Nöbetçi Amirinde"
+      "soru": "Ã‡alÄ±ÅŸma saatleri dÄ±ÅŸÄ±nda gelen evrakÄ±n teslim alÄ±nma yetkisi kimdedir?",
+      "cevap": "NÃ¶betÃ§i Amirinde"
     },
     {
-      "soru": "Çalışma saatleri dışında gelen evraka ait \"KİŞİYE ÖZEL\", \"Özel Ulaştırma Talimatı\", \"İlgilisi Dışında açılmaması\" ibareleri mevcutsa Nöbetçi Amiri evrakı nereye teslim ederi?",
-      "cevap": "Evrak açılmadan;\n• SKKHM (varsa)\n• Harekat Merkezi\n• Vardiya Amirliği"
+      "soru": "Ã‡alÄ±ÅŸma saatleri dÄ±ÅŸÄ±nda gelen evraka ait \"KÄ°ÅÄ°YE Ã–ZEL\", \"Ã–zel UlaÅŸtÄ±rma TalimatÄ±\", \"Ä°lgilisi DÄ±ÅŸÄ±nda aÃ§Ä±lmamasÄ±\" ibareleri mevcutsa NÃ¶betÃ§i Amiri evrakÄ± nereye teslim ederi?",
+      "cevap": "Evrak aÃ§Ä±lmadan;\nÂ• SKKHM (varsa)\nÂ• Harekat Merkezi\nÂ• Vardiya AmirliÄŸi"
     },
     {
-      "soru": "Gelen Evrakın elektronik ortama kayıt edilmesi ve aktarılması kim tarafından yapılır?",
-      "cevap": "Evrakın Karargaha ilk giriş noktası"
+      "soru": "Gelen EvrakÄ±n elektronik ortama kayÄ±t edilmesi ve aktarÄ±lmasÄ± kim tarafÄ±ndan yapÄ±lÄ±r?",
+      "cevap": "EvrakÄ±n Karargaha ilk giriÅŸ noktasÄ±"
     },
     {
-      "soru": "Giden Evrakın elektronik ortama kayıt edilmesi ve aktarılması kim tarafından yapılır?",
-      "cevap": "Evrakı çıkaran makam"
+      "soru": "Giden EvrakÄ±n elektronik ortama kayÄ±t edilmesi ve aktarÄ±lmasÄ± kim tarafÄ±ndan yapÄ±lÄ±r?",
+      "cevap": "EvrakÄ± Ã§Ä±karan makam"
     },
     {
-      "soru": "Elektronik ortama kayıt edilen \"ÇOK GİZLİ\" ve \"GİZLİ\" ve \"KİŞİYE ÖZEL\" evrakın konu kısmına ne yazılır?",
+      "soru": "Elektronik ortama kayÄ±t edilen \"Ã‡OK GÄ°ZLÄ°\" ve \"GÄ°ZLÄ°\" ve \"KÄ°ÅÄ°YE Ã–ZEL\" evrakÄ±n konu kÄ±smÄ±na ne yazÄ±lÄ±r?",
       "cevap": "Emniyetli Evrak"
     },
     {
-      "soru": "KAYITLA ilgili elektronik ortam kayıtları, çıktılar, defterler ve formlar kaç yıl süreyle muhafaza edilir?",
-      "cevap": "30 Yıl"
+      "soru": "KAYITLA ilgili elektronik ortam kayÄ±tlarÄ±, Ã§Ä±ktÄ±lar, defterler ve formlar kaÃ§ yÄ±l sÃ¼reyle muhafaza edilir?",
+      "cevap": "30 YÄ±l"
     },
     {
-      "soru": "Gereği olarak birden fazla makamı ilgilendiren bir evrakın havalesinde \"KOORDİNATÖR MAKAM\" hangisi seçilir?",
-      "cevap": "Evrakın konusuyla en fazla ilgili veya konuda daha önceden işlem yapmış makam"
+      "soru": "GereÄŸi olarak birden fazla makamÄ± ilgilendiren bir evrakÄ±n havalesinde \"KOORDÄ°NATÃ–R MAKAM\" hangisi seÃ§ilir?",
+      "cevap": "EvrakÄ±n konusuyla en fazla ilgili veya konuda daha Ã¶nceden iÅŸlem yapmÄ±ÅŸ makam"
     },
     {
-      "soru": "Kontrollü Evrak hangi gizlilik derecelerini ihtiva eder?",
-      "cevap": "Çok Gizli"
+      "soru": "KontrollÃ¼ Evrak hangi gizlilik derecelerini ihtiva eder?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Brifing çeşidi emredilmez ise hangisi verilir?",
-      "cevap": "Kısa Brifing"
+      "soru": "Brifing Ã§eÅŸidi emredilmez ise hangisi verilir?",
+      "cevap": "KÄ±sa Brifing"
     },
     {
-      "soru": "İdarelerin kendi içlerinde birbirleriyle / gerçek-tüzel kişilerle iletişim için G.E.İ. Kullanarak elektronik ortamda, zorunlu hallerde el yazısıyla imzalanan fiziksel ortamda hazırladıkları evrak hangisidir?",
-      "cevap": "Resmi Yazı"
+      "soru": "Ä°darelerin kendi iÃ§lerinde birbirleriyle / gerÃ§ek-tÃ¼zel kiÅŸilerle iletiÅŸim iÃ§in G.E.Ä°. Kullanarak elektronik ortamda, zorunlu hallerde el yazÄ±sÄ±yla imzalanan fiziksel ortamda hazÄ±rladÄ±klarÄ± evrak hangisidir?",
+      "cevap": "Resmi YazÄ±"
     },
     {
-      "soru": "İşlem makamı tarafından komutana-amirlere koordinasyon ve evrak inceleme gerektirmeyen konuların arz edilmesinde hangi form kullanılır?",
-      "cevap": "Bilgi notu - Bilgi Kartı"
+      "soru": "Ä°ÅŸlem makamÄ± tarafÄ±ndan komutana-amirlere koordinasyon ve evrak inceleme gerektirmeyen konularÄ±n arz edilmesinde hangi form kullanÄ±lÄ±r?",
+      "cevap": "Bilgi notu - Bilgi KartÄ±"
     },
     {
-      "soru": "Komutana/Amirlere aydınlatıcı ve detaylı bilgi vermek amacıyla koordinasyon ve evrak inceleme gerektirebilecek herhangi bir konunun açıklanması ve safahatının arz edilmesi için hangi askeri yazı kullanılır?",
+      "soru": "Komutana/Amirlere aydÄ±nlatÄ±cÄ± ve detaylÄ± bilgi vermek amacÄ±yla koordinasyon ve evrak inceleme gerektirebilecek herhangi bir konunun aÃ§Ä±klanmasÄ± ve safahatÄ±nÄ±n arz edilmesi iÃ§in hangi askeri yazÄ± kullanÄ±lÄ±r?",
       "cevap": "Detay Arz Formu"
     },
     {
-      "soru": "Etüt Formu'nun SON BÖLÜMü hangi başlıklardan oluşur?",
-      "cevap": "• Hazırlayanın imza bloku\n• Paraf ve koordinasyon\n• İkincil evrak\n• Onay makamı emirleri\n• Onay makamı imza bloku ve onay tarihi"
+      "soru": "EtÃ¼t Formu'nun SON BÃ–LÃœMÃ¼ hangi baÅŸlÄ±klardan oluÅŸur?",
+      "cevap": "Â• HazÄ±rlayanÄ±n imza bloku\nÂ• Paraf ve koordinasyon\nÂ• Ä°kincil evrak\nÂ• Onay makamÄ± emirleri\nÂ• Onay makamÄ± imza bloku ve onay tarihi"
     },
     {
-      "soru": "İzinsiz olarak açıklandığında milletimize, müttefiklerimize hayati bakımdan son derece büyük zararlar verecek olan; güvenlik bakımından olağanüstü önemli evraklara verilecek Gizlilik Derecesi nedir?",
-      "cevap": "Çok Gizli"
+      "soru": "Ä°zinsiz olarak aÃ§Ä±klandÄ±ÄŸÄ±nda milletimize, mÃ¼ttefiklerimize hayati bakÄ±mdan son derece bÃ¼yÃ¼k zararlar verecek olan; gÃ¼venlik bakÄ±mÄ±ndan olaÄŸanÃ¼stÃ¼ Ã¶nemli evraklara verilecek Gizlilik Derecesi nedir?",
+      "cevap": "Ã‡ok Gizli"
     },
     {
-      "soru": "Karşılaşılan herhangi bir sorunu çözmek veya bir soruya cevap bulmak amaıyla yetkili makamın/komuta katının direktif ve emirlerini almak üzere hazırlanan sorun çözme yöntemi hangisidir?",
-      "cevap": "Etüt Formu"
+      "soru": "KarÅŸÄ±laÅŸÄ±lan herhangi bir sorunu Ã§Ã¶zmek veya bir soruya cevap bulmak amaÄ±yla yetkili makamÄ±n/komuta katÄ±nÄ±n direktif ve emirlerini almak Ã¼zere hazÄ±rlanan sorun Ã§Ã¶zme yÃ¶ntemi hangisidir?",
+      "cevap": "EtÃ¼t Formu"
     },
     {
-      "soru": "Analitik Araştırmalar kapsamında örnekler nelerdir?",
-      "cevap": "• Yöneylem Araştırması\n• Sistem Analizi\n• Maliyet-Etkinlik Analizi"
+      "soru": "Analitik AraÅŸtÄ±rmalar kapsamÄ±nda Ã¶rnekler nelerdir?",
+      "cevap": "Â• YÃ¶neylem AraÅŸtÄ±rmasÄ±\nÂ• Sistem Analizi\nÂ• Maliyet-Etkinlik Analizi"
     },
     {
-      "soru": "DM ve Etütler ile çözümlenemeyecek kadar karmaşık olan, yeterince sayısal bilgi bulunan ve bilimsel yöntemlerin uygulanmasını gerektiren sorunlarda yapılan bilimsel çalışma hangisidir?",
-      "cevap": "Analitik (Çözümlemeli) Araştırmalar"
+      "soru": "DM ve EtÃ¼tler ile Ã§Ã¶zÃ¼mlenemeyecek kadar karmaÅŸÄ±k olan, yeterince sayÄ±sal bilgi bulunan ve bilimsel yÃ¶ntemlerin uygulanmasÄ±nÄ± gerektiren sorunlarda yapÄ±lan bilimsel Ã§alÄ±ÅŸma hangisidir?",
+      "cevap": "Analitik (Ã‡Ã¶zÃ¼mlemeli) AraÅŸtÄ±rmalar"
     },
     {
-      "soru": "Askeri inceleme ve sorun çözme yöntemleri için hangi formlar kullanılabilir?",
-      "cevap": "• Analitik Araştırmalar\n• Durum Muhakemesi\n• Etüt Formu\n• Detay Arz Formu"
+      "soru": "Askeri inceleme ve sorun Ã§Ã¶zme yÃ¶ntemleri iÃ§in hangi formlar kullanÄ±labilir?",
+      "cevap": "Â• Analitik AraÅŸtÄ±rmalar\nÂ• Durum Muhakemesi\nÂ• EtÃ¼t Formu\nÂ• Detay Arz Formu"
     },
     {
-      "soru": "Karar brifingi nerede ve ne maksatla yapılır?",
-      "cevap": "SKKHM ve Kuvvet K.lıkları Harekat Merkezlerinde bir karar almayı gerektiren durumlarda yapılır."
+      "soru": "Karar brifingi nerede ve ne maksatla yapÄ±lÄ±r?",
+      "cevap": "SKKHM ve Kuvvet K.lÄ±klarÄ± Harekat Merkezlerinde bir karar almayÄ± gerektiren durumlarda yapÄ±lÄ±r."
     },
     {
-      "soru": "Güvenlik Numarası hangi gizlilik derecelerindeki evraklara verilir?",
-      "cevap": "GİZLİ, ÖZEL (En az 6 haneli)"
+      "soru": "GÃ¼venlik NumarasÄ± hangi gizlilik derecelerindeki evraklara verilir?",
+      "cevap": "GÄ°ZLÄ°, Ã–ZEL (En az 6 haneli)"
     },
     {
-      "soru": "Personele verilen brifingler kaç çeşittir?",
-      "cevap": "• Planlı Brifingler\n• Plansız Brifingler"
+      "soru": "Personele verilen brifingler kaÃ§ Ã§eÅŸittir?",
+      "cevap": "Â• PlanlÄ± Brifingler\nÂ• PlansÄ±z Brifingler"
     },
     {
-      "soru": "Herhangi bir araç-gerecin çalışması bakımından hayati önemi olan plan ve çizimlerde gösterilen montajlarla ilgili bazı belgelere güvenlik gerekçesiyle sık aralıklarla değiştirilen çizelgelere hangi gizlilik derecesi verilir?",
-      "cevap": "Hizmete Özel"
+      "soru": "Herhangi bir araÃ§-gerecin Ã§alÄ±ÅŸmasÄ± bakÄ±mÄ±ndan hayati Ã¶nemi olan plan ve Ã§izimlerde gÃ¶sterilen montajlarla ilgili bazÄ± belgelere gÃ¼venlik gerekÃ§esiyle sÄ±k aralÄ±klarla deÄŸiÅŸtirilen Ã§izelgelere hangi gizlilik derecesi verilir?",
+      "cevap": "Hizmete Ã–zel"
     },
     {
-      "soru": "Amirlere/Komutanlara verilecek brifingler, görev ve faaliyetlerle ilgili konuların sunumu için süre ve içeriğe bağlı olarak KAÇ çeşit hazırlanır?",
-      "cevap": "• UZUN BRİFİNG: 60 Dk. (Bütün Faaliyetler detaylarıyla sunulur)\n• NORMAL BRİFİNG: 30 Dk. (Faaliyetler önemli konuları sunulur)\n• KISA BRİFİNG: 15 Dk. (Cbşk, Bkn, GENKUR, KK, Bkn.Yd. Üst düzey amirler)"
+      "soru": "Amirlere/Komutanlara verilecek brifingler, gÃ¶rev ve faaliyetlerle ilgili konularÄ±n sunumu iÃ§in sÃ¼re ve iÃ§eriÄŸe baÄŸlÄ± olarak KAÃ‡ Ã§eÅŸit hazÄ±rlanÄ±r?",
+      "cevap": "Â• UZUN BRÄ°FÄ°NG: 60 Dk. (BÃ¼tÃ¼n Faaliyetler detaylarÄ±yla sunulur)\nÂ• NORMAL BRÄ°FÄ°NG: 30 Dk. (Faaliyetler Ã¶nemli konularÄ± sunulur)\nÂ• KISA BRÄ°FÄ°NG: 15 Dk. (CbÅŸk, Bkn, GENKUR, KK, Bkn.Yd. Ãœst dÃ¼zey amirler)"
     },
     {
-      "soru": "Brifing Çeşitleri nelerdir?",
-      "cevap": "• Amirlere/Komutanlara verilen \n• Personele Verilen\n• Ziyaretçilere verilen\n• Denetleme heyetlerine verilen\n• Özel Brifingler"
+      "soru": "Brifing Ã‡eÅŸitleri nelerdir?",
+      "cevap": "Â• Amirlere/Komutanlara verilen \nÂ• Personele Verilen\nÂ• ZiyaretÃ§ilere verilen\nÂ• Denetleme heyetlerine verilen\nÂ• Ã–zel Brifingler"
     },
     {
-      "soru": "Amire/Komutana, Krgh personeline, ziyaretçilere, denetlemelerde, özel durumlarda, gerekli görülen/emredilen konularda yetki düzeyi esas alınarak bilgi verilmesi/alınmasına ne ad verillir?",
+      "soru": "Amire/Komutana, Krgh personeline, ziyaretÃ§ilere, denetlemelerde, Ã¶zel durumlarda, gerekli gÃ¶rÃ¼len/emredilen konularda yetki dÃ¼zeyi esas alÄ±narak bilgi verilmesi/alÄ±nmasÄ±na ne ad verillir?",
       "cevap": "Brifing"
     },
     {
-      "soru": "Brifingler dışında yapılacak konuşmalara kolaylık sağlamak amacıyla hangi form kullanılır?",
-      "cevap": "Konuşma Notu"
+      "soru": "Brifingler dÄ±ÅŸÄ±nda yapÄ±lacak konuÅŸmalara kolaylÄ±k saÄŸlamak amacÄ±yla hangi form kullanÄ±lÄ±r?",
+      "cevap": "KonuÅŸma Notu"
     },
     {
-      "soru": "Belirlenmiş bir toplantı için belirlenen tarihten ne kadar önce gündemle ilgili evrak temin edilir?",
-      "cevap": "4 Hafta önce"
+      "soru": "BelirlenmiÅŸ bir toplantÄ± iÃ§in belirlenen tarihten ne kadar Ã¶nce gÃ¼ndemle ilgili evrak temin edilir?",
+      "cevap": "4 Hafta Ã¶nce"
     },
     {
-      "soru": "Yurtdışı toplantılarının planı ne kadar süre öncesinden belirlenir?",
-      "cevap": "1 yıl öncesinden"
+      "soru": "YurtdÄ±ÅŸÄ± toplantÄ±larÄ±nÄ±n planÄ± ne kadar sÃ¼re Ã¶ncesinden belirlenir?",
+      "cevap": "1 yÄ±l Ã¶ncesinden"
     },
     {
-      "soru": "Yapılan bir davet-ziyaret sonucunda Komutana-Amire bilgi vermek amacıyla hangi form kullanılır?",
+      "soru": "YapÄ±lan bir davet-ziyaret sonucunda Komutana-Amire bilgi vermek amacÄ±yla hangi form kullanÄ±lÄ±r?",
       "cevap": "Detay Arz Formu"
     },
     {
       "soru": "Koordinasyon Usulleri nelerdir?",
-      "cevap": "• Kişisel (yüzyüze) Koordinasyon\n• İletişim araçlarıyla yapılan koordinasyon\n• Toplantı-Ziyaretler düzenlenerek koordinasyon\n• Brifing verilerek koordinasyon\n• Yazışmalarla yapılan koordinasyon"
+      "cevap": "Â• KiÅŸisel (yÃ¼zyÃ¼ze) Koordinasyon\nÂ• Ä°letiÅŸim araÃ§larÄ±yla yapÄ±lan koordinasyon\nÂ• ToplantÄ±-Ziyaretler dÃ¼zenlenerek koordinasyon\nÂ• Brifing verilerek koordinasyon\nÂ• YazÄ±ÅŸmalarla yapÄ±lan koordinasyon"
     },
     {
-      "soru": "Çalışanlar tarafından herhangi bir konu veya sorunun incelenmesi ve bu konu veya sorun üzerinde ilgili komutana/amire, onama-reddetmekten başka bir iş bırakmayacak biçimde olgunlaşmış bir hal tarzı arz edilmesine ne ad verilir?",
-      "cevap": "Olgunlaşmış Karargah Çalışması"
+      "soru": "Ã‡alÄ±ÅŸanlar tarafÄ±ndan herhangi bir konu veya sorunun incelenmesi ve bu konu veya sorun Ã¼zerinde ilgili komutana/amire, onama-reddetmekten baÅŸka bir iÅŸ bÄ±rakmayacak biÃ§imde olgunlaÅŸmÄ±ÅŸ bir hal tarzÄ± arz edilmesine ne ad verilir?",
+      "cevap": "OlgunlaÅŸmÄ±ÅŸ Karargah Ã‡alÄ±ÅŸmasÄ±"
     },
     {
-      "soru": "TSK da bir birliğin faaliyetlerin yönlendirme, koordine ve denetimini yasal olarak gerçekleştirme gücüne ne ad verilir?",
+      "soru": "TSK da bir birliÄŸin faaliyetlerin yÃ¶nlendirme, koordine ve denetimini yasal olarak gerÃ§ekleÅŸtirme gÃ¼cÃ¼ne ne ad verilir?",
       "cevap": "Komuta Yetkisi"
     },
     {
-      "soru": "Askeri Yazı çeşitleri nelerdir?",
-      "cevap": "• Analitik araştırmalar   -   Mesaj\n• Durum Muhakemesi   -   Koordinasyon Formu\n• Davet/Ziyaret Tetkik Formu\n• Detay Arz Formu\n• Bilgi Notu – Bilgi Kartı"
+      "soru": "Askeri YazÄ± Ã§eÅŸitleri nelerdir?",
+      "cevap": "Â• Analitik araÅŸtÄ±rmalar   -   Mesaj\nÂ• Durum Muhakemesi   -   Koordinasyon Formu\nÂ• Davet/Ziyaret Tetkik Formu\nÂ• Detay Arz Formu\nÂ• Bilgi Notu Â– Bilgi KartÄ±"
     },
     {
-      "soru": "Ziyaret maksatlı gelen önemli kişilere ve heyetlere verilecek brifing çeşitleri nelerdir?",
-      "cevap": "• A Tipi Brif:• A Tipi Brif: “ÇOK GİZLİ”\n• B Tipi Brif: “GİZLİ” ve “ÖZEL”\n• C Tipi Brif: “HİZMETE ÖZEL”\n• D Tipi Brif: “Üst düzey askeri-sivil yabancı konuklara sunulur. Tasnif Dışı"
+      "soru": "Ziyaret maksatlÄ± gelen Ã¶nemli kiÅŸilere ve heyetlere verilecek brifing Ã§eÅŸitleri nelerdir?",
+      "cevap": "Â• A Tipi Brif:Â• A Tipi Brif: Â“Ã‡OK GÄ°ZLÄ°Â”\nÂ• B Tipi Brif: Â“GÄ°ZLÄ°Â” ve Â“Ã–ZELÂ”\nÂ• C Tipi Brif: Â“HÄ°ZMETE Ã–ZELÂ”\nÂ• D Tipi Brif: Â“Ãœst dÃ¼zey askeri-sivil yabancÄ± konuklara sunulur. Tasnif DÄ±ÅŸÄ±"
     },
     {
-      "soru": "\"GİZLİ\" ve \"ÖZEL\" gizlilik dereceli yazılar yurt dışına nasıl gönderilir?",
-      "cevap": "Posta ile gönderilmez! Dışişleri Bakanlığı Kurye Şubesi ile gönderilir."
+      "soru": "\"GÄ°ZLÄ°\" ve \"Ã–ZEL\" gizlilik dereceli yazÄ±lar yurt dÄ±ÅŸÄ±na nasÄ±l gÃ¶nderilir?",
+      "cevap": "Posta ile gÃ¶nderilmez! DÄ±ÅŸiÅŸleri BakanlÄ±ÄŸÄ± Kurye Åubesi ile gÃ¶nderilir."
     },
     {
-      "soru": "Yurtiçinde gönderilecek \"GİZLİ\" ve \"ÖZEL\" yazılarda hangi zarf hazırlanır?",
+      "soru": "YurtiÃ§inde gÃ¶nderilecek \"GÄ°ZLÄ°\" ve \"Ã–ZEL\" yazÄ±larda hangi zarf hazÄ±rlanÄ±r?",
       "cevap": "1. ve 2. Zarf"
     },
     {
-      "soru": "Yurtiçinde gönderilecek \"HİZMETE ÖZEL\" ve aşağısı yazılarda hangi zarf hazırlanır?",
-      "cevap": "1. Zarf (2.zarf kurye çantası sayılır)"
+      "soru": "YurtiÃ§inde gÃ¶nderilecek \"HÄ°ZMETE Ã–ZEL\" ve aÅŸaÄŸÄ±sÄ± yazÄ±larda hangi zarf hazÄ±rlanÄ±r?",
+      "cevap": "1. Zarf (2.zarf kurye Ã§antasÄ± sayÄ±lÄ±r)"
     },
     {
-      "soru": "Aracı Evrak Birimleri nelerdir?",
-      "cevap": "• Birim A.likleri İdari Şubeleri ve buradaki Da.Bşk.İdari şubeleri\n• Başkanlık Sekreterleri ve buradaki Da.Bşk.İdari şubeleri\n• Da.Bşk.ları Şube İdari kısımları"
+      "soru": "AracÄ± Evrak Birimleri nelerdir?",
+      "cevap": "Â• Birim A.likleri Ä°dari Åubeleri ve buradaki Da.BÅŸk.Ä°dari ÅŸubeleri\nÂ• BaÅŸkanlÄ±k Sekreterleri ve buradaki Da.BÅŸk.Ä°dari ÅŸubeleri\nÂ• Da.BÅŸk.larÄ± Åube Ä°dari kÄ±sÄ±mlarÄ±"
     },
     {
-      "soru": "Aracı Evrak birimleri tarafından evrak teslim alma-verme yetkili personel listeleri ne zaman güncellenir",
-      "cevap": "Her yıl EKİM Ayı içerisinde"
+      "soru": "AracÄ± Evrak birimleri tarafÄ±ndan evrak teslim alma-verme yetkili personel listeleri ne zaman gÃ¼ncellenir",
+      "cevap": "Her yÄ±l EKÄ°M AyÄ± iÃ§erisinde"
     },
     {
-      "soru": "Yurtdışına gönderilecek yazılarda hangi zarflar hazırlanır?",
+      "soru": "YurtdÄ±ÅŸÄ±na gÃ¶nderilecek yazÄ±larda hangi zarflar hazÄ±rlanÄ±r?",
       "cevap": "Gizlilik derecesi ne olursa olsun 1. ve 2. Zarf"
     },
     {
-      "soru": "Yurtiçine gönderilecek zarfların max ağırlığı kaç kg olabilir?",
+      "soru": "YurtiÃ§ine gÃ¶nderilecek zarflarÄ±n max aÄŸÄ±rlÄ±ÄŸÄ± kaÃ§ kg olabilir?",
       "cevap": "5 Kg."
     },
     {
-      "soru": "Yurtdışına gönderilecek zarfların max ağırlığı kaç kg olabilir?",
+      "soru": "YurtdÄ±ÅŸÄ±na gÃ¶nderilecek zarflarÄ±n max aÄŸÄ±rlÄ±ÄŸÄ± kaÃ§ kg olabilir?",
       "cevap": "2 Kg"
     },
     {
-      "soru": "Karargah içinde gönderilecek \"GİZLİ\" ve \"ÖZEL\" ve \"KİŞİYE ÖZEL\" yazılarda hangi zarf hazırlanır?",
+      "soru": "Karargah iÃ§inde gÃ¶nderilecek \"GÄ°ZLÄ°\" ve \"Ã–ZEL\" ve \"KÄ°ÅÄ°YE Ã–ZEL\" yazÄ±larda hangi zarf hazÄ±rlanÄ±r?",
       "cevap": "Sadece 1. Zarf"
     },
     {
-      "soru": "Karargah içinde gönderilecek \"HİZMETE ÖZEL\" ve aşağısı yazılarda hangi zarf hazırlanır?",
-      "cevap": "Zarf kullanılmaz (İstenilirse her iki zarf da kullanılabilir)"
+      "soru": "Karargah iÃ§inde gÃ¶nderilecek \"HÄ°ZMETE Ã–ZEL\" ve aÅŸaÄŸÄ±sÄ± yazÄ±larda hangi zarf hazÄ±rlanÄ±r?",
+      "cevap": "Zarf kullanÄ±lmaz (Ä°stenilirse her iki zarf da kullanÄ±labilir)"
     },
     {
-      "soru": "Belgegeçer yoluyla gönderilmek zorunda kalınan yazılar, işlem makamı tarafından kaç gün içerisinde uygun usül ile tekrar gönderilir?",
-      "cevap": "5 Gün içerisinde"
+      "soru": "BelgegeÃ§er yoluyla gÃ¶nderilmek zorunda kalÄ±nan yazÄ±lar, iÅŸlem makamÄ± tarafÄ±ndan kaÃ§ gÃ¼n iÃ§erisinde uygun usÃ¼l ile tekrar gÃ¶nderilir?",
+      "cevap": "5 GÃ¼n iÃ§erisinde"
     },
     {
-      "soru": "Sınır İhlali mesajının öncelik derecesi nedir?",
-      "cevap": "Harekat Yıldırım (ZZ)"
+      "soru": "SÄ±nÄ±r Ä°hlali mesajÄ±nÄ±n Ã¶ncelik derecesi nedir?",
+      "cevap": "Harekat YÄ±ldÄ±rÄ±m (ZZ)"
     },
     {
-      "soru": "Gönderi usuluyle gönderilecek \"GİZLİ\" ve \"ÖZEL\" haricindeki yazı nasıl gönderilir?",
+      "soru": "GÃ¶nderi usuluyle gÃ¶nderilecek \"GÄ°ZLÄ°\" ve \"Ã–ZEL\" haricindeki yazÄ± nasÄ±l gÃ¶nderilir?",
       "cevap": "Adi Posta ile"
     },
     {
-      "soru": "Bakanlık kurumlarının kendi aralarında veya karşılıklı mutabakat sağlanmış makamlarla MEBS vasıtalarıyla gönderilmek üzere açık bir dille kısa ve öz olarak hazırlanmış bir emrin yapılan/yapılacak bir işlemin arzının yapıldığı evraka ne ad verilir?",
+      "soru": "BakanlÄ±k kurumlarÄ±nÄ±n kendi aralarÄ±nda veya karÅŸÄ±lÄ±klÄ± mutabakat saÄŸlanmÄ±ÅŸ makamlarla MEBS vasÄ±talarÄ±yla gÃ¶nderilmek Ã¼zere aÃ§Ä±k bir dille kÄ±sa ve Ã¶z olarak hazÄ±rlanmÄ±ÅŸ bir emrin yapÄ±lan/yapÄ±lacak bir iÅŸlemin arzÄ±nÄ±n yapÄ±ldÄ±ÄŸÄ± evraka ne ad verilir?",
       "cevap": "MESAJ"
     },
     {
-      "soru": "Hangi durumlarda mesaj formatı kullanılmaz?",
-      "cevap": "• Sadece karargah içerisine adresli\n• Kamu kurumlarından mutabakat sağlanmamış makamlara\n• Resmi yazı ile zamanında gidebilecek konularda\n• Astlardan üstlere tebrik ve kutlamalar"
+      "soru": "Hangi durumlarda mesaj formatÄ± kullanÄ±lmaz?",
+      "cevap": "Â• Sadece karargah iÃ§erisine adresli\nÂ• Kamu kurumlarÄ±ndan mutabakat saÄŸlanmamÄ±ÅŸ makamlara\nÂ• Resmi yazÄ± ile zamanÄ±nda gidebilecek konularda\nÂ• Astlardan Ã¼stlere tebrik ve kutlamalar"
     },
     {
-      "soru": "Mesaj Çekme Yetki Listesi ne sıklıkla güncellenir?",
-      "cevap": "Her yıl EKİM ayı içinde"
+      "soru": "Mesaj Ã‡ekme Yetki Listesi ne sÄ±klÄ±kla gÃ¼ncellenir?",
+      "cevap": "Her yÄ±l EKÄ°M ayÄ± iÃ§inde"
     },
     {
-      "soru": "KİŞİYE ÖZEL ibaresi hangi gizlilik dereceli mesajlarda kullanılır?",
-      "cevap": "Çok Gizli, Gizli, Özel"
+      "soru": "KÄ°ÅÄ°YE Ã–ZEL ibaresi hangi gizlilik dereceli mesajlarda kullanÄ±lÄ±r?",
+      "cevap": "Ã‡ok Gizli, Gizli, Ã–zel"
     },
     {
-      "soru": "Gelen Evraklar nasıl tasnif edilir?",
-      "cevap": "• Yetkili makam / komuta katına arz edilmesi gereken evrak\n• Zarfı açılmayan evrak\n• Zarfı açılacak evrak"
+      "soru": "Gelen Evraklar nasÄ±l tasnif edilir?",
+      "cevap": "Â• Yetkili makam / komuta katÄ±na arz edilmesi gereken evrak\nÂ• ZarfÄ± aÃ§Ä±lmayan evrak\nÂ• ZarfÄ± aÃ§Ä±lacak evrak"
     },
     {
-      "soru": "Amir/Komutan, personel, doktrin, yöntem, malzeme ve kolaylıklar ile MEBS Vasıtalarının tümünden oluşan sisteme ne ad verilir?",
-      "cevap": "Komuta ve Yönetim Sistemi"
+      "soru": "Amir/Komutan, personel, doktrin, yÃ¶ntem, malzeme ve kolaylÄ±klar ile MEBS VasÄ±talarÄ±nÄ±n tÃ¼mÃ¼nden oluÅŸan sisteme ne ad verilir?",
+      "cevap": "Komuta ve YÃ¶netim Sistemi"
     },
     {
-      "soru": "Karşı taraf ihlallerinin bildirilmesine Gizlilik Derecesi nedir?",
-      "cevap": "Gizlilik derecesi içermez"
+      "soru": "KarÅŸÄ± taraf ihlallerinin bildirilmesine Gizlilik Derecesi nedir?",
+      "cevap": "Gizlilik derecesi iÃ§ermez"
     },
     {
-      "soru": "Taktik harekatlarda kriptolama için zaman olmadığı / karşı taraf eline geçse de harekata etkisi olmayacağı durumlarda hangi gizlilik dereceli mesajlar Açık olarak çekilebilir?",
-      "cevap": "Özel ve Hizmete Özel"
+      "soru": "Taktik harekatlarda kriptolama iÃ§in zaman olmadÄ±ÄŸÄ± / karÅŸÄ± taraf eline geÃ§se de harekata etkisi olmayacaÄŸÄ± durumlarda hangi gizlilik dereceli mesajlar AÃ§Ä±k olarak Ã§ekilebilir?",
+      "cevap": "Ã–zel ve Hizmete Ã–zel"
     },
     {
-      "soru": "Mesaj adreslerinde Kamu kurumları olduğunda adres kısaltmaları nasıl kullanılır?",
-      "cevap": "KULLANILMAZ! Adresler açık ve tam olarak yazılır."
+      "soru": "Mesaj adreslerinde Kamu kurumlarÄ± olduÄŸunda adres kÄ±saltmalarÄ± nasÄ±l kullanÄ±lÄ±r?",
+      "cevap": "KULLANILMAZ! Adresler aÃ§Ä±k ve tam olarak yazÄ±lÄ±r."
     },
     {
-      "soru": "Harekat Yıldırım (ZZ) Öncelik derecesi hangi çalışmalarda kullanılmaz?",
-      "cevap": "Normal Karargah Çalışmalarında"
+      "soru": "Harekat YÄ±ldÄ±rÄ±m (ZZ) Ã–ncelik derecesi hangi Ã§alÄ±ÅŸmalarda kullanÄ±lmaz?",
+      "cevap": "Normal Karargah Ã‡alÄ±ÅŸmalarÄ±nda"
     },
     {
-      "soru": "Gönderi usuluyle gönderilecek \"GİZLİ\" ve \"ÖZEL\" gizlilik dereceli yazı nasıl gönderilir?",
-      "cevap": "Resmi taahhütlü olarak"
+      "soru": "GÃ¶nderi usuluyle gÃ¶nderilecek \"GÄ°ZLÄ°\" ve \"Ã–ZEL\" gizlilik dereceli yazÄ± nasÄ±l gÃ¶nderilir?",
+      "cevap": "Resmi taahhÃ¼tlÃ¼ olarak"
     },
     {
-      "soru": "Bakanlık kadro ve kuruluşunda yer alan kurumlar tarafından bağlısı olmayan başka bir ast birlik ile yazışma yapılabilir mi?",
-      "cevap": "Yapılamaz! (Acele ve Günlü hariç)"
+      "soru": "BakanlÄ±k kadro ve kuruluÅŸunda yer alan kurumlar tarafÄ±ndan baÄŸlÄ±sÄ± olmayan baÅŸka bir ast birlik ile yazÄ±ÅŸma yapÄ±labilir mi?",
+      "cevap": "YapÄ±lamaz! (Acele ve GÃ¼nlÃ¼ hariÃ§)"
     },
     {
-      "soru": "Dipnot bölümünde irden fazla dipnot varsa hangi maddeleme işareti kullanılır?",
-      "cevap": "Ardışık rakamlar"
+      "soru": "Dipnot bÃ¶lÃ¼mÃ¼nde irden fazla dipnot varsa hangi maddeleme iÅŸareti kullanÄ±lÄ±r?",
+      "cevap": "ArdÄ±ÅŸÄ±k rakamlar"
     },
     {
-      "soru": "Herhangi bir mevzuatta bulunmayan konularda mevzuat maddelerine dayanarak uygulamanın nasıl yapılacağıyla ilgili esasların belirlendiği emirler hangisidir?",
+      "soru": "Herhangi bir mevzuatta bulunmayan konularda mevzuat maddelerine dayanarak uygulamanÄ±n nasÄ±l yapÄ±lacaÄŸÄ±yla ilgili esaslarÄ±n belirlendiÄŸi emirler hangisidir?",
       "cevap": "Prensip Emri"
     },
     {
-      "soru": "Devamlılık arz eden ancak mevzuat, yönerge ve prensip emirlerinde açıkça belirtilmeyen konuların yöntem ve kurallarının belirlendiği emirler hangisidir?",
-      "cevap": "Devamlı Emir"
+      "soru": "DevamlÄ±lÄ±k arz eden ancak mevzuat, yÃ¶nerge ve prensip emirlerinde aÃ§Ä±kÃ§a belirtilmeyen konularÄ±n yÃ¶ntem ve kurallarÄ±nÄ±n belirlendiÄŸi emirler hangisidir?",
+      "cevap": "DevamlÄ± Emir"
     },
     {
-      "soru": "Bakanlık kurumlarında taktik-idari hizmetlerden genel olarak her zaman aynı biçimde yararlanılan ancak mevzuat, yönerge, prensip emirleri devamlı emir-talimnamelerde ayrıntıları bulunmayan konularda uygulamanın nasıl olacağını belirten sürekli düzenleme?",
-      "cevap": "Devamlı Talimat"
+      "soru": "BakanlÄ±k kurumlarÄ±nda taktik-idari hizmetlerden genel olarak her zaman aynÄ± biÃ§imde yararlanÄ±lan ancak mevzuat, yÃ¶nerge, prensip emirleri devamlÄ± emir-talimnamelerde ayrÄ±ntÄ±larÄ± bulunmayan konularda uygulamanÄ±n nasÄ±l olacaÄŸÄ±nÄ± belirten sÃ¼rekli dÃ¼zenleme?",
+      "cevap": "DevamlÄ± Talimat"
     },
     {
-      "soru": "Çalışma saatleri dışında fiziksel ortamda hazırlanan evrak nasıl gönderilir?",
-      "cevap": "Gönderi usuluyle GÖNDERİLMEZ! Öncelikle MEBS vasıtalarıyla, imkan yoksa Garnizon içinde haberci, Dışında ise Kurye ile onlar da olmazsa Belgegeçer ile"
+      "soru": "Ã‡alÄ±ÅŸma saatleri dÄ±ÅŸÄ±nda fiziksel ortamda hazÄ±rlanan evrak nasÄ±l gÃ¶nderilir?",
+      "cevap": "GÃ¶nderi usuluyle GÃ–NDERÄ°LMEZ! Ã–ncelikle MEBS vasÄ±talarÄ±yla, imkan yoksa Garnizon iÃ§inde haberci, DÄ±ÅŸÄ±nda ise Kurye ile onlar da olmazsa BelgegeÃ§er ile"
     },
     {
-      "soru": "Kamu Kurum ve kuruluşları adına yapılan yazışmalarda hangi kanal kullanılır?",
-      "cevap": "Komuta Kanalı (İmza Yetki satırı mutlaka kullanılır)"
+      "soru": "Kamu Kurum ve kuruluÅŸlarÄ± adÄ±na yapÄ±lan yazÄ±ÅŸmalarda hangi kanal kullanÄ±lÄ±r?",
+      "cevap": "Komuta KanalÄ± (Ä°mza Yetki satÄ±rÄ± mutlaka kullanÄ±lÄ±r)"
     },
     {
-      "soru": "Yazılar hangi kanallar kullanılarak gönderilir?",
-      "cevap": "• Komuta Kanalı\n• Teknik Kanal"
+      "soru": "YazÄ±lar hangi kanallar kullanÄ±larak gÃ¶nderilir?",
+      "cevap": "Â• Komuta KanalÄ±\nÂ• Teknik Kanal"
     },
     {
-      "soru": "Dipnot bölümünde sadece 1 adet dipnot varsa hangi maddeleme işareti kullanılır?",
-      "cevap": "* (Yıldız)"
+      "soru": "Dipnot bÃ¶lÃ¼mÃ¼nde sadece 1 adet dipnot varsa hangi maddeleme iÅŸareti kullanÄ±lÄ±r?",
+      "cevap": "* (YÄ±ldÄ±z)"
     },
     {
-      "soru": "Bakanlık kadro ve kuruluşunda yer alan kurumlar adına gönderilecek yazılar hangi kanaldan gönderilir?",
+      "soru": "BakanlÄ±k kadro ve kuruluÅŸunda yer alan kurumlar adÄ±na gÃ¶nderilecek yazÄ±lar hangi kanaldan gÃ¶nderilir?",
       "cevap": "Teknik Kanal"
     },
     {
-      "soru": "Etkili bir yazı hangi prensiplere göre yazılır?",
-      "cevap": "• Fikir Birliği\n• Doğruluk * Açıklık\n• Kısalık  * Bütünlük\n• Tarafsızlık\n• Koordinasyon"
+      "soru": "Etkili bir yazÄ± hangi prensiplere gÃ¶re yazÄ±lÄ±r?",
+      "cevap": "Â• Fikir BirliÄŸi\nÂ• DoÄŸruluk * AÃ§Ä±klÄ±k\nÂ• KÄ±salÄ±k  * BÃ¼tÃ¼nlÃ¼k\nÂ• TarafsÄ±zlÄ±k\nÂ• Koordinasyon"
     },
     {
-      "soru": "Kendilerine yetki verilen makamlar tarafından Kamu kurum ve kuruluşlarına gönderilecek yazılar hangi kanaldan gönderilir?",
-      "cevap": "Komuta Kanalı"
+      "soru": "Kendilerine yetki verilen makamlar tarafÄ±ndan Kamu kurum ve kuruluÅŸlarÄ±na gÃ¶nderilecek yazÄ±lar hangi kanaldan gÃ¶nderilir?",
+      "cevap": "Komuta KanalÄ±"
     },
     {
-      "soru": "İmza yetki satırı hangi şartta kullanılır?",
-      "cevap": "Yazının Komuta Kanalından gönderilmesi durumunda."
+      "soru": "Ä°mza yetki satÄ±rÄ± hangi ÅŸartta kullanÄ±lÄ±r?",
+      "cevap": "YazÄ±nÄ±n Komuta KanalÄ±ndan gÃ¶nderilmesi durumunda."
     },
     {
-      "soru": "Belge Doğrulama işi nereden yapılır?",
-      "cevap": "Doğrulama Kodu ve Karekod ile E-Devlet üzerinden"
+      "soru": "Belge DoÄŸrulama iÅŸi nereden yapÄ±lÄ±r?",
+      "cevap": "DoÄŸrulama Kodu ve Karekod ile E-Devlet Ã¼zerinden"
     },
     {
-      "soru": "Gerek amir/komutanların gerekse Krgh personelinin zaman kaybetmelerini önlemek ve hemen imzalanması için sorumllu tarafından imza dosyalarının üst kapağına iliştirilen çizelgelere ne ad verilir?",
-      "cevap": "Dosya Özeti"
+      "soru": "Gerek amir/komutanlarÄ±n gerekse Krgh personelinin zaman kaybetmelerini Ã¶nlemek ve hemen imzalanmasÄ± iÃ§in sorumllu tarafÄ±ndan imza dosyalarÄ±nÄ±n Ã¼st kapaÄŸÄ±na iliÅŸtirilen Ã§izelgelere ne ad verilir?",
+      "cevap": "Dosya Ã–zeti"
     },
     {
-      "soru": "İmza Yetki Satırının kullanılmadığı durumlar nelerdir?",
-      "cevap": "• Teknik Kanaldan gönderilecek yazılarda\n• Gerçek-Özel Hukuk Tüzel kişilerine gönderilecek yazılarda\n• Sadece karargah içine dağıtımlı yazılarda"
+      "soru": "Ä°mza Yetki SatÄ±rÄ±nÄ±n kullanÄ±lmadÄ±ÄŸÄ± durumlar nelerdir?",
+      "cevap": "Â• Teknik Kanaldan gÃ¶nderilecek yazÄ±larda\nÂ• GerÃ§ek-Ã–zel Hukuk TÃ¼zel kiÅŸilerine gÃ¶nderilecek yazÄ±larda\nÂ• Sadece karargah iÃ§ine daÄŸÄ±tÄ±mlÄ± yazÄ±larda"
     },
     {
-      "soru": "Karargah içinde herhangi bir konuda işlemleri başlatmak, karşılıklı görüş alışverişinde bulunmak, bilgilendirmek veya koordinasyon amacıyla ihtiyç duyulduğunda hazırlanan yazı hangisidir?",
+      "soru": "Karargah iÃ§inde herhangi bir konuda iÅŸlemleri baÅŸlatmak, karÅŸÄ±lÄ±klÄ± gÃ¶rÃ¼ÅŸ alÄ±ÅŸveriÅŸinde bulunmak, bilgilendirmek veya koordinasyon amacÄ±yla ihtiyÃ§ duyulduÄŸunda hazÄ±rlanan yazÄ± hangisidir?",
       "cevap": "Koordinasyon Formu"
     },
     {
-      "soru": "Yazıya Saklama Kodu nasıl verilir?",
-      "cevap": "Saklama Süreli Standart Dosya Planı doğrultusunda belirlenir."
+      "soru": "YazÄ±ya Saklama Kodu nasÄ±l verilir?",
+      "cevap": "Saklama SÃ¼reli Standart Dosya PlanÄ± doÄŸrultusunda belirlenir."
     },
     {
-      "soru": "En az birim amirliği / başkanlık düzeyinde, ihtiyaç duyulması durumunda gelen-giden evrak ile bu evraka ait ilgi ve ikincil evrakın arz edilmesi amacıyla kullanılan yazı hangisidir?",
-      "cevap": "Yönetici Özeti"
+      "soru": "En az birim amirliÄŸi / baÅŸkanlÄ±k dÃ¼zeyinde, ihtiyaÃ§ duyulmasÄ± durumunda gelen-giden evrak ile bu evraka ait ilgi ve ikincil evrakÄ±n arz edilmesi amacÄ±yla kullanÄ±lan yazÄ± hangisidir?",
+      "cevap": "YÃ¶netici Ã–zeti"
     },
     {
-      "soru": "Evrakın dağıtım kısmında sıralama nasıl olmalıdır?",
-      "cevap": "Karargah içi makamlar, Karargah dışı makamlardan sonra"
+      "soru": "EvrakÄ±n daÄŸÄ±tÄ±m kÄ±smÄ±nda sÄ±ralama nasÄ±l olmalÄ±dÄ±r?",
+      "cevap": "Karargah iÃ§i makamlar, Karargah dÄ±ÅŸÄ± makamlardan sonra"
     },
     {
-      "soru": "Cetvelleri genişleten veya açıklayan tamamlayıcı nitelikte olan evraka ne ad verilir?",
-      "cevap": "İlişik"
+      "soru": "Cetvelleri geniÅŸleten veya aÃ§Ä±klayan tamamlayÄ±cÄ± nitelikte olan evraka ne ad verilir?",
+      "cevap": "Ä°liÅŸik"
     },
     {
-      "soru": "Lahikaları genişleten veya açıklayan tamamlayıcı nitelikte olan evraka ne ad verilir?",
+      "soru": "LahikalarÄ± geniÅŸleten veya aÃ§Ä±klayan tamamlayÄ±cÄ± nitelikte olan evraka ne ad verilir?",
       "cevap": "Cetvel"
     },
     {
-      "soru": "Çok Gizli ve Müttefik makamlara gönderilen yazılar hangi vasıtalardan gönderilmez?",
-      "cevap": "Elektronik Ortamdan ve MEBS vasıtalarından gönderilmez."
+      "soru": "Ã‡ok Gizli ve MÃ¼ttefik makamlara gÃ¶nderilen yazÄ±lar hangi vasÄ±talardan gÃ¶nderilmez?",
+      "cevap": "Elektronik Ortamdan ve MEBS vasÄ±talarÄ±ndan gÃ¶nderilmez."
     },
     {
-      "soru": "Ekleri genişleten veya açıklayan tamamlayıcı nitelikte olan evrak ile araç ve gereçlere ne ad verilir?",
+      "soru": "Ekleri geniÅŸleten veya aÃ§Ä±klayan tamamlayÄ±cÄ± nitelikte olan evrak ile araÃ§ ve gereÃ§lere ne ad verilir?",
       "cevap": "Lahika"
     },
     {
-      "soru": "Koordinasyon Formu kimler arasında kullanılır?",
-      "cevap": "• Birim Amirliği/Başkanlık ve Daire Başkanlıkları arasında\n• Aynı Daire Başkanlığının Kendi şubeleri arasında"
+      "soru": "Koordinasyon Formu kimler arasÄ±nda kullanÄ±lÄ±r?",
+      "cevap": "Â• Birim AmirliÄŸi/BaÅŸkanlÄ±k ve Daire BaÅŸkanlÄ±klarÄ± arasÄ±nda\nÂ• AynÄ± Daire BaÅŸkanlÄ±ÄŸÄ±nÄ±n Kendi ÅŸubeleri arasÄ±nda"
     }
   ]
 }
