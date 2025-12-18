@@ -1,5 +1,9 @@
-document.querySelectorAll(".section-title").forEach(title => {
-  title.addEventListener("click", () => {
-    title.classList.toggle("open");
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+
+    tab.classList.add("active");
+    document.getElementById(tab.dataset.tab).classList.add("active");
   });
 });
