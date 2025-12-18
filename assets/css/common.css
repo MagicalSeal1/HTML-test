@@ -10,12 +10,6 @@
   background-color: #0f172a;
 }
 
-.app-header {
-  position: relative;
-  width: 100%;
-  max-width: 420px;
-  margin-bottom: 20px;
-}
 
 /* Geri butonu – akıştan bağımsız */
 .back-btn {
