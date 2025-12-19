@@ -73,16 +73,6 @@ header span {
   font-size: 0.9rem;
 }
 
-.status input {
-  width: 60px;
-  padding: 6px 8px;
-  background: #0b1220;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--text);
-  text-align: center;
-}
-
 .scene {
   width: 100%;
   max-width: 420px;
