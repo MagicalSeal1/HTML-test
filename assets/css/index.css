@@ -113,7 +113,6 @@ header {
   width: 100%;
   box-sizing: border-box;
 
-  margin: 12px 0 4px;
   padding: 14px 18px;
 
   font-size: 1.1rem;
@@ -145,7 +144,7 @@ header {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
-  padding-top: 8px; /* hover buffer */
+
   grid-column: 1 / -1;
   width: 100%;
 
