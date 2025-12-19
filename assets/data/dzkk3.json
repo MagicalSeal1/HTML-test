@@ -3,10 +3,6 @@
   "description": "88 Soru",
   "cards": [
     {
-      "soru": "",
-      "cevap": ""
-    },
-    {
       "soru": "Yedek Parça Stok planlaması hangi dökümanlar dikkate alınarak yapılır?",
       "cevap": "• Birliklerin Gemi Kadrosu (Gemi Konfg. Ve Kadro Dök.) GKKD COSAL\n• Kıyı Birliklerinin Kadrosu (Kıyı Birl. Konfg. Ve Kadro Dök.) BKKD COSBAL\n• Sahil Yedeği Kadrosu (Saha Yedekleri Kadro Listesi) SYKL COSMAL"
     },
@@ -356,3 +352,4 @@
     }
   ]
 }
+
