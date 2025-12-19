@@ -140,6 +140,8 @@ body {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
+  padding-top: 12px;
+  padding-bottom: 12px;
   grid-column: 1 / -1;
 
   display: none; /* 🔑 KAPALIYKEN LAYOUT'TA YOK */
