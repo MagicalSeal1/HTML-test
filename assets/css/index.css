@@ -28,7 +28,7 @@ body {
   flex-direction: row;       /* yan yana */
   justify-content: space-between;
   align-items: center;
-  height: 192px;             /* logo yüksekliği ile uyumlu */
+  height: 64px;             /* logo yüksekliği ile uyumlu */
 }
 
 .hero-inner {
@@ -36,7 +36,7 @@ body {
 }
 
 .hero-logo img {
-  max-height: 192px;
+  max-height: 64px;
   width: auto;
   object-fit: contain;
 }
