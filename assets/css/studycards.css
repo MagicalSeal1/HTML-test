@@ -121,12 +121,12 @@ header span {
 }
 
 .card-face.back {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
   color: var(--accent);
 }
 
 .card.flip {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 
 .card-face h2 {
