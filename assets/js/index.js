@@ -10,11 +10,24 @@ titles.forEach(title => {
       // KAPAT
       const currentHeight = content.scrollHeight;
       content.style.height = currentHeight + "px";
+
       requestAnimationFrame(() => {
         content.style.height = "0px";
         content.style.opacity = "0";
       });
+
       title.classList.remove("open");
+
+      // Kapatma sırasında height:auto uygulanmamalı!
+      const onCloseEnd = (e) => {
+        if (e.propertyName === "height" && !title.classList.contains("open")) {
+          // Kapalı durumda height sıfırda kalmalı
+          content.style.height = "0px";
+          content.removeEventListener("transitionend", onCloseEnd);
+        }
+      };
+      content.addEventListener("transitionend", onCloseEnd);
+
     } else {
       // Önce diğer açıkları kapat
       titles.forEach(t => {
@@ -32,6 +45,7 @@ titles.forEach(title => {
       // AÇ
       title.classList.add("open");
       const fullHeight = inner.scrollHeight;
+
       content.style.opacity = "0";
       content.style.height = "0px";
 
@@ -40,16 +54,16 @@ titles.forEach(title => {
         content.style.opacity = "1";
       });
 
-      // Geçiş bitince height:auto yap (sadece açıkken)
-      const onEnd = (e) => {
+      // Açma sırasında height:auto yap
+      const onOpenEnd = (e) => {
         if (e.propertyName === "height" && title.classList.contains("open")) {
           content.style.height = "auto";
-          content.removeEventListener("transitionend", onEnd);
+          content.removeEventListener("transitionend", onOpenEnd);
         }
       };
-      content.addEventListener("transitionend", onEnd);
+      content.addEventListener("transitionend", onOpenEnd);
 
-      // Mobilde scroll: geçiş bitişine bağla
+      // Mobilde scroll
       if (window.innerWidth < 768) {
         content.addEventListener("transitionend", () => {
           title.scrollIntoView({ behavior: "smooth", block: "start" });
