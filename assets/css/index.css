@@ -44,14 +44,6 @@ header span {
   gap: 20px;
 }
 
-.grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
-}
-
 /* === SECTION TITLE → DROPDOWN BAŞLIĞI === */
 .section-title {
   grid-column: 1 / -1;
