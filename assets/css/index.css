@@ -146,7 +146,9 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 
-  padding: 0;                /* 👈 KAPALIYKEN YOK */
+  /* Kapalıyken padding’i kaldırma, sabit tut */
+  padding: 18px 0;
+
   height: 0;
   overflow: hidden;
 
@@ -154,13 +156,11 @@ body {
 
   transition:
     height 0.8s ease,
-    opacity 0.5s ease,
-    padding 0.5s ease;
+    opacity 0.5s ease;
 }
 
 /* AÇIK HAL */
 .section-title.open + .dropdown-content {
-  padding: 18px 0;           /* 👈 SADECE AÇIKKEN */
   opacity: 1;
 }
 
