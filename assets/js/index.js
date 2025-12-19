@@ -37,17 +37,6 @@ titles.forEach(title => {
       content.style.opacity = "1";
       title.classList.add("open");
 
-      // Animasyon bitince height:auto
-      content.addEventListener(
-        "transitionend",
-        function handler(e) {
-          if (e.propertyName === "height") {
-            content.style.height = "auto";
-            content.removeEventListener("transitionend", handler);
-          }
-        }
-      );
-
       // 📱 MOBİLDE OTOMATİK SCROLL
       if (isMobile()) {
         setTimeout(() => {
