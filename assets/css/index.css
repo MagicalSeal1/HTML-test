@@ -140,25 +140,27 @@ body {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
-  padding: 18px 0px 18px 0px;
   grid-column: 1 / -1;
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 
+  padding: 0;                /* 👈 KAPALIYKEN YOK */
   height: 0;
   overflow: hidden;
 
   opacity: 0;
 
   transition:
-    height 0.8s ease,
-    opacity 0.5s ease;
+    height 0.4s ease,
+    opacity 0.25s ease,
+    padding 0.25s ease;
 }
 
-/* Açık hali */
+/* AÇIK HAL */
 .section-title.open + .dropdown-content {
+  padding: 18px 0;           /* 👈 SADECE AÇIKKEN */
   opacity: 1;
 }
 
