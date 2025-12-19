@@ -47,8 +47,6 @@ header {
 
 .grid {
   max-width: 1100px;
-  margin-left: 10px;
-  margin-right: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 8px;
@@ -215,7 +213,10 @@ a.menu-card::before {
 }
 
 a.menu-card:hover {
-  transform: scale(1.03);
+  transform: none;
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.35),
+    0 0 0 1px var(--accent);
   border-color: var(--accent);
 }
 
