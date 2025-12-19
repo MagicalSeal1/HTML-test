@@ -147,17 +147,13 @@ header {
 .dropdown-content {
   grid-column: 1 / -1;
 
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-
+  height: 0;
+  overflow: hidden;
   opacity: 0;
-  transform: translateY(-8px);
-  pointer-events: none;
 
   transition:
-    opacity 0.35s ease,
-    transform 0.35s ease;
+    height 0.35s ease,
+    opacity 0.25s ease;
 }
 
 @media (max-width: 1024px) {
@@ -180,7 +176,7 @@ header {
 
 /* Açık hali */
 .section-title.open + .dropdown-content {
-  max-height: 5000px;
+  opacity: 1;
 }
 
 /* Ok aşağı → yukarı */
