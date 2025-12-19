@@ -86,7 +86,7 @@ header span {
   border-radius: 8px;
   padding: 4px 0px;
   margin: 0px 4px;
-  font-size: 0.9rem;
+  text-align: center;
   
   /* iOS picker için kritik */
   -webkit-appearance: menulist;
