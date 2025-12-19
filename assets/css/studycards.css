@@ -84,7 +84,8 @@ header span {
   border: 1px solid var(--border);
   color: var(--text);
   border-radius: 8px;
-  padding: 4px 6px;
+  padding: 4px 0px;
+  margin: 0px 4px;
   font-size: 0.9rem;
   text-align: center;
   cursor: pointer;
@@ -94,7 +95,7 @@ header span {
 @media (max-width: 768px) {
   #jumpSelect {
     font-size: 0.85rem;
-    padding: 3px 4px;
+    padding: 3px 0px;
   }
 }
 
