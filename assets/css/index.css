@@ -151,13 +151,14 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 
-  height: 0;
-  overflow: hidden;
   opacity: 0;
+  margin-top: 0;
+
+  pointer-events: none;
 
   transition:
-    height 0.35s ease,
-    opacity 0.25s ease;
+    opacity 0.25s ease,
+    margin-top 0.25s ease;
 }
 
 @media (max-width: 1024px) {
@@ -181,12 +182,7 @@ header {
 /* Açık hali */
 .section-title.open + .dropdown-content {
   opacity: 1;
-}
-
-/* Ok aşağı → yukarı */
-.section-title.open + .dropdown-content {
-  opacity: 1;
-  transform: translateY(0);
+  margin-top: 12px;
   pointer-events: auto;
 }
 
