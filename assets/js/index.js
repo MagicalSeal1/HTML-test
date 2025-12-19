@@ -40,14 +40,16 @@ titles.forEach(title => {
         content.style.opacity = "1";
       });
 
+      // Geçiş bitince height:auto yap (sadece açıkken)
       const onEnd = (e) => {
-        if (e.propertyName === "height") {
+        if (e.propertyName === "height" && title.classList.contains("open")) {
           content.style.height = "auto";
           content.removeEventListener("transitionend", onEnd);
         }
       };
       content.addEventListener("transitionend", onEnd);
 
+      // Mobilde scroll: geçiş bitişine bağla
       if (window.innerWidth < 768) {
         content.addEventListener("transitionend", () => {
           title.scrollIntoView({ behavior: "smooth", block: "start" });
