@@ -15,7 +15,7 @@ body {
   );
   color: var(--text);
   min-height: 100vh;
-  padding: 32px 16px;
+  padding: 24px 16px;
 }
 
 .hero {
