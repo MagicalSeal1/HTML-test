@@ -16,7 +16,6 @@ body {
   color: var(--text);
   min-height: 100vh;
   padding: 32px 16px;
-  scrollbar-gutter: stable;
 }
 
 header {
