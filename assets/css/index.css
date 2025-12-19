@@ -22,24 +22,24 @@ body {
   max-width: 1100px;
   margin: 0.75rem auto;
   padding-bottom: 10px;
-  max-width: 1100px;
   border-bottom: 1px solid var(--border);
-  justify-content: space-between; /* biri sola, diğeri sağa */
-  display: flex;              /* içeriği yan yana diz */
-  align-items: center;        /* dikeyde ortala */
+
+  display: flex;
+  flex-direction: row;       /* yan yana */
+  justify-content: space-between;
+  align-items: center;
+  height: 192px;             /* logo yüksekliği ile uyumlu */
 }
 
 .hero-inner {
-  flex: 1;                    /* sol taraf genişler */
+  flex: 1;
 }
 
 .hero-logo img {
-  height: 100%;               /* kapsayıcıya oturur */
-  max-height: 192px;          /* en fazla 192px */
-  width: auto;                /* orantılı genişlik */
-  object-fit: contain;        /* taşmadan sığdır */
+  max-height: 192px;
+  width: auto;
+  object-fit: contain;
 }
-
 
 .hero-inner h1 {
   font-size: 2.2rem;
