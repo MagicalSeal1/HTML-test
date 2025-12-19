@@ -19,6 +19,8 @@ body {
 }
 
 .hero {
+  max-width: 1100px;
+  margin: 0.75rem auto;
   padding: 16px 10px 12px 10px;
   max-width: 1100px;
   border-bottom: 1px solid var(--border);
