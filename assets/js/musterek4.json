@@ -1,0 +1,206 @@
+{
+  "title": "TSK Bilgi Güvenliği Yönergesi Soru Bankası",
+  "description": "TSK Bilgi Güvenliği Yönergesi esas alınarak hazırlanmış; bilgi güvenliği tanımları, veri güvenliği, ihlal prosedürleri ve kullanıcı sorumluluklarını içeren 50 soruluk çalışma kartları.",
+  "cards": [
+    {
+      "soru": "Yönergeye göre 'Bilgi' nasıl tanımlanmıştır?",
+      "cevap": "Herhangi bir verinin belirli bir anlam ifade edecek şekilde düzenlenmiş hali olup; veri, bilgi, öz bilgi ve bilgelik basamaklarından oluşur."
+    },
+    {
+      "soru": "Yönergeye göre 'Veri' nedir?",
+      "cevap": "Bir durum hakkında, birbiriyle bağlantısı henüz kurulmamış bilinenler, bilgi parçacıkları veya sayısal ortamlarda bulunan işlenmemiş sinyallerdir."
+    },
+    {
+      "soru": "Bilgi Güvenliği'nin temel tanımı nedir?",
+      "cevap": "Bilginin bir varlık olarak saldırı ve hasarlardan korunması, doğru teknolojinin, doğru amaçla ve doğru şekilde kullanılarak bilginin istenilen her an elde edilmesi ve yetkisiz kişilerin eline geçmesinin önlenmesidir."
+    },
+    {
+      "soru": "Bilgi güvenliğinin üç temel unsuru (SAC ayağı) nedir?",
+      "cevap": "Gizlilik, Bütünlük ve Erişilebilirlik."
+    },
+    {
+      "soru": "'Açık Bilgi' ile 'Örtük Bilgi' arasındaki fark nedir?",
+      "cevap": "Açık bilgi göz ve beyinle anlaşılabilirken; örtük bilgi duygu, tecrübe, alt beyin ve elektronik araçlarla kavranabilir."
+    },
+    {
+      "soru": "'Bilmesi Gereken Prensibi' nedir?",
+      "cevap": "Bir personelin, sadece görevini yapabilmesi için ihtiyaç duyduğu kadar bilgiye ve belgeye erişim yetkisinin olmasıdır."
+    },
+    {
+      "soru": "Bilgi güvenliği ihlali tespit edildiğinde ilk olarak ne yapılmalıdır?",
+      "cevap": "Durum derhal silsileler yoluyla ilgili Kuvvet Komutanlığına ve sıralı amirlere bildirilir."
+    },
+    {
+      "soru": "Bilgi güvenliği ihlal bildiriminde hangi özet bilgiler yer almalıdır?",
+      "cevap": "Olayın tipi, etkileri, niteliği, kaynağı, tespit yöntemi ve yürütülen araştırma çalışmaları yer almalıdır."
+    },
+    {
+      "soru": "Bilgi güvenliği ihlalini incelemek üzere oluşturulan ilk 'Tahkikat Heyeti' kimlerden oluşur?",
+      "cevap": "Emniyet subayı, İKK (İstihbarat Kısım Amirliği) ve gerekiyorsa muhabere konusunda uzman personelden oluşur."
+    },
+    {
+      "soru": "Tahkikat heyeti incelemesini en geç ne kadar sürede tamamlamalıdır?",
+      "cevap": "5 günü geçmemek üzere en kısa sürede tamamlamalıdır."
+    },
+    {
+      "soru": "Genelkurmay Başkanlığından Ordu/Kolordu seviyesine kadar oluşturulan 'Bilgi Güvenliği İhlali İnceleme Heyeti'ne kim başkanlık eder?",
+      "cevap": "En kıdemli istihbarat personeli başkanlık eder."
+    },
+    {
+      "soru": "Yasal işlem yapılan bilgi güvenliği ihlallerinde kesin sonucun ne kadar sürede alınması hedeflenir?",
+      "cevap": "Azami iki ay içerisinde alınması sağlanır."
+    },
+    {
+      "soru": "Yasal işlem süreci devam eden ihlallerde üst makamlara ne sıklıkla bilgi verilir?",
+      "cevap": "On beşer günlük devrelerde mesajla bilgi verilir."
+    },
+    {
+      "soru": "Parola güvenliği açısından parolalar ne sıklıkla değiştirilmelidir?",
+      "cevap": "Yönergede belirtilen periyotlarda (genellikle en az 3 veya 6 ayda bir) veya şüphe durumunda derhal değiştirilmelidir."
+    },
+    {
+      "soru": "Kullanıcılar bilgisayarlarının başından kısa süreliğine ayrılırken ne yapmalıdır?",
+      "cevap": "Ekranı kilitlemeli (Windows+L vb.) veya oturumu kapatmalıdır."
+    },
+    {
+      "soru": "'Temiz Masa, Temiz Ekran' ilkesi nedir?",
+      "cevap": "Mesai bitiminde veya çalışma alanından ayrılırken masada gizlilik dereceli evrak, ekranda ise açık oturum bırakılmamasıdır."
+    },
+    {
+      "soru": "Şahsi USB belleklerin askeri bilgisayarlarda kullanılması serbest midir?",
+      "cevap": "Hayır, yetkisiz ve şahsi taşınabilir belleklerin kurumsal bilgisayarlarda kullanılması yasaktır."
+    },
+    {
+      "soru": "Sosyal mühendislik nedir?",
+      "cevap": "İnsanların zafiyetlerinden faydalanarak, onları aldatıp gizli bilgi vermeye veya güvenlik ihlali yapmaya ikna etme yöntemidir."
+    },
+    {
+      "soru": "Oltalama (Phishing) saldırılarına karşı e-postalarda nelere dikkat edilmelidir?",
+      "cevap": "Gönderen adresinin doğruluğuna, konu başlığına ve şüpheli link/eklentilere dikkat edilmelidir."
+    },
+    {
+      "soru": "Gizlilik dereceli evrakların imhası nasıl yapılır?",
+      "cevap": "Kağıt kıyma makineleriyle geri döndürülemeyecek şekilde parçalanarak veya usulüne uygun yakılarak imha edilir."
+    },
+    {
+      "soru": "İnternet bilgisayarlarında askeri konuların konuşulması veya işlenmesi uygun mudur?",
+      "cevap": "Hayır, 'Tasnif Dışı' olsa bile kurumsal ve askeri bilgilerin internet ortamında paylaşılması yasaktır."
+    },
+    {
+      "soru": "Sosyal medyada askeri kimliği açık edecek paylaşımlar yapmak serbest midir?",
+      "cevap": "Hayır, personelin görev yeri, rütbesi ve askeri faaliyetlerine dair paylaşım yapması yasaktır."
+    },
+    {
+      "soru": "Bilgisayarlara lisanssız veya kaynağı belirsiz program yüklenmesi neden yasaktır?",
+      "cevap": "Zararlı yazılım (virüs, trojan) bulaştırma riski ve telif hakları ihlali nedeniyle yasaktır."
+    },
+    {
+      "soru": "TEMPEST güvenliği neyi ifade eder?",
+      "cevap": "Elektronik cihazların yaydığı elektromanyetik sinyallerin dinlenmesini ve bu yolla bilgi çalınmasını önlemeye yönelik tedbirlerdir."
+    },
+    {
+      "soru": "Kullanıcı parolaları bir yere not edilebilir mi?",
+      "cevap": "Hayır, parolalar ezberlenmeli, monitör altına veya masa üzerine yazılmamalıdır."
+    },
+    {
+      "soru": "Gizli evraklar elektronik ortamda nasıl iletilir?",
+      "cevap": "Sadece onaylı kripto cihazları veya güvenli hatlar/yazılımlar (MİLNET vb.) üzerinden, gizlilik derecesine uygun ağlarda iletilir."
+    },
+    {
+      "soru": "Hard diskler veya dijital depolama üniteleri hurdaya ayrılmadan önce ne yapılmalıdır?",
+      "cevap": "İçerisindeki veriler geri döndürülemeyecek şekilde silinmeli (wipe) veya fiziksel olarak imha edilmelidir."
+    },
+    {
+      "soru": "Kurumsal e-posta adresleri şahsi sitelere üyelik için kullanılabilir mi?",
+      "cevap": "Hayır, kurumsal e-posta adresleri sadece görevle ilgili hususlarda kullanılır."
+    },
+    {
+      "soru": "Yazıcıdan alınan gizli evrak çıktıları yazıcı üzerinde unutulursa ne olur?",
+      "cevap": "Bilgi güvenliği ihlali oluşur; evrakın yetkisiz kişilerce görülme riski doğar."
+    },
+    {
+      "soru": "Askeri tesislere girişte şahsi cep telefonu ve akıllı cihaz kullanımı kuralı nedir?",
+      "cevap": "Belirlenen kısıtlamalara uyulmalı, yasaklı bölgelere (Kırmızı Alan vb.) bu cihazlar sokulmamalıdır."
+    },
+    {
+      "soru": "Bilgi sistemlerinde 'Yedekleme' (Backup) neden önemlidir?",
+      "cevap": "Veri kaybı, siber saldırı veya donanım arızası durumunda bilginin geri döndürülebilmesi (erişilebilirlik) için önemlidir."
+    },
+    {
+      "soru": "Anti-virüs programlarının güncelliği neden önemlidir?",
+      "cevap": "Yeni çıkan tehditlere ve virüslere karşı sistemin korunabilmesi için önemlidir."
+    },
+    {
+      "soru": "Tasnif Dışı ne demektir?",
+      "cevap": "İçerdiği bilgi itibarıyla, yetkisiz kimselere açıklanması halinde milli güvenliğe zarar vermeyecek bilgilerdir."
+    },
+    {
+      "soru": "Hizmete Özel gizlilik derecesi nedir?",
+      "cevap": "İçerdiği bilgi itibarıyla, yetkisiz kimselerce bilinmesi halinde kurumun menfaatlerine zarar getirebilecek bilgilerdir."
+    },
+    {
+      "soru": "Gizli gizlilik derecesi nedir?",
+      "cevap": "Açıklanması halinde milli güvenliğe, prestije ve menfaatlere ciddi zararlar verebilecek bilgilerdir."
+    },
+    {
+      "soru": "Çok Gizli gizlilik derecesi nedir?",
+      "cevap": "Açıklanması halinde milli güvenliğe hayati bakımdan son derece büyük zararlar verebilecek bilgilerdir."
+    },
+    {
+      "soru": "Evrak üzerindeki gizlilik derecesi nerede belirtilir?",
+      "cevap": "Sayfanın üst ve alt orta kısımlarında, kırmızı renkli ve büyük harflerle belirtilir."
+    },
+    {
+      "soru": "Açık ağlardan (İnternet) kapalı ağlara (İntranet) veri transferi nasıl yapılır?",
+      "cevap": "Doğrudan bağlantı yasaktır; veri kontrol edildikten sonra yetkili personel nezaretinde ve güvenli yöntemlerle (CD/DVD vb. üzerinden kontrollü) aktarılır."
+    },
+    {
+      "soru": "Şifreli (Kriptolu) malzemeler korumasız bırakılabilir mi?",
+      "cevap": "Hayır, kripto malzemeleri ve cihazları her zaman en üst düzey fiziksel güvenlik tedbirleriyle korunmalıdır."
+    },
+    {
+      "soru": "Ziyaretçilerin askeri bilgisayarları kullanmasına izin verilir mi?",
+      "cevap": "Hayır, yetkisi olmayan ziyaretçilerin askeri sistemlere erişimi kesinlikle yasaktır."
+    },
+    {
+      "soru": "İstenmeyen e-postalar (Spam) açılmalı mıdır?",
+      "cevap": "Hayır, açılmadan silinmeli ve gönderen engellenmelidir."
+    },
+    {
+      "soru": "Görevden ayrılan personelin bilgisayar erişim yetkileri ne yapılır?",
+      "cevap": "Derhal iptal edilir ve hesapları kapatılır."
+    },
+    {
+      "soru": "Masaüstü bilgisayarların kasalarının açılması veya donanım eklenmesi kime aittir?",
+      "cevap": "Sadece yetkili bakım/onarım personeline veya MEBS birimlerine aittir; kullanıcı müdahale edemez."
+    },
+    {
+      "soru": "Bilgi güvenliği farkındalık eğitimi kimlere verilir?",
+      "cevap": "Birlik ve kurumlardaki rütbeli/rütbesiz tüm personele periyodik olarak verilir."
+    },
+    {
+      "soru": "Askeri haritaların güvenliği nasıl sağlanır?",
+      "cevap": "Gizlilik derecelerine göre saklanır, yetkisiz kişilere verilmez ve dijital kopyaları korunur."
+    },
+    {
+      "soru": "Personel Güvenlik Belgesi nedir?",
+      "cevap": "Gizlilik dereceli bilgilere nüfuz edecek personelin güvenilirliğini gösteren ve soruşturma sonucu verilen belgedir."
+    },
+    {
+      "soru": "Fotoğraf çekme yasağının kapsamı nedir?",
+      "cevap": "İzin verilmedikçe kışla içinde, karargah binalarında ve ekran görüntüsü alacak şekilde fotoğraf/video çekimi yasaktır."
+    },
+    {
+      "soru": "Güvenli olmayan (halka açık) Wi-Fi ağlarında kurumsal işlem yapılır mı?",
+      "cevap": "Hayır, veri trafiğinin dinlenmesi riski nedeniyle kurumsal/gizli işlemler yapılmaz."
+    },
+    {
+      "soru": "İhlal durumunda 'adli bilişim' incelemesini kim yapar?",
+      "cevap": "Yetkili adli mercilerin talimatıyla uzman bilirkişiler veya TSK'nın ilgili siber güvenlik birimleri yapar."
+    },
+    {
+      "soru": "Yönergeye göre verinin 'işlenmiş hali' neye dönüşür?",
+      "cevap": "Bilgiye dönüşür."
+    }
+  ]
+}
