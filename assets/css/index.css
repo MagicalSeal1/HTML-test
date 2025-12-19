@@ -151,14 +151,17 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 
-  opacity: 0;
-  margin-top: 0;
+  /* ❗ HİÇBİR YÜKSEKLİK KISITI YOK */
+  height: auto;
+  max-height: none;
+  overflow: visible;
 
+  /* Gizleme */
+  opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 
-  transition:
-    opacity 0.25s ease,
-    margin-top 0.25s ease;
+  transition: opacity 0.25s ease;
 }
 
 @media (max-width: 1024px) {
@@ -182,7 +185,7 @@ header {
 /* Açık hali */
 .section-title.open + .dropdown-content {
   opacity: 1;
-  margin-top: 12px;
+  visibility: visible;
   pointer-events: auto;
 }
 
