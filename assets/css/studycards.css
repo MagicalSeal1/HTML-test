@@ -62,10 +62,15 @@ header span {
 }
 
 .status {
+  width: 100%;
+  max-width: 420px; /* card ile aynı */
   margin-bottom: 16px;
+
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center; /* merkezde tut */
+
+  position: relative;
   font-size: 0.9rem;
 }
 
