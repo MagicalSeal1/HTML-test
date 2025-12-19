@@ -163,7 +163,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 
-  padding: 18px 0;   /* sabit padding */
+  padding: 12px 0;   /* sabit padding */
   box-sizing: border-box;
 }
 
