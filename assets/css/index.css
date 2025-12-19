@@ -159,6 +159,11 @@ body {
     opacity 0.5s ease;
 }
 
+.dropdown-inner { 
+  padding: 8px 0; /* margin yerine padding kullan */ 
+  box-sizing: border-box; 
+}
+
 /* AÇIK HAL */
 .section-title.open + .dropdown-content {
   opacity: 1;
