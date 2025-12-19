@@ -56,7 +56,7 @@ titles.forEach(title => {
             behavior: "smooth",
             block: "start"
           });
-        }, 250);
+        }, 500);
       }
     }
   });
