@@ -89,6 +89,25 @@ header span {
   perspective: 1200px;
 }
 
+#jumpSelect {
+  background: #0b1220;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 4px 6px;
+  font-size: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* mobil */
+@media (max-width: 768px) {
+  #jumpSelect {
+    font-size: 0.85rem;
+    padding: 3px 4px;
+  }
+}
+
 .card {
   width: 100%;
   min-height: 260px;
