@@ -5,58 +5,55 @@ titles.forEach(title => {
     const content = title.nextElementSibling;
     const isOpen = title.classList.contains("open");
 
+    // Önce tüm açık olanları kapat
     titles.forEach(t => {
       const c = t.nextElementSibling;
       if (t.classList.contains("open")) {
-        // 🔽 KAPATMA ANİMASYONU
-        const currentHeight = c.scrollHeight;
-
-        c.style.height = currentHeight + "px";
+        c.style.height = c.scrollHeight + "px";
         c.style.opacity = "1";
 
-        // reflow
-        c.offsetHeight;
-
-        c.style.height = "0px";
-        c.style.opacity = "0";
-
-        t.classList.remove("open");
+        // Animasyonu başlatmak için requestAnimationFrame
+        requestAnimationFrame(() => {
+          c.style.height = "0px";
+          c.style.opacity = "0";
+          t.classList.remove("open");
+        });
       }
     });
 
+    // Eğer tıklanan zaten açık değilse aç
     if (!isOpen) {
       title.classList.add("open");
 
-      // 🔼 AÇMA ANİMASYONU
-      content.style.visibility = "hidden";
-      content.style.height = "auto";
+      // Açma animasyonu
+      content.style.height = "0px";
+      content.style.opacity = "0";
+      content.style.visibility = "visible";
 
       const fullHeight = content.scrollHeight;
 
-      content.style.height = "0px";
-      content.style.opacity = "0";
+      requestAnimationFrame(() => {
+        content.style.height = fullHeight + "px";
+        content.style.opacity = "1";
+      });
 
-      content.offsetHeight;
-
-      content.style.visibility = "visible";
-      content.style.height = fullHeight + "px";
-      content.style.opacity = "1";
-
-      content.addEventListener("transitionend", function handler(e) {
+      // Animasyon bitince height'i auto yap
+      const handler = e => {
         if (e.propertyName === "height") {
           content.style.height = "auto";
           content.removeEventListener("transitionend", handler);
         }
-      });
+      };
+      content.addEventListener("transitionend", handler);
 
-      // 📱 Mobilde otomatik scroll
+      // Mobilde otomatik scroll
       if (window.innerWidth < 768) {
-        setTimeout(() => {
+        content.addEventListener("transitionend", () => {
           title.scrollIntoView({
             behavior: "smooth",
             block: "start"
           });
-        }, 500);
+        }, { once: true });
       }
     }
   });
