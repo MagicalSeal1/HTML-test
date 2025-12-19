@@ -146,7 +146,7 @@ header {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
-  padding-top: 6px; /* hover buffer */
+  padding-top: 12px; /* hover buffer */
   grid-column: 1 / -1;
   width: 100%;
 
