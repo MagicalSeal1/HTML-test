@@ -142,46 +142,25 @@ body {
 .dropdown-content {
   grid-column: 1 / -1;
 
-  display: grid;
+  display: none; /* 🔑 KAPALIYKEN LAYOUT'TA YOK */
+
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 
-  /* ❗ HİÇBİR YÜKSEKLİK KISITI YOK */
+  /* Yükseklik KISITI YOK */
   height: auto;
   max-height: none;
   overflow: visible;
 
-  /* Gizleme */
+  /* Fade için */
   opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-
   transition: opacity 0.25s ease;
-}
-
-@media (max-width: 1024px) {
-  .dropdown-content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .dropdown-content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .dropdown-content {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Açık hali */
 .section-title.open + .dropdown-content {
+  display: grid;          /* 🔑 LAYOUT'A GERİ DÖNER */
   opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
 }
 
 a.menu-card {
