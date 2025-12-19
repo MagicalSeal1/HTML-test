@@ -140,6 +140,7 @@ body {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
+  padding: 18px 0px 18px 0px;
   grid-column: 1 / -1;
 
   display: grid;
