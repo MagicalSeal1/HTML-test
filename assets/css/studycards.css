@@ -80,17 +80,17 @@ header span {
 }
 
 #jumpSelect {
+  -webkit-appearance: none; /* Safari / iOS */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;         /* Modern tarayıcılar */
+
   background: #0b1220;
   border: 1px solid var(--border);
   color: var(--text);
   border-radius: 8px;
   padding: 4px 0px;
   margin: 0px 4px;
-  text-align: center;
-  
-  /* iOS picker için kritik */
-  -webkit-appearance: menulist;
-  appearance: menulist;
+  font-size: 0.9rem;
 }
 
 /* mobil */
