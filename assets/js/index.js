@@ -1,9 +1,9 @@
 const titles = document.querySelectorAll(".section-title");
 
 titles.forEach(title => {
-  title.addEventener("click", () => {
-    const content = title.nextElementSibling;                // .section-content
-    const inner = content.querySelector(".section-content__inner");
+  title.addEventListener("click", () => {
+    const content = title.nextElementSibling;                // .dropdown-content
+    const inner = content.querySelector(".dropdown-inner");
     const isOpen = title.classList.contains("open");
 
     // Önce diğer açıkları kapat
@@ -22,22 +22,20 @@ titles.forEach(title => {
     if (!isOpen) {
       title.classList.add("open");
 
-      // 1) İçeriğin doğal yüksekliğini ölç
-      //   - inner her zaman layout’ta (display:block) ve görünür olmalı
-      //   - ölçümü yapmadan önce içerik gizli olmamalı (visibility yerine opacity kullanıyoruz)
+      // İçeriğin doğal yüksekliğini ölç
       const fullHeight = inner.scrollHeight;
 
-      // 2) Başlangıç durumunu ayarla
+      // Başlangıç durumunu ayarla
       content.style.opacity = "0";
       content.style.height = "0px";
 
-      // 3) Bir sonraki framede hedef yüksekliğe geç
+      // Bir sonraki framede hedef yüksekliğe geç
       requestAnimationFrame(() => {
         content.style.height = fullHeight + "px";
         content.style.opacity = "1";
       });
 
-      // 4) Geçiş bitince height:auto yap
+      // Geçiş bitince height:auto yap
       const onEnd = (e) => {
         if (e.propertyName === "height") {
           content.style.height = "auto";
