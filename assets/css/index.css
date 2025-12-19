@@ -115,6 +115,7 @@ a.menu-card {
   transition: all 0.25s ease;
   position: relative;
   overflow: hidden;
+  will-change: transform;
 }
 
 a.menu-card::before {
@@ -131,7 +132,7 @@ a.menu-card::before {
 }
 
 a.menu-card:hover {
-  transform: translateY(-4px);
+  transform: scale(1.03);
   border-color: var(--accent);
 }
 
