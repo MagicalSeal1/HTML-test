@@ -1,15 +1,13 @@
-const titles = document.querySelectorAll(".section-title");
-
-titles.forEach(title => {
+document.querySelectorAll(".section-title").forEach(title => {
   title.addEventListener("click", () => {
     const isOpen = title.classList.contains("open");
 
-    // diğerlerini kapat
-    titles.forEach(t => {
+    // Aynı anda sadece 1 açık kalsın
+    document.querySelectorAll(".section-title.open").forEach(t => {
       if (t !== title) t.classList.remove("open");
     });
 
-    // toggle
+    // Tıklananı aç / kapat
     title.classList.toggle("open", !isOpen);
   });
 });
