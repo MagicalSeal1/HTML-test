@@ -81,12 +81,6 @@ body {
   );
 }
 
-.main-section-title h2::before {
-  content: "▸";
-  margin-right: 8px;
-  color: var(--accent);
-}
-
 @media (max-width: 640px) {
   .main-section-title {
     margin: 24px 0 14px;
