@@ -5,7 +5,7 @@ titles.forEach(title => {
     const content = title.nextElementSibling;
     const isOpen = title.classList.contains("open");
 
-    // 🔒 Önce tüm dropdownları kapat
+    // 🔒 Önce hepsini kapat
     titles.forEach(t => {
       const c = t.nextElementSibling;
       t.classList.remove("open");
@@ -16,29 +16,41 @@ titles.forEach(title => {
     if (!isOpen) {
       title.classList.add("open");
 
-      // 📏 GERÇEK YÜKSEKLİĞİ ÖLÇ
+      // 1️⃣ Ölçüm için geçici olarak aç
+      content.style.visibility = "hidden";
+      content.style.height = "auto";
+
       const fullHeight = content.scrollHeight;
 
+      // 2️⃣ Geri kapat (ölçüm bitti)
+      content.style.height = "0px";
+      content.style.opacity = "0";
+
+      // 🔁 reflow zorla (çok önemli)
+      content.offsetHeight;
+
+      // 3️⃣ Animasyonla aç
+      content.style.visibility = "visible";
       content.style.height = fullHeight + "px";
       content.style.opacity = "1";
 
-      // 🎯 Mobilde otomatik hizalama
-      if (window.innerWidth < 768) {
-        setTimeout(() => {
-          title.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-        }, 200);
-      }
-
-      // 🔁 Animasyon bitince auto yap (çok önemli)
+      // 4️⃣ Animasyon bitince auto yap
       content.addEventListener("transitionend", function handler(e) {
         if (e.propertyName === "height") {
           content.style.height = "auto";
           content.removeEventListener("transitionend", handler);
         }
       });
+
+      // 📱 Mobilde otomatik scroll
+      if (window.innerWidth < 768) {
+        setTimeout(() => {
+          title.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        }, 250);
+      }
     }
   });
 });
