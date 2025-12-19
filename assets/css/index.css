@@ -82,6 +82,7 @@ header span {
 
 /* === DROPDOWN İÇERİĞİ === */
 .dropdown-content {
+  padding-top: 6px; /* hover buffer */
   grid-column: 1 / -1;
   width: 100%;
 
