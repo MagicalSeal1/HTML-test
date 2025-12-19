@@ -10,6 +10,9 @@
   background-color: #0f172a;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
 
 /* Geri butonu – akıştan bağımsız */
 .back-btn {
