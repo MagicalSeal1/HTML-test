@@ -135,7 +135,12 @@ body {
 
 /* Ok işareti */
 .section-title .arrow {
+  display: inline-block;
   transition: transform 0.25s ease;
+}
+
+.section-title.open .arrow {
+  transform: rotate(180deg);
 }
 
 /* === DROPDOWN İÇERİĞİ === */
