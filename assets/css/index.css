@@ -90,9 +90,10 @@ body {
   height: 2px;
 
   background: linear-gradient( 
-    90deg, var(--accent) 0%, /* koyu sol */ 
-    rgba(56,189,248,0.3) 50%, /* ortada açık */ 
-    var(--accent) 100% /* koyu sağ */ 
+    90deg, 
+    rgba(56,189,248,0.3) 0%, /* koyu sol */ 
+    var(--accent) 50%, /* ortada açık */ 
+    rgba(56,189,248,0.3) 100% /* koyu sağ */ 
   );
 }
 
