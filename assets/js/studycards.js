@@ -52,7 +52,7 @@ function buildJumpMenu(total) {
   for (let i = 1; i <= total; i++) {
     const option = document.createElement("option");
     option.value = i - 1;
-    option.textContent = `Soru ${i}`;
+    option.textContent = i;
     jumpSelect.appendChild(option);
   }
 }
