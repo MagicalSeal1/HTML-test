@@ -1,0 +1,606 @@
+{
+  "title": "NATO ATP-18 Müttefik Denizaltı Harekâtı",
+  "description": "NATO ATP-18 doktrini kapsamında; Su Sahası Yönetimi (WSM), Karşılıklı Müdahalenin Önlenmesi (PMI), denizaltı mesajlaşma usulleri ve emniyet prosedürlerine ilişkin çalışma kartları.",
+  "cards": [
+    {
+      "soru": "ATP-18'e göre, bir denizaltının barış zamanında emniyetli seyri, dalışı ve görev icrası için gerekli su sahası düzenlemelerini yapan otoriteye ne ad verilir?",
+      "cevap": "SUBOPAUTH (Submarine Operating Authority - Denizaltı Harekât Kontrol Makamı)"
+    },
+    {
+      "soru": "Denizaltıların birbirleriyle çarpışmasını veya birbirlerinin sensörlerini körletmesini önlemek amacıyla uygulanan usullerin genel adı nedir?",
+      "cevap": "PMI (Prevention of Mutual Interference - Karşılıklı Müdahalenin Önlenmesi)"
+    },
+    {
+      "soru": "Bir denizaltının intikali sırasında, denizaltı ile birlikte hareket eden ve denizaltının içinde bulunması gereken dikdörtgenler prizması şeklindeki hayali kutuya ne denir?",
+      "cevap": "Moving Haven (Hareketli Karakol Sahası)"
+    },
+    {
+      "soru": "SUBOPAUTH tarafından denizaltıya gönderilen, hareket emrini, rotasını, süratini ve dalış/satıh periyotlarını içeren standart mesaj formatı nedir?",
+      "cevap": "SUBNOTE"
+    },
+    {
+      "soru": "Denizaltıların su altında birbirlerinden emniyetli ayrımını sağlamak için kullanılan temel kriter nedir?",
+      "cevap": "Dikey Ayırma (Vertical Separation) ve Yatay Ayırma (Horizontal Separation)"
+    },
+    {
+      "soru": "Bir denizaltının, planlanan bir güvenlik kontrol (Check) zamanını kaçırması durumunda, durumun belirsiz olduğu ilk aşama için verilen alarm kodu nedir?",
+      "cevap": "SUBLOOK (Submarine Look - Denizaltı Aranıyor)"
+    },
+    {
+      "soru": "SUBLOOK ilan edildikten sonra (genellikle 1 saat içinde) denizaltıdan hala haber alınamazsa ve durumun ciddileştiği düşünülürse ilan edilen alarm kodu nedir?",
+      "cevap": "SUBMISS (Submarine Missing - Denizaltı Kayıp)"
+    },
+    {
+      "soru": "Denizaltının battığına dair kesin kanıt bulunduğunda veya denizaltının yardıma ihtiyacı olduğu kesinleştiğinde ilan edilen en üst seviye alarm kodu nedir?",
+      "cevap": "SUBSUNK (Submarine Sunk - Denizaltı Battı)"
+    },
+    {
+      "soru": "NATO prosedürlerine göre, bir suüstü gemisinin sonar ile denizaltıya 'Seninle haberleşmek istiyorum / Yüzeye çık' anlamında gönderdiği standart sonar sinyali nedir?",
+      "cevap": "Gertrude (Sualtı Telefonu) çağrısı veya Standart Patlayıcı İşaretleri (PDC)"
+    },
+    {
+      "soru": "Denizaltı tarafından atılan 'Sarı' renkli duman kandilinin anlamı nedir?",
+      "cevap": "Denizaltı periskop derinliğine veya yüzeye çıkıyor, bölgeden uzak durun (Veya acil durum belirtisi olabilir, dikkatli olun)"
+    },
+    {
+      "soru": "Denizaltı tarafından atılan 'Beyaz' renkli duman kandilinin (veya parçasının) anlamı nedir?",
+      "cevap": "Mevkiimi belli ediyorum / Tatbikat torpidosu atışı yaptım (Genellikle tehlikesiz durum)"
+    },
+    {
+      "soru": "Denizaltı tarafından atılan 'Kırmızı' renkli duman kandilinin anlamı nedir?",
+      "cevap": "Tehlikedeyim, derhal satıhta yardıma ihtiyacım var (Acil Durum)"
+    },
+    {
+      "soru": "ATP-18'e göre, 'WSM' (Water Space Management) uygulamasının temel amacı nedir?",
+      "cevap": "Denizaltıların dost kuvvetler (suüstü gemileri ve diğer denizaltılar) tarafından yanlışlıkla saldırıya uğramasını önlemek (Blue-on-Blue) ve denizaltı emniyeti"
+    },
+    {
+      "soru": "Bir denizaltının kendisine tahsis edilen sahanın dışına çıkması durumunda yayınlaması gereken acil durum mesajı nedir?",
+      "cevap": "OUT OF AREA (Saha Dışı) Raporu"
+    },
+    {
+      "soru": "Denizaltıların su altı intikallerinde, çarpışmayı önlemek için farklı derinlik dilimlerinin tahsis edilmesine ne ad verilir?",
+      "cevap": "Derinlik Ayrımı (Depth Separation)"
+    },
+    {
+      "soru": "Bir denizaltının belirli bir coğrafi alanda sabit kalarak görev yapması için tahsis edilen sahaya ne denir?",
+      "cevap": "Patrol Area (Karakol Sahası)"
+    },
+    {
+      "soru": "Suüstü gemilerinin denizaltı mevcudiyetinden haberdar edilmesi ve dost denizaltıya hücum edilmemesi için yayınlanan NOTAS (Notice to Allied Submarines) benzeri uyarı mesajlarına ne denir?",
+      "cevap": "SUBFACTS / GUNFACTS (Submarine/Gunnery Facts - Denizaltı/Atış Bilgileri)"
+    },
+    {
+      "soru": "Denizaltı ile SUBOPAUTH arasındaki iletişim planında (COMMPLAN) belirlenen periyotlarda denizaltının göndermesi gereken durum raporuna ne denir?",
+      "cevap": "SUBCHECK (veya COMSITREP)"
+    },
+    {
+      "soru": "Denizaltının dalış yapmadan önce, yüzeydeki trafiği ve emniyeti kontrol etmek için yaptığı son kontrole ne ad verilir?",
+      "cevap": "Visual Sweep / Radar Sweep (Görsel/Radar Taraması)"
+    },
+    {
+      "soru": "ATP-18'e göre, bir denizaltının 'Snorkel' (Şnorkel) yapması taktiksel olarak ne anlama gelir?",
+      "cevap": "Dizel motorlarını çalıştırmak için periskop derinliğinde hava emiş direğini su üstüne çıkarması (Tespit edilme riskini artırır)"
+    },
+    {
+      "soru": "Denizaltı arama kurtarma operasyonlarında, batan denizaltının yerini belirlemek için kullanılan referans noktasına ne ad verilir?",
+      "cevap": "Datum"
+    },
+    {
+      "soru": "Bir denizaltının su altında, tespit edilmemek için tüm gürültü kaynaklarını minimuma indirdiği duruma ne denir?",
+      "cevap": "Ultra Quiet / Silent Running (Sessiz Seyir)"
+    },
+    {
+      "soru": "Denizaltıların birbirine çok yaklaştığı durumlarda uygulanan 'Corridor' (Koridor) yöntemi neyi sağlar?",
+      "cevap": "Denizaltıların güvenli geçişi için coğrafi olarak sınırlandırılmış dar geçiş yolları"
+    },
+    {
+      "soru": "Denizaltıların su altında haberleşmek için kullandığı ses dalgaları ile çalışan sisteme ne ad verilir?",
+      "cevap": "UWT (Underwater Telephone - Sualtı Telefonu)"
+    },
+    {
+      "soru": "Denizaltıların 'Emergency Surfacing' (Acil Satıh) prosedüründe, yüzeye çıkarken aktif sonarla veya gürültü çıkararak yukarıdakileri uyarma işlemine ne denir?",
+      "cevap": "Active Ping / Noise making (Gürültü yapma)"
+    },
+    {
+      "soru": "ATP-18'e göre, bir denizaltı 'Indiscretion Rate' (İfşa Oranı) kavramı neyi ifade eder?",
+      "cevap": "Denizaltının şnorkel veya periskop kullanımı gibi tespit edilebilir faaliyetlerde geçirdiği sürenin toplam seyir süresine oranı"
+    },
+    {
+      "soru": "Denizaltının torpido atışından sonra, atışın başarısız olduğunu veya torpidonun teli koptuğunu bildiren koda ne denir?",
+      "cevap": "Weapon Lost / Wire Break (Silah Kaybı / Tel Kopması)"
+    },
+    {
+      "soru": "Barış zamanı denizaltı harekatında, denizaltıların sivil gemi trafiğinden (Shipping Lanes) uzak durması neden istenir?",
+      "cevap": "Çarpışma riskini azaltmak ve balıkçı ağlarına takılmayı önlemek için"
+    },
+    {
+      "soru": "Bir denizaltının 'Bottoming' (Dibe Oturma) yapması hangi durumda yasaktır?",
+      "cevap": "Barış zamanında, dibin yapısı tam bilinmiyorsa veya hasar riski varsa (Genellikle kaçınma manevrası veya özel görevler haricinde yapılmaz)"
+    },
+    {
+      "soru": "SUBOPAUTH, bir denizaltının SUBNOTE'a uymadığını tespit ederse ilk olarak ne yapar?",
+      "cevap": "Denizaltı ile irtibat kurmaya çalışır ve 'Negative Report' prosedürlerini başlatır"
+    },
+    {
+      "soru": "Suüstü gemisinin denizaltıya karşı 'Saldırı yapıyorum' simülasyonu için suya attığı el bombası büyüklüğündeki patlayıcıya ne denir?",
+      "cevap": "PDC (Practice Depth Charge - Eğitim Su Bombası)"
+    },
+    {
+      "soru": "Denizaltıların su altındaki seyrüsefer doğruluğunu artırmak için periyodik olarak yaptıkları işleme ne denir?",
+      "cevap": "Fix Alma (GPS, Periskop veya Dibe göre)"
+    },
+    {
+      "soru": "Bir denizaltının 'PD' (Periscope Depth) kısaltması neyi ifade eder?",
+      "cevap": "Periskop Derinliği (Denizaltının periskopunu su üzerine çıkarabildiği derinlik)"
+    },
+    {
+      "soru": "Denizaltının düşman tespiti durumunda uyguladığı 'Sprint and Drift' taktiği nedir?",
+      "cevap": "Hızlıca bölge değiştirip (Sprint), sonra durarak/yavaşlayarak dinleme yapma (Drift)"
+    },
+    {
+      "soru": "SUBOPAUTH yetkisi kime devredilebilir?",
+      "cevap": "Bölgesel Deniz Komutanlıklarına veya Görev Grubu Komutanlarına (CTG)"
+    },
+    {
+      "soru": "Denizaltıların su altında birbirini tanıması için kullanılan akustik sinyallere ne ad verilir?",
+      "cevap": "IFF (Identification Friend or Foe) - Sualtı versiyonu / Akustik imza"
+    },
+    {
+      "soru": "ATP-18 kapsamında 'Interference' (Müdahale) ne demektir?",
+      "cevap": "Bir denizaltının faaliyetinin, başka bir dost unsurun güvenliğini veya görev başarısını riske atması"
+    },
+    {
+      "soru": "Denizaltının 'Deep Scattering Layer' (DSL) altına inmesinin taktiksel avantajı nedir?",
+      "cevap": "Termal katmanlardan faydalanarak sonardan saklanmak"
+    },
+    {
+      "soru": "Denizaltının acil durumlarda yerini belli etmek için su yüzeyine gönderdiği yüzer şamandıraya ne ad verilir?",
+      "cevap": "Indicator Buoy (Batan Denizaltı Şamandırası - SEP)"
+    },
+    {
+      "soru": "Denizaltının 'VLF' (Very Low Frequency) ile haberleşmesi için ne yapması gerekir?",
+      "cevap": "Telli antenini yüzeye yakın tutması (Derinlik ve sürat kısıtlaması vardır)"
+    },
+    {
+      "soru": "SUBNOTE mesajında belirtilen 'Rendezvous' (Buluşma) noktası ne amaçla kullanılır?",
+      "cevap": "Denizaltının başka bir birlikle buluşması veya eskort alması için"
+    },
+    {
+      "soru": "Denizaltının dalış emniyeti için 'Water Depth' (Su Derinliği) ile 'Keel Depth' (Omurga Derinliği) arasındaki fark neden önemlidir?",
+      "cevap": "Dibe çarpma riskini yönetmek için"
+    },
+    {
+      "soru": "Bir denizaltı, kendisine tahsis edilen Moving Haven'ın gerisinde kalırsa ne yapmalıdır?",
+      "cevap": "Hızlanarak sahayı yakalamalı, yetişemiyorsa SUBOPAUTH'a rapor verip yeni direktif istemelidir"
+    },
+    {
+      "soru": "Denizaltıların kullandığı 'Expendable' (Sarf edilebilir) aldatıcı cihazlara ne ad verilir?",
+      "cevap": "Decoy / Jammer"
+    },
+    {
+      "soru": "NATO tatbikatlarında denizaltının 'Turuncu' (Orange) kuvvet olması neyi ifade eder?",
+      "cevap": "Düşman kuvveti (Opposing Force - OPFOR) simüle ettiğini"
+    },
+    {
+      "soru": "Denizaltının 'Snorting' yaparken en büyük riski nedir?",
+      "cevap": "Radar ve görsel tespite açık olması, dizel gürültüsü nedeniyle sonar etkinliğinin düşmesi"
+    },
+    {
+      "soru": "ATP-18'e göre 'Hot Area' (Sıcak Saha) tabiri ne anlama gelir?",
+      "cevap": "Aktif denizaltı harbi (DSH) faaliyetinin veya atışların olduğu tehlikeli bölge"
+    },
+    {
+      "soru": "Denizaltının 'Cavitation' (Kavitasyon) yapması neden istenmez?",
+      "cevap": "Pervanenin aşırı hızlı dönmesiyle oluşan hava kabarcıklarının gürültü çıkarması ve yerini belli etmesi"
+    },
+    {
+      "soru": "Denizaltı personelinin acil durumda denizaltıyı terk etmesi işlemine ne denir?",
+      "cevap": "Escape (Kendi imkanlarıyla kaçış)"
+    },
+    {
+      "soru": "Batan denizaltıdan personelin dışarıdan yardım (kurtarma gemisi/çan) ile çıkarılmasına ne denir?",
+      "cevap": "Rescue (Kurtarma)"
+    }
+    {
+      "soru": "ATP-18'e göre, bir denizaltının periskop derinliğine çıkarken veya dalış yaparken, çevresindeki suüstü unsurları görsel ve akustik olarak kontrol etmesi sürecine ne denir?",
+      "cevap": "Baffle Clear / Safety Sweep (Kıç Sektör Kontrolü/Emniyet Taraması)"
+    },
+    {
+      "soru": "Bir denizaltının su altında, kendisine tahsis edilen Moving Haven (Hareketli Karakol Sahası) sınırlarını ihlal etmesi durumunda, çarpışmayı önlemek için yapması gereken ilk hareket nedir?",
+      "cevap": "Derhal güvenli bir derinliğe inmek (genellikle daha derin sulara) ve süratini düşürerek dinleme yapmak"
+    },
+    {
+      "soru": "Denizaltı arama kurtarma harekatında (SMASHEX), denizaltının yüzeye çıkamayacak durumda olduğunu belirtmek için attığı 'Siyah' (veya koyu renkli) duman kandilinin anlamı nedir?",
+      "cevap": "Genellikle torpido atışı simülasyonudur, ancak bazı eski doktrinlerde 'Siyah' duman teknik arıza belirtisi olabilir (Güncel NATO standardında sarı/beyaz/kırmızı esastır)"
+    },
+    {
+      "soru": "SUBOPAUTH tarafından yayınlanan ve belirli bir bölgedeki 'Tüm Denizaltı Faaliyetlerini' (dost veya düşman ayrımı yapmaksızın) durduran emir nedir?",
+      "cevap": "CEASE FIRE / STOP SQUAWK (Genellikle çatışmayı önleme veya acil durumda)"
+    },
+    {
+      "soru": "Denizaltıların, dost suüstü gemilerinin çektiği 'Towed Array' (Çekili Sonar Dizini) kablolarına takılmaması için uygulaması gereken minimum emniyet mesafesi genellikle ne kadardır?",
+      "cevap": "Geminin kıçından itibaren belirli bir yarda (Örn: 2000-4000 yarda) ve derinlik farkı"
+    },
+    {
+      "soru": "Denizaltıların su altında haberleşme yapamadığı durumlarda, önceden belirlenmiş zamanlarda ve frekanslarda dinleme yapmalarını gerektiren prosedüre ne denir?",
+      "cevap": "Broadcast Schedule / Fixed Schedule (Sabit Dinleme Periyodu)"
+    },
+    {
+      "soru": "Denizaltıların barış zamanında balıkçı gemileriyle çatışmayı önlemek için 'Fishing Fleet Density' (Balıkçı Filosu Yoğunluğu) yüksek olan bölgelerde uyguladığı ana kural nedir?",
+      "cevap": "Mümkünse yüzeyde geçiş yapmak veya periskop derinliğinde çok dikkatli seyretmek"
+    },
+    {
+      "soru": "Bir denizaltının 'Comms Check' (Muhabere Kontrolü) zamanını kaçırması durumunda, SUBOPAUTH'un başlatacağı prosedürün ilk adımı nedir?",
+      "cevap": "Denizaltıya ulaşmak için tüm mevcut iletişim kanallarını (VLF, HF, UHF) kullanarak çağrı yapmak"
+    },
+    {
+      "soru": "ATP-18'e göre, denizaltıların birbirine 'Friendly' (Dost) olduğunu göstermek için su altında kullandıkları aktif sonar koduna ne ad verilir?",
+      "cevap": "Code of the Day / Challenge-Reply (Parola-İşaret)"
+    },
+    {
+      "soru": "Denizaltıların 'Emergency Deep' (Acil Dalış) manevrasını yaparken en çok dikkat etmesi gereken husus nedir?",
+      "cevap": "Termal katmanın altındaki olası diğer denizaltılar veya dip yapısı"
+    },
+    {
+      "soru": "SUBMISS (Denizaltı Kayıp) ilan edildiğinde, arama kurtarma kuvvetlerinin olay yerine intikal ederken uyması gereken 'Transit Lane' (İntikal Hattı) genişliği kim tarafından belirlenir?",
+      "cevap": "OSC (On-Scene Commander - Olay Yeri Komutanı) veya SMC (SAR Mission Coordinator)"
+    },
+    {
+      "soru": "Denizaltıların tespit edilmemek için periskop veya antenlerini su yüzeyine çok kısa süreyle çıkarıp veri alıp/göndermesine ne ad verilir?",
+      "cevap": "Burst Transmission (Kısa Süreli Veri Gönderimi)"
+    },
+    {
+      "soru": "Denizaltıların 'Bottomed' (Dibe Oturmuş) haldeyken, sonar performansını artırmak için ne yapması beklenir?",
+      "cevap": "Sessiz dinleme (Passive Listening) modunda kalması"
+    },
+    {
+      "soru": "Denizaltı karşıtı harple (DSH) görevli bir uçak, tespit ettiği denizaltının 'Dost' olduğunu anlarsa ne yapar?",
+      "cevap": "Saldırıyı durdurur ve 'NO JOY' veya 'FRIENDLY' raporu verir, silahlarını 'Safe' konumuna alır"
+    },
+    {
+      "soru": "Denizaltıların su altında intikal ederken kullandıkları 'Dead Reckoning' (DR - Parakete Hesabı) seyrinde hata payını artıran en büyük faktör nedir?",
+      "cevap": "Akıntılar (Drift)"
+    },
+    {
+      "soru": "Bir denizaltının 'Snorkel' yaparken dizel egzozunu su altına vererek izini gizlemeye çalışması, hangi risk faktörünü oluşturur?",
+      "cevap": "Yüksek gürültü seviyesi (Noise Level) nedeniyle pasif sonarlar tarafından uzaktan tespit edilme"
+    },
+    {
+      "soru": "ATP-18 kapsamında 'Interference' (Müdahale) durumu oluştuğunda öncelik kime aittir?",
+      "cevap": "Genellikle derinlikte olan veya manevra kısıtlılığı olan denizaltıya (Ancak WSM kuralları esastır)"
+    },
+    {
+      "soru": "Denizaltıların 'High Speed Transit' (Yüksek Süratli İntikal) yaparken sonar kabiliyetleri nasıl etkilenir?",
+      "cevap": "Kendi gürültüsü (Self-noise) ve akış gürültüsü (Flow noise) nedeniyle sonar performansı ciddi şekilde düşer (Körleşir)"
+    },
+    {
+      "soru": "Denizaltı arama kurtarma botu (DSRV veya MOSHIP) ile batan denizaltı arasında kurulan 'Mating' (Kenetlenme) işlemi için denizaltının yatış açısı (List/Trim) maksimum kaç derece olmalıdır?",
+      "cevap": "Genellikle 45 dereceyi geçmemelidir (Kurtarma aracının tipine göre değişir, ideali düz durmasıdır)"
+    },
+    {
+      "soru": "Denizaltı personelinin 'SEIE' (Submarine Escape Immersion Equipment) kıyafetleri ile kaçış yapabileceği maksimum derinlik sınırı yaklaşık nedir?",
+      "cevap": "180 metre (600 feet) civarı (Teorik sınırdır, pratikte daha sığ tercih edilir)"
+    },
+    {
+      "soru": "Denizaltıların su altında 'Hovering' (Askıda Kalma) yapması hangi durumda gereklidir?",
+      "cevap": "Bir hedefi sessizce dinlemek, özel kuvvet timi çıkarmak veya mayın döküşü yapmak için"
+    },
+    {
+      "soru": "SUBOPAUTH tarafından yayınlanan SUBNOTE mesajının gizlilik derecesi genellikle nedir?",
+      "cevap": "SECRET (Gizli) veya daha yüksek (NATO SECRET)"
+    },
+    {
+      "soru": "Denizaltıların 'Trash Disposal' (Çöp Atma) işlemi sırasında dikkat etmesi gereken operasyonel güvenlik kuralı nedir?",
+      "cevap": "Yüzer çöplerin atılmaması ve atılan malzemenin dibe batacak şekilde ağırlıklandırılması (İz bırakmamak için)"
+    },
+    {
+      "soru": "ATP-18'e göre, bir denizaltı kendisine tahsis edilen sahanın (Haven) dışına çıkmak zorunda kalırsa, bu durumu kime rapor etmelidir?",
+      "cevap": "SUBOPAUTH (Harekât Kontrol Makamı)"
+    },
+    {
+      "soru": "Denizaltıların su altında manyetik anormallik detektörlerine (MAD) yakalanmamak için alabileceği en iyi tedbir nedir?",
+      "cevap": "Daha derine dalmak (Manyetik etki mesafeyle azalır)"
+    },
+    {
+      "soru": "Denizaltıların torpido kovanlarından attığı, suyun kimyasal yapısını bozarak sonar yanıltması yapan cihazlara ne denir?",
+      "cevap": "Kabarcık üreteci (Bubble Generator) veya Akustik Karıştırıcı (Jammer)"
+    },
+    {
+      "soru": "Bir denizaltının 'Look-alike' (Benzer) olarak sınıflandırılması ne anlama gelir?",
+      "cevap": "Balina, batık veya dip yapısı gibi, sonarda denizaltıya benzeyen ancak denizaltı olmayan temas"
+    },
+    {
+      "soru": "Denizaltıların periskop derinliğinde seyir yaparken, gemi trafiğinden kaçınmak için uyması gereken uluslararası kural nedir?",
+      "cevap": "COLREG (Denizde Çatışmayı Önleme Tüzüğü) kurallarına -tespit edilmeme prensibi saklı kalmak kaydıyla- riayet etmek"
+    },
+    {
+      "soru": "Denizaltıların 'Emergency Blow' (Acil Sarnıç boşaltma) sistemini kullanması neyle sonuçlanır?",
+      "cevap": "Denizaltının çok hızlı ve kontrolsüz bir şekilde, yüksek bir açıyla su yüzeyine fırlaması"
+    },
+    {
+      "soru": "SUBMISS durumunda, 'Check Note' zamanından kaç saat sonra denizaltıdan haber alınamazsa prosedür başlatılır?",
+      "cevap": "Genellikle 1 Saat içinde (Comms Check başarısız olduktan sonra)"
+    },
+    {
+      "soru": "Denizaltıların, dost suüstü kuvvetleriyle yaptığı eğitimlerde (CASEX), torpido atış simülasyonu için kullandığı akustik sinyale ne denir?",
+      "cevap": "Torpido Çalıştırma Sesi (Torpedo Run Noise Simulation)"
+    },
+    {
+      "soru": "Denizaltının 'Datum' (Olay Yeri) ilan edilen noktadan uzaklaşırken uyguladığı 'Furious' (Öfkeli) taktiği neyi amaçlar?",
+      "cevap": "Maksimum süratle bölgeden kaçıp, sonra sessizliğe bürünmek"
+    },
+    {
+      "soru": "Denizaltıların, suüstü gemilerinin pervanelerinin yarattığı 'Wake' (Dümen Suyu) izini tespit ederek takibe almasına ne denir?",
+      "cevap": "Wake Homing (Dümen Suyu Güdümü)"
+    },
+    {
+      "soru": "Bir denizaltının 'Comms Lost' (Muhabere Kaybı) yaşaması durumunda, SUBNOTE'da belirtilen hangi noktaya gitmesi beklenir?",
+      "cevap": "RV (Rendezvous) noktasına veya önceden belirlenmiş 'İletişim Kurma Sahası'na"
+    },
+    {
+      "soru": "Denizaltıların periskop ve anten direklerinde bulunan 'ESM' (Elektronik Destek) sensörlerinin görevi nedir?",
+      "cevap": "Düşman radarlarını tespit etmek ve erken uyarı sağlamak (Radar Warning)"
+    },
+    {
+      "soru": "ATP-18'e göre, 'Separation by Time' (Zamanla Ayırma) yöntemi nasıl uygulanır?",
+      "cevap": "Aynı coğrafi noktadan geçecek denizaltıların geçiş zamanları arasında emniyetli bir süre bırakılarak"
+    },
+    {
+      "soru": "Denizaltıların gece yüzeyde seyrederken yaktıkları, diğer gemilerden farklı olarak tanımlanmalarını sağlayan özel ışık nedir?",
+      "cevap": "Amber Light (Sarı Çakarlı Işık) - Genellikle kule üzerinde, denizaltı olduğunu belli eder"
+    },
+    {
+      "soru": "Denizaltının dalış yapmadan önce 'Rig for Dive' (Dalışa Hazırlık) emriyle yaptığı işlem nedir?",
+      "cevap": "Gövdedeki tüm açıklıkların (kaportalar, valfler) kapatıldığının ve sızdırmazlığın sağlandığının doğrulanması"
+    },
+    {
+      "soru": "Bir denizaltının 'Grounding' (Karaya/Dibe Oturma) yapması durumunda yayınlayacağı raporun öncelik derecesi nedir?",
+      "cevap": "FLASH (En yüksek öncelik)"
+    },
+    {
+      "soru": "Denizaltıların su altında birbirleriyle iletişim kurmak için gövdeye vurarak çıkardıkları mors kodlarına ne denir?",
+      "cevap": "Hull Tapping (Gövde Tıklatma)"
+    },
+    {
+      "soru": "NATO tatbikatlarında, denizaltıların emniyeti için ilan edilen 'No Attack Zone' (Saldırı Yasak Bölge) neyi ifade eder?",
+      "cevap": "Denizaltının bulunduğu, ancak eğitim amaçlı bile olsa saldırı simülasyonunun yasak olduğu bölge (Genellikle periskop derinliğine çıkışlarda)"
+    },
+    {
+      "soru": "Denizaltının 'Broach' yapması ne demektir?",
+      "cevap": "Derinlik kontrolünün kaybedilip denizaltının istem dışı su yüzeyine çıkması (Genellikle dalgalı denizde periskop derinliğinde olur)"
+    },
+    {
+      "soru": "ATP-18 kurallarına göre, bir denizaltı 'Emergency' (Acil Durum) sinyali yayınladığında, bölgedeki diğer denizaltılar ne yapmalıdır?",
+      "cevap": "Derhal o bölgeden uzaklaşmalı, sessizliğe bürünmeli ve gerekirse yüzeye çıkıp yardıma hazır olmalı (Talimata göre)"
+    },
+    {
+      "soru": "Denizaltıların 'Indiscretion Ratio'sunu düşürmek için kullandığı, havadan bağımsız tahrik sistemine ne denir?",
+      "cevap": "AIP (Air Independent Propulsion)"
+    },
+    {
+      "soru": "Denizaltıların su altı haritasını çıkarmak ve engellerden kaçınmak için kullandığı 'High Frequency' (Yüksek Frekanslı) sonara ne ad verilir?",
+      "cevap": "Mine Avoidance Sonar (Mayın Sakınma Sonarı)"
+    },
+    {
+      "soru": "Bir denizaltının 'Unidentified' (Tanımlanamayan) bir temasla karşılaşması durumunda uygulaması gereken standart prosedür nedir?",
+      "cevap": "Teması düşman (Hostile) kabul ederek tedbir almak, ancak WSM kurallarına göre dost olma ihtimalini de değerlendirmek"
+    },
+    {
+      "soru": "Denizaltıların periskop derinliğinde 'Görsel Arama' yaparken kullandıkları 'High Power / Low Power' ayrımı neyi ifade eder?",
+      "cevap": "Periskopun büyütme (Zoom) oranı (Geniş açı ile arama, dar açı ile teşhis)"
+    },
+    {
+      "soru": "SUBMISS mesajının içeriğinde mutlaka bulunması gereken bilgi nedir?",
+      "cevap": "Denizaltının son bilinen mevkii, rotası, sürati ve personel sayısı"
+    },
+    {
+      "soru": "Denizaltıların su altında tespit ettikleri biyolojik seslere (balina, karides vb.) ne ad verilir?",
+      "cevap": "Biologics"
+    },
+    {
+      "soru": "ATP-18'e göre, denizaltıların emniyetli seyri için 'Bottom Contour' (Dip Konturu) takibi neden önemlidir?",
+      "cevap": "Navigasyon sistemlerinin (INS) doğrulanması ve harita destekli seyir için"
+    }
+    {
+      "soru": "ATP-18'e göre, bir denizaltının yüzeye çıkarken (Surfacing) periskopla yaptığı emniyet kontrolünde 'Kıç Sektörü' (Baffles) neden en riskli bölgedir?",
+      "cevap": "Denizaltının kendi pervanesinin gürültüsü nedeniyle sonarın o bölgeyi duyamaması (Kör Sektör)"
+    },
+    {
+      "soru": "Denizaltı ile iş birliği yapan bir karakol uçağı (MPA), denizaltı ile görsel temas kurduğunda 'Marking' (İşaretleme) yapmak için ne kullanır?",
+      "cevap": "Denizaltının konumuna yakın (ancak üzerine değil) duman kandili veya boya (Dye Marker) atar"
+    },
+    {
+      "soru": "Bir denizaltının 'Snorkel' direğinde bulunan ve radar tespitini önlemeye yarayan sisteme (veya kaplamaya) genel olarak ne ad verilir?",
+      "cevap": "RAM (Radar Absorbent Material - Radar Emici Malzeme)"
+    },
+    {
+      "soru": "Denizaltıların su altında belirli bir derinlikte asılı kalarak, termal katmanın (Layer) hemen altından dinleme yapma taktiğine ne denir?",
+      "cevap": "Layer Exploitation (Katman Kullanımı / Katman Altı Dinleme)"
+    },
+    {
+      "soru": "ATP-18 kurallarına göre, 'Weapon Free' (Silah Serbest) durumu denizaltı için ne anlama gelir?",
+      "cevap": "Tanımlanan düşman unsurlarına, atış izni beklemeden angajman yetkisinin olması (WSM kuralları saklı kalmak kaydıyla)"
+    },
+    {
+      "soru": "Denizaltının torpido atışından sonra, torpidonun dönüp dolaşıp kendisine gelmesini önlemek için yaptığı kaçınma manevrasına ne denir?",
+      "cevap": "Snake Maneuver (Yılan Manevrası) veya Derinlik Değiştirme"
+    },
+    {
+      "soru": "Denizaltıların acil durumlarda (DISSUB), kurtarma gemisi gelene kadar personelin hayatta kalmasını sağlayan, karbondioksiti emen sisteme ne denir?",
+      "cevap": "LiOH (Lityum Hidroksit) Perdeleri veya CO2 Scrubber"
+    },
+    {
+      "soru": "SUBNOTE mesajında yer alan 'PIM' (Position of Intended Movement) neyi ifade eder?",
+      "cevap": "Denizaltının intikal rotası boyunca belirli zamanlarda bulunması öngörülen mevkiler (İleri Hareket Mevkii)"
+    },
+    {
+      "soru": "Denizaltıların su altında haberleşme için kullandığı 'ELF' (Extremely Low Frequency) sisteminin en büyük dezavantajı nedir?",
+      "cevap": "Veri aktarım hızının çok düşük olması (Sadece kısa kodlar veya 'Zili Çaldır' sinyali gönderilebilir)"
+    },
+    {
+      "soru": "ATP-18'e göre, bir denizaltı 'Lost Comms' (Muhabere Kaybı) prosedürünü ne zaman başlatır?",
+      "cevap": "Belirlenen periyotta (Örn: 24 saat) yayın yapamazsa veya alamazsa"
+    },
+    {
+      "soru": "Denizaltıların 'Bottoming' (Dibe Oturma) yaparken tercih ettiği zemin türü hangisidir?",
+      "cevap": "Kum veya Çamur (Kaya veya mercan tercih edilmez)"
+    },
+    {
+      "soru": "Denizaltının periskop derinliğine çıkmadan önce, sonar operatörünün raporladığı 'All Clear' (Temiz) ifadesi ne anlama gelir?",
+      "cevap": "Yakın mesafede çarpışma riski oluşturacak hiçbir temasın duyulmadığı"
+    },
+    {
+      "soru": "Denizaltı karşıtı harp (ASW) eğitimlerinde, uçaktan denizaltıya atılan ve patlayıcı içermeyen torpido simülasyonuna ne denir?",
+      "cevap": "Exercise Torpedo (Eğitim Torpidosu - REXTORP)"
+    },
+    {
+      "soru": "Denizaltının 'Masker' sistemi ne işe yarar?",
+      "cevap": "Gövde etrafına hava kabarcıkları basarak, makine gürültüsünün suya yayılmasını azaltmak"
+    },
+    {
+      "soru": "Bir denizaltının 'Coming to Periscope Depth' (Periskop Derinliğine Geliyorum) raporunu kime verir?",
+      "cevap": "Gemi İçi Kontrol Merkezine (Santral) ve varsa bölgedeki işbirliği yapılan suüstü unsuruna (UWT ile)"
+    },
+    {
+      "soru": "ATP-18'e göre, 'Green' (Yeşil) renkli fişek veya duman kandili denizaltı tarafından atıldığında ne anlama gelir?",
+      "cevap": "Genellikle eğitim atışının yapıldığını veya sahte hedef (Decoy) atıldığını belirtir (Tehlikesiz durum)"
+    },
+    {
+      "soru": "Denizaltının 'Cavitation Speed' (Kavitasyon Sürati) neye göre değişir?",
+      "cevap": "Derinliğe göre (Derinlik arttıkça su basıncı artar, kavitasyon başlangıç sürati yükselir)"
+    },
+    {
+      "soru": "Denizaltıların 'Emergency' durumunda yüzeye çıkarken, diğer gemilerin görebilmesi için kulede yaktıkları çakarlı ışığın rengi nedir?",
+      "cevap": "Sarı (Amber)"
+    },
+    {
+      "soru": "SUBLOOK / SUBMISS mesajlarını yayınlama yetkisi kime aittir?",
+      "cevap": "SUBOPAUTH (Denizaltı Harekât Kontrol Makamı)"
+    },
+    {
+      "soru": "Denizaltının 'Thermal Layer' (Termal Katman) üstünde kalmasının dezavantajı nedir?",
+      "cevap": "Yüzey gemilerinin sonarları tarafından daha kolay tespit edilebilir (Yüzey kanalı etkisi)"
+    },
+    {
+      "soru": "Denizaltıların 'Silent Routine' (Sessiz Rutin) uygulamasında gemi içinde yasaklanan faaliyetlerden biri nedir?",
+      "cevap": "Yüksek sesle konuşmak, kapakları sert kapatmak, bakım/tutum yapmak (gürültülü işler)"
+    },
+    {
+      "soru": "ATP-18 kapsamında 'PMI' (Karşılıklı Müdahalenin Önlenmesi) sadece denizaltılar arasında mı uygulanır?",
+      "cevap": "Hayır, Denizaltı-Denizaltı ve Denizaltı-Suüstü Gemisi (özellikle yedekli sonar çekenler) arasında uygulanır"
+    },
+    {
+      "soru": "Denizaltının 'Emergency Air Breathing System' (EABS - Acil Hava Soluma Sistemi) ne zaman kullanılır?",
+      "cevap": "Gemi içinde yangın çıktığında veya atmosfer kirlendiğinde (Maske takılarak sisteme bağlanılır)"
+    },
+    {
+      "soru": "Bir denizaltının 'Unrestricted' (Kısıtlamasız) operasyon yapabilmesi için ne gereklidir?",
+      "cevap": "Tanımlanmış bir 'Exclusive Area' (Münhasır Saha) tahsis edilmesi"
+    },
+    {
+      "soru": "Denizaltıların periskoplarında bulunan 'ESM' anteni su altındayken çalışır mı?",
+      "cevap": "Hayır, elektromanyetik dalgaları (Radar sinyalleri) alabilmesi için su yüzeyine çıkması gerekir"
+    },
+    {
+      "soru": "ATP-18'e göre, denizaltıların 'Navigational Fix' (Mevki Koyma) sıklığını belirleyen faktör nedir?",
+      "cevap": "Kıyıya olan mesafe ve su derinliği (Kıyıya yaklaştıkça sıklaşır)"
+    },
+    {
+      "soru": "Denizaltıların 'Ice Canopy' (Buz Tabakası) altında harekat icra ederken en kritik sistemleri hangisidir?",
+      "cevap": "Yukarıya bakan sonarlar (Buz kalınlığını ve açıklıkları tespit etmek için)"
+    },
+    {
+      "soru": "Denizaltının 'Schnorchel' (Şnorkel) valfinin su yutması durumunda dizel motorlar havayı nereden çeker?",
+      "cevap": "Gemi içindeki atmosferden (Bu durum ani basınç düşmesine/vakuma neden olur)"
+    },
+    {
+      "soru": "Denizaltı Arama Kurtarma (SAR) botunun denizaltı üzerine oturabilmesi için denizaltı personelinin yapması gereken hazırlık nedir?",
+      "cevap": "Kurtarma kapağı (Rescue Hatch) etrafının temizlenmesi ve kapağın açılmaya hazır hale getirilmesi"
+    },
+    {
+      "soru": "ATP-18'e göre, 'Friendly Submarine' (Dost Denizaltı) geçişi sırasında suüstü gemilerinin yapması gereken (veya yapmaması gereken) şey nedir?",
+      "cevap": "Aktif sonar kullanmamak (veya düşük güçte kullanmak) ve rotasını tahmin edilebilir tutmak"
+    },
+    {
+      "soru": "Denizaltının 'Transient Noise' (Geçici Gürültü) üretmesi ne demektir?",
+      "cevap": "Sürekli olmayan, anlık sesler (Örn: Bir anahtarın yere düşmesi, torpido kapağının açılması)"
+    },
+    {
+      "soru": "Denizaltıların 'Convergence Zone' (CZ - Yakınsama Bölgesi) menzilinden temas alabilmesi için ne gereklidir?",
+      "cevap": "Derin sular (Okyanus ortamı) ve güçlü bir ses kaynağı"
+    },
+    {
+      "soru": "Denizaltının 'Emergency Buoy' (Acil Durum Şamandırası) serbest bırakıldığında ne yapar?",
+      "cevap": "Yüzeye çıkarak radyo sinyali yayar ve/veya ışık yakar (Denizaltının yerini işaretler)"
+    },
+    {
+      "soru": "ATP-18 kurallarına göre, bir denizaltı 'Weapon Check' (Silah Kontrol) emri aldığında ne yapar?",
+      "cevap": "Silahlarını sadece meşru müdafaa durumunda veya üst komutanın özel emriyle kullanabilir"
+    },
+    {
+      "soru": "Denizaltının periskop derinliğinde 'Broach' (Su yüzeyine çıkma) yapmasını önlemek için kullanılan kontrol yüzeyleri hangileridir?",
+      "cevap": "Baş ve Kıç Ufki Dümenler (Planes)"
+    },
+    {
+      "soru": "Denizaltıların 'Degaussing' (Degauss) işlemine tabi tutulmasının amacı nedir?",
+      "cevap": "Manyetik izini düşürerek manyetik mayınlara ve MAD sensörlerine karşı korunmak"
+    },
+    {
+      "soru": "Bir denizaltının 'Lookout' (Gözcü) personeli, yüzey seyrinde nelere dikkat etmelidir?",
+      "cevap": "Ufuk hattındaki gemilere, uçaklara ve periskop izlerine (Feather)"
+    },
+    {
+      "soru": "Denizaltının 'Trim' yapması ne demektir?",
+      "cevap": "Sarnıçlara su alıp/vererek denizaltının ağırlık merkezini ve nötr yüzerliliğini ayarlamak"
+    },
+    {
+      "soru": "ATP-18'e göre, denizaltıların 'Wait' (Bekle) sinyali vermek için sualtı telefonuyla (UWT) gönderdiği kod nedir?",
+      "cevap": "Genellikle 'AS' veya sesli olarak 'Wait, Wait'"
+    },
+    {
+      "soru": "Denizaltıların 'Submarine Safety Lane' (Denizaltı Emniyet Koridoru) kullanımı kime bildirilir?",
+      "cevap": "Sadece ilgili dost kuvvet komutanlarına (Gizlilik esastır)"
+    },
+    {
+      "soru": "Denizaltının 'Hard to Starboard' (Sancağa Alabanda) manevrası yaparken gövdesi hangi tarafa yatar?",
+      "cevap": "İskele tarafına (Merkezkaç kuvvetiyle dışa yatar, ancak ufki dümenlerle dengelenir)"
+    },
+    {
+      "soru": "Denizaltı personelinin 'Battle Stations' (Savaş Yerleri) alarmında yaptığı ilk işlem nedir?",
+      "cevap": "Tüm su geçirmez kaportaların kapatılması ve görev yerlerine intikal"
+    },
+    {
+      "soru": "ATP-18'e göre, 'Pyrotechnics' (Piroteknik) malzemelerin denizaltıdan atılabilmesi için ne kullanılır?",
+      "cevap": "Signal Ejector (İşaret Kovanı)"
+    },
+    {
+      "soru": "Denizaltının 'Passive Ranging' (Pasif Mesafe Bulma) yaparken kullandığı temel teknik nedir?",
+      "cevap": "TMA (Target Motion Analysis - Hedef Hareket Analizi)"
+    },
+    {
+      "soru": "Denizaltıların 'Shadowing' (Gölgeleme/Takip) görevi sırasında dikkat etmesi gereken en önemli husus nedir?",
+      "cevap": "Hedef tarafından tespit edilmemek (Gizli takip)"
+    },
+    {
+      "soru": "Denizaltıların 'Emergency Main Ballast Blow' yapması için gereken yüksek basınçlı hava nerede depolanır?",
+      "cevap": "Air Banks (Hava Bankları / Tüpleri)"
+    },
+    {
+      "soru": "ATP-18 kapsamında, 'Submarine Notices' (Denizaltı İlanları) hangi sıklıkla güncellenir?",
+      "cevap": "Harekâtın temposuna göre günlük veya anlık (SUBFACTS)"
+    },
+    {
+      "soru": "Denizaltının 'Periscope Feather' (Periskop İzi) nedir?",
+      "cevap": "Periskopun suyu yararken arkasında bıraktığı beyaz köpüklü iz (Görsel tespit için en büyük ipucu)"
+    },
+    {
+      "soru": "Denizaltıların 'Sonar Blind Spot' (Sonar Kör Noktası) genellikle neresidir?",
+      "cevap": "Tam kıç tarafı (Baffles)"
+    },
+    {
+      "soru": "ATP-18'e göre, 'Execute' (İcra Et) emri denizaltıya UWT ile nasıl verilir?",
+      "cevap": "Genellikle sesli komutla veya belirlenmiş bir akustik sinyalle (Örn: 1 uzun darbe)"
+    }
+  ]
+}
