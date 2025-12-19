@@ -1,0 +1,206 @@
+{
+  "title": "TSK Disiplin Kanunu (6413 Sayılı Kanun) Çalışma Kartları",
+  "description": "6413 Sayılı Türk Silahlı Kuvvetleri Disiplin Kanunu kapsamındaki tanımlar, cezalar, yetkiler ve usullere ilişkin 50 soruluk soru-cevap seti.",
+  "cards": [
+    {
+      "soru": "6413 Sayılı TSK Disiplin Kanunu'nun temel amacı nedir?",
+      "cevap": "Türk Silahlı Kuvvetlerinde etkin bir disiplin sisteminin tesisi, muhafazası ve idamesine ilişkin usul ve esasları belirlemektir."
+    },
+    {
+      "soru": "Kanuna göre 'Disiplinsizlik' kavramı nasıl tanımlanmıştır?",
+      "cevap": "Bu Kanuna göre disiplin cezası ile cezalandırılan fiil ve hâllerdir."
+    },
+    {
+      "soru": "Kanun kapsamındaki personel kimlerdir?",
+      "cevap": "Askeri hâkimler hariç; subaylar, astsubaylar, uzman erbaşlar, sözleşmeli erbaş ve erler, erbaş ve erler ile askeri öğrencilerdir."
+    },
+    {
+      "soru": "Kanuna göre 'Disiplin Amiri' kime denir?",
+      "cevap": "Bu Kanunla disiplin cezası vermeye yetkili kılınmış ilk amiri ifade eder."
+    },
+    {
+      "soru": "Kanuna göre 'Üst' kime denir?",
+      "cevap": "Rütbe veya kıdemce büyük olan asker kişileri ifade eder."
+    },
+    {
+      "soru": "Aynı fiilden dolayı disiplin cezası verilmesi, adli soruşturma yapılmasına engel midir?",
+      "cevap": "Hayır, fiilin disiplin suçunu oluşturması, adli yönden soruşturma veya kovuşturma yapılmasına engel teşkil etmez."
+    },
+    {
+      "soru": "Bir fiilin birden fazla disiplinsizlik teşkil etmesi durumunda hangi ceza verilir?",
+      "cevap": "En ağır cezayı gerektiren disiplinsizlik esas alınarak ceza verilir."
+    },
+    {
+      "soru": "Disiplin amirleri takdir haklarını nasıl kullanmalıdır?",
+      "cevap": "Ölçülü, adaletli ve hakkaniyetli bir şekilde, mutlaka gerekçeli olarak kullanmalıdır."
+    },
+    {
+      "soru": "Subay, astsubay ve uzman erbaşlar için en hafif disiplin cezası nedir?",
+      "cevap": "Uyarma cezasıdır."
+    },
+    {
+      "soru": "Subay, astsubay ve uzman erbaşlar için 'Silahlı Kuvvetlerden Ayırma' cezası kim tarafından verilir?",
+      "cevap": "Yüksek Disiplin Kurulları tarafından verilir."
+    },
+    {
+      "soru": "Uyarma cezası nedir?",
+      "cevap": "Personele, görevinin icrasında veya hâl ve hareketlerinde daha dikkatli olması gerektiğinin yazı ile bildirilmesidir."
+    },
+    {
+      "soru": "Kınama cezası nedir?",
+      "cevap": "Personele, görevinin icrasında veya hâl ve hareketlerinde kusurlu olduğunun yazı ile bildirilmesidir."
+    },
+    {
+      "soru": "Hizmete kısmi süreli devam cezası en fazla saat kaça kadar sürebilir?",
+      "cevap": "Gece saat 24.00'ü geçmeyecek şekilde uygulanır."
+    },
+    {
+      "soru": "Aylıktan kesme cezası ne üzerinden hesaplanır?",
+      "cevap": "Personelin sosyal güvenlik mevzuatına göre hesaplanan prime esas kazanç tutarı üzerinden hesaplanır."
+    },
+    {
+      "soru": "Disiplin amirleri tarafından verilen 'Hizmet yerini terk etmeme' cezası kaç gündür?",
+      "cevap": "1 günden 10 güne kadardır."
+    },
+    {
+      "soru": "Disiplin kurulları tarafından verilen 'Hizmet yerini terk etmeme' cezası kaç güne kadar çıkabilir?",
+      "cevap": "30 güne kadar çıkabilir."
+    },
+    {
+      "soru": "Barış zamanında subay ve astsubaylara 'Oda Hapsi' cezası hangi durumda verilebilir?",
+      "cevap": "Sadece Türk karasuları dışında bulunan gemilerde görev yapan personele verilebilir."
+    },
+    {
+      "soru": "Erbaş ve erlere verilebilecek disiplin cezaları nelerdir?",
+      "cevap": "İzinsizlik, ilave hizmet yükleme, oda hapsi ve hizmet yerini terk etmeme cezalarıdır."
+    },
+    {
+      "soru": "'Emri mütalaa etmek' hangi disiplin cezasını gerektirir?",
+      "cevap": "Uyarma cezasını gerektirir."
+    },
+    {
+      "soru": "'Mesai çizelgesine uymamak' (süreklilik arz etmeyen) hangi cezayı gerektirir?",
+      "cevap": "Uyarma cezasını gerektirir."
+    },
+    {
+      "soru": "'Amir veya üste saygısızlık' hangi disiplin cezasını gerektirir?",
+      "cevap": "Kınama cezasını gerektirir."
+    },
+    {
+      "soru": "'Yalan söylemek' hangi disiplin cezasını gerektirir?",
+      "cevap": "Kınama cezasını gerektirir."
+    },
+    {
+      "soru": "'Hizmete yalan beyanda bulunmak' hangi cezayı gerektirir?",
+      "cevap": "Hizmete kısmi süreli devam cezasını gerektirir."
+    },
+    {
+      "soru": "'Kasıtlı olarak hizmete ait eşyaya zarar vermek' hangi cezayı gerektirir?",
+      "cevap": "Aylıktan kesme cezasını gerektirir."
+    },
+    {
+      "soru": "'İzin süresini özürsüz olarak geçirmek' (kısa süreli) hangi cezayı gerektirir?",
+      "cevap": "Hizmet yerini terk etmeme cezasını gerektirir."
+    },
+    {
+      "soru": "'Aşırı borçlanmak ve borçlarını ödeyememek' hangi cezayı gerektirir?",
+      "cevap": "Silahlı Kuvvetlerden ayırma cezasını gerektirir."
+    },
+    {
+      "soru": "'Ahlaki zayıflık' nedeniyle Silahlı Kuvvetlerden ayırma cezası kimlere verilir?",
+      "cevap": "Hizmetin güvenliğini sarsacak şekilde ahlak dışı davranışlarda bulunanlara verilir."
+    },
+    {
+      "soru": "Disiplin cezalarında 'tekerrür' (ağırlaştırma) süresi ne kadardır?",
+      "cevap": "Disiplinsizliğin işlendiği tarihten geriye doğru iki yıl içinde aynı disiplinsizlikten ceza alınmış olması halidir."
+    },
+    {
+      "soru": "Disiplin amiri olabilmek için hangi şartlar aranır?",
+      "cevap": "Amir konumunda olmak, rütbece büyük olmak ve sicil verme yetkisine sahip olmak (erbaş/er hariç) gerekir."
+    },
+    {
+      "soru": "Geçici görevlendirmelerde disiplin amirliği için 'sicil yetkisi' şartı hangi durumda aranmaz?",
+      "cevap": "Bir aydan fazla süreli kurs veya geçici görevlendirmelerde aranmaz."
+    },
+    {
+      "soru": "Üst disiplin amirleri hangi durumlarda doğrudan ceza verebilir?",
+      "cevap": "Disiplinsizlik makamına karşı işlenmişse, olaya bizzat şahit olmuşsa veya ast disiplin amiri yetersiz kalmışsa verebilir."
+    },
+    {
+      "soru": "Disiplin soruşturması heyeti en az kaç kişiden oluşur?",
+      "cevap": "En az üç kişiden oluşur."
+    },
+    {
+      "soru": "Firar veya izin tecavüzü nedeniyle bulunamayan personelin savunması nasıl alınır?",
+      "cevap": "Savunma almayı imkânsız hâle getiren zorunlu hâllerde savunma alınmadan ceza verilebilir."
+    },
+    {
+      "soru": "Disiplin cezalarına karşı itiraz süresi ne kadardır?",
+      "cevap": "Cezanın tebliğinden itibaren 3 iş günüdür (Oda hapsi ve hizmet yerini terk etmeme için 2 iş günü olabilir, kanun metnine göre genelde tebliğden itibaren belli bir süredir, 6413'te genelde 2-3 gündür)."
+    },
+    {
+      "soru": "Yüksek Disiplin Kurullarının 'resen' ceza verme yetkisi var mıdır?",
+      "cevap": "Evet, ellerindeki bilgi ve belgelere dayanarak resen ayırma cezası verebilirler."
+    },
+    {
+      "soru": "Silahlı Kuvvetlerden ayırma cezası alan yedek subaylar kalan askerliklerini nasıl tamamlar?",
+      "cevap": "Er statüsünde tamamlarlar."
+    },
+    {
+      "soru": "Hizmet yerini terk etmeme cezasının infazı sırasında personel ziyaretçi kabul edebilir mi?",
+      "cevap": "Günde toplam bir saati geçmemek üzere kabul edilebilir."
+    },
+    {
+      "soru": "Hizmete kısmi süreli devam cezası tatil günlerinde uygulanır mı?",
+      "cevap": "Hayır, tatil günleri dışında yerine getirilir."
+    },
+    {
+      "soru": "Disiplin soruşturmacıları, hakim kararı gerektirmeyen durumlarda kriminal inceleme yaptırabilir mi?",
+      "cevap": "Evet, kriminal inceleme dâhil her türlü incelemeyi yaptırabilirler."
+    },
+    {
+      "soru": "Disiplin amiri, takdir hakkını kullanarak hangi cezalarda 'ceza vermeme' yetkisine sahiptir?",
+      "cevap": "Uyarma, kınama ve hizmete kısmi süreli devam cezalarını gerektiren hallerde ceza vermeyebilir."
+    },
+    {
+      "soru": "Amirlerin maiyetini eleştirmesi veya ikaz etmesi disiplin cezası sayılır mı?",
+      "cevap": "Hayır, disiplin cezası sayılmaz."
+    },
+    {
+      "soru": "Disiplin cezası verilirken personelin 'pişmanlığı' dikkate alınır mı?",
+      "cevap": "Evet, personelin samimi ikrarı ve pişmanlığı takdir hakkı kapsamında hafifletici neden olabilir."
+    },
+    {
+      "soru": "Hizmete kısmi süreli devam cezası günde en az kaç saat uygulanır?",
+      "cevap": "Günde en az üç saat olarak uygulanır."
+    },
+    {
+      "soru": "Disiplinsizlik teşkil eden bir fiil, başka bir kanunda idari para cezasını gerektiriyorsa ne yapılır?",
+      "cevap": "Ayrıca disiplin cezası verilmesine engel değildir."
+    },
+    {
+      "soru": "General ve amiraller hakkında Silahlı Kuvvetlerden ayırma cezası kimin onayı ile kesinleşir?",
+      "cevap": "Cumhurbaşkanının onayı ile kesinleşir."
+    },
+    {
+      "soru": "Yüksek Disiplin Kurulu kararları nasıl alınır?",
+      "cevap": "Oy çokluğu ile alınır."
+    },
+    {
+      "soru": "Disiplin puanlarının dolması nedeniyle TSK'dan ayırma işlemi ne zaman yapılır?",
+      "cevap": "Belirlenen ceza puanı sınırının (bir yıl içinde 18, beş yıl içinde 35 gibi) aşılması durumunda yapılır."
+    },
+    {
+      "soru": "Zamanaşımı süresi dolmadan TSK'dan ilişiği kesilen personel hakkında, ayırma cezasını gerektiren suç varsa ne yapılır?",
+      "cevap": "İlişikleri kesilmeden önceki statülerine göre ayırma cezası verilir."
+    },
+    {
+      "soru": "Disiplin cezasının yerine getirilmesi (infazı) ne zaman başlar?",
+      "cevap": "Cezanın kesinleştiği tarihten itibaren başlar."
+    },
+    {
+      "soru": "Disiplin amiri değişirse, devam eden soruşturmada ceza verme yetkisi kime aittir?",
+      "cevap": "Cezanın tebliğinden önce amir değişmişse, yetki yeni disiplin amirine geçer."
+    }
+  ]
+}
