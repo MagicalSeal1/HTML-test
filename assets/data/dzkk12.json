@@ -201,7 +201,7 @@
     {
       "soru": "Batan denizaltıdan personelin dışarıdan yardım (kurtarma gemisi/çan) ile çıkarılmasına ne denir?",
       "cevap": "Rescue (Kurtarma)"
-    }
+    },
     {
       "soru": "ATP-18'e göre, bir denizaltının periskop derinliğine çıkarken veya dalış yaparken, çevresindeki suüstü unsurları görsel ve akustik olarak kontrol etmesi sürecine ne denir?",
       "cevap": "Baffle Clear / Safety Sweep (Kıç Sektör Kontrolü/Emniyet Taraması)"
@@ -401,7 +401,7 @@
     {
       "soru": "ATP-18'e göre, denizaltıların emniyetli seyri için 'Bottom Contour' (Dip Konturu) takibi neden önemlidir?",
       "cevap": "Navigasyon sistemlerinin (INS) doğrulanması ve harita destekli seyir için"
-    }
+    },
     {
       "soru": "ATP-18'e göre, bir denizaltının yüzeye çıkarken (Surfacing) periskopla yaptığı emniyet kontrolünde 'Kıç Sektörü' (Baffles) neden en riskli bölgedir?",
       "cevap": "Denizaltının kendi pervanesinin gürültüsü nedeniyle sonarın o bölgeyi duyamaması (Kör Sektör)"
