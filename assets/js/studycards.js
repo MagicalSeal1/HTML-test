@@ -56,7 +56,7 @@ function render(direction = "") {
   /* İçerik */
   question.textContent = data[index].soru;
   answer.textContent = data[index].cevap;
-  counter.textContent = `/ ${data.length}`;
+  counter.textContent = ` / ${data.length}`;
   jumpInput.value = index + 1;
 
   requestAnimationFrame(() => {
