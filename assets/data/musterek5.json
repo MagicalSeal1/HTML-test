@@ -1,0 +1,406 @@
+{
+  "title": "TSK İç Hizmet Kanunu ve Yönetmeliği Çalışma Kartları",
+  "description": "211 Sayılı TSK İç Hizmet Kanunu ve TSK İç Hizmet Yönetmeliği esas alınarak hazırlanmış; tanımlar, hiyerarşi, nöbet, disiplin ve askeri kuralları içeren 100 soruluk karma soru seti.",
+  "cards": [
+    {
+      "soru": "(Kanun) TSK İç Hizmet Kanunu'na göre 'Askerlik' nasıl tarif edilmiştir?",
+      "cevap": "Harp sanatını öğrenmek ve yapmak mükellefiyetidir."
+    },
+    {
+      "soru": "(Yönetmelik) Disiplin; kanunlara, nizamlara ve amirlere mutlak bir itaat ile astın ve üstün hukukuna riayet demektir. Askerliğin temeli nedir?",
+      "cevap": "Disiplindir."
+    },
+    {
+      "soru": "(Kanun) Kanuna göre 'Subay' kime denir?",
+      "cevap": "Hususi kanuna göre silahlı kuvvetlere intisap eden ve asteğmenden mareşala (büyük amiral dahil) kadar rütbeye haiz olan askerdir."
+    },
+    {
+      "soru": "(Kanun) 'Amir' kime denir?",
+      "cevap": "Makam ve memuriyet itibariyle emretmek salahiyetini haiz kimsedir."
+    },
+    {
+      "soru": "(Yönetmelik) Üstün asta, amirin maiyetine 'Siz' veya 'Sen' diye hitap etmesi konusundaki kural nedir?",
+      "cevap": "Üst ve amirler, ast ve maiyetine 'Siz' veya 'Sen' diye hitap edebilirler. Ancak ast ve maiyet, daima 'Siz' diye hitap eder."
+    },
+    {
+      "soru": "(Kanun) 'Maifet' kime denir?",
+      "cevap": "Amirin emri altında bulunanlardır."
+    },
+    {
+      "soru": "(Yönetmelik) Selamlaşmada temel kural nedir; kim kimi önce selamlar?",
+      "cevap": "Ast üstü, rütbece küçük büyüğü önce selamlar."
+    },
+    {
+      "soru": "(Kanun) 'Emir'in tanımı nedir?",
+      "cevap": "Hizmete ait bir talep veya yasağın sözle, yazı ile ve sair surette ifadesidir."
+    },
+    {
+      "soru": "(Kanun) Kanuna göre 'Hizmet' nedir?",
+      "cevap": "Kanunlarla nizamlarda yapılması veyahut yapılmaması yazılmış olan hususlarla, amir tarafından yazı veya sözle emredilen işlerdir."
+    },
+    {
+      "soru": "(Yönetmelik) Bir amirin odaya girmesi durumunda (masa başında çalışanlar hariç) içeridekiler ne yapar?",
+      "cevap": "Derhal ayağa kalkarak amiri selamlarlar ve 'Dikkat' komutu verilir."
+    },
+    {
+      "soru": "(Kanun) Ast, amirinden aldığı emri suç teşkil ederse ne yapmalıdır?",
+      "cevap": "Emri yerine getirmez ve emri verene bu emrin suç teşkil ettiğini bildirir; ısrar edilirse emri yapmaz ve durumu bir üst amire bildirir."
+    },
+    {
+      "soru": "(Kanun) Askerlerin siyasi faaliyette bulunması serbest midir?",
+      "cevap": "Hayır, asker şahıslar siyasi partilere giremez, siyasi toplantılara katılamaz ve siyasi gösteri yapamazlar."
+    },
+    {
+      "soru": "(Yönetmelik) Yemekhanelerde yemek duası nasıl yapılır?",
+      "cevap": "'Tanrımıza hamdolsun, milletimiz var olsun' şeklinde yapılır."
+    },
+    {
+      "soru": "(Kanun) Kanuna göre 'Astsubay' kime denir?",
+      "cevap": "Hususi kanuna göre silahlı kuvvetlere intisap eden ve astsubay çavuştan astsubay kıdemli başçavuşa kadar rütbeye haiz olan askerdir."
+    },
+    {
+      "soru": "(Yönetmelik) Nöbetçi amirinin temel vazifesi nedir?",
+      "cevap": "Kıtada birliğin emniyetini, disiplinini, düzenini ve temizliğini sağlamak ve günlük hizmetlerin emirler dairesinde yapılmasını temin etmektir."
+    },
+    {
+      "soru": "(Kanun) Emirlerin yerine getirilmesinden kim sorumludur?",
+      "cevap": "Emri veren, emrin yapılmasından ve neticesinden; emri yapan ise emrin zamanında ve tam olarak yapılmasından sorumludur."
+    },
+    {
+      "soru": "(Yönetmelik) Askeri kışla ve kurumlarda kumar oynamak veya oynatmak serbest midir?",
+      "cevap": "Hayır, kesinlikle yasaktır."
+    },
+    {
+      "soru": "(Kanun) 'Üst' tabiri kimleri kapsar?",
+      "cevap": "Rütbe veya kıdem büyüklüğünü ifade eder."
+    },
+    {
+      "soru": "(Yönetmelik) Nöbet hizmetlerinde parola ve işaret kimler tarafından tespit edilir?",
+      "cevap": "Garnizon Komutanlıklarınca veya yetki verilen birlik komutanlıklarınca tespit edilir."
+    },
+    {
+      "soru": "(Kanun) Her asker, Türk Bayrağına ve Sancağına karşı nasıl davranmalıdır?",
+      "cevap": "Saygı ile mükelleftir; geçerken ve dururken selamlar."
+    },
+    {
+      "soru": "(Yönetmelik) Koğuşlarda yatma ve kalkma zamanları nasıl düzenlenir?",
+      "cevap": "Mevsimine ve hizmetin icaplarına göre birlik komutanı tarafından düzenlenir."
+    },
+    {
+      "soru": "(Kanun) Askerler, kendilerine verilen silah ve teçhizatı nasıl korumalıdır?",
+      "cevap": "Canı gibi korumaya ve bakmaya mecburdur."
+    },
+    {
+      "soru": "(Yönetmelik) Birlik içinde nöbet değişimi sırasında nöbetçiler birbirine neyi devreder?",
+      "cevap": "Nöbet yerini, demirbaş eşyayı ve mevcut talimatı devrederler."
+    },
+    {
+      "soru": "(Kanun) Kanuna göre 'Erbaş' kime denir?",
+      "cevap": "İhtiyaçları Devletçe deruhte ve temin edilen onbaşı ve çavuş rütbelerini haiz askerdir."
+    },
+    {
+      "soru": "(Kanun) Astın, amirine müracaat usulü nasıldır?",
+      "cevap": "Sözlü veya yazılı olarak, silsile yolu ile yapılır."
+    },
+    {
+      "soru": "(Yönetmelik) Askeri araçlarda en kıdemli amir/üst nerede oturur?",
+      "cevap": "Makam otosu haricinde, şoförün sağındaki ön koltukta oturur (araç komutanı yerinde)."
+    },
+    {
+      "soru": "(Kanun) Silah kullanma yetkisi hangi durumda verilir?",
+      "cevap": "Meşru müdafaa, emre itaatsizlikte ısrar, isyan, firarı önleme, karakol ve nöbetçilere saldırı gibi kanunda belirtilen hallerde verilir."
+    },
+    {
+      "soru": "(Yönetmelik) Askeri personelin kıyafet ve dış görünüşü nasıl olmalıdır?",
+      "cevap": "Daima temiz, ütülü, nizami ve asker vakarına uygun olmalıdır."
+    },
+    {
+      "soru": "(Kanun) İzinli giden bir asker, izin süresi bitiminde ne yapmalıdır?",
+      "cevap": "Kıtasına veya kurumuna derhal döner ve katılır."
+    },
+    {
+      "soru": "(Yönetmelik) Hazırol duruşu neyi ifade eder?",
+      "cevap": "Askerin amirine ve üstüne karşı saygı ifadesi olup, bedenen ve ruhen emre hazır olduğunu gösterir."
+    },
+    {
+      "soru": "(Kanun) Askeri öğrenciler hakkında hangi hükümler uygulanır?",
+      "cevap": "Subaylara mahsus hükümler (kendi özel kanunları saklı kalmak şartıyla) uygulanır."
+    },
+    {
+      "soru": "(Yönetmelik) Yat borusu çaldıktan sonra koğuşlarda ne yapılması yasaktır?",
+      "cevap": "Gürültü yapmak, konuşmak, ışık yakmak ve başkalarını rahatsız etmek yasaktır."
+    },
+    {
+      "soru": "(Kanun) Askeri personelin ikametgâh adresi bildirme zorunluluğu var mıdır?",
+      "cevap": "Evet, her asker ikamet ettiği adresi amirine bildirmeye mecburdur."
+    },
+    {
+      "soru": "(Yönetmelik) Nöbetçi heyeti kimlerden oluşur?",
+      "cevap": "Nöbetçi Amiri, Nöbetçi Subayı, Nöbetçi Astsubayı ve diğer nöbetçi personelden oluşur."
+    },
+    {
+      "soru": "(Kanun) Amir, maiyetinin hususi ve ailevi dertleri ile ilgilenmeli midir?",
+      "cevap": "Evet, amir maiyetinin ahvalini bilmek ve hususi dertleri ile ilgilenmekle mükelleftir."
+    },
+    {
+      "soru": "(Yönetmelik) Koğuş nöbetçisinin görevi nedir?",
+      "cevap": "Koğuşun emniyetini, temizliğini, havalandırılmasını sağlamak ve koğuş talimatına uyulmasını temin etmektir."
+    },
+    {
+      "soru": "(Kanun) Askeri nezaket ve terbiye kuralları kime karşı uygulanır?",
+      "cevap": "Hem birbirlerine karşı hem de halka karşı uygulanır."
+    },
+    {
+      "soru": "(Yönetmelik) 'Karakol' tabiri neyi ifade eder?",
+      "cevap": "Emniyet ve muhafaza maksadıyla bir veya daha çok nöbetçiyi çıkaran silahlı birliği ifade eder."
+    },
+    {
+      "soru": "(Kanun) Sağlık işleri ile ilgili olarak askerler neye mecburdur?",
+      "cevap": "Muayene olmaya, aşılanmaya ve tedaviye (hayati tehlike hariç rıza aranabilir, ancak salgın vb. durumlarda mecburiyet vardır) uymaya mecburdur."
+    },
+    {
+      "soru": "(Yönetmelik) Selamlaşma sırasında eller cepte olabilir mi?",
+      "cevap": "Hayır, eller cepte selam verilmez ve alınmaz."
+    },
+    {
+      "soru": "(Kanun) Nöbet yerini terk etmek suç mudur?",
+      "cevap": "Evet, nöbet yerini terk etmek veya nöbet talimatına aykırı davranmak suçtur/disiplinsizliktir."
+    },
+    {
+      "soru": "(Yönetmelik) Birlik komutanı haftada en az kaç defa yemek provası yapar?",
+      "cevap": "Birlik komutanı ve kurum amirleri sık sık, en az haftada bir defa erbaş ve erle karavana yer."
+    },
+    {
+      "soru": "(Kanun) Askeri kimlik kartını başkasına vermek veya kullanmasına müsaade etmek serbest midir?",
+      "cevap": "Hayır, yasaktır."
+    },
+    {
+      "soru": "(Yönetmelik) Ziyaretçi kabulü nerede yapılır?",
+      "cevap": "Nizamiye kapısında veya bu iş için ayrılmış ziyaretçi odalarında/mahallerinde yapılır."
+    },
+    {
+      "soru": "(Kanun) 'Disiplin' kavramının kanundaki tanımı nasıldır?",
+      "cevap": "Kanunlara, nizamlara ve amirlere mutlak bir itaat ve astının ve üstünün hukukuna riayet demektir."
+    },
+    {
+      "soru": "(Yönetmelik) Bir asker sivil hayatta tanıdığı bir üstü ile karşılaştığında ne yapar?",
+      "cevap": "Selamlar ve hal hatır sorulduğunda askeri terbiyeye uygun cevap verir."
+    },
+    {
+      "soru": "(Kanun) Vazife uğruna hayatını feda etmek mecburi midir?",
+      "cevap": "Evet, vazife uğruna hayatın feda edilmesi, askerin şeref ve namusunu teşkil eder."
+    },
+    {
+      "soru": "(Yönetmelik) İstirahat halindeki bir birlikte 'Dikkat' komutu ne zaman verilir?",
+      "cevap": "Sancak geçerken, Birlik Komutanı veya daha büyük amir/komutan geldiğinde verilir."
+    },
+    {
+      "soru": "(Kanun) Askeri bina ve tesislerde içki içmek serbest midir?",
+      "cevap": "Hayır, askeri tesislerde içki içilmesi, bulundurulması ve satılması (kantin yönetmelikleri hariç genel kural olarak) yasaktır."
+    },
+    {
+      "soru": "(Yönetmelik) 'Tekmil' vermek ne demektir?",
+      "cevap": "Astın üste, birliğinin mevcudu, durumu ve vukuatı hakkında kısa ve özlü bilgi vermesidir."
+    },
+    {
+      "soru": "(Kanun) Her asker, arkadaşının yardımına koşmakla mükellef midir?",
+      "cevap": "Evet, tehlikede bulunan arkadaşlarının yardımına koşmakla mükelleftir."
+    },
+    {
+      "soru": "(Yönetmelik) Erbaş ve erlerin saç ve sakal tıraşı nasıl olmalıdır?",
+      "cevap": "Her zaman tıraşlı, saçlar kısa ve nizami, favori bırakılmamış olmalıdır."
+    },
+    {
+      "soru": "(Kanun) Şikayet hakkı nasıl kullanılır?",
+      "cevap": "Silsile yolu ile en yakın amirden başlanarak sözlü veya yazılı olarak kullanılır."
+    },
+    {
+      "soru": "(Yönetmelik) 'Yoklama' nedir ve ne zaman yapılır?",
+      "cevap": "Personelin mevcudunun tespiti işlemidir; sabah, akşam ve gerektiğinde diğer zamanlarda yapılır."
+    },
+    {
+      "soru": "(Kanun) Kanuna göre askerlerin evlenmesi izne tabi midir?",
+      "cevap": "Hayır, asker şahısların evlenmeleri izne tabi değildir (eski kanun maddesi değişmiştir)."
+    },
+    {
+      "soru": "(Yönetmelik) Nöbetçi astsubayının görev süresi ne kadardır?",
+      "cevap": "Genel kural olarak 24 saattir."
+    },
+    {
+      "soru": "(Kanun) Amir, astına hakaret edebilir veya kötü muamelede bulunabilir mi?",
+      "cevap": "Hayır, amir maiyetine hakaret edemez, kötü muamelede bulunamaz (fiili taarruz yasaktır)."
+    },
+    {
+      "soru": "(Yönetmelik) Kışla içinde yürüyüşler nasıl yapılır?",
+      "cevap": "Ferdi veya toplu olarak, ciddi ve nizami adımlarla yapılır."
+    },
+    {
+      "soru": "(Kanun) Silahlı Kuvvetler mensupları derneklere üye olabilir mi?",
+      "cevap": "Kanunla yasaklanmış dernekler hariç, diğerlerine (spor kulüpleri vb.) üye olabilirler ancak siyasi derneklere olamazlar."
+    },
+    {
+      "soru": "(Yönetmelik) Yemek numunesi saklama süresi ne kadardır?",
+      "cevap": "Yemek numuneleri usulüne uygun olarak 72 saat saklanır."
+    },
+    {
+      "soru": "(Kanun) Bir asker izinli iken hastalanırsa ne yapmalıdır?",
+      "cevap": "Derhal en yakın askeri sağlık kuruluşuna, yoksa mülki makamlara/sivil sağlık kuruluşuna müracaat ederek durumu birliğine bildirmelidir."
+    },
+    {
+      "soru": "(Yönetmelik) 'İçtima' ne demektir?",
+      "cevap": "Birliğin personeli, silah ve teçhizatı ile birlikte veya teçhizatsız olarak belli bir yerde toplanmasıdır."
+    },
+    {
+      "soru": "(Kanun) Türk Silahlı Kuvvetlerinin vazifesi nedir?",
+      "cevap": "Yurt dışından gelecek tehdit ve tehlikelere karşı Türk vatanını savunmak, caydırıcılık sağlamak, uluslararası barışa katkıda bulunmaktır."
+    },
+    {
+      "soru": "(Yönetmelik) Nöbetçiye bir şey verilir veya alınır mı?",
+      "cevap": "Hayır, nöbetçiye (nöbetle ilgili talimatlar dışında) bir şey verilmez ve nöbetçiden bir şey alınmaz."
+    },
+    {
+      "soru": "(Kanun) Askeri araçlar şahsi işlerde kullanılabilir mi?",
+      "cevap": "Hayır, askeri araçlar sadece hizmet maksadıyla kullanılır."
+    },
+    {
+      "soru": "(Yönetmelik) Koğuşlarda yatak yapma düzeni nasıldır?",
+      "cevap": "Yataklar kalk borusu ile birlikte düzeltilir, çarşaflar gergin, battaniyeler nizami şekilde katlanmış olmalıdır."
+    },
+    {
+      "soru": "(Kanun) 'Özel Kanun' tabiri hangi kanunları ifade eder?",
+      "cevap": "926 sayılı TSK Personel Kanunu, 3269 sayılı Uzman Erbaş Kanunu gibi personelin statüsünü belirleyen kanunları ifade eder."
+    },
+    {
+      "soru": "(Yönetmelik) Disiplin Ceza Defteri'ne kimler işlenir?",
+      "cevap": "Disiplin cezası alan personelin cezaları işlenir."
+    },
+    {
+      "soru": "(Kanun) Amir, maiyetinin kılık ve kıyafetini denetlemekle yükümlü müdür?",
+      "cevap": "Evet, amir maiyetinin kılık kıyafetinin nizami olup olmadığını daima kontrol eder."
+    },
+    {
+      "soru": "(Yönetmelik) 'Vukuat' ne demektir?",
+      "cevap": "Olağan dışı meydana gelen, kayda değer her türlü olaydır (hastalık, kaza, firar, zarar vb.)."
+    },
+    {
+      "soru": "(Kanun) Askerler basına demeç verebilir mi?",
+      "cevap": "Yetkili makamın izni olmadıkça askerler basına, haber ajanslarına, radyo ve televizyonlara demeç veremezler."
+    },
+    {
+      "soru": "(Yönetmelik) Yangın talimatı nerede bulundurulur?",
+      "cevap": "Binaların girişinde, koridorlarda ve görülebilecek uygun yerlerde asılı bulundurulur."
+    },
+    {
+      "soru": "(Kanun) Nöbetçi, kendisine saldıran birine karşı silah kullanabilir mi?",
+      "cevap": "Evet, nöbet yerine veya şahsına yapılan saldırıyı defetmek için silah kullanma yetkisi vardır."
+    },
+    {
+      "soru": "(Yönetmelik) 'Hamam ve Banyo' temizliği ne sıklıkla yapılır?",
+      "cevap": "Erbaş ve erlerin haftada en az bir defa banyo yapması sağlanır."
+    },
+    {
+      "soru": "(Kanun) Askerlikte rütbe terfii neye göre yapılır?",
+      "cevap": "Kanun ve nizamlarla belirlenen bekleme süreleri, sicil ve liyakat esaslarına göre yapılır."
+    },
+    {
+      "soru": "(Yönetmelik) İstirahat (Uyku) zamanında nöbetçiler dışında kimler ayakta olabilir?",
+      "cevap": "Sadece nöbetçi heyeti ve görevli olanlar ayakta olur, diğer personel yatar."
+    },
+    {
+      "soru": "(Kanun) 'Kıdem' nedir?",
+      "cevap": "Aynı rütbedeki askerlerin birbirine göre büyüklük sırasıdır."
+    },
+    {
+      "soru": "(Yönetmelik) Araç komutanının araçtaki sorumluluğu nedir?",
+      "cevap": "Aracın emniyetle seyrinden, trafik kurallarına uyulmasından ve personelin disiplininden sorumludur."
+    },
+    {
+      "soru": "(Kanun) Hangi hallerde ast, amirini şikayet edebilir?",
+      "cevap": "Amirin kanunsuz emir vermesi, hakaret etmesi, fiili taarruzda bulunması veya haklarını vermemesi hallerinde şikayet edebilir."
+    },
+    {
+      "soru": "(Yönetmelik) Birlik kütüphanesi veya okuma odasından kimler faydalanır?",
+      "cevap": "Bütün erbaş ve erler, belirlenen saatlerde faydalanır."
+    },
+    {
+      "soru": "(Kanun) Savaşta veya kaçınılmaz durumlarda amir yetkisi kime geçer?",
+      "cevap": "Rütbe ve kıdemce en büyük olana geçer."
+    },
+    {
+      "soru": "(Yönetmelik) 'Devriye' nedir?",
+      "cevap": "Birlik içi veya dışı emniyeti sağlamak, kontrol etmek amacıyla çıkarılan gezici nöbetçi/koldur."
+    },
+    {
+      "soru": "(Kanun) TSK personelinin hediye kabul etmesi serbest midir?",
+      "cevap": "Hayır, vazife ve nüfuzdan yararlanarak hediye kabul etmek veya menfaat sağlamak yasaktır."
+    },
+    {
+      "soru": "(Yönetmelik) Gazino ve kantinlerde fiyatlar nasıl belirlenir?",
+      "cevap": "Piyasa fiyatlarından daha ucuz olacak şekilde, ilgili yönerge ve kurullarca belirlenir."
+    },
+    {
+      "soru": "(Kanun) Askeri yargı kararları haricinde bir asker hapsedilebilir mi?",
+      "cevap": "Kanunlarda belirtilen disiplin cezaları (oda hapsi vb.) ve yakalama halleri dışında keyfi olarak hapsedilemez."
+    },
+    {
+      "soru": "(Yönetmelik) Bölük/Batarya komutanı erbaş ve erleri ne zaman denetler?",
+      "cevap": "Her sabah içtimasında ve uygun gördüğü diğer zamanlarda kılık kıyafet ve teçhizat yönünden denetler."
+    },
+    {
+      "soru": "(Kanun) 'Garnizon Komutanı' kime denir?",
+      "cevap": "O garnizonda bulunan en kıdemli komutandır (Bakanlıkça aksi emredilmedikçe)."
+    },
+    {
+      "soru": "(Yönetmelik) Kışla emniyet planı kim tarafından hazırlanır?",
+      "cevap": "Birlik Komutanı tarafından (İstihbarat ve Harekat birimlerinin koordinesiyle) hazırlanır."
+    },
+    {
+      "soru": "(Kanun) Askeri eşyayı kaybetmek tazmin gerektirir mi?",
+      "cevap": "Evet, kasıt, kusur veya ihmal sonucu kaybedilen veya hasar gören askeri eşya tazmin ettirilir."
+    },
+    {
+      "soru": "(Yönetmelik) 'Bakım' ne demektir?",
+      "cevap": "Silah, araç ve gereçlerin her an harbe hazır tutulması için yapılan temizlik, kontrol ve onarım faaliyetleridir."
+    },
+    {
+      "soru": "(Kanun) Bir asker vefat ettiğinde yapılacak askeri tören kime göre belirlenir?",
+      "cevap": "Askerin rütbesine ve statüsüne göre, ilgili yönetmelik esaslarınca belirlenir."
+    },
+    {
+      "soru": "(Yönetmelik) Koğuşlarda yiyecek bulundurmak serbest midir?",
+      "cevap": "Hayır, koğuşlarda yiyecek ve içecek bulundurulmaz (su hariç), yemekhanede yenir."
+    },
+    {
+      "soru": "(Kanun) Askerlerin izin süreleri ne kadardır?",
+      "cevap": "Subay ve astsubaylar için senelik 30 gündür; erbaş ve erler için askerlik süresine göre belirlenir (her ay için belirli gün)."
+    },
+    {
+      "soru": "(Yönetmelik) Sabah sporu ne zaman yapılır?",
+      "cevap": "Sabah kalk ve şahsi temizlikten sonra, kahvaltıdan veya mesai başlangıcından önce yapılır."
+    },
+    {
+      "soru": "(Kanun) Nöbetçi amirinin yetkisi nedir?",
+      "cevap": "Mesai saatleri dışında birlik komutanı adına hareket eder ve birliğin düzeninden sorumludur."
+    },
+    {
+      "soru": "(Yönetmelik) Silahhanelerin anahtarları kimde bulunur?",
+      "cevap": "Nöbetçi Subayı/Astsubayı veya görevlendirilen depo sorumlusunda bulunur."
+    },
+    {
+      "soru": "(Kanun) Askeri personelin yurt dışına çıkışı izne tabi midir?",
+      "cevap": "Evet, yetkili makamların iznine tabidir."
+    },
+    {
+      "soru": "(Yönetmelik) Karargah nöbetçisi ne iş yapar?",
+      "cevap": "Karargah binasının emniyetini sağlar, giriş çıkışları kontrol eder ve evrak dağıtımına yardımcı olur."
+    },
+    {
+      "soru": "(Kanun) Askerlikte 'sır saklamak' ne kadar önemlidir?",
+      "cevap": "Hizmete ait sırları saklamak her askerin en önemli vazifelerindendir."
+    },
+    {
+      "soru": "(Yönetmelik) Çevre temizliği kimler tarafından yapılır?",
+      "cevap": "Birlik komutanının belirleyeceği çizelgeye göre görevlendirilen personel (mıntıka temizliği) tarafından yapılır."
+    }
+  ]
+}
