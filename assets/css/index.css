@@ -142,16 +142,9 @@ body {
 .dropdown-content {
   grid-column: 1 / -1;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
-
-  /* Kapalıyken padding’i kaldırma, sabit tut */
-  padding: 18px 0;
-
+  /* Animasyon için sadece kapsayıcı görevinde */
   height: 0;
   overflow: hidden;
-
   opacity: 0;
 
   transition:
@@ -159,9 +152,14 @@ body {
     opacity 0.5s ease;
 }
 
+/* Grid düzeni inner’a taşındı */
 .dropdown-inner { 
-  padding: 8px 0; /* margin yerine padding kullan */ 
-  box-sizing: border-box; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+
+  padding: 18px 0;   /* sabit padding */
+  box-sizing: border-box;
 }
 
 /* AÇIK HAL */
