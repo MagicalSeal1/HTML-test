@@ -1,1 +1,606 @@
-
+{
+  "title": "Basında yer alan askeri, politik, ekonomik güncel olaylar (Ocak-Ağustos 2025)",
+  "description": "1 Ocak - 1 Ağustos 2025 tarihleri arasında Türkiye gündemindeki kritik gelişmelerden derlenmiş 150 soruluk serinin ilk bölümüdür.",
+  "cards": [
+    {
+      "soru": "(Askeri) Şubat 2025'te TCG BEYKOZ korvetinden atışlı testleri başarıyla gerçekleştirilen yakın hava savunma füze sistemi hangisidir?",
+      "cevap": "GÖKSUR"
+    },
+    {
+      "soru": "(Ekonomi) TÜİK verilerine göre Türkiye ekonomisi 2025 yılının birinci çeyreğinde (Ocak-Mart) yüzde kaç büyüme kaydetmiştir?",
+      "cevap": "%2,0"
+    },
+    {
+      "soru": "(Politika) 2025 yılı Ocak ayında TBMM'de kabul edilen düzenleme ile 'Ehliyet Affı' kapsamı dışında bırakılan suçlardan biri hangisidir?",
+      "cevap": "Alkollü araç kullanımı (veya Ölümlü kaza)"
+    },
+    {
+      "soru": "(Askeri) 17 Şubat 2025 tarihinde denizaltı platformundan ilk kez döküş testi yapılan 'Akıllı Dip Mayını' projesinin adı nedir?",
+      "cevap": "MALAMAN"
+    },
+    {
+      "soru": "(Ekonomi) Hazine ve Maliye Bakanlığı'nın 2025 yılı bütçe hedeflerine göre, yıl sonu bütçe açığının GSYH'ye oranla hedefi yüzde kaçtır?",
+      "cevap": "%3,1"
+    },
+    {
+      "soru": "(Askeri) Mart 2025'te 'Kapsüllü' olarak denizaltıdan fırlatılmaya uygunluğu test edilen milli gemisavar füzesi hangisidir?",
+      "cevap": "ATMACA"
+    },
+    {
+      "soru": "(Politika) Mayıs 2025'te yapılan kabine toplantısı sonrası açıklanan 'Kamuda Tasarruf Paketi'nin öncelikli hedef alanı ne olmuştur?",
+      "cevap": "Hizmet araçları ve temsil giderleri"
+    },
+    {
+      "soru": "(Ekonomi) 2025 Ocak ayında yürürlüğe giren yeniden değerleme oranı ile Özel İletişim Vergisi'ndeki artış oranı yaklaşık yüzde kaç olmuştur?",
+      "cevap": "%85,03"
+    },
+    {
+      "soru": "(Askeri) Nisan 2025'te Türk Deniz Kuvvetleri envanterine katılan ve 'Akhisar Sınıfı' olarak adlandırılan Açık Deniz Karakol Gemisi hangisidir?",
+      "cevap": "TCG KOÇHİSAR"
+    },
+    {
+      "soru": "(Politika) Haziran 2025'te Hollanda'nın Lahey kentinde düzenlenen NATO Zirvesi'nde Türkiye'nin veto kartını masaya sürdüğü konu ne olmuştur?",
+      "cevap": "Terörle mücadele iş birliği (YPG/PKK tanımı)"
+    },
+    {
+      "soru": "(Ekonomi) Merkez Bankası'nın 2025 yılı ikinci Enflasyon Raporu'nda, yıl sonu enflasyon tahmini hangi aralıkta sabit tutulmuştur?",
+      "cevap": "%38 - %42 bandı"
+    },
+    {
+      "soru": "(Askeri) 2025 yılının ilk yarısında seri üretim onayı alınan ve TSK'ya ilk teslimatı yapılan insansız kara aracı (İKA) ailesi hangisidir?",
+      "cevap": "BARKAN veya KAPGAN serisi"
+    },
+    {
+      "soru": "(Politika) 1 Ocak 2025 itibarıyla Türkiye'nin dönem başkanlığını devraldığı uluslararası kuruluş (veya girişim) hangisidir?",
+      "cevap": "D-8 (Gelişen Sekiz Ülke) veya Karadeniz Ekonomik İşbirliği (dönemsel)"
+    },
+    {
+      "soru": "(Ekonomi) Ticaret Bakanlığı'nın Temmuz 2025 verilerine göre, İstanbul Sanayi Odası İmalat PMI endeksi hangi seviyeye gerilemiştir?",
+      "cevap": "45,9"
+    },
+    {
+      "soru": "(Askeri) Mayıs 2025'te gerçekleştirilen Anadolu Kartalı Tatbikatı'na ilk kez katılan yerli savaş uçağı prototipi hangisidir?",
+      "cevap": "KAAN (Statik gösterim veya kısıtlı uçuş)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Mayıs ayı sanayi üretim endeksi verilerine göre, mevsim etkisinden arındırılmış aylık artış oranı yüzde kaçtır?",
+      "cevap": "%3,1"
+    },
+    {
+      "soru": "(Politika) Anayasa Mahkemesi'nin 2025 Mart ayında verdiği kararla, 'Dezenformasyon Yasası'nın hangi maddesinin iptali reddedilmiştir?",
+      "cevap": "29. Madde (Halkı yanıltıcı bilgiyi alenen yayma suçu)"
+    },
+    {
+      "soru": "(Askeri) Temmuz 2025'te TUSAŞ tarafından geliştirilen ve ilk süpersonik uçuş testini tamamlayan jet eğitim uçağı hangisidir?",
+      "cevap": "HÜRJET"
+    },
+    {
+      "soru": "(Ekonomi) Enerji Bakanlığı'nın 2025 takvimine göre, Akkuyu Nükleer Güç Santrali'nde hangi ünite devreye alma testlerine başlamıştır?",
+      "cevap": "1. Reaktör"
+    },
+    {
+      "soru": "(Askeri) 2025 Şubat celp döneminde bedelli askerlik ücreti memur maaş katsayısına göre yaklaşık ne kadar olarak belirlenmiştir?",
+      "cevap": "240.000 TL - 250.000 TL aralığı (Dönem katsayısına göre)"
+    },
+    {
+      "soru": "(Politika) Nisan 2025'te Türkiye ile Yunanistan arasında Atina'da gerçekleştirilen toplantının ana gündem maddesi ne olmuştur?",
+      "cevap": "Güven Artırıcı Önlemler (GAÖ)"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye'nin 'Gri Liste'den çıkışının 1. yıl dönümü olan Haziran 2025'te, uluslararası kredi derecelendirme kuruluşu Moody's'in Türkiye notu kararı ne olmuştur?",
+      "cevap": "Kredi notunu teyit etti / Görünümü pozitife çevirdi"
+    },
+    {
+      "soru": "(Askeri) Ağustos 2025 TEKNOFEST hazırlıkları kapsamında finalistleri açıklanan 'Hava Savunma Sistemleri' yarışmasının ana yüklenicisi hangi kurumdur?",
+      "cevap": "ASELSAN / ROKETSAN"
+    },
+    {
+      "soru": "(Politika) 2025 yılı Mart ayında yapılan yerel yönetimler sempozyumunda Cumhurbaşkanı Erdoğan'ın vurguladığı 'Yeni Şehircilik Vizyonu'nun ana teması nedir?",
+      "cevap": "Deprem Dirençli Şehirler"
+    },
+    {
+      "soru": "(Ekonomi) 1 Temmuz 2025 itibarıyla konut kiralarında uygulanan %25 artış sınırı yerine hangi sisteme geri dönülmüştür?",
+      "cevap": "TÜFE (12 aylık ortalama) oranına göre artış"
+    },
+    {
+      "soru": "(Askeri) Ocak 2025'te Savunma Sanayii İcra Komitesi (SSİK) toplantısında seri üretim kararı alınan 'Gezgin' projesi ne tür bir silah sistemidir?",
+      "cevap": "Seyir Füzesi"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin arabuluculuğunda Şubat 2025'te İstanbul'da bir araya gelen Somali ve Etiyopya heyetlerinin görüştüğü krizin konusu nedir?",
+      "cevap": "Somaliland Kıyı Anlaşması / Liman Krizi"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı ilk 6 ayında Türkiye'nin ihracatının ithalatı karşılama oranı yüzde kaç seviyesinde gerçekleşmiştir?",
+      "cevap": "%75 - %80 bandı"
+    },
+    {
+      "soru": "(Askeri) TSK envanterine 2025 yılı içinde giren ve 'Vuran' aracına entegre edilen lazer silah sisteminin adı nedir?",
+      "cevap": "ALKA veya İHTAR sistemi bileşenleri"
+    },
+    {
+      "soru": "(Ekonomi) Haziran 2025'te Merkez Bankası rezervlerinde görülen tarihi zirve (brüt rezerv) yaklaşık kaç milyar dolar seviyesidir?",
+      "cevap": "150-155 Milyar Dolar"
+    },
+    {
+      "soru": "(Politika) TBMM'de Mayıs 2025'te kabul edilen 'Kripto Varlık Yasası' ile kripto borsalarının denetimi hangi kuruma verilmiştir?",
+      "cevap": "SPK (Sermaye Piyasası Kurulu)"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında MİLGEM projesinin 6, 7 ve 8. gemileri için sac kesim töreni yapılan tersane hangisidir?",
+      "cevap": "Anadolu, Sedef veya Sefine Tersaneleri (Sivil tersaneler)"
+    },
+    {
+      "soru": "(Ekonomi) Tarım ve Orman Bakanlığı'nın 2025 yılı buğday alım fiyatı ton başına yaklaşık ne kadar açıklanmıştır?",
+      "cevap": "11.000 - 12.000 TL bandı"
+    },
+    {
+      "soru": "(Politika) Temmuz 2025'te Kıbrıs Barış Harekatı'nın kaçıncı yıl dönümü kutlanmıştır?",
+      "cevap": "51. Yıl Dönümü"
+    },
+    {
+      "soru": "(Askeri) ASELSAN tarafından geliştirilen ve 2025'te F-16 Özgür projesi kapsamında uçaklara entegre edilen radarın adı nedir?",
+      "cevap": "MURAD AESA Radarı"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Turizm hedefleri kapsamında Kültür ve Turizm Bakanlığı'nın yıl sonu turist hedefi kaç milyon kişidir?",
+      "cevap": "60 Milyon"
+    },
+    {
+      "soru": "(Politika) Nisan 2025'te Irak ile Türkiye arasında imzalanan ve 'Kalkınma Yolu Projesi'ni de kapsayan stratejik çerçevenin adı nedir?",
+      "cevap": "Kapsamlı İşbirliği Mutabakat Zaptı"
+    },
+    {
+      "soru": "(Askeri) 2025 yılı Mayıs ayında EFES-2025 tatbikatında ilk kez sahneye çıkan, STM yapımı 'Kamikaze İHA' hangisidir?",
+      "cevap": "ALPAGUT veya KARGU-3"
+    },
+    {
+      "soru": "(Ekonomi) BDDK'nın 2025 Şubat kararıyla kredi kartı taksit sınırlaması getirilen harcama grubu hangisidir?",
+      "cevap": "Yurt dışı seyahat ve lüks tüketim harcamaları"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Türk Hava Kuvvetleri'nin envanterine girmeye başlayan ve C-130 uçaklarının yerini alması/desteklemesi beklenen nakliye uçağı projesi (veya alımı) nedir?",
+      "cevap": "İkinci el C-130J (İngiltere'den alım süreci)"
+    },
+    {
+      "soru": "(Politika) 2025 yılında yapılan Yüksek Askeri Şura (YAŞ) toplantısında Genelkurmay Başkanı'nın görev süresi hakkında verilen karar nedir?",
+      "cevap": "Görev süresinin uzatılması (Mevcut başkan için)"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye Varlık Fonu'nun 2025 yılı içinde halka arzını planladığı veya stratejik ortaklık görüştüğü enerji şirketi hangisidir?",
+      "cevap": "BOTAŞ veya TPAO iştirakleri"
+    },
+    {
+      "soru": "(Askeri) ROKETSAN tarafından geliştirilen ve 2025 yılında 150+ km menzil testini geçen topçu füzesinin adı nedir?",
+      "cevap": "TRLG-230 veya TAYFUN (Kısa menzilli balistik versiyon)"
+    },
+    {
+      "soru": "(Politika) 2025 yılı Ocak ayında süresi dolan 'Suriye ve Irak Tezkeresi' TBMM tarafından ne kadar süreyle uzatılmıştır?",
+      "cevap": "2 Yıl (veya bir önceki uzatmanın devamı niteliğinde teyit)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılında 'Vergi Yüzsüzleri' listesini yayımlayarak kayıt dışı ekonomiyle mücadele başlatan bakan kimdir?",
+      "cevap": "Mehmet Şimşek"
+    },
+    {
+      "soru": "(Askeri) TUSAŞ'ın 2025 yılında ilk uçuşunu yapması beklenen (veya takvimi güncellenen) insansız savaş uçağı prototipi hangisidir?",
+      "cevap": "ANKA-3 (MİUS)"
+    },
+    {
+      "soru": "(Politika) 2025 yılı Haziran ayında, anayasa değişikliği çalışmaları kapsamında TBMM Başkanı Numan Kurtulmuş'un başlattığı sürecin adı nedir?",
+      "cevap": "Türkiye Buluşmaları / Yeni Anayasa Turu"
+    },
+    {
+      "soru": "(Ekonomi) Temmuz 2025'te memur ve emekli maaşlarına yapılan zam oranı, 6 aylık enflasyon farkı dahil yaklaşık yüzde kaç olmuştur?",
+      "cevap": "%10 - %15 aralığı"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında envantere giren 'ALTAY' tanklarının motor grubu hangi ülkeden tedarik edilmiştir (yerli motor öncesi grup)?",
+      "cevap": "Güney Kore"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında Şanghay İşbirliği Örgütü (ŞİÖ) zirvesine hangi statüde katılım sağlamıştır?",
+      "cevap": "Diyalog Ortağı"
+    }
+    {
+      "soru": "(Askeri) 2025 yılı Mart ayında atış testleri tamamlanan ve 'Uzun Menzilli Bölge Hava ve Füze Savunma Sistemi' olarak envanterde yerini sağlamlaştıran proje hangisidir?",
+      "cevap": "SİPER Ürün-1 (veya Blok-1)"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye İstatistik Kurumu'nun (TÜİK) açıkladığı verilere göre, 2025 yılı Nisan ayı işsizlik oranı tek hanelere düşerek yüzde kaç seviyesinde gerçekleşmiştir?",
+      "cevap": "%8,7 - %8,9 bandı"
+    },
+    {
+      "soru": "(Politika) Şubat 2025'te Cumhurbaşkanı Erdoğan'ın Kahire ziyareti sırasında Mısır ile imzalanan ve ikili ilişkileri stratejik seviyeye taşıyan bildirinin adı nedir?",
+      "cevap": "Yüksek Düzeyli Stratejik İşbirliği Konseyi Bildirisi"
+    },
+    {
+      "soru": "(Askeri) Türk Deniz Kuvvetleri'nin amiral gemisi TCG ANADOLU, 2025 yılı başında NATO'nun hangi daimi deniz görev grubuna komuta etmiştir?",
+      "cevap": "SNMG-2 (Standing NATO Maritime Group 2)"
+    },
+    {
+      "soru": "(Ekonomi) Yerli otomobil TOGG'un 2025 yılı ilk çeyreğinde satışa sunulan 'Sedan' (Fastback) modelinin adı nedir?",
+      "cevap": "T10F"
+    },
+    {
+      "soru": "(Askeri) ROKETSAN tarafından geliştirilen ve SİHA'lardan atılabilen 'Çakır' seyir füzesi, 2025 yılındaki testinde hangi platformdan ateşlenmiştir?",
+      "cevap": "AKINCI TİHA"
+    },
+    {
+      "soru": "(Politika) TBMM'de kabul edilen ve kamuoyunda '8. Yargı Paketi'nin devamı niteliğinde olan 2025 düzenlemesiyle hangi cezalarda erteleme kapsamı daraltılmıştır?",
+      "cevap": "Adli para cezaları ve kısa süreli hapis cezaları"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye'nin kredi risk primi (CDS), 2025 yılı Mayıs ayında son 4 yılın en düşük seviyesi olan hangi puanın altına inmiştir?",
+      "cevap": "260 Puan (veya 250 bandı)"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında MKE (Makine ve Kimya Endüstrisi) tarafından seri üretimine geçilen ve 76mm deniz topu mühimmatı kullanan yerli sistemin adı nedir?",
+      "cevap": "Milli Deniz Topu"
+    },
+    {
+      "soru": "(Politika) Milli Eğitim Bakanlığı'nın 2025-2026 eğitim öğretim yılından itibaren kademeli olarak uygulanacağını açıkladığı yeni müfredat modelinin adı nedir?",
+      "cevap": "Türkiye Yüzyılı Maarif Modeli"
+    },
+    {
+      "soru": "(Ekonomi) Hazine ve Maliye Bakanlığı, 2025 yılında yastık altı altınların ekonomiye kazandırılması için hangi yeni enstrümanı devreye almıştır?",
+      "cevap": "Altın Sertifikası (veya Yeni Altın Tahvili İhracı)"
+    },
+    {
+      "soru": "(Askeri) ASELSAN'ın geliştirdiği ve 2025 yılında sınır birliklerinde kullanımı yaygınlaşan, drone tehditlerine karşı kullanılan taşınabilir sistemin adı nedir?",
+      "cevap": "İHASAVAR"
+    },
+    {
+      "soru": "(Politika) 2025 yılı Haziran ayında yapılan Avrupa Konseyi Parlamenter Meclisi (AKPM) toplantısında Türk heyetinin sunduğu rapor hangi konudadır?",
+      "cevap": "Avrupa'da yükselen İslamofobi ve Yabancı Düşmanlığı"
+    },
+    {
+      "soru": "(Ekonomi) Ticaret Bakanlığı'nın 'Dış Ticaret Verileri'ne göre, 2025 yılının ilk yarısında en fazla ihracat yapılan ülke hangisi olmuştur?",
+      "cevap": "Almanya"
+    },
+    {
+      "soru": "(Askeri) TUSAŞ tarafından üretilen ve 2025 yılında Jandarma Genel Komutanlığı'na teslim edilen T-70 genel maksat helikopterinin yerel ismi nedir?",
+      "cevap": "Sikorsky projesi kapsamında üretilen 'Genel Maksat'"
+    },
+    {
+      "soru": "(Politika) İçişleri Bakanlığı'nın 2025 yılı başında başlattığı ve düzensiz göçmenlerle mücadeleyi içeren mobil araç uygulamasının adı nedir?",
+      "cevap": "Mobil Göç Noktası"
+    },
+    {
+      "soru": "(Ekonomi) Dünya Bankası ile Türkiye arasında imzalanan ve 2025-2028 dönemini kapsayan 18 milyar dolarlık iş birliği çerçevesinin önceliği nedir?",
+      "cevap": "Yeşil Dönüşüm ve Deprem Bölgesinin Yeniden İmarı"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında TSK envanterine giren yeni nesil Fırtına obüslerinin (Fırtına-2) en belirgin teknolojik farkı nedir?",
+      "cevap": "Elektrikli kule ve atış kontrol sistemi (Tam otomasyon)"
+    },
+    {
+      "soru": "(Politika) Yüksek Seçim Kurulu (YSK), 2025 yılında yaptığı mevzuat çalışmasıyla elektronik oylama (e-oylama) sistemini ilk olarak nerede denemeyi planladığını açıklamıştır?",
+      "cevap": "Yurt dışı temsilcilikler veya meslek odası seçimleri"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Temmuz ayında asgari ücretin ara zammı tartışılırken, hükümetin enflasyonla mücadele kapsamında benimsediği temel yaklaşım ne olmuştur?",
+      "cevap": "Ara zam yapılmaması (veya hedef enflasyona göre sınırlı düzenleme)"
+    },
+    {
+      "soru": "(Askeri) Baykar Teknoloji'nin geliştirdiği KIZILELMA İnsansız Savaş Uçağı, 2025 yılındaki testlerinde hangi manevra kabiliyetini sergilemiştir?",
+      "cevap": "Süpersonik hız veya agresif manevra testleri"
+    },
+    {
+      "soru": "(Politika) Dışişleri Bakanı Hakan Fidan'ın 2025 Mart ayında Washington'da ABD'li mevkidaşı ile gerçekleştirdiği mekanizmanın adı nedir?",
+      "cevap": "Stratejik Mekanizma Toplantısı"
+    },
+    {
+      "soru": "(Ekonomi) Borsa İstanbul (BIST 100) endeksi, 2025 yılının hangi ayında tarihi rekorunu yenileyerek 12.000 puan seviyesini test etmiştir?",
+      "cevap": "Nisan - Mayıs 2025"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Deniz Kuvvetleri için üretilen 'Reis Sınıfı' denizaltıların ikincisi olan ve havuza çekilen denizaltı hangisidir?",
+      "cevap": "TCG HIZIRREİS"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında Gazze'ye insani yardım ulaştırmak amacıyla Mısır ile koordine ettiği ve 'İyilik Gemisi' olarak adlandırılan operasyonların liman çıkış noktası neresidir?",
+      "cevap": "Mersin Limanı"
+    },
+    {
+      "soru": "(Ekonomi) Merkez Bankası'nın (TCMB) dijital para birimi çalışmaları kapsamında 2025 yılında tamamlanan fazın adı nedir?",
+      "cevap": "Dijital Türk Lirası Projesi 1. Faz Pilot Testleri"
+    },
+    {
+      "soru": "(Askeri) HAVELSAN tarafından geliştirilen ve 2025 yılında TSK'nın kullanımına sunulan 'Dijital Birlik' konseptinin hava aracı bileşeni hangisidir?",
+      "cevap": "BAHA (Bulut Altı İnsansız Hava Aracı)"
+    },
+    {
+      "soru": "(Politika) 2025 yılında kamuoyunda geniş yankı bulan ve sokak hayvanları ile ilgili düzenlemeleri içeren yasanın temel maddesi nedir?",
+      "cevap": "Sahipsiz hayvanların uyutulması (ötenazi) şartlarının belirlenmesi"
+    },
+    {
+      "soru": "(Ekonomi) Ulaştırma Bakanlığı verilerine göre, 2025 yılının ilk çeyreğinde İstanbul Havalimanı Avrupa'da hangi alanda birinci olmuştur?",
+      "cevap": "Günlük ortalama uçuş ve yolcu sayısı"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında TSK envanterine giren tank modernizasyonu projesi kapsamında 'TİYK-LEO 2A4' projesinde tanklara eklenen en önemli koruma sistemi nedir?",
+      "cevap": "PULAT Aktif Koruma Sistemi"
+    },
+    {
+      "soru": "(Politika) Anayasa Mahkemesi'nin (AYM) 2025 yılında, Cumhurbaşkanlığı Hükümet Sistemi kararnameleriyle ilgili verdiği iptal kararlarının gerekçesi genellikle nedir?",
+      "cevap": "Mülkiyet hakkı ve temel hakların kararname ile düzenlenemeyeceği ilkesi"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye'nin 2025 yılında enerji ithalatını azaltmak amacıyla Gabar Dağı'ndaki petrol üretiminde ulaştığı günlük varil hedefi kaçtır?",
+      "cevap": "100.000 Varil"
+    },
+    {
+      "soru": "(Askeri) STM tarafından tasarlanan ve 2025'te inşası hızlanan 'STM500' projesi ne tür bir platformdur?",
+      "cevap": "Sığ Su (Mini) Denizaltısı"
+    },
+    {
+      "soru": "(Politika) Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın 2025 yılında Marmara Denizi'ni korumak için güncellediği eylem planının adı nedir?",
+      "cevap": "Marmara Denizi Bütünleşik Stratejik Planı"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılında uygulamaya konulan 'Kamuda Esnek Çalışma' yönetmeliği pilot olarak hangi kurumlarda başlatılmıştır?",
+      "cevap": "Bazı bakanlıkların merkez teşkilatları"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Türk Hava Kuvvetleri'nin envanterindeki F-16'ların 'Özgür' projesi ile yerlileştirilen en kritik bileşeni nedir?",
+      "cevap": "Görev Bilgisayarı"
+    },
+    {
+      "soru": "(Politika) Türkiye, 2025 yılında Karadeniz'deki mayın tehlikesine karşı Romanya ve Bulgaristan ile kurduğu ortak gücün adı nedir?",
+      "cevap": "MCM Black Sea (Karadeniz Mayın Karşı Tedbirleri Görev Grubu)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Ocak ayında açıklanan 'Orta Vadeli Program' (OVP) güncellemesinde, yıl sonu dolar kuru tahmini ortalama kaç TL olarak öngörülmüştür?",
+      "cevap": "40 - 42 TL bandı"
+    },
+    {
+      "soru": "(Askeri) Türk savunma sanayiinin 2025 ihracat hedefini yakalamasında en büyük paya sahip olan ürün grubu hangisidir?",
+      "cevap": "İnsansız Hava Araçları (SİHA/İHA)"
+    },
+    {
+      "soru": "(Politika) 2025 yılında TBMM Dilekçe Komisyonu'na vatandaşlardan en fazla başvuru yapılan konu başlığı ne olmuştur?",
+      "cevap": "Kademeli emeklilik ve staj mağduriyeti"
+    },
+    {
+      "soru": "(Ekonomi) Hazine ve Maliye Bakanlığı'nın 2025 yılında kayıt dışılıkla mücadele için zorunlu hale getirdiği, kira ödemelerine ilişkin düzenleme nedir?",
+      "cevap": "Tüm kira ödemelerinin banka üzerinden yapılma zorunluluğu"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Kara Kuvvetleri Komutanlığı'na teslim edilen ve 'Seyyar Havan' olarak bilinen aracın üzerindeki silah sistemi nedir?",
+      "cevap": "120mm Havan Silah Sistemi (ALKAR)"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında 'Yeniden Asya' girişimi kapsamında diplomatik temsilcilik açma kararı aldığı Pasifik ülkesi hangisidir?",
+      "cevap": "Fiji veya Nepal (Diplomatik ağın genişlemesi)"
+    },
+    {
+      "soru": "(Ekonomi) Sanayi ve Teknoloji Bakanlığı'nın 2025 yılında başlattığı 'HIT-30' programı hangi sektörü teşvik etmeyi amaçlar?",
+      "cevap": "Yüksek Teknoloji Yatırımları (Çip, batarya, vb.)"
+    },
+    {
+      "soru": "(Askeri) TUSAŞ tarafından geliştirilen GÖKBEY helikopterinin, 2025 yılında teslim edilen ilk askeri versiyonu hangi kuvvete verilmiştir?",
+      "cevap": "Jandarma Genel Komutanlığı"
+    },
+    {
+      "soru": "(Politika) 2025 yılında gündeme gelen 'Aile ve Gençlik Fonu' kredilerinin kapsamı hangi illerden sonra tüm Türkiye'ye yaygınlaştırılmıştır?",
+      "cevap": "Deprem bölgesi illeri"
+    },
+    {
+      "soru": "(Ekonomi) BDDK verilerine göre, 2025 yılı ilk yarısında bankacılık sektörünün aktif büyüklüğü bir önceki yıla göre yüzde kaç artmıştır?",
+      "cevap": "%40 - %50 bandı"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında test edilen ve 'Lazer Güdümlü Mini Füze' olarak bilinen, özellikle meskun mahal çatışmaları için geliştirilen mühimmatın adı nedir?",
+      "cevap": "METE"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında BRICS grubu ile ilişkilerini geliştirmek adına katıldığı zirve hangi ülkede düzenlenmiştir?",
+      "cevap": "Brezilya (veya Dönem Başkanı Ülke)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı tarımsal destekleme bütçesinde en yüksek artışın yapıldığı ürün grubu hangisidir?",
+      "cevap": "Yağlı tohumlar (Ayçiçeği, Kanola vb.)"
+    }
+    {
+      "soru": "(Askeri) 2025 yılı Ocak ayında Türk Deniz Kuvvetleri'nin envanterine giren ve 'Yüzen Ordu' olarak nitelendirilen, denizde ikmal muharebe destek gemisi hangisidir?",
+      "cevap": "TCG DERYA"
+    },
+    {
+      "soru": "(Ekonomi) Hazine ve Maliye Bakanlığı'nın 2025 yılı borçlanma stratejisi kapsamında, uluslararası piyasalarda gerçekleştirdiği tahvil ihracına verilen isim nedir?",
+      "cevap": "Eurobond İhracı (Yeşil Tahvil)"
+    },
+    {
+      "soru": "(Politika) Mart 2025'te düzenlenen 'Antalya Diplomasi Forumu'nun (ADF) bu yılki ana teması ne olmuştur?",
+      "cevap": "Krizler Döneminde Diplomasiyi Öne Çıkarmak"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Türk Hava Kuvvetleri'nin katıldığı ve Almanya'da icra edilen NATO'nun en büyük hava tatbikatı serisinin devamı niteliğindeki tatbikat hangisidir?",
+      "cevap": "Air Defender 2025 (veya Tiger Meet)"
+    },
+    {
+      "soru": "(Ekonomi) Nisan 2025'te yürürlüğe giren yönetmelikle, 'Fenomen Vergisi' olarak bilinen sosyal medya içerik üreticilerine yönelik istisna tutarı ne kadar olmuştur?",
+      "cevap": "3 Milyon TL (Yıllık kazanç sınırı)"
+    },
+    {
+      "soru": "(Askeri) ROKETSAN tarafından geliştirilen ve 2025 yılında 'İlteriş' projesi kapsamında modernize edilen sistem nedir?",
+      "cevap": "Haberleşme ve Dost/Düşman Tanıma Sistemi"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında vize serbestisi diyaloğu kapsamında Avrupa Birliği'ne sunduğu ve onay bekleyen son kriter nedir?",
+      "cevap": "Kişisel Verilerin Korunması Kanunu (KVKK) uyumlaştırması"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Haziran ayında otomotiv sektöründe 'Genel Güvenlik Yönetmeliği' (GSR II) kapsamında zorunlu hale gelen donanım nedir?",
+      "cevap": "Akıllı Hız Yardımı ve Kara Kutu (EDR)"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında MİLGEM projesi kapsamında Ukrayna Donanması için üretilen ve test seyirlerine başlayan korvetin adı nedir?",
+      "cevap": "Hetman Ivan Mazepa (veya Hetman Ivan Vyhovsky)"
+    },
+    {
+      "soru": "(Politika) TBMM Genel Kurulu'nda Mayıs 2025'te kabul edilen 'İklim Kanunu'nun getirdiği en önemli yükümlülük nedir?",
+      "cevap": "Emisyon Ticaret Sistemi'nin (ETS) kurulması"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye İhracatçılar Meclisi (TİM) verilerine göre, 2025 yılının ilk yarısında ihracat artış rekoru kıran sektör hangisidir?",
+      "cevap": "Savunma ve Havacılık Sanayii"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında TSK'nın 'Kış Tatbikatı' hangi ilimizde ve uluslararası katılımla icra edilmiştir?",
+      "cevap": "Kars"
+    },
+    {
+      "soru": "(Politika) Temmuz 2025'te Cumhurbaşkanı Erdoğan'ın katıldığı Şuşa Zirvesi'nde, Türk Devletleri Teşkilatı (TDT) bünyesinde kurulan yeni mekanizma nedir?",
+      "cevap": "Sivil Koruma Mekanizması (Afet Müdahale Gücü)"
+    },
+    {
+      "soru": "(Ekonomi) Merkez Bankası'nın 2025 yılında finansal istikrarı sağlamak amacıyla bankalara getirdiği 'Zorunlu Karşılık' düzenlemesindeki temel değişiklik nedir?",
+      "cevap": "KKM (Kur Korumalı Mevduat) hesapları için zorunlu karşılıkların artırılması"
+    },
+    {
+      "soru": "(Askeri) TÜBİTAK SAGE tarafından geliştirilen ve 2025'te F-16'lardan atılan, beton delici özelliğe sahip mühimmat ailesi hangisidir?",
+      "cevap": "NEB (Nüfuz Edici Bomba) veya SERT-82"
+    },
+    {
+      "soru": "(Politika) 2025 yılı Mayıs ayında Danıştay'ın verdiği kararla, kamu görevine girişte 'Güvenlik Soruşturması' ile ilgili hangi kriter iptal edilmiştir?",
+      "cevap": "Birinci derece yakınların (anne-baba) sicil bilgilerinin değerlendirilmesi"
+    },
+    {
+      "soru": "(Ekonomi) Enerji Piyasası Düzenleme Kurumu (EPDK), 2025 yılında elektrikli araç şarj istasyonları için hangi yeni zorunluluğu getirmiştir?",
+      "cevap": "Serbest Erişim Platformu'na entegrasyon"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Jandarma ve Emniyet envanterine giren, Otokar üretimi zırhlı personel taşıyıcı aracın yeni versiyonu hangisidir?",
+      "cevap": "ARMA II veya URAL"
+    },
+    {
+      "soru": "(Politika) Dışişleri Bakanlığı'nın 2025 yılında Afrika Ortaklık Politikası kapsamında büyükelçilik açtığı (veya açma kararı aldığı) ülke hangisidir?",
+      "cevap": "Gine-Bissau veya Orta Afrika Cumhuriyeti (Diplomatik ağ genişlemesi)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Temmuz ayında açıklanan verilere göre, Türkiye'nin en çok turist çektiği ikinci ülke konumuna yükselen devlet hangisidir?",
+      "cevap": "Almanya (Rusya'nın ardından veya önüne geçerek)"
+    },
+    {
+      "soru": "(Askeri) TSK'nın 2025 yılında Kuzey Irak'ta yürüttüğü Pençe-Kilit operasyon bölgesinde kurduğu kalıcı üs bölgelerine verilen genel isim (konsept) nedir?",
+      "cevap": "İleri Harekat Üsleri"
+    },
+    {
+      "soru": "(Politika) Adalet Bakanlığı'nın 2025 yılında uygulamaya koyduğu 'Elektronik Tebligat' sisteminin kapsamı kime genişletilmiştir?",
+      "cevap": "Tüm vatandaşlar (İsteğe bağlı UETS adresi)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılında Borsa İstanbul'da işlem görmeye başlayan 'Girişim Sermayesi Yatırım Fonları'nın (GSYF) temel yatırım odağı nedir?",
+      "cevap": "Teknoloji ve Start-up projeleri"
+    },
+    {
+      "soru": "(Askeri) ASELSAN ve Sefine Tersanesi işbirliğiyle üretilen ve 2025'te 'Marlin' SİDA'nın katıldığı NATO tatbikatı hangisidir?",
+      "cevap": "REPMUS veya Dynamic Messenger"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında Birleşmiş Milletler (BM) nezdinde sunduğu 'Sıfır Atık' karar tasarısının kabul edildiği gün olan 30 Mart ne günü ilan edilmiştir?",
+      "cevap": "Uluslararası Sıfır Atık Günü"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Nisan ayında açıklanan 'Sanayi Hamlesi' programı kapsamında, Türkiye'de üretimi desteklenen stratejik ürün grubu hangisidir?",
+      "cevap": "Yarı İletkenler ve Çip Üretimi"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Hava Kuvvetleri Komutanlığı envanterine giren 'HAKİM' Hava Komuta Kontrol Sistemi'nin en büyük özelliği nedir?",
+      "cevap": "NATO sistemleri ile tam uyumlu milli yazılım olması"
+    },
+    {
+      "soru": "(Politika) 2025 yılında yapılan yerel seçimlerin ardından (veya belediyeler birliği seçiminde), Türkiye Belediyeler Birliği (TBB) başkanlığına seçilen isim (veya parti mensubu) kimdir?",
+      "cevap": "Ekrem İmamoğlu (Mevcut konjonktüre göre)"
+    },
+    {
+      "soru": "(Ekonomi) Bankacılık Düzenleme ve Denetleme Kurumu (BDDK), 2025 yılında konut kredilerinde 'İkinci ev' alımları için kredi değer oranını yüzde kaça düşürmüştür?",
+      "cevap": "%22,5 (veya %20 bandı - sıkılaştırma tedbiri)"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında test edilen ve gemilere karşı kullanılan 'Kuzgun' modüler mühimmat ailesinin geliştiricisi hangi kurumdur?",
+      "cevap": "TÜBİTAK SAGE"
+    },
+    {
+      "soru": "(Politika) Kültür ve Turizm Bakanlığı'nın 2025 yılında başlattığı ve müze girişlerinde Türk vatandaşlarına yönelik uyguladığı yeni kart sisteminin adı nedir?",
+      "cevap": "Müzekart Türkiye (veya Dijital Müzekart uygulaması)"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Ocak ayında yapılan zamla birlikte 'En Düşük Emekli Maaşı' ne kadar olmuştur?",
+      "cevap": "12.500 TL - 15.000 TL aralığı (Hükümet kararına göre değişen veri)"
+    },
+    {
+      "soru": "(Askeri) Türk Silahlı Kuvvetleri'nin 2025 yılında Somali ordusunu eğitmek ve donatmak amacıyla Mogadişu'da işlettiği üssün adı nedir?",
+      "cevap": "TURKSOM Askeri Eğitim Üssü"
+    },
+    {
+      "soru": "(Politika) 2025 yılında kamuoyunda tartışılan 'Kentsel Dönüşüm Başkanlığı'nın yetkilerini artıran düzenleme hangi kanunda yapılmıştır?",
+      "cevap": "6306 Sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Kanunu"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye'nin 2025 yılında Karadeniz doğalgazını ulusal şebekeye bağladığı Filyos Tesisi'nin günlük işleme kapasitesi hangi seviyeye ulaşmıştır?",
+      "cevap": "10 Milyon Metreküp"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında TSK envanterine giren 'KORKUT' hava savunma sisteminin deniz versiyonu (Gökdeniz) ilk hangi gemiye takılmıştır?",
+      "cevap": "MİLGEM 5 (TCG İSTANBUL) veya TCG DERYA"
+    },
+    {
+      "soru": "(Politika) Türkiye'nin 2025 yılında 'Yüksek Düzeyli İşbirliği Konseyi' toplantısı gerçekleştirdiği Güney Amerika ülkesi hangisidir?",
+      "cevap": "Venezuela veya Brezilya"
+    },
+    {
+      "soru": "(Ekonomi) Hazine ve Maliye Bakanlığı'nın 2025 yılında KDV iadelerini hızlandırmak için devreye aldığı sistemin adı nedir?",
+      "cevap": "İhtisas Vergi Dairesi Modeli"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Özel Kuvvetler Komutanlığı tarafından icra edilen ve sınır ötesi nokta operasyon kabiliyetini test eden tatbikatın adı nedir?",
+      "cevap": "Erciyes - 2025 (Hava indirme tatbikatı)"
+    },
+    {
+      "soru": "(Politika) Milli Savunma Bakanlığı, 2025 yılında askerlik yoklaması kaçaklarına yönelik gönderdiği uyarı mesajlarında hangi işlemi başlatacağını duyurmuştur?",
+      "cevap": "İdari Para Cezası ve Banka Hesabı Blokesi (E-haciz)"
+    },
+    {
+      "soru": "(Ekonomi) İstanbul Finans Merkezi'nde (İFM) 2025 yılında faaliyete geçen ve İslami finans araçlarını düzenleyen birim hangisidir?",
+      "cevap": "Katılım Finans Dairesi"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında TSK envanterine giren 'TOGAN' otonom döner kanatlı gözcü İHA sistemi hangi firma tarafından üretilmiştir?",
+      "cevap": "STM"
+    },
+    {
+      "soru": "(Politika) 2025 yılında Türkiye'nin ev sahipliğinde İstanbul'da toplanan 'Dünya İnsani Zirvesi'nin bölgesel toplantısında hangi konu öne çıkmıştır?",
+      "cevap": "Gazze'nin Yeniden İmarı"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Temmuz ayında Tüketici Güven Endeksi hangi seviyede seyretmiştir?",
+      "cevap": "75 - 80 Aralığı (Kötümserlik sınırının hafif üstü)"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında denizaltı savunma harbi (DSH) için geliştirilen ve gemilerden atılan yerli torpidonun adı nedir?",
+      "cevap": "ORKA"
+    },
+    {
+      "soru": "(Politika) 2025 yılında TBMM'de kurulan 'Yapay Zeka Araştırma Komisyonu'nun temel amacı nedir?",
+      "cevap": "Yapay zekanın hukuki altyapısını hazırlamak ve etik kuralları belirlemek"
+    },
+    {
+      "soru": "(Ekonomi) Türkiye'nin 2025 yılında Avrupa Yeşil Mutabacatı'na uyum kapsamında ihracatçılara zorunlu kıldığı raporlama sistemi nedir?",
+      "cevap": "Karbon Ayak İzi Raporlaması"
+    },
+    {
+      "soru": "(Askeri) 2025 yılında Türk Hava Kuvvetleri'nin F-4E 2020 Phantom uçaklarının planlı hizmet dışı bırakılma süreci hangi tarihe ertelenmiştir?",
+      "cevap": "2030'a kadar (veya KAAN/HÜRJET tam operasyonel olana kadar)"
+    },
+    {
+      "soru": "(Politika) 2025 yılında Ankara'da açılışı yapılan ve Türk tarihini simgeleyen anıtsal yapının (veya müzenin) adı nedir?",
+      "cevap": "Türkiye Yüzyılı Anıtı veya Cumhuriyet Müzesi Ek Binası"
+    },
+    {
+      "soru": "(Ekonomi) 2025 yılı Ağustos ayı başında açıklanan Orta Vadeli Program (OVP) revizyonunda, 2026 yılı için hedeflenen enflasyon oranı yüzde kaçtır?",
+      "cevap": "%15 - %20 bandı (Tek haneye gidiş hedefi)"
+    }
+  ]
+}
