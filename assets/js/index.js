@@ -1,11 +1,14 @@
 const titles = document.querySelectorAll(".section-title");
 
+const isMobile = () =>
+  window.matchMedia("(max-width: 768px)").matches;
+
 titles.forEach(title => {
   title.addEventListener("click", () => {
     const content = title.nextElementSibling;
     const isOpen = title.classList.contains("open");
 
-    // 🔴 Önce diğer açık dropdown'ları kapat
+    // 🔴 Diğer açık dropdown'ları kapat
     titles.forEach(otherTitle => {
       if (otherTitle !== title && otherTitle.classList.contains("open")) {
         const otherContent = otherTitle.nextElementSibling;
@@ -20,7 +23,6 @@ titles.forEach(title => {
       }
     });
 
-    // 🔵 Tıklanan dropdown
     if (isOpen) {
       // KAPAT
       content.style.height = content.scrollHeight + "px";
@@ -35,6 +37,7 @@ titles.forEach(title => {
       content.style.opacity = "1";
       title.classList.add("open");
 
+      // Animasyon bitince height:auto
       content.addEventListener(
         "transitionend",
         function handler(e) {
@@ -44,6 +47,21 @@ titles.forEach(title => {
           }
         }
       );
+
+      // 📱 MOBİLDE OTOMATİK SCROLL
+      if (isMobile()) {
+        setTimeout(() => {
+          const y =
+            title.getBoundingClientRect().top +
+            window.pageYOffset -
+            12; // üstten küçük boşluk
+
+          window.scrollTo({
+            top: y,
+            behavior: "smooth"
+          });
+        }, 350); // height animasyonu süresiyle uyumlu
+      }
     }
   });
 });
