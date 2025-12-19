@@ -147,6 +147,10 @@ header {
 .dropdown-content {
   grid-column: 1 / -1;
 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+
   height: 0;
   overflow: hidden;
   opacity: 0;
