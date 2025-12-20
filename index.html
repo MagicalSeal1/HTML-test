@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   
   <!-- Android / PWA -->
-  <link rel="manifest" href="/HTML-test/manifest.json">
+  <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0f172a">
   
   <!-- iOS PWA -->
@@ -27,15 +27,18 @@
 
 <body>
   <header>
-    <div class="hero">
+    <div class="hero-left">
+      <div class="hero-logo"> 
+        <img src="assets/icons/logo.png" alt="Logo"> 
+      </div>
       <div class="hero-inner">
         <h1>KARSU</h1>
         <p>Çalışma Kartları & Referans Kaynaklar</p>
       </div>
-      <!-- Logo için ayrı blok --> 
-      <div class="hero-logo"> 
-        <img src="assets/icons/logo.png" alt="Logo"> 
-      </div>
+    </div>
+    <div class="hero-user" id="heroUser">Misafir</div>
+    <div class="user-menu" id="userMenu">
+      <button id="googleLogin">Google ile giriş</button>
     </div>
   </header>
 
@@ -178,7 +181,8 @@
     © KARSU
   </footer>
   
-  <script src="assets/js/index.js" defer></script>
+  <script type="module" src="assets/js/login.js"></script>
+  <script type="module" src="assets/js/index.js"></script>
   
 </body>
 </html>

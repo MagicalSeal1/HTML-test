@@ -1,63 +1,22 @@
-
-* {
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
 /* ⚠️ height şart – overscroll beyazını kesen ana nokta */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  background-color: #0f172a; /* overscroll arkası */
-  overscroll-behavior: none;
-}
-
-/* Ana gövde */
-body {
-  color: var(--text);
+/* Ortalamayı sağlayan kapsayıcı */
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 24px 16px;
-  padding-top: calc(24px + env(safe-area-inset-top));
-  padding-bottom: calc(24px + env(safe-area-inset-bottom));
-
-  /* Gradient KORUNDU ama üst renk status bar ile aynı */
-  background: linear-gradient(
-    180deg,
-    #0f172a 0%,
-    #0b0f19 55%,
-    #0b0f19 100%
-  );
-
-  /* Dokunma / kart flip çakışmaz */
-  touch-action: manipulation;
-
-  /* ⚠️ overflow:hidden KALMALI
-     beyaz/gri flash’ın %90 sebebi bu */
-  overflow: hidden;
-
-  -webkit-overflow-scrolling: auto;
+  flex-direction: column;   /* dikey sıralama */
+  align-items: center;      /* yatayda ortala */
+  justify-content: flex-start;
+  min-height: 100vh;        /* sayfa yüksekliği */
+  padding-top: 20px;        /* üstten boşluk */
 }
 
-header {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
+/* Status ve diğer bloklar aynı genişlikte */
+.status,
+.scene,
+.card,
+.controls {
   width: 100%;
-  max-width: 420px;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 1.6rem;
-}
-
-header span {
-  font-size: 0.85rem;
-  color: var(--muted);
+  max-width: 420px;   /* hepsi aynı genişlik */
+  margin-bottom: 10px;
 }
 
 .status {
@@ -153,9 +112,9 @@ header span {
 }
 
 .controls {
-  margin-top: 24px;
   display: flex;
   gap: 16px;
+  justify-content: center;   /* butonları ortala */
 }
 
 button {
@@ -171,6 +130,37 @@ button:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
+
+/* ✅ Select menüsünde işaret göstermek için ekleme */
+option.known::before {
+  content: "✓ ";
+}
+option.unknown::before {
+  content: "✗ ";
+}
+
+/* Bildim (✓) butonu */
+#markKnown {
+  background: #0b1f14;              /* koyu yeşil arka plan */
+  border: 1px solid #16a34a;        /* canlı yeşil kenar */
+  color: #16a34a;                   /* yeşil yazı */
+}
+#markKnown:hover {
+  background: #16a34a;              /* hover'da dolu yeşil */
+  color: #0b1f14;                   /* yazı koyu */
+}
+
+/* Bilmedim (✗) butonu */
+#markUnknown {
+  background: #1f0b0b;              /* koyu kırmızı arka plan */
+  border: 1px solid #dc2626;        /* canlı kırmızı kenar */
+  color: #dc2626;                   /* kırmızı yazı */
+}
+#markUnknown:hover {
+  background: #dc2626;              /* hover'da dolu kırmızı */
+  color: #1f0b0b;                   /* yazı koyu */
+}
+
 
 .slide-left {
   animation: slideLeft 0.4s ease;

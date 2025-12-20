@@ -14,6 +14,190 @@ html {
   scrollbar-gutter: stable;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #0f172a; /* overscroll arkası */
+  overscroll-behavior: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  /* Gradient KORUNDU ama üst renk status bar ile aynı */
+  background: linear-gradient(
+    180deg,
+    #0f172a 0%,
+    #0b0f19 55%,
+    #0b0f19 100%
+  );
+  color: var(--text);
+  min-height: 100vh;
+  padding: 24px 16px;
+
+    /* Dokunma / kart flip çakışmaz */
+  touch-action: manipulation;
+
+  /* ⚠️ overflow:hidden KALMALI
+     beyaz/gri flash’ın %90 sebebi bu */
+  overflow: hidden;
+
+  -webkit-overflow-scrolling: auto;
+}
+
+header {
+  max-width: 1100px;
+  margin: 0.75rem auto;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border);
+
+  display: flex;
+  align-items:center;
+  justify-content: space-between; /* SOL – SAĞ AYRIM */
+
+  height: 64px;
+}
+
+/* SOL GRUP */
+.hero-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;                      /* LOGO ↔ YAZI BOŞLUĞU */
+}
+
+.hero-logo img {
+  height: 64px;
+  display: block;
+}
+
+/* YAZI */
+.hero-inner {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hero-inner h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--text);
+  margin: 0;
+}
+
+.hero-inner p {
+  margin: 5px 0 0 0;          /* h1 ile arası 5px */
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;                      /* LOGO ↔ YAZI BOŞLUĞU */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+header span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* SAĞ PROFİL */
+/* Kullanıcı butonu */
+.hero-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #1f2937, #111827);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease; /* animasyon süresi */
+
+  /* ufak gölge ile hover efekti */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-user:hover {
+  background: linear-gradient(90deg, #374151, #1f2937);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero-user:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Açılır Menü */
+.user-menu {
+  position: absolute;
+  top: 72px;
+  right: calc(50% - 550px);
+
+  background: linear-gradient(180deg, #111827, #0b1220);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
+  min-width: 200px;
+
+  opacity: 0;
+  transform: translateY(-6px) scale(0.98);
+  pointer-events: none;
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
+
+  z-index: 100;
+}
+
+.user-menu.open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.user-menu button {
+  background: none;
+  border: none;
+  padding: 12px 16px;
+
+  width: 100%;
+  text-align: left;
+
+  color: var(--text);
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.user-menu button:hover {
+  background: rgba(56,189,248,0.08);
+}
+
 /* Geri butonu – akıştan bağımsız */
 .back-btn {
   position: absolute;
@@ -33,19 +217,4 @@ html {
 .back-btn:hover {
   border-color: var(--accent);
   color: var(--accent);
-}
-
-/* Ortalanmış başlık alanı */
-.header-center {
-  text-align: center;
-}
-
-.header-center h1 {
-  margin: 0;
-  font-size: 1.6rem;
-}
-
-.header-center span {
-  font-size: 0.85rem;
-  color: var(--muted);
 }

@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   
   <!-- Android / PWA -->
-  <link rel="manifest" href="/HTML-test/manifest.json">
+  <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0f172a">
   
   <!-- iOS PWA -->
@@ -28,34 +28,51 @@
 
 <body>
   <header>
-    <h1 id="pageTitle">Bilgi Kartları</h1>
-    <span id="pageDescription">Zamanı değerlendir!</span>
+    <div class="hero-left">
+      <div class="hero-inner">
+        <h1 id="pageTitle">Bilgi Kartları</h1>
+        <span id="pageDescription">Zamanı değerlendir!</span>
+      </div>
+    </div>
+    <div class="hero-user" id="heroUser">Misafir</div>
+    <div class="user-menu" id="userMenu">
+      <button id="googleLogin">Google ile giriş</button>
+    </div>
   </header>
-  
-  <div class="status">
-    <a href="index.html" class="back-btn" aria-label="Geri"><</a>
-    <label>Soru </label>
-    <select id="jumpSelect" aria-label="Soru seç"></select>
-    <span id="counter"></span>
-  </div>
-  
-  <div class="scene">
-    <div id="card" class="card">
-      <div class="card-face front">
-        <h2 id="question"></h2>
+
+  <div class="container">
+    <div class="status">
+      <a href="index.html" class="back-btn" aria-label="Geri"><</a>
+      <label>Soru </label>
+      <select id="jumpSelect" aria-label="Soru seç"></select>
+      <span id="counter"></span>
+    </div>
+    
+    <div class="scene">
+      <div id="card" class="card">
+        <div class="card-face front">
+          <h2 id="question"></h2>
+        </div>
+        <div class="card-face back">
+          <h2 id="answer"></h2>
+        </div>
       </div>
-      <div class="card-face back">
-        <h2 id="answer"></h2>
-      </div>
+    </div>
+
+    <div class="controls">
+      <button id="markKnown">Biliyorum (✓)</button>
+      <button id="markUnknown">Bilmedim (✗)</button>
+    </div>
+
+    <div class="controls">
+      <button id="prev">◀ Önceki</button>
+      <button id="next">Sonraki ▶</button>
     </div>
   </div>
   
-  <div class="controls">
-    <button id="prev">◀ Önceki</button>
-    <button id="next">Sonraki ▶</button>
-  </div>
-  
-  <script src="assets/js/studycards.js"></script>
-  
+  <script type="module" src="assets/js/login.js"></script>
+  <script type="module" src="assets/js/studycards.js"></script>
+
+
 </body>
 </html>
