@@ -166,29 +166,27 @@ function showFeedback(isKnown) {
 document.getElementById("markKnown").onclick = () => {
   knownStatus[index] = "known";
   saveProgress();
-  showFeedback(true);      // yeşil tik göster
-  nextUnknown();           // bir sonraki bilinmeyen soruya geç
+  showFeedback(true);
+  nextUnknown("slide-left"); // sağa kaydır
 };
 
 document.getElementById("markUnknown").onclick = () => {
   knownStatus[index] = "unknown";
   saveProgress();
-  showFeedback(false);     // kırmızı çarpı göster
-  nextUnknown();           // bir sonraki bilinmeyen soruya geç
+  showFeedback(false);
+  nextUnknown("slide-right"); // sola kaydır
 };
 
-document.getElementById("next").onclick = nextUnknown;
-document.getElementById("prev").onclick = prevUnknown;
 jumpSelect.addEventListener("change", () => { index = Number(jumpSelect.value); render(); });
 
-function nextUnknown() {
+function nextUnknown(direction = "") {
   if (isSliding) return;
   let start = index;
   do {
     index = (index + 1) % data.length;
-    if (knownStatus[index] !== "known") break;
+    if (knownStatus[index] !== "known") break; // sadece bilinmeyenleri atla
   } while (index !== start);
-  render("slide-right");
+  render(direction); // yön burada kullanılacak
 }
 
 function prevUnknown() {
@@ -217,23 +215,13 @@ scene.addEventListener("touchend", () => {
   if (!hasMoved || isSliding) { card.style.transform=""; return; }
 
   const diff = currentX - startX;
-  const isKnown = diff > 0; // sağa kaydır = known, sola kaydır = unknown
+  const isKnown = diff > 0;
   knownStatus[index] = isKnown ? "known" : "unknown";
   saveProgress();
 
-  // Feedback göster
-  const feedback = document.getElementById("swipeFeedback");
-  feedback.textContent = isKnown ? "✓" : "✗";
-  feedback.className = `swipe-feedback show${isKnown ? "" : " unknown"}`;
-
-  // 0.5-1s sonra kaybolacak
-  setTimeout(() => feedback.className = "swipe-feedback", 600);
-
-  // Sonraki karta geç
+  showFeedback(isKnown);
   index = (index + 1) % data.length;
-  card.style.transform = "";
   render(isKnown ? "slide-left" : "slide-right");
-
   hasMoved = false;
 });
 
