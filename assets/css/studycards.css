@@ -1,4 +1,4 @@
-html, body {
+body.studycards-page {
   overflow: hidden;
   height: 100%;
 }
@@ -23,17 +23,82 @@ html, body {
   margin-bottom: 10px;
 }
 
+/* Ortalamayı sağlayan status çubuğu */
 .status {
-  width: 100%;
-  max-width: 420px; /* card ile aynı */
-  margin-bottom: 16px;
-
   display: flex;
   align-items: center;
-  justify-content: center; /* merkezde tut */
-
+  justify-content: center;
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 16px;
   position: relative;
+  gap: 8px;
+}
+
+/* Back ve Reset butonları */
+.status .back-btn,
+.status #resetProgress {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 12px;
+  cursor: pointer;
   font-size: 0.9rem;
+}
+
+.status .back-btn:hover,
+.status #resetProgress:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Back butonu sola yaslı */
+.status .back-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+/* Reset butonu sağa yaslı */
+.status #resetProgress {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Ortadaki grup: label + select + counter */
+.status .center-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+/* Select kutusu */
+#jumpSelect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #0b1220;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  min-width: 60px;
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 480px) {
+  #jumpSelect {
+    font-size: 0.85rem;
+    padding: 3px 6px;
+  }
 }
 
 .scene {
@@ -42,26 +107,25 @@ html, body {
   perspective: 1200px;
 }
 
-#jumpSelect {
-  -webkit-appearance: none; /* Safari / iOS */
-  -moz-appearance: none;    /* Firefox */
-  appearance: none;         /* Modern tarayıcılar */
-
-  background: #0b1220;
-  border: 1px solid var(--border);
-  color: var(--text);
-  border-radius: 8px;
-  padding: 4px 0px;
-  margin: 0px 4px;
-  font-size: 0.9rem;
+.swipe-feedback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  font-size: 4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  z-index: 50;
+  color: green; /* default biliyorum */
 }
 
-/* mobil */
-@media (max-width: 768px) {
-  #jumpSelect {
-    font-size: 0.85rem;
-    padding: 3px 0px;
-  }
+.swipe-feedback.show {
+  transform: translate(-50%, -50%) scale(1.5);
+  opacity: 0.8;
+}
+.swipe-feedback.unknown {
+  color: red;
 }
 
 .card {

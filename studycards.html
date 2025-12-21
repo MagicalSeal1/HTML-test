@@ -26,7 +26,7 @@
   <title>KARSU Bilgi Kartı</title>
 </head>
 
-<body>
+<body class="studycards-page">
   <header>
     <div class="hero-left">
       <div class="hero-inner">
@@ -43,9 +43,14 @@
   <div class="container">
     <div class="status">
       <a href="index.html" class="back-btn" aria-label="Geri"><</a>
-      <label>Soru </label>
-      <select id="jumpSelect" aria-label="Soru seç"></select>
-      <span id="counter"></span>
+      
+      <div class="center-group">
+        <label for="jumpSelect">Soru</label>
+        <select id="jumpSelect" aria-label="Soru seç"></select>
+        <span id="counter"></span>
+      </div>
+      
+      <button id="resetProgress">Sıfırla</button>
     </div>
     
     <div class="scene">
@@ -57,6 +62,7 @@
           <h2 id="answer"></h2>
         </div>
       </div>
+      <div class="swipe-feedback" id="swipeFeedback"></div>
     </div>
 
     <div class="controls">

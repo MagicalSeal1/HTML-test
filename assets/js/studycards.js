@@ -126,9 +126,57 @@ async function saveProgress() {
   } catch (err) { console.error("Progress kaydedilemedi:", err); }
 }
 
+function showFeedback(isKnown) {
+  let fb = document.getElementById("feedback");
+  if (!fb) {
+    fb = document.createElement("div");
+    fb.id = "feedback";
+    fb.style.position = "absolute";
+    fb.style.top = "50%";
+    fb.style.left = "50%";
+    fb.style.transform = "translate(-50%, -50%) scale(0)";
+    fb.style.fontSize = "5rem";
+    fb.style.opacity = "0";
+    fb.style.pointerEvents = "none";
+    fb.style.transition = "transform 0.4s ease, opacity 0.4s ease, color 0.4s ease";
+    card.appendChild(fb); // artık card içine ekliyoruz
+  }
+
+  // Reset
+  fb.style.transition = "none";
+  fb.style.transform = "translate(-50%, -50%) scale(0)";
+  fb.style.opacity = "0";
+  fb.style.color = isKnown ? "green" : "red";
+  fb.textContent = isKnown ? "✓" : "✗";
+
+  // Animasyonu tetikle
+  requestAnimationFrame(() => {
+    fb.style.transition = "transform 0.4s ease, opacity 0.4s ease";
+    fb.style.transform = "translate(-50%, -50%) scale(1.5)";
+    fb.style.opacity = "1";
+
+    setTimeout(() => {
+      fb.style.transform = "translate(-50%, -50%) scale(0.5)";
+      fb.style.opacity = "0";
+    }, 400);
+  });
+}
+
 /* Butonlar */
-document.getElementById("markKnown").onclick = () => { knownStatus[index] = "known"; saveProgress(); render(); };
-document.getElementById("markUnknown").onclick = () => { knownStatus[index] = "unknown"; saveProgress(); render(); };
+document.getElementById("markKnown").onclick = () => {
+  knownStatus[index] = "known";
+  saveProgress();
+  showFeedback(true);      // yeşil tik göster
+  nextUnknown();           // bir sonraki bilinmeyen soruya geç
+};
+
+document.getElementById("markUnknown").onclick = () => {
+  knownStatus[index] = "unknown";
+  saveProgress();
+  showFeedback(false);     // kırmızı çarpı göster
+  nextUnknown();           // bir sonraki bilinmeyen soruya geç
+};
+
 document.getElementById("next").onclick = nextUnknown;
 document.getElementById("prev").onclick = prevUnknown;
 jumpSelect.addEventListener("change", () => { index = Number(jumpSelect.value); render(); });
@@ -166,12 +214,45 @@ let startX = 0, currentX = 0;
 scene.addEventListener("touchstart", e => { startX = e.touches[0].clientX; currentX = startX; hasMoved = false; }, { passive: true });
 scene.addEventListener("touchmove", e => { currentX = e.touches[0].clientX; const diff = currentX - startX; if(Math.abs(diff) > 12){ hasMoved = true; card.style.transform=`translateX(${diff}px) rotate(${diff/20}deg)`;} }, { passive:true });
 scene.addEventListener("touchend", () => {
-  if (!hasMoved || isSliding){ card.style.transform=""; return; }
+  if (!hasMoved || isSliding) { card.style.transform=""; return; }
+
   const diff = currentX - startX;
-  knownStatus[index] = diff > 0 ? "known" : "unknown";
+  const isKnown = diff > 0; // sağa kaydır = known, sola kaydır = unknown
+  knownStatus[index] = isKnown ? "known" : "unknown";
   saveProgress();
+
+  // Feedback göster
+  const feedback = document.getElementById("swipeFeedback");
+  feedback.textContent = isKnown ? "✓" : "✗";
+  feedback.className = `swipe-feedback show${isKnown ? "" : " unknown"}`;
+
+  // 0.5-1s sonra kaybolacak
+  setTimeout(() => feedback.className = "swipe-feedback", 600);
+
+  // Sonraki karta geç
   index = (index + 1) % data.length;
   card.style.transform = "";
-  render(diff>0 ? "slide-left" : "slide-right");
+  render(isKnown ? "slide-left" : "slide-right");
+
   hasMoved = false;
+});
+
+document.getElementById("resetProgress").addEventListener("click", async () => {
+  // Tüm knownStatus değerlerini unknown yap
+  data.forEach((_, i) => knownStatus[i] = "unknown");
+  
+  // İndeksi başa al
+  index = 0;
+
+  // Firebase veya localStorage güncelle
+  if (currentUserUid) {
+    const docRef = doc(db, "users", currentUserUid, "progress", dataName);
+    await setDoc(docRef, { knownStatus, lastIndex: index }, { merge: true });
+  } else {
+    localStorage.setItem(`progress_${dataName}`, JSON.stringify(knownStatus));
+    localStorage.setItem(`lastIndex_${dataName}`, index);
+  }
+
+  // Kartı yeniden render et
+  render();
 });

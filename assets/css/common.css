@@ -198,23 +198,3 @@ header span {
 .hero-user.open .hero-arrow {
   transform: rotate(180deg);
 }
-
-/* Geri butonu */
-.back-btn {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  text-decoration: none;
-  color: var(--text);
-  font-size: 1.4rem;
-  padding: 0px 6px 6px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: transparent;
-}
-
-.back-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
