@@ -164,17 +164,21 @@ function showFeedback(isKnown) {
 
 /* Butonlar */
 document.getElementById("markKnown").onclick = () => {
+  if (isSliding) return;
   knownStatus[index] = "known";
   saveProgress();
   showFeedback(true);
-  nextUnknown("slide-left"); // sağa kaydır
+  // Bilinmeyen bir sonraki soruya geç ve sağa slide
+  nextUnknown("slide-right"); 
 };
 
 document.getElementById("markUnknown").onclick = () => {
+  if (isSliding) return;
   knownStatus[index] = "unknown";
   saveProgress();
   showFeedback(false);
-  nextUnknown("slide-right"); // sola kaydır
+  // Bilinmeyen bir sonraki soruya geç ve sola slide
+  nextUnknown("slide-left"); 
 };
 
 jumpSelect.addEventListener("change", () => { index = Number(jumpSelect.value); render(); });
@@ -184,9 +188,10 @@ function nextUnknown(direction = "") {
   let start = index;
   do {
     index = (index + 1) % data.length;
-    if (knownStatus[index] !== "known") break; // sadece bilinmeyenleri atla
+    if (knownStatus[index] !== "known") break;
   } while (index !== start);
-  render(direction); // yön burada kullanılacak
+
+  render(direction); // yön animasyonu burada uygulanır
 }
 
 function prevUnknown() {
@@ -212,16 +217,19 @@ let startX = 0, currentX = 0;
 scene.addEventListener("touchstart", e => { startX = e.touches[0].clientX; currentX = startX; hasMoved = false; }, { passive: true });
 scene.addEventListener("touchmove", e => { currentX = e.touches[0].clientX; const diff = currentX - startX; if(Math.abs(diff) > 12){ hasMoved = true; card.style.transform=`translateX(${diff}px) rotate(${diff/20}deg)`;} }, { passive:true });
 scene.addEventListener("touchend", () => {
-  if (!hasMoved || isSliding) { card.style.transform=""; return; }
+  if (!hasMoved || isSliding) { card.style.transform = ""; return; }
 
   const diff = currentX - startX;
-  const isKnown = diff > 0;
+  const isKnown = diff < 0; // ters çevirdik: sola kaydır = known, sağa kaydır = unknown
+
   knownStatus[index] = isKnown ? "known" : "unknown";
   saveProgress();
 
   showFeedback(isKnown);
-  index = (index + 1) % data.length;
-  render(isKnown ? "slide-left" : "slide-right");
+
+  // Bilinmeyen bir sonraki soruya geç
+  nextUnknown(isKnown ? "slide-right" : "slide-left"); 
+  card.style.transform = "";
   hasMoved = false;
 });
 

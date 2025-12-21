@@ -111,22 +111,22 @@ body.studycards-page {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.5);
-  font-size: 4rem;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 5rem;
   opacity: 0;
   pointer-events: none;
-  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.4s ease, opacity 0.4s ease;
   z-index: 50;
-  color: green; /* default biliyorum */
+  color: green; /* default */
 }
 
 .swipe-feedback.show {
   transform: translate(-50%, -50%) scale(1.5);
   opacity: 0.8;
 }
-.swipe-feedback.unknown {
-  color: red;
-}
+
+.swipe-feedback.unknown { color: red; }
+.swipe-feedback.known   { color: green; }
 
 .card {
   width: 100%;
