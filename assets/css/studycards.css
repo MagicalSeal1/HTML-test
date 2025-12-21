@@ -1,4 +1,8 @@
-/* ⚠️ height şart – overscroll beyazını kesen ana nokta */
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
 /* Ortalamayı sağlayan kapsayıcı */
 .container {
   display: flex;
