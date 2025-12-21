@@ -209,6 +209,7 @@ option.unknown::before {
 
 /* Bildim (✓) butonu */
 #markKnown {
+  font-size: 1.3rem;
   background: #0b1f14;              /* koyu yeşil arka plan */
   border: 1px solid #16a34a;        /* canlı yeşil kenar */
   color: #16a34a;                   /* yeşil yazı */
@@ -220,6 +221,7 @@ option.unknown::before {
 
 /* Bilmedim (✗) butonu */
 #markUnknown {
+  font-size: 1.3rem;
   background: #1f0b0b;              /* koyu kırmızı arka plan */
   border: 1px solid #dc2626;        /* canlı kırmızı kenar */
   color: #dc2626;                   /* kırmızı yazı */
@@ -228,7 +230,6 @@ option.unknown::before {
   background: #dc2626;              /* hover'da dolu kırmızı */
   color: #1f0b0b;                   /* yazı koyu */
 }
-
 
 .slide-left {
   animation: slideLeft 0.4s ease;
