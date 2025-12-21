@@ -2,6 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebas
 import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-auth.js";
 import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
+// Firebase config
 export const firebaseConfig = {
   apiKey: "AIzaSyBy5_BQX5piNX03bFkvzsCQA6SKa1cxozM",
   authDomain: "karsuprj.firebaseapp.com",
@@ -14,21 +15,32 @@ export const firebaseConfig = {
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
-
-// Kullanıcı objesi export
 export let currentUser = null;
 
 const heroUser = document.getElementById("heroUser");
 const userMenu = document.getElementById("userMenu");
 
-userMenu.innerHTML = `
-  <button id="googleLogin">Google ile giriş</button>
-  <button id="changeUser" style="display:none">Kullanıcı Değiştir</button>
-`;
+// Menüye tek buton ekle
+userMenu.innerHTML = `<button id="userAction">Google ile giriş</button>`;
+const userActionBtn = document.getElementById("userAction");
 
-const googleBtn = document.getElementById("googleLogin");
-const changeUserBtn = document.getElementById("changeUser");
+// --- Menü aç/kapa ---
+function toggleMenu() {
+  userMenu.classList.toggle("open");
+  heroUser.classList.toggle("open");
+}
 
+function closeMenu() {
+  userMenu.classList.remove("open");
+  heroUser.classList.remove("open");
+}
+
+heroUser.addEventListener("click", toggleMenu);
+document.addEventListener("click", e => {
+  if (!heroUser.contains(e.target) && !userMenu.contains(e.target)) closeMenu();
+});
+
+// --- Google login ---
 async function googleLogin() {
   const provider = new GoogleAuthProvider();
   try {
@@ -43,64 +55,61 @@ async function googleLogin() {
 
     currentUser = user;
     updateHeroUser(user);
+
+    // Butonu çıkış yap olarak ayarla
+    userActionBtn.textContent = "Çıkış Yap";
+    userActionBtn.onclick = async () => {
+      closeMenu();
+      await signOutUser();
+    };
+
   } catch (err) {
     console.error("Google ile giriş başarısız:", err);
   }
 }
 
-googleBtn.addEventListener("click", async () => {
-  closeMenu();
-  await googleLogin();
-});
-
-changeUserBtn.addEventListener("click", async () => {
-  closeMenu();
+// --- Çıkış yap ---
+async function signOutUser() {
   await signOut(auth);
   currentUser = null;
-  heroUser.textContent = "Misafir";
-  await googleLogin();
-});
+  heroUser.innerHTML = `<span class="hero-name">Misafir</span><span class="hero-arrow">▼</span>`;
+  userActionBtn.textContent = "Google ile giriş";
+  userActionBtn.onclick = async () => {
+    closeMenu();
+    await googleLogin();
+  };
+}
 
+// --- Auth state ---
 onAuthStateChanged(auth, user => {
   currentUser = user;
   if (user) {
     updateHeroUser(user);
-    googleBtn.style.display = "none";
-    changeUserBtn.style.display = "block";
+    userActionBtn.textContent = "Çıkış Yap";
+    userActionBtn.onclick = async () => {
+      closeMenu();
+      await signOutUser();
+    };
   } else {
-    heroUser.textContent = "Misafir";
-    googleBtn.style.display = "block";
-    changeUserBtn.style.display = "none";
+    heroUser.innerHTML = `<span class="hero-name">Misafir</span><span class="hero-arrow">▼</span>`;
+    userActionBtn.textContent = "Google ile giriş";
+    userActionBtn.onclick = async () => {
+      closeMenu();
+      await googleLogin();
+    };
   }
 });
 
+// --- Hero güncelle ---
 function updateHeroUser(user) {
   const nameParts = (user.displayName || user.email).split(" ");
-  let displayName = nameParts.length > 1 ? nameParts[0] + " " + nameParts[1][0] + "." : nameParts[0];
+  let displayName = nameParts.length > 1
+    ? nameParts[0] + " " + nameParts[1][0] + "."
+    : nameParts[0];
 
   heroUser.innerHTML = `
     <span class="hero-name">${displayName}</span>
     <img src="${user.photoURL}" alt="Profil" class="hero-avatar">
+    <span class="hero-arrow">▼</span>
   `;
 }
-
-// Menü aç/kapa
-function toggleMenu() {
-  if (userMenu.style.opacity === "1") closeMenu();
-  else openMenu();
-}
-function openMenu() {
-  userMenu.style.opacity = "1";
-  userMenu.style.transform = "translateY(0) scale(1)";
-  userMenu.style.pointerEvents = "auto";
-}
-function closeMenu() {
-  userMenu.style.opacity = "0";
-  userMenu.style.transform = "translateY(-6px) scale(0.98)";
-  userMenu.style.pointerEvents = "none";
-}
-
-heroUser.addEventListener("click", toggleMenu);
-document.addEventListener("click", e => {
-  if (!heroUser.contains(e.target) && !userMenu.contains(e.target)) closeMenu();
-});
