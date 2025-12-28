@@ -1,254 +1,278 @@
-import { db, currentUser } from "./login.js";
+import { db, authReady } from "./login.js";
 import { doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
+/* ===================== STATE ===================== */
 let data = [];
 let index = 0;
-let isFlipped = false;
-let isSliding = false;
-let hasMoved = false;
+let nextIndex = 0; // Bir sonraki kartın indeksi
 let knownStatus = {};
 let currentUserUid = null;
+let isSliding = false;
+let isFlipped = false;
+
 const dataName = new URLSearchParams(window.location.search).get("data");
 
+/* ===================== ELEMENTS ===================== */
 const card = document.getElementById("card");
+const nextCard = document.getElementById("nextCard");
+const nextQuestion = document.getElementById("nextQuestion");
+const nextAnswer = document.getElementById("nextAnswer");
 const question = document.getElementById("question");
 const answer = document.getElementById("answer");
 const counter = document.getElementById("counter");
 const jumpSelect = document.getElementById("jumpSelect");
-const scene = document.querySelector(".scene");
+const shuffleCheck = document.getElementById("shuffle");
+const titleEl = document.getElementById("pageTitle");
+const descEl = document.getElementById("pageDescription");
+const feedback = document.getElementById("swipeFeedback");
 
-if (!dataName) {
-  document.body.innerHTML = `<h2 style="color:#fff">Veri seçilmedi</h2><p style="color:#9ca3af">Ana sayfadan kart seç.</p>`;
-  throw new Error("data parametresi yok");
-}
-
-// JSON yükleme
+/* ===================== LOAD JSON ===================== */
 fetch(`assets/data/${dataName}.json`)
-  .then(r => r.ok ? r.json() : Promise.reject("JSON bulunamadı"))
-  .then(json => {
+  .then(r => r.json())
+  .then(async json => {
     data = json.cards || [];
-    document.getElementById("pageTitle").textContent = json.title || "";
-    document.getElementById("pageDescription").textContent = json.description || "";
+    titleEl.textContent = json.title || "";
+    descEl.textContent = json.description || "";
 
-    index = Number(localStorage.getItem(`lastIndex_${dataName}`)) || 0;
+    const user = await authReady;
+    currentUserUid = user?.uid ?? null;
 
-    waitForUserAndLoadProgress();
-  })
-  .catch(err => console.error("JSON yükleme hatası:", err));
+    loadProgress();
+    determineNextIndex(); // İlk yüklemede sıradakini belirle
+    render(); // İlk render
+  });
 
-// Kullanıcı hazır olana kadar bekle
-function waitForUserAndLoadProgress() {
-  const interval = setInterval(() => {
-    if (currentUser !== undefined) {
-      clearInterval(interval);
-      currentUserUid = currentUser?.uid ?? null;
-      loadProgress();
-    }
-  }, 50);
+/* ===================== PROGRESS ===================== */
+function loadProgress() {
+  // 1️⃣ Önce LOCAL
+  knownStatus = JSON.parse(localStorage.getItem(`progress_${dataName}`) || "{}");
+  index = Number(localStorage.getItem(`lastIndex_${dataName}`)) || 0;
+
+  data.forEach((_, i) => {
+    if (!knownStatus[i]) knownStatus[i] = "unknown";
+  });
+
+  determineNextIndex();
+  render();
+
+  // 2️⃣ Sonra CLOUD (arkaplan)
+  if (!currentUserUid) return;
+
+  const ref = doc(db, "users", currentUserUid, "progress", dataName);
+  getDoc(ref)
+    .then(snap => {
+      if (!snap.exists()) return;
+      const cloud = snap.data();
+      knownStatus = cloud.knownStatus || knownStatus;
+      index = cloud.lastIndex ?? index;
+      determineNextIndex();
+      render();
+    })
+    .catch(() => {});
 }
 
-// Progress yükleme
-// loadProgress güncel hali
-async function loadProgress() {
-  // firebase veya misafir localStorage
-  if (currentUserUid) {
-    try {
-      const docRef = doc(db, "users", currentUserUid, "progress", dataName);
-      const docSnap = await getDoc(docRef);
-      if (docSnap.exists()) {
-        knownStatus = docSnap.data().knownStatus || {};
-        index = docSnap.data().lastIndex ?? index;
-      }
-    } catch (err) {
-      console.error("Firebase progress yüklenemedi:", err);
-    }
-  } else {
-    const stored = localStorage.getItem(`progress_${dataName}`);
-    knownStatus = stored ? JSON.parse(stored) : {};
+/* ===================== BACKGROUND SAVE ===================== */
+function syncProgress() {
+  // LOCAL (anında)
+  localStorage.setItem(`progress_${dataName}`, JSON.stringify(knownStatus));
+  localStorage.setItem(`lastIndex_${dataName}`, index);
+
+  // CLOUD (arkaplan)
+  if (!currentUserUid) return;
+  const ref = doc(db, "users", currentUserUid, "progress", dataName);
+  setDoc(ref, { knownStatus, lastIndex: index }, { merge: true })
+    .catch(() => {});
+}
+
+/* ===================== RENDER ===================== */
+function render() {
+  isSliding = false;
+  isFlipped = false;
+
+  // Reset sırasında animasyon olmaması için transition'ı kapat
+  card.style.transition = "none";
+  if (nextCard) nextCard.style.transition = "none";
+
+  card.className = "card";
+  card.style.transform = "";
+
+  // Arkadaki kartı sıfırla
+  if (nextCard) {
+    nextCard.className = "card next-card";
   }
 
-  // Eksik indexleri unknown ata
-  data.forEach((_, i) => { if (!knownStatus[i]) knownStatus[i] = "unknown"; });
+  question.textContent = data[index]?.soru ?? "";
+  answer.textContent = data[index]?.cevap ?? "";
+  counter.textContent = `/ ${data.length}`;
 
-  // Render ve select kutusunu doldur
-  render();
+  // Arkadaki kartı doldur
+  if (nextQuestion && nextAnswer && data[nextIndex]) {
+    nextQuestion.textContent = data[nextIndex].soru;
+    nextAnswer.textContent = data[nextIndex].cevap;
+  }
+
   fillJumpMenu();
+
+  // Reflow tetikle ve transition'ı geri aç (CSS'teki değerine dönsün)
+  void card.offsetWidth;
+  card.style.transition = "";
+  if (nextCard) nextCard.style.transition = "";
 }
 
-// fillJumpMenu
+/* ===================== SELECT ===================== */
 function fillJumpMenu() {
   jumpSelect.innerHTML = "";
   data.forEach((_, i) => {
     const opt = document.createElement("option");
     opt.value = i;
-    opt.textContent = (knownStatus[i] === "known" ? "✓ " : "✗ ") + (i + 1);
+    opt.textContent =
+      (knownStatus[i] === "known" ? "✓ " : "✗ ") + (i + 1);
     jumpSelect.appendChild(opt);
   });
   jumpSelect.value = index;
 }
 
-// Render kart
-// render ve fillJumpMenu'yi birbirine bağlamak yerine
-function render(direction = "") {
-  isSliding = true;
-  isFlipped = false;
-  card.style.transition = "none";
-  card.classList.remove("flip", "slide-left", "slide-right");
-  card.offsetHeight;
-
-  question.textContent = data[index].soru;
-  answer.textContent = data[index].cevap;
-  counter.textContent = `/ ${data.length}`;
-  jumpSelect.value = index;
-  localStorage.setItem(`lastIndex_${dataName}`, index);
-
-  requestAnimationFrame(() => {
-    card.style.transition = "";
-    if (direction) card.classList.add(direction);
-    setTimeout(() => isSliding = false, 420);
-  });
-
-  // Select kutusunu her render sonrası güncelle
-  fillJumpMenu();
-}
-
-// Progress kaydet
-async function saveProgress() {
-  if (!currentUserUid) {
-    localStorage.setItem(`progress_${dataName}`, JSON.stringify(knownStatus));
-    localStorage.setItem(`lastIndex_${dataName}`, index);
-    return;
-  }
-
-  try {
-    const docRef = doc(db, "users", currentUserUid, "progress", dataName);
-    await setDoc(docRef, { knownStatus, lastIndex: index }, { merge: true });
-  } catch (err) { console.error("Progress kaydedilemedi:", err); }
-}
-
+/* ===================== FEEDBACK ===================== */
 function showFeedback(isKnown) {
-  let fb = document.getElementById("feedback");
-  if (!fb) {
-    fb = document.createElement("div");
-    fb.id = "feedback";
-    fb.style.position = "absolute";
-    fb.style.top = "50%";
-    fb.style.left = "50%";
-    fb.style.transform = "translate(-50%, -50%) scale(0)";
-    fb.style.fontSize = "5rem";
-    fb.style.opacity = "0";
-    fb.style.pointerEvents = "none";
-    fb.style.transition = "transform 0.4s ease, opacity 0.4s ease, color 0.4s ease";
-    card.appendChild(fb); // artık card içine ekliyoruz
-  }
+  feedback.textContent = isKnown ? "✓" : "✗";
+  feedback.className =
+    "swipe-feedback show " + (isKnown ? "known" : "unknown");
 
-  // Reset
-  fb.style.transition = "none";
-  fb.style.transform = "translate(-50%, -50%) scale(0)";
-  fb.style.opacity = "0";
-  fb.style.color = isKnown ? "green" : "red";
-  fb.textContent = isKnown ? "✓" : "✗";
-
-  // Animasyonu tetikle
+  // bir frame sonra temizle → render ile çakışmaz
   requestAnimationFrame(() => {
-    fb.style.transition = "transform 0.4s ease, opacity 0.4s ease";
-    fb.style.transform = "translate(-50%, -50%) scale(1.5)";
-    fb.style.opacity = "1";
-
-    setTimeout(() => {
-      fb.style.transform = "translate(-50%, -50%) scale(0.5)";
-      fb.style.opacity = "0";
-    }, 400);
+    requestAnimationFrame(() => {
+      feedback.className = "swipe-feedback";
+    });
   });
 }
 
-/* Butonlar */
+/* ===================== NAV ===================== */
+
+/* ===================== NAV ===================== */
+
+function determineNextIndex() {
+  // Mevcut index'ten sonraki kartı (veya rastgele kartı) belirler
+  // ancak index'i değiştirmez. Sadece nextIndex'i günceller.
+  
+  let tempIndex = index;
+  
+  if (shuffleCheck?.checked && data.length > 1) {
+    const unknowns = [];
+    data.forEach((_, i) => {
+      // Şu anki kart hariç bilinmeyenleri bul
+      if (knownStatus[i] !== "known" && i !== index) unknowns.push(i);
+    });
+
+    if (unknowns.length > 0) {
+      nextIndex = unknowns[Math.floor(Math.random() * unknowns.length)];
+    } else {
+      // Hepsi biliniyorsa veya tek kart kaldıysa
+      nextIndex = index; 
+    }
+  } else {
+    // Sıradaki bilinmeyeni bul
+    do {
+      tempIndex = (tempIndex + 1) % data.length;
+      if (knownStatus[tempIndex] !== "known") break;
+    } while (tempIndex !== index);
+    nextIndex = tempIndex;
+  }
+}
+
+function animateAndNext(isKnown) {
+  // 1. Animasyon sınıflarını ekle
+  if (isKnown) {
+    card.classList.add("swipe-left"); // Bilinen -> Sola
+  } else {
+    card.classList.add("swipe-right"); // Bilinmeyen -> Sağa
+  }
+
+  if (nextCard) {
+    nextCard.classList.add("enter"); // Arkadaki öne gelir
+  }
+
+  // 2. Animasyon bitince verileri güncelle
+  setTimeout(() => {
+    index = nextIndex; // Sıradaki kartı aktif yap
+    determineNextIndex(); // Yeni bir 'sıradaki' belirle
+    syncProgress();
+    render(); // Ekranı tazele (sınıfları temizler)
+  }, 400); // CSS transition süresiyle uyumlu (0.4s)
+}
+
+/* ===================== BUTTONS ===================== */
 document.getElementById("markKnown").onclick = () => {
   if (isSliding) return;
+  isSliding = true;
+
   knownStatus[index] = "known";
-  saveProgress();
   showFeedback(true);
-  // Bilinmeyen bir sonraki soruya geç ve sağa slide
-  nextUnknown("slide-right"); 
+  animateAndNext(true);
 };
 
 document.getElementById("markUnknown").onclick = () => {
   if (isSliding) return;
+  isSliding = true;
+
   knownStatus[index] = "unknown";
-  saveProgress();
   showFeedback(false);
-  // Bilinmeyen bir sonraki soruya geç ve sola slide
-  nextUnknown("slide-left"); 
+  animateAndNext(false);
 };
 
-jumpSelect.addEventListener("change", () => { index = Number(jumpSelect.value); render(); });
-
-function nextUnknown(direction = "") {
+document.getElementById("prevPlain").onclick = () => {
   if (isSliding) return;
-  let start = index;
-  do {
-    index = (index + 1) % data.length;
-    if (knownStatus[index] !== "known") break;
-  } while (index !== start);
+  isSliding = true;
 
-  render(direction); // yön animasyonu burada uygulanır
-}
+  // 1. Yeni indeksi hesapla
+  const newIndex = (index - 1 + data.length) % data.length;
 
-function prevUnknown() {
-  if (isSliding) return;
-  let start = index;
-  do {
-    index = (index - 1 + data.length) % data.length;
-    if (knownStatus[index] !== "known") break;
-  } while (index !== start);
-  render("slide-left");
-}
+  // 2. Animasyon için geçici kart oluştur (Önden gelen)
+  const incomingCard = document.createElement("div");
+  incomingCard.className = "card prev-enter";
+  
+  const qText = data[newIndex]?.soru ?? "";
+  const aText = data[newIndex]?.cevap ?? "";
+  
+  incomingCard.innerHTML = `
+    <div class="card-face front"><h2>${qText}</h2></div>
+    <div class="card-face back"><h2>${aText}</h2></div>
+  `;
+  document.querySelector(".scene").appendChild(incomingCard);
 
+  // 3. Animasyonu tetikle (Reflow sonrası)
+  void incomingCard.offsetWidth;
+  incomingCard.classList.add("active"); // Önden küçülerek gel
+  card.classList.add("push-to-back");   // Mevcut kart arkaya git
 
-/* Kart flip */
+  // 4. Animasyon bitince state güncelle
+  setTimeout(() => {
+    incomingCard.remove();
+    index = newIndex;
+    determineNextIndex();
+    syncProgress();
+    render();
+  }, 600); // CSS transition süresi (0.6s)
+};
+
+document.getElementById("resetProgress").onclick = () => {
+  data.forEach((_, i) => knownStatus[i] = "unknown");
+  index = 0;
+  determineNextIndex();
+  syncProgress();
+  render();
+};
+
+/* ===================== FLIP ===================== */
 card.addEventListener("click", () => {
-  if (hasMoved || isSliding) return;
+  if (isSliding) return;
   isFlipped = !isFlipped;
   card.classList.toggle("flip", isFlipped);
 });
 
-/* Swipe */
-let startX = 0, currentX = 0;
-scene.addEventListener("touchstart", e => { startX = e.touches[0].clientX; currentX = startX; hasMoved = false; }, { passive: true });
-scene.addEventListener("touchmove", e => { currentX = e.touches[0].clientX; const diff = currentX - startX; if(Math.abs(diff) > 12){ hasMoved = true; card.style.transform=`translateX(${diff}px) rotate(${diff/20}deg)`;} }, { passive:true });
-scene.addEventListener("touchend", () => {
-  if (!hasMoved || isSliding) { card.style.transform = ""; return; }
-
-  const diff = currentX - startX;
-  const isKnown = diff < 0; // ters çevirdik: sola kaydır = known, sağa kaydır = unknown
-
-  knownStatus[index] = isKnown ? "known" : "unknown";
-  saveProgress();
-
-  showFeedback(isKnown);
-
-  // Bilinmeyen bir sonraki soruya geç
-  nextUnknown(isKnown ? "slide-right" : "slide-left"); 
-  card.style.transform = "";
-  hasMoved = false;
-});
-
-document.getElementById("resetProgress").addEventListener("click", async () => {
-  // Tüm knownStatus değerlerini unknown yap
-  data.forEach((_, i) => knownStatus[i] = "unknown");
-  
-  // İndeksi başa al
-  index = 0;
-
-  // Firebase veya localStorage güncelle
-  if (currentUserUid) {
-    const docRef = doc(db, "users", currentUserUid, "progress", dataName);
-    await setDoc(docRef, { knownStatus, lastIndex: index }, { merge: true });
-  } else {
-    localStorage.setItem(`progress_${dataName}`, JSON.stringify(knownStatus));
-    localStorage.setItem(`lastIndex_${dataName}`, index);
-  }
-
-  // Kartı yeniden render et
+/* ===================== JUMP ===================== */
+jumpSelect.addEventListener("change", () => {
+  index = Number(jumpSelect.value);
+  determineNextIndex();
+  syncProgress();
   render();
 });

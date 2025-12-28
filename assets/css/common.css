@@ -24,6 +24,8 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  gap: 12px;
+
 }
 
 /* Arkaya sabit degrade katmanı */
@@ -52,13 +54,12 @@ header {
   position: relative;
   max-width: 1100px;
   margin: 0.75rem auto;
-  padding-bottom: 15px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--border);
 
   display: flex;
   align-items: center;
   justify-content: space-between; /* SOL – SAĞ AYRIM */
-  height: 64px;
 }
 
 /* SOL GRUP */
@@ -105,7 +106,6 @@ header span {
 }
 
 /* SAĞ PROFİL */
-
 .hero-user:hover {
   background: linear-gradient(90deg, #374151, #1f2937);
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -122,10 +122,6 @@ header span {
   object-fit: cover;
 }
 
-.hero-name {
-  margin-right: 8px;
-}
-
 .hero-arrow {
   font-size: 12px; /* ok küçültüldü */
   line-height: 1;
@@ -137,7 +133,7 @@ header span {
   align-items: center;
   gap: 8px;
   padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: 99px;
   background: linear-gradient(90deg, #1f2937, #111827);
   color: #fff;
   font-weight: 500;
@@ -147,8 +143,6 @@ header span {
   transition: background 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
 }
 
-/* Menü pozisyon ve görünüm güncellemesi */
-/* Menü pozisyon ve görünüm güncellemesi */
 .user-menu {
   position: absolute;
   top: 100%;       /* hero’nun tam altı */

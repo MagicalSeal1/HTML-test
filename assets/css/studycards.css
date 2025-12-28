@@ -6,37 +6,34 @@ body.studycards-page {
 /* Ortalamayı sağlayan kapsayıcı */
 .container {
   display: flex;
-  flex-direction: column;   /* dikey sıralama */
-  align-items: center;      /* yatayda ortala */
+  flex-direction: column;
+  align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;        /* sayfa yüksekliği */
-  padding-top: 20px;        /* üstten boşluk */
+  min-height: 100vh;
 }
 
-/* Status ve diğer bloklar aynı genişlikte */
+/* Ortak genişlik */
 .status,
 .scene,
 .card,
 .controls {
   width: 100%;
-  max-width: 420px;   /* hepsi aynı genişlik */
+  max-width: 420px;
   margin-bottom: 10px;
 }
 
-/* Ortalamayı sağlayan status çubuğu */
+/* Status */
 .status {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 420px;
-  margin-bottom: 16px;
+  justify-content: space-between;
   position: relative;
   gap: 8px;
+  margin-bottom: 16px;
 }
 
-/* Back ve Reset butonları */
-.status .back-btn,
+/* Back + Reset */
+.back-btn,
 .status #resetProgress {
   background: transparent;
   border: 1px solid var(--border);
@@ -47,41 +44,27 @@ body.studycards-page {
   font-size: 0.9rem;
 }
 
-.status .back-btn:hover,
+.back-btn:hover,
 .status #resetProgress:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-/* Back butonu sola yaslı */
-.status .back-btn {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.back-btn {
+  position: relative;
   text-decoration: none;
+  margin-right: 10px;
 }
 
-/* Reset butonu sağa yaslı */
-.status #resetProgress {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Ortadaki grup: label + select + counter */
+/* Orta grup */
 .status .center-group {
   display: flex;
   align-items: center;
   gap: 4px;
-  justify-content: center;
 }
 
-/* Select kutusu */
+/* Select */
 #jumpSelect {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   background: #0b1220;
   border: 1px solid var(--border);
@@ -93,7 +76,6 @@ body.studycards-page {
   min-width: 60px;
 }
 
-/* Mobil uyumluluk */
 @media (max-width: 480px) {
   #jumpSelect {
     font-size: 0.85rem;
@@ -104,66 +86,139 @@ body.studycards-page {
 .scene {
   width: 100%;
   max-width: 420px;
-  perspective: 1200px;
+  display: grid;
+  grid-template-areas: "stack";
+  perspective: 1000px;
 }
 
+/* Feedback (sabit, scale yok) */
 .swipe-feedback {
-  position: absolute;
-  top: 50%;
+  position: fixed;            /* karta değil, ekrana göre */
   left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  font-size: 5rem;
+  transform: translateX(-50%) scale(0.8);
+
+  font-size: 3.5rem;
   opacity: 0;
   pointer-events: none;
-  transition: transform 0.4s ease, opacity 0.4s ease;
-  z-index: 50;
-  color: green; /* default */
+  z-index: 999;
+
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .swipe-feedback.show {
-  transform: translate(-50%, -50%) scale(1.5);
-  opacity: 0.8;
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
 }
 
-.swipe-feedback.unknown { color: red; }
-.swipe-feedback.known   { color: green; }
+.swipe-feedback.known   { color: #16a34a; }
+.swipe-feedback.unknown { color: #dc2626; }
+
+/* ================= CARD ================= */
 
 .card {
+  grid-area: stack;
   width: 100%;
   min-height: 260px;
   position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.6s ease;
   cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease, opacity 0.4s ease;
+  z-index: 2;
+  background-color: transparent; /* Kart yüzleri zaten renkli */
 }
 
-/* ÖNEMLİ: absolute + inset:0 */
+/* Arkadaki Kart (Next Card) */
+.card.next-card {
+  z-index: 1;
+  transform: scale(0.9) translateY(15px);
+  opacity: 0;
+  pointer-events: none; /* Tıklanamaz */
+}
+
+/* Animasyon Sınıfları */
+
+/* Bilindi (Sola Git) */
+.card.swipe-left {
+  transform: translateX(-120%) rotate(-15deg);
+  opacity: 0;
+}
+
+/* Bilinmedi (Sağa Git) */
+.card.swipe-right {
+  transform: translateX(120%) rotate(15deg);
+  opacity: 0;
+}
+
+/* Flip iken Swipe (Arkası dönükken kaydırma) */
+.card.flip.swipe-left {
+  /* Önce sola kaydır, hafif eğ, sonra flip durumunu koru */
+  transform: translateX(-120%) rotate(-15deg) rotateY(180deg);
+  opacity: 0;
+}
+
+.card.flip.swipe-right {
+  transform: translateX(120%) rotate(15deg) rotateY(180deg);
+  opacity: 0;
+}
+
+/* Geri Gelme (Prev) Animasyonları */
+
+/* Önden gelen kart (Büyükten küçülerek) */
+.card.prev-enter {
+  z-index: 10; /* En üstte olsun */
+  transform: scale(1.15);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card.prev-enter.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Arkaya giden aktif kart */
+.card.push-to-back {
+  transform: scale(0.9) translateY(15px);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Arkadan Gelenin Öne Çıkması */
+.card.next-card.enter {
+  transform: scale(1) translateY(0);
+  opacity: 1;
+}
+
+/* Card yüzleri */
 .card-face {
-  display: flex;
-  flex-direction: column;  
-  justify-content: center; /* dikey */
-  align-items: center;     /* yatay */
-  text-align: center;
-  
   position: absolute;
   inset: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
   background: linear-gradient(180deg, #111827, #0b1220);
   border: 1px solid var(--border);
   border-radius: 18px;
-
   padding: 24px;
+
   backface-visibility: hidden;
 }
 
+/* Flip için zorunlu transformlar */
 .card-face.front {
   transform: rotateY(0deg);
 }
 
 .card-face.back {
-  transform: rotateY(-180deg);
+  transform: rotateY(180deg);
   color: var(--accent);
 }
 
+/* ❌ transition YOK */
 .card.flip {
   transform: rotateY(-180deg);
 }
@@ -179,10 +234,11 @@ body.studycards-page {
   margin: 0;
 }
 
+/* Controls */
 .controls {
   display: flex;
   gap: 16px;
-  justify-content: center;   /* butonları ortala */
+  justify-content: center;
 }
 
 button {
@@ -199,52 +255,101 @@ button:hover {
   color: var(--accent);
 }
 
-/* ✅ Select menüsünde işaret göstermek için ekleme */
-option.known::before {
-  content: "✓ ";
-}
-option.unknown::before {
-  content: "✗ ";
+#prevPlain {
+  font-size: 1.3rem;
+  padding: 3px 10px;
 }
 
-/* Bildim (✓) butonu */
 #markKnown {
   font-size: 1.3rem;
-  background: #0b1f14;              /* koyu yeşil arka plan */
-  border: 1px solid #16a34a;        /* canlı yeşil kenar */
-  color: #16a34a;                   /* yeşil yazı */
-}
-#markKnown:hover {
-  background: #16a34a;              /* hover'da dolu yeşil */
-  color: #0b1f14;                   /* yazı koyu */
+  background: #0b1f14;
+  border: 1px solid #16a34a;
+  color: #16a34a;
 }
 
-/* Bilmedim (✗) butonu */
+#markKnown:hover {
+  background: #16a34a;
+  color: #0b1f14;
+}
+
 #markUnknown {
   font-size: 1.3rem;
-  background: #1f0b0b;              /* koyu kırmızı arka plan */
-  border: 1px solid #dc2626;        /* canlı kırmızı kenar */
-  color: #dc2626;                   /* kırmızı yazı */
+  background: #1f0b0b;
+  border: 1px solid #dc2626;
+  color: #dc2626;
 }
+
 #markUnknown:hover {
-  background: #dc2626;              /* hover'da dolu kırmızı */
-  color: #1f0b0b;                   /* yazı koyu */
+  background: #dc2626;
+  color: #1f0b0b;
 }
 
-.slide-left {
-  animation: slideLeft 0.4s ease;
+/* ================= SHUFFLE TOGGLE ================= */
+.shuffle-label {
+  display: contents;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  margin: 10px;
 }
 
-.slide-right {
-  animation: slideRight 0.4s ease;
+.shuffle-label::before {
+  content: "Karıştır";
+  margin-right: 8px;
+  font-size: 1 rem;
+  color: var(--muted);
+  transition: color 0.3s ease;
 }
 
-@keyframes slideLeft {
-  from { transform: translateX(-40px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
+.shuffle-label:hover::before {
+  color: var(--text);
 }
 
-@keyframes slideRight {
-  from { transform: translateX(40px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
+.shuffle-label:has(input:checked)::before {
+  color: var(--accent);
+}
+
+.shuffle-label input {
+  display: none; /* Standart checkbox'ı gizle */
+}
+
+.shuffle-label .slider {
+  width: 40px;
+  height: 22px;
+  background-color: #0b1220; /* Koyu zemin */
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.shuffle-label .slider::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--muted); /* Pasif renk */
+  border-radius: 50%;
+  transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* Aktif (Checked) Durum */
+.shuffle-label input:checked + .slider {
+  border-color: var(--accent);
+  background-color: rgba(56, 189, 248, 0.15); /* Hafif mavi parıltı */
+}
+
+.shuffle-label input:checked + .slider::after {
+  transform: translateX(18px); /* Sağa kaydır */
+  background-color: var(--accent); /* Aktif renk */
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.5); /* Neon efekti */
+}
+
+/* Hover Durumu */
+.shuffle-label:hover .slider {
+  border-color: var(--text);
 }

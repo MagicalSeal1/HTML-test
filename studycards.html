@@ -29,6 +29,7 @@
 <body class="studycards-page">
   <header>
     <div class="hero-left">
+      <a href="index.html" class="back-btn" aria-label="Geri"><</a>
       <div class="hero-inner">
         <h2 id="pageTitle">Bilgi Kartları</h2>
         <span id="pageDescription">Zamanı değerlendir!</span>
@@ -42,18 +43,31 @@
 
   <div class="container">
     <div class="status">
-      <a href="index.html" class="back-btn" aria-label="Geri"><</a>
-      
+      <button id="resetProgress">Sıfırla</button>
+      <label class="shuffle-label" title="Soruları Karıştır">
+        <input type="checkbox" id="shuffle">
+        <span class="slider"></span>
+      </label>
       <div class="center-group">
         <label for="jumpSelect">Soru</label>
         <select id="jumpSelect" aria-label="Soru seç"></select>
         <span id="counter"></span>
-      </div>
-      
-      <button id="resetProgress">Sıfırla</button>
+      </div>      
+      <button id="prevPlain">↻</button>
     </div>
-    
+
     <div class="scene">
+      <div class="swipe-feedback" id="swipeFeedback"></div>
+      <!-- Arkadaki Kart (Yeni Eklenen) -->
+      <div class="card next-card" id="nextCard">
+        <div class="card-face front">
+          <h2 id="nextQuestion"></h2>
+        </div>
+        <div class="card-face back">
+          <h2 id="nextAnswer"></h2>
+        </div>
+      </div>
+      <!-- Ana Kart -->
       <div id="card" class="card">
         <div class="card-face front">
           <h2 id="question"></h2>
@@ -62,7 +76,6 @@
           <h2 id="answer"></h2>
         </div>
       </div>
-      <div class="swipe-feedback" id="swipeFeedback"></div>
     </div>
 
     <div class="controls">
