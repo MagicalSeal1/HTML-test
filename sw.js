@@ -1,21 +1,21 @@
 const CACHE_NAME = 'karsu-app-v4';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/assets/css/common.css',
-  '/assets/css/index.css',
-  '/assets/css/studycards.css',
-  '/assets/js/router.js',
-  '/assets/js/login.js',
-  '/assets/js/views/home.js',
-  '/assets/js/views/studycards.js',
-  '/assets/js/views/profile.js',
-  '/assets/icons/logo.png',
-  '/assets/icons/favicon-32.png',
-  '/assets/icons/favicon-16.png',
-  '/assets/icons/android-192.png',
-  '/assets/icons/android-512.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './assets/css/common.css',
+  './assets/css/index.css',
+  './assets/css/studycards.css',
+  './assets/js/router.js',
+  './assets/js/login.js',
+  './assets/js/views/home.js',
+  './assets/js/views/studycards.js',
+  './assets/js/views/profile.js',
+  './assets/icons/logo.png',
+  './assets/icons/favicon-32.png',
+  './assets/icons/favicon-16.png',
+  './assets/icons/android-192.png',
+  './assets/icons/android-512.png'
 ];
 
 // Kurulum: Dosyaları önbelleğe al

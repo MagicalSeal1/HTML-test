@@ -8,15 +8,15 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://apis.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.cloudfunctions.net https://identitytoolkit.googleapis.com wss://*.firebaseio.com http://127.0.0.1:* ws://127.0.0.1:* http://localhost:* ws://localhost:*; frame-src 'self' https://*.firebaseapp.com https://*.googleapis.com;">
 
   <!-- Favicon -->
-  <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
   
   <!-- iOS Ana Ekran -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
   
   <!-- Android / PWA -->
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0f172a">
   
   <!-- iOS PWA -->
@@ -24,7 +24,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- ORTAK CSS -->
-  <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
@@ -50,14 +50,15 @@
     </div>
   </nav>
 
-  <script type="module" src="/assets/js/login.js"></script>
-  <script type="module" src="/assets/js/router.js"></script>
+  <script type="module" src="assets/js/login.js"></script>
+  <script type="module" src="assets/js/router.js"></script>
   
   <!-- Service Worker Kaydı (Cache için) -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/assets/js/sw.js')
+        // SW dosyasını ana dizine taşıdığımızı varsayıyoruz
+        navigator.serviceWorker.register('sw.js')
           .then(registration => {
             console.log('SW kayıt edildi:', registration.scope);
           })
