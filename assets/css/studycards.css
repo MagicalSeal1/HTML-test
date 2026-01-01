@@ -1,12 +1,14 @@
-body.studycards-page {
-  overflow: hidden;
+/* body yerine view container'ı hedefliyoruz */
+#view-cards {
   height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 
 /* Ortalamayı sağlayan kapsayıcı */
-.container {
+#view-cards .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,21 +16,21 @@ body.studycards-page {
   flex: 1;
   width: 100%;
   overflow-y: auto;
-  padding-bottom: env(safe-area-inset-bottom);
-  gap: 10px;
+  padding-bottom: calc(env(safe-area-inset-bottom)); /* Nav bar için ekstra boşluk */
+  gap: 12px;
 }
 
 /* Ortak genişlik */
-.status,
-.scene,
-.card,
-.controls {
+#view-cards .status,
+#view-cards .scene,
+#view-cards .card,
+#view-cards .controls {
   width: 100%;
   max-width: 420px;
 }
 
 /* Status */
-.status {
+#view-cards .status {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,7 +38,7 @@ body.studycards-page {
   gap: 8px;
 }
 
-.center-group {
+#view-cards .center-group {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -45,7 +47,7 @@ body.studycards-page {
   gap: 4px;
 }
 
-.right-group {
+#view-cards .right-group {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +56,7 @@ body.studycards-page {
 }
 
 /* Back + Reset */
-.status #resetProgress {
+#view-cards .status #resetProgress {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
@@ -64,36 +66,19 @@ body.studycards-page {
   font-size: 0.9rem;
 }
 
-.status #resetProgress:hover {
+#view-cards .status #resetProgress:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-.back-btn {
-  background: transparent;
-  border: none;
-  color: var(--accent);
-  font-size: 1.8rem; /* iOS tarzı büyük geri oku */
-  padding: 0 12px 0 0;
-  cursor: pointer;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: opacity 0.2s;
-}
-
-.back-btn:active {
-  opacity: 0.5;
-}
-
 /* Orta grup */
-.status .center-group {
+#view-cards .status .center-group {
   display: flex;
   gap: 4px;
 }
 
 /* Select */
-#jumpSelect {
+#view-cards #jumpSelect {
   appearance: none;
   background: #0b1220;
   border: 1px solid var(--border);
@@ -106,23 +91,25 @@ body.studycards-page {
 }
 
 @media (max-width: 480px) {
-  #jumpSelect {
+  #view-cards #jumpSelect {
     font-size: 0.85rem;
     padding: 3px 6px;
   }
 }
 
-.scene {
+#view-cards .scene {
   width: 100%;
   max-width: 420px;
   display: grid;
   grid-template-areas: "stack";
+  place-items: center;
   perspective: 1000px;
   flex-grow: 1;
+  flex: 1;
 }
 
 /* Feedback (sabit, scale yok) */
-.swipe-feedback {
+#view-cards .swipe-feedback {
   position: fixed;            /* karta değil, ekrana göre */
   left: 50%;
   transform: translateX(-50%) scale(0.8);
@@ -135,17 +122,17 @@ body.studycards-page {
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-.swipe-feedback.show {
+#view-cards .swipe-feedback.show {
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
 
-.swipe-feedback.known   { color: #16a34a; }
-.swipe-feedback.unknown { color: #dc2626; }
+#view-cards .swipe-feedback.known   { color: #16a34a; }
+#view-cards .swipe-feedback.unknown { color: #dc2626; }
 
 /* ================= CARD ================= */
 
-.card {
+#view-cards .card {
   grid-area: stack;
   width: 100%;
   height: 100%;
@@ -159,7 +146,7 @@ body.studycards-page {
 }
 
 /* Arkadaki Kart (Next Card) */
-.card.next-card {
+#view-cards .card.next-card {
   z-index: 1;
   transform: scale(0.9) translateY(15px);
   opacity: 0;
@@ -169,25 +156,25 @@ body.studycards-page {
 /* Animasyon Sınıfları */
 
 /* Bilindi (Sola Git) */
-.card.swipe-left {
+#view-cards .card.swipe-left {
   transform: translateX(-120%) rotate(-15deg);
   opacity: 0;
 }
 
 /* Bilinmedi (Sağa Git) */
-.card.swipe-right {
+#view-cards .card.swipe-right {
   transform: translateX(120%) rotate(15deg);
   opacity: 0;
 }
 
 /* Flip iken Swipe (Arkası dönükken kaydırma) */
-.card.flip.swipe-left {
+#view-cards .card.flip.swipe-left {
   /* Önce sola kaydır, hafif eğ, sonra flip durumunu koru */
   transform: translateX(-120%) rotate(-15deg) rotateY(180deg);
   opacity: 0;
 }
 
-.card.flip.swipe-right {
+#view-cards .card.flip.swipe-right {
   transform: translateX(120%) rotate(15deg) rotateY(180deg);
   opacity: 0;
 }
@@ -195,33 +182,33 @@ body.studycards-page {
 /* Geri Gelme (Prev) Animasyonları */
 
 /* Önden gelen kart (Büyükten küçülerek) */
-.card.prev-enter {
+#view-cards .card.prev-enter {
   z-index: 10; /* En üstte olsun */
   transform: scale(1.15);
   opacity: 0;
   pointer-events: none;
 }
 
-.card.prev-enter.active {
+#view-cards .card.prev-enter.active {
   transform: scale(1);
   opacity: 1;
 }
 
 /* Arkaya giden aktif kart */
-.card.push-to-back {
+#view-cards .card.push-to-back {
   transform: scale(0.9) translateY(15px);
   opacity: 0;
   z-index: 1;
 }
 
 /* Arkadan Gelenin Öne Çıkması */
-.card.next-card.enter {
+#view-cards .card.next-card.enter {
   transform: scale(1) translateY(0);
   opacity: 1;
 }
 
 /* Card yüzleri */
-.card-face {
+#view-cards .card-face {
   position: absolute;
   inset: 0;
 
@@ -240,40 +227,40 @@ body.studycards-page {
 }
 
 /* Flip için zorunlu transformlar */
-.card-face.front {
+#view-cards .card-face.front {
   transform: rotateY(0deg);
 }
 
-.card-face.back {
+#view-cards .card-face.back {
   transform: rotateY(180deg);
   color: var(--accent);
 }
 
 /* ❌ transition YOK */
-.card.flip {
+#view-cards .card.flip {
   transform: rotateY(-180deg);
 }
 
-.card-face h2 {
+#view-cards .card-face h2 {
   margin-bottom: 12px;
   font-size: 1.15rem;
   line-height: 1.4;
 }
 
-.card-face h2,
-.card-face p {
+#view-cards .card-face h2,
+#view-cards .card-face p {
   margin: 0;
 }
 
 /* Controls */
-.controls {
+#view-cards .controls {
   display: flex;
   gap: 16px;
   justify-content: center;
   align-items: center;
 }
 
-button {
+#view-cards button {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
@@ -282,24 +269,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+#view-cards button:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-/* Navigasyon Grubu */
-.nav-controls {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
 /* Önceki ve Sonraki Butonları */
-#undoBtn,
-#toggleFavorite,
-#shareBtn {
+#view-cards #undoBtn,
+#view-cards #toggleFavorite,
+#view-cards #shareBtn {
   font-size: 1.5rem;
   padding: 0;
   width: 50px;
@@ -315,7 +293,7 @@ button:hover {
 }
 
 /* Favori Butonu Aktif (Dolu Yıldız) Hali - Xenon Efekti */
-#toggleFavorite.active-fav {
+#view-cards #toggleFavorite.active-fav {
   color: #e0ffff; /* Mavimsi Beyaz */
   border-color: #00ffff;
   text-shadow: 0 0 10px #00ffff, 0 0 20px #0099ff; /* Parlama */
@@ -323,7 +301,7 @@ button:hover {
 }
 
 /* Kart Üzerindeki Favori Göstergesi */
-.card-fav-indicator {
+#view-cards .card-fav-indicator {
   position: absolute;
   top: 15px;
   left: 50%;
@@ -335,7 +313,7 @@ button:hover {
   pointer-events: none;
 }
 
-#markKnown {
+#view-cards #markKnown {
   font-size: 1.6rem;
   width: 54px;
   height: 54px;
@@ -351,13 +329,13 @@ button:hover {
   transition: all 0.2s ease;
 }
 
-#markKnown:active {
+#view-cards #markKnown:active {
   transform: scale(0.95);
   background: #16a34a;
   color: #0b1f14;
 }
 
-#markUnknown {
+#view-cards #markUnknown {
   font-size: 1.6rem;
   width: 54px;
   height: 54px;
@@ -373,14 +351,14 @@ button:hover {
   transition: all 0.2s ease;
 }
 
-#markUnknown:active {
+#view-cards #markUnknown:active {
   transform: scale(0.95);
   background: #dc2626;
   color: #1f0b0b;
 }
 
 /* ================= SHUFFLE TOGGLE ================= */
-.shuffle-label {
+#view-cards .shuffle-label {
   display: contents;
   display: inline-flex;
   align-items: center;
@@ -389,7 +367,7 @@ button:hover {
   -webkit-tap-highlight-color: transparent;
 }
 
-.shuffle-label::before {
+#view-cards .shuffle-label::before {
   content: "Karıştır";
   margin-right: 8px;
   font-size: 1 rem;
@@ -397,19 +375,19 @@ button:hover {
   transition: color 0.3s ease;
 }
 
-.shuffle-label:hover::before {
+#view-cards .shuffle-label:hover::before {
   color: var(--text);
 }
 
-.shuffle-label:has(input:checked)::before {
+#view-cards .shuffle-label:has(input:checked)::before {
   color: var(--accent);
 }
 
-.shuffle-label input {
+#view-cards .shuffle-label input {
   display: none; /* Standart checkbox'ı gizle */
 }
 
-.shuffle-label .slider {
+#view-cards .shuffle-label .slider {
   width: 40px;
   height: 22px;
   background-color: #0b1220; /* Koyu zemin */
@@ -419,7 +397,7 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-.shuffle-label .slider::after {
+#view-cards .shuffle-label .slider::after {
   content: "";
   position: absolute;
   top: 2px;
@@ -432,24 +410,24 @@ button:hover {
 }
 
 /* Aktif (Checked) Durum */
-.shuffle-label input:checked + .slider {
+#view-cards .shuffle-label input:checked + .slider {
   border-color: var(--accent);
   background-color: rgba(56, 189, 248, 0.15); /* Hafif mavi parıltı */
 }
 
-.shuffle-label input:checked + .slider::after {
+#view-cards .shuffle-label input:checked + .slider::after {
   transform: translateX(18px); /* Sağa kaydır */
   background-color: var(--accent); /* Aktif renk */
   box-shadow: 0 0 8px rgba(56, 189, 248, 0.5); /* Neon efekti */
 }
 
 /* Hover Durumu */
-.shuffle-label:hover .slider {
+#view-cards .shuffle-label:hover .slider {
   border-color: var(--text);
 }
 
 /* ================= FAVORITES TOGGLE ================= */
-.favorites-label {
+#view-cards .favorites-label {
   display: contents;
   display: inline-flex;
   align-items: center;
@@ -458,7 +436,7 @@ button:hover {
   -webkit-tap-highlight-color: transparent;
 }
 
-.favorites-label::before {
+#view-cards .favorites-label::before {
   content: "Favoriler";
   margin-right: 8px;
   font-size: 1rem;
@@ -466,19 +444,19 @@ button:hover {
   transition: color 0.3s ease;
 }
 
-.favorites-label:hover::before {
+#view-cards .favorites-label:hover::before {
   color: var(--text);
 }
 
-.favorites-label:has(input:checked)::before {
+#view-cards .favorites-label:has(input:checked)::before {
   color: #e0ffff; /* Xenon Mavisi */
 }
 
-.favorites-label input {
+#view-cards .favorites-label input {
   display: none;
 }
 
-.favorites-label .slider {
+#view-cards .favorites-label .slider {
   width: 40px;
   height: 22px;
   background-color: #0b1220;
@@ -488,7 +466,7 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-.favorites-label .slider::after {
+#view-cards .favorites-label .slider::after {
   content: "";
   position: absolute;
   top: 2px;
@@ -501,17 +479,17 @@ button:hover {
 }
 
 /* Aktif Durum */
-.favorites-label input:checked + .slider {
+#view-cards .favorites-label input:checked + .slider {
   border-color: #00ffff;
   background-color: rgba(0, 255, 255, 0.15);
 }
 
-.favorites-label input:checked + .slider::after {
+#view-cards .favorites-label input:checked + .slider::after {
   transform: translateX(18px);
   background-color: #00ffff;
   box-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
 }
 
-.favorites-label:hover .slider {
+#view-cards .favorites-label:hover .slider {
   border-color: var(--text);
 }

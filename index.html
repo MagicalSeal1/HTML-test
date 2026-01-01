@@ -4,16 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
+  <!-- CSP: Firebase ve Localhost bağlantılarına izin ver -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://apis.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.cloudfunctions.net https://identitytoolkit.googleapis.com wss://*.firebaseio.com http://127.0.0.1:* ws://127.0.0.1:* http://localhost:* ws://localhost:*; frame-src 'self' https://*.firebaseapp.com https://*.googleapis.com;">
+
   <!-- Favicon -->
-  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+  <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png">
   
   <!-- iOS Ana Ekran -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
   
   <!-- Android / PWA -->
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#0f172a">
   
   <!-- iOS PWA -->
@@ -21,173 +24,48 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- ORTAK CSS -->
-  <link rel="stylesheet" href="assets/css/common.css">
-  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
 </head>
 
 <body>
-  <header>
-    <div class="hero-left">
-      <div class="hero-logo"> 
-        <img src="assets/icons/logo.png" alt="Logo"> 
-      </div>
-      <div class="hero-inner">
-        <h1>KARSU</h1>
-        <p>Çalışma Kartları & Referans Kaynaklar</p>
-      </div>
-    </div>
-    <div class="hero-user" id="heroUser">
-      <span class="hero-name">Misafir</span>
-      <span class="hero-arrow">▼</span>
-    </div>
-    <div class="user-menu" id="userMenu">
-      <button id="googleLogin">Google ile giriş</button>
-      <button id="changeUser" style="display:none">Kullanıcı Değiştir</button>
-    </div>
 
-  </header>
-
-  <main class="grid">
-    
-    <div class="main-section-title">
-      <h2>Çalışma Kartları</h2>
-    </div>
-      
-    <div class="section-title">
-      Genel Kültür
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card" href="studycards.html?data=gnlkltr1"><h2>Siyasi Tarih</h2><p>13-14 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=gnlkltr2"><h2>Başlangıçtan Günümüze T.C. Tarihi</h2><p>9 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=gnlkltr3"><h2>Uluslararası Hukuk Temel Ders Kitabı</h2><p>6-8 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=gnlkltr4"><h2>İdare Hukukuna Giriş</h2><p>5-6 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=gnlkltr5"><h2>T.C. Anayasası</h2><p>4-5 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=gnlkltr6"><h2>Basında yer alan askeri, politik, ekonomik güncel olaylar</h2><p>4-5 Soru</p></a>
-      </div>
-    </div>
-    
-    <div class="section-title">
-      Askeri Kültür (Müşterek)
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card" href="studycards.html?data=musterek1"><h2>MDK 3-15(MT 101-5) Karargâhlarda Teşkilat ve Harekât Planlama Usulleri Doktrini</h2><p>8 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=musterek2"><h2>Resmi Yazışma Usulleri ve Çalışma Esasları Yönergesi</h2><p>3-4 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=musterek3"><h2>Meslek Etiği Yönergesi</h2><p>2-3 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=musterek4"><h2>Bilgi ve MEBS Güvenliği Yönergesi</h2><p>2-3 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=musterek5"><h2>211 Sayılı TSK İç Hizmet Kanunu ve Yönetmeliği </h2><p>3-5 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=musterek6"><h2>6413 Sayılı TSK Disiplin Kanunu</h2><p>2-3 Soru</p></a>
-      </div>
-    </div>
-      
-    <div class="section-title">
-      Askeri Kültür (Dzkk)
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card" href="studycards.html?data=dzkk1"><h2>ATP-1(E) Müttefik Deniz Tatik Talimatları ve Usulleri</h2><p>15-20 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=dzkk2"><h2>Dzkk Operatif Seviye Harekât Planlama Talimnamesi</h2><p>?? Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=dzkk3"><h2>Lojistik Planlama Faktörleri Genelegesi</h2><p>4 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=dzkk4"><h2>Ege Sorunları</h2><p>4 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=dzkk5"><h2>DKKS 151-1 (D) Deniz Harekât Konsepti</h2><p>3 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=dzkk6"><h2>Deniz Hukuku El Kitabı</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="studycards.html?data=dzkk7"><h2>Yapay Zeka Konsepti</h2><p>2-3 Soru</p></a>
-        <a class="menu-card disabled" href="studycards.html?data=dzkk8"><h2>Denizde Siber Güvenlik Bilgi Kitabı</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="studycards.html?data=dzkk9"><h2>Deniz Aşırı Harekât Konsepti</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="studycards.html?data=dzkk10"><h2>İnsansız Hava Aracı Sistemleri Konsepti</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="studycards.html?data=dzkk11"><h2>Stratejiye Giriş ve Deniz Stratejisi</h2><p>3 Soru</p></a>
-        <a class="menu-card" href="studycards.html?data=dzkk12"><h2>ATP-18 Müttefik Denizaltı Harekâtı Talimnamesi</h2><p>3 Soru</p></a>
-      </div>
-    </div>
-      
-    <div class="section-title">
-      Genel
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card disabled" href="studycards.html?data=gnlkltr6"><h2>Karsu Genel</h2><p>Tüm konular dahil</p></a>
-      </div>
-    </div>
-
-    <div class="main-section-title">
-      <h2>Kaynaklar</h2>
-    </div>
-      
-    <div class="section-title">
-      Genel Kültür
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card disabled" href="assets/resources/"><h2>Siyasi Tarih</h2><p>13-14 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Başlangıçtan Günümüze T.C. Tarihi</h2><p>9 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Uluslararası Hukuk Temel Ders Kitabı</h2><p>6-8 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>İdare Hukukuna Giriş</h2><p>5-6 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>T.C. Anayasası</h2><p>4-5 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Basında yer alan askeri, politik, ekonomik güncel olaylar</h2><p>4-5 Soru</p></a>
-      </div>
-    </div>
-    
-    <div class="section-title">
-      Askeri Kültür (Müşterek)
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card disabled" href="assets/resources/"><h2>MDK 3-15(MT 101-5) Karargâhlarda Teşkilat ve Harekât Planlama Usulleri Doktrini</h2><p>8 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Resmi Yazışma Usulleri ve Çalışma Esasları Yönergesi</h2><p>3-4 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Meslek Etiği Yönergesi</h2><p>2-3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Bilgi ve MEBS Güvenliği Yönergesi</h2><p>2-3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>211 Sayılı TSK İç Hizmet Kanunu ve Yönetmeliği </h2><p>3-5 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>6413 Sayılı TSK Disiplin Kanunu</h2><p>2-3 Soru</p></a>
-      </div>
-    </div>
-      
-    <div class="section-title">
-      Askeri Kültür (Dzkk)
-      <span class="arrow">▾</span>
-    </div>
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card" href="assets/resources/ATP-1_Özet_66_Sf.docx"><h2>ATP-1(E) Müttefik Deniz Tatik Talimatları ve Usulleri</h2><p>15-20 Soru</p></a>
-        <a class="menu-card" href="assets/resources/Operatif_Seviye_Harekât_Planlama_Talimnamesi.docx"><h2>Dzkk Operatif Seviye Harekât Planlama Talimnamesi</h2><p>?? Soru</p></a>
-        <a class="menu-card" href="assets/resources/Lojistik_Planlama_Faktörleri_Yönergesi.doc"><h2>Lojistik Planlama Faktörleri Genelgesi</h2><p>4 Soru</p></a>
-        <a class="menu-card" href="assets/resources/Ege_Sorunları.docx"><h2>Ege Sorunları</h2><p>4 Soru</p></a>
-        <a class="menu-card" href="assets/resources/Deniz_Harekât_Konsepti_Uygulamalı_Taslak.docx"><h2>DKKS 151-1 (D) Deniz Harekât Konsepti</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Deniz Hukuku El Kitabı</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Yapay Zeka Konsepti</h2><p>2-3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Denizde Siber Güvenlik Bilgi Kitabı</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Deniz Aşırı Harekât Konsepti</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>İnsansız Hava Aracı Sistemleri Konsepti</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>Stratejiye Giriş ve Deniz Stratejisi</h2><p>3 Soru</p></a>
-        <a class="menu-card disabled" href="assets/resources/"><h2>ATP-18 Müttefik Denizaltı Harekâtı Talimnamesi</h2><p>3 Soru</p></a>
-      </div>
-    </div>
-      
-    <div class="section-title">
-      Genel
-      <span class="arrow">▾</span>
-    </div>
-    
-    <div class="dropdown-content">
-      <div class="dropdown-inner">
-        <a class="menu-card disabled" href="assets/resources/"><h2>Karsu Genel</h2><p>Tüm konular dahil</p></a>
-      </div>
-    </div>
-    
-  </main>
-
-  <footer>
-    © KARSU
-  </footer>
+  <!-- Dinamik İçerik Alanı -->
+  <main id="app"></main>
   
-  <script type="module" src="assets/js/login.js"></script>
-  <script type="module" src="assets/js/index.js"></script>
+  <!-- Alt Navigasyon Barı -->
+  <nav class="bottom-nav">
+    <div class="nav-content-wrapper">
+      <a href="#/" class="nav-item" id="nav-index">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        <span>Ana Sayfa</span>
+      </a>
+      <a href="#/studycards" class="nav-item" id="nav-cards">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        <span>Kartlar</span>
+      </a>
+      <a href="#/profile" class="nav-item" id="nav-profile">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <span>Profil</span>
+      </a>
+    </div>
+  </nav>
+
+  <script type="module" src="/assets/js/login.js"></script>
+  <script type="module" src="/assets/js/router.js"></script>
   
+  <!-- Service Worker Kaydı (Cache için) -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW kayıt edildi:', registration.scope);
+          })
+          .catch(err => {
+            console.log('SW kayıt hatası:', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>

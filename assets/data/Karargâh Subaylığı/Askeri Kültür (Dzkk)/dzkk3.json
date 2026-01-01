@@ -1,0 +1,355 @@
+{
+  "title": "Lojistik Planlama ve Faktörler Genelgesi",
+  "description": "88 Soru",
+  "cards": [
+    {
+      "soru": "Yedek Parça Stok planlaması hangi dökümanlar dikkate alınarak yapılır?",
+      "cevap": "• Birliklerin Gemi Kadrosu (Gemi Konfg. Ve Kadro Dök.) GKKD COSAL\n• Kıyı Birliklerinin Kadrosu (Kıyı Birl. Konfg. Ve Kadro Dök.) BKKD COSBAL\n• Sahil Yedeği Kadrosu (Saha Yedekleri Kadro Listesi) SYKL COSMAL"
+    },
+    {
+      "soru": "3. Sınıf İkmal Maddelerinde; ISITMA-YEMEK PİŞİRME-TEMİZLİK İŞLERİNDE KULLANILAN TEÇHİZAT kullanılan tüketim birimi nedir?",
+      "cevap": "Litre / Saat"
+    },
+    {
+      "soru": "Güçlendirilmiş yemek bedeli nedir?",
+      "cevap": "Günlük yemek bedelinin %25 arttırılmasıyla elde edilen para miktarı"
+    },
+    {
+      "soru": "Resmi-Dini bayramlarının her günü ve yılbaşında ara öğün kapsamındaki yiyecekleri verebilmek için günlük yemek bedelinin ne kadar fazlasına kadar verilebilir?",
+      "cevap": "%50 fazlasına kadar"
+    },
+    {
+      "soru": "Güçlendirilmiş yemek bedeli ile hangi birlikler beslenir?",
+      "cevap": "• Savaş, Askeri harekatlardaki\n• DAFYAR Pers.\n• İç güvenlik hrk. Terör\n• Yoğun beden hareketi / Spor takımları\n• 1 günden fazla seyir yapan gemi"
+    },
+    {
+      "soru": "Lojistik Destek Gemilerinde raf ömrü asgari harekat süresinin kaç katı olan malzemeler stoklanır?",
+      "cevap": "2 katı gün kadar"
+    },
+    {
+      "soru": "Savaş şartları veya olağanüstü durumlarda kullanılacak kıta yükü normal erzak ve kıta yükü demirbaş erzaktan oluşan?",
+      "cevap": "Kıta Yükü Erzak"
+    },
+    {
+      "soru": "DzKK da Kıta Yükü Demirbaş Erzak yalnızca hangi birliklerde bulundurulur?",
+      "cevap": "• Deniz Piyade Birlikleri\n• Hava Savunma Birlikleri\n• Sahil Gözetleme Birlikleri\n• SAT unsurları\n• Kurtarma ve Sualtı Savunma unurları (Gemiler HARİÇ!)"
+    },
+    {
+      "soru": "Barış zamanında 1 personel için ayrılan günlük kişisel kullanım suyu miktarı ne kadardır?",
+      "cevap": "• 100 Lt. \n• İçme Suyu 5 Lt.\n• Yemek Pişirme 20 Lt.\n• Şahsi temizlik ve çamaşır 75 Lt."
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "Denizaltıda 1 personel için ayrılan günlük kişisel kullanım suyu miktarı ne kadardır?",
+      "cevap": "2,25 Lt."
+    },
+    {
+      "soru": "Malzeme sınıflandırması kapsamında 4.Sınıf İkmal Maddeleri nelerdir?",
+      "cevap": "İstihkam ve İnşaat Malzemeleri"
+    },
+    {
+      "soru": "Subay Astsubay ve Uzman personelin hizmet ve eğitim giyecekleri ne kadar stoklanır?",
+      "cevap": "STOKLANMAZ"
+    },
+    {
+      "soru": "KBRN malzemeleri nerede stoklanır?",
+      "cevap": "Deniz İkmal Merkezi Komutanlığınca"
+    },
+    {
+      "soru": "Yedek malzemelerin önceliklendirmiş gruplar halinde yönetimi kim tarafından sağlanır?",
+      "cevap": "MSB TGM Envanter Kontrol Merkezi Müdürlüğünce"
+    },
+    {
+      "soru": "Acil Onarım Sandık içerikleri nasıl oluşturulur?",
+      "cevap": "• Yüzer birliklerin teklifi,\n• Filo K.lığının ve MSB TGM EKM uygun görüşüne müteakip\n• Ana Ast K.lığın onayı ile"
+    },
+    {
+      "soru": "3. Sınıf İkmal Maddelerinde; YÜZER BİRLİKLERDE kullanılan tüketim birimi nedir?",
+      "cevap": "Kg / Saat"
+    },
+    {
+      "soru": "3. Sınıf İkmal Maddelerinde; UÇAK / HELİKOPTERLERDE kullanılan tüketim birimi nedir?",
+      "cevap": "Kg / Saat"
+    },
+    {
+      "soru": "3. Sınıf İkmal Maddelerinde; KARA ARAÇLARINDA kullanılan tüketim birimi nedir?",
+      "cevap": "Litre / KM"
+    },
+    {
+      "soru": "3. Sınıf İkmal Maddelerinde; İŞ MAKİNELERİNDE kullanılan tüketim birimi nedir?",
+      "cevap": "Litre / Saat"
+    },
+    {
+      "soru": "3. Sınıf İkmal Maddelerinde; ELEKTROJEN GRUPLARINDA kullanılan tüketim birimi nedir?",
+      "cevap": "Litre / Saat"
+    },
+    {
+      "soru": "Savaş zamanında 1 personel için ayrılan günlük kişisel kullanım suyu miktarı ne kadardır?",
+      "cevap": "• 50 Lt. \n• İçme Suyu 5 Lt.\n• Yemek Pişirme 20 Lt.\n• Şahsi temizlik ve çamaşır 25 Lt."
+    },
+    {
+      "soru": "Harekat alanına lojistik desteğin sağlanması kaç seviyede sınıflandırılır?",
+      "cevap": "1. Seviye Lojistik: Birlik bünyesindeki\n2. Seyiye Lojistik:  Görev Grubu bünyesindeki (Taktik Seviye)\n3. Seyviye Lojistik: Görev Kuvveti bünyesindeki (Operatif Seviye)\n4. Seyviye Lojistik: Stratejik seviye Lojistik."
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "Malzemelerin depolanmasında, ambar binalarının ve malzemenin depolanacağı kısımların inşa ve düzenlenmesinde hangi kriterler göz önünde bulundurulur?",
+      "cevap": "• Malzemenin miktarı – fiziksel özellikleri\n• Sarfi süratli malzemeye kolay erişilme düzenlemesi\n• Personelin kolaylıkla görev yapacağı mahal, servis, yangın geçitleri planlaması"
+    },
+    {
+      "soru": "Deniz Lojistik Sistemi faaliyetlerini kaç düzeyde yürütür?",
+      "cevap": "1. Yönetim Düzeyi\n2. Destekleyen birlikler düzeyi (İkmal/onarım/ordonat teşkilleri)\n3. Desteklenen birlikler düzeyi (yüzer/uçar ve kıyı birlikleri)"
+    },
+    {
+      "soru": "Malzeme sınıflandırması kapsamında 5.Sınıf İkmal Maddeleri nelerdir?",
+      "cevap": "Mühimmat - Patlayıcı Maddeler - Tahrip Maddeleri - Kimyevi harp maddeleri"
+    },
+    {
+      "soru": "Muhtemel harp durumunda; SKKHM'de ülkenin sahip olduğu sivil, kamu/ticari kaynakların icra edilen hrk.ı desteklemek için koordinasyonunu ve kullanılmasını sağlamak üzere teşkil edilen kuruluş nedir?",
+      "cevap": "Müşterek Lojistik Merkezi (MLM)"
+    },
+    {
+      "soru": "Barışta DzKK karargahında teşkil edilen DKHM emir verildiğinde nereye intikal ettirilir?",
+      "cevap": "Barbaros Harp Karargahı"
+    },
+    {
+      "soru": "DKHM Lojistik bölümü hangi unsurlardan oluşur?",
+      "cevap": "• Lojistik Subayı\n• Ordonat Subayı\n• Teknik Hasar Kıymetlendirme Subayı\n• Teknik Onarım Destek Subayı"
+    },
+    {
+      "soru": "DLYBS hangi unsurların koordineli olarak Lojistik Destek faaliyetlerini yürütür?",
+      "cevap": "• DzKK Lojistik Bşk.lığı\n• DzKK Teknik Bşk.lığı\n• MSB TGM"
+    },
+    {
+      "soru": "DzKK Karar Destek Ağının çekirdeğini ne oluşturur?",
+      "cevap": "Organizasyonle Stratejik Analiz (ORSA)"
+    },
+    {
+      "soru": "ORSA sisteminde lojistik analizler yapmak ve karar vericiye destek sağlamak için geliştirilen modül hangisidir?",
+      "cevap": "Lojistik Karar Destek Modülü (LKD)"
+    },
+    {
+      "soru": "Birliklerin yaşam çevrim maliyetlerinin hesaplanabilmesi ve bu kapsamda karar desteği sağlanabilmesi maksadıyla hangi modül gelişitirilmeye devam edilmektedir?",
+      "cevap": "Yaşam Çevrim Maliyet (YÇM)"
+    },
+    {
+      "soru": "Malzeme sınıflandırması kapsamında 1.Sınıf İkmal Maddeleri nelerdir?",
+      "cevap": "Yiyecek - İçecek - Hayvan Yemleri"
+    },
+    {
+      "soru": "Malzeme sınıflandırması kapsamında 2.Sınıf İkmal Maddeleri nelerdir?",
+      "cevap": "Silah, Araç gereç, teçhizat, el aletleri, takım ve avadanlıklar, sağlık araç gereçleri, Yedek parça ve bakım malzemeleri ve Giyim-Kuşam"
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "Lojistik seferberlik hazırlıkları kapsamında; Seferde DzKK emrine girecek kamu-özel sektöre ait gemi listesi ne kadar sürede bir güncellenir?",
+      "cevap": "Yılda 1"
+    },
+    {
+      "soru": "DzKK istihkam ve inşaat faaliyetleri kimin koordinesinde ve kontrolünde yürütülür?",
+      "cevap": "DENKOMLOJ (İstihkam Daire Başkanlığı)"
+    },
+    {
+      "soru": "İstihkam ve İnşaat faaliyetleri kimler tarafından yerine getirilir?",
+      "cevap": "• 1. Ve 2. Dz.İstihkam Tb.K.lığı\n• Bak.Onr.ve İsth. K.lıkları\n• Mersin-Erdek-Ereğli-Bartın Onr.Des.K.lıkları\n• Bina Bak.Onr.A.likleri\n• Dz.Hv. K.lığı Tes. Ve Medan Bak.Onr. İşl.A.liği"
+    },
+    {
+      "soru": "İnşaat ve büyük onarım faaliyetleri nasıl yürütülür?",
+      "cevap": "SHP Altyapı planının 3 yıllık uygulama bölümünü içeren İNP doğrultusunda MSB kanalıyla"
+    },
+    {
+      "soru": "Kara Birliklerinin onarım faaliyetleri nasıl yürütülür?",
+      "cevap": "DzKK Kıyı Birlikleri Onarım İnşaat ve Emlak Direktifi doğrultusunda"
+    },
+    {
+      "soru": "Hayati önem taşıyan tesisler ve ulaştırma, Savaş Hasarım Onarım Planlaması açısından kaç gruba ayrılır?",
+      "cevap": "• A Grubu tesisler:  SK İhtiyacı ve Hrk.ı ile yakın ilgili askeri tesisler + GENKURca tespit edilen sivil tesis ve ulaştırma\n• B Grubu tesisler: SK yı destekleyenler haricinde kalan Bakanlıklar tarafından belirlenen tesis-ulaştırma"
+    },
+    {
+      "soru": "A Grubu tesis seçimini kim yapar?",
+      "cevap": "GENKURLOJ koordinesinde; DENKOMHRK, DENKOMLOJ ve DENKOMTEK katılımıyla"
+    },
+    {
+      "soru": "Yapılacak Savaş Hasar Onarım Planlamasında A Grubu tesislerin ne kadarı hasar gördüğü farz edilir?",
+      "cevap": "%30-%40"
+    },
+    {
+      "soru": "Gemi ana batarya top mühimmatları için stok planlama yöntemi kapsamında; ana görev fonsiyonu Suüstü Harbi (SUH) olan Fırkateynlerin M1501 nu.lı yetenek hedefleri paralelinde hangi temaslarla karşılacağı varsayılmıştır?",
+      "cevap": "• 3 Suüstü temasıyla\n• 7 Denizaltı temasıyla"
+    },
+    {
+      "soru": "İstihkamın faaliyet alanı hangi menejman sahalarını kapsar?",
+      "cevap": "• Kara birlikleri bina ve tesis onarımı\n• Kuvvete özgü yeni yapım ve büyük onarımlar\n• Kara araçları ve iş makinaları tedarikleri ve onarımları\n• Rıhtım, iskele, pist ve yol onarımları\n• Fiziki Çevre Emniyeti tesisi"
+    },
+    {
+      "soru": "Lojistik seferberlik kaç başlığa ayrılır?",
+      "cevap": "• Mal ve Hizmet Seferberliği\n• Araç Seferberliği\n• Sanayi Seferberliği"
+    },
+    {
+      "soru": "Yapılacak Savaş Hasar Onarım Planlamasında B Grubu tesislerin ne kadarı hasar gördüğü farz edilir?",
+      "cevap": "%20"
+    },
+    {
+      "soru": "Bir birliğin personeli ve araçları üzerinde taşınan mühimmat miktarına ne denir?",
+      "cevap": "Kıta Yükü Mühimmat"
+    },
+    {
+      "soru": "Birliğin sefer kadrosuna göre bulundurulması gereken savaş-olağanüstü durumlarda kullanılacak, cins ve miktarları belirlenmiş en az 2 günlük dayanıklı hazır gıdalara ne ad verilir?",
+      "cevap": "Kıta Yükü Demirbaş Erzak"
+    },
+    {
+      "soru": "Savaş şartları veya olağanüstü durumlarda kullanılacak kıta yükü normal erzak ve kıta yükü demirbaş erzaka ne ad verilir?",
+      "cevap": "Kıta Yükü Erzak"
+    },
+    {
+      "soru": "Savaş şartlarında beslenme desteği verebilmek için birliğin sefer kadrosuna bağlı olarak bulundurulacak depolamaya elverişli gıda maddelerine ne ad verilir?",
+      "cevap": "Kıta Yükü Normal Erzak"
+    },
+    {
+      "soru": "",
+      "cevap": ""
+    },
+    {
+      "soru": "Gemi ana batarya top mühimmatları için stok planlama yöntemi kapsamında; ana görev fonsiyonu Suüstü Harbi (SUH) olan gemiler hangi kabiliyetlere sahip olmalıdır?",
+      "cevap": "• 3 Suüstü Angajmanı (ASUW)\n• 14 Sualtı Angajmanı (ASW)\n• 8 Nokta Savunma Angajmanı (AAW/PDMS)"
+    },
+    {
+      "soru": "Karaaraçları ve İş makineleri için Yağlama Yağı Stoku, hesaplanan yakıt ihtiyacının %kaçıdır?",
+      "cevap": "% 4'ü kadardır."
+    },
+    {
+      "soru": "Malzeme sınıflandırması kapsamında 3.Sınıf İkmal Maddeleri nelerdir?",
+      "cevap": "Yakıt-Akaryakıt-Makine ve Cihaz yağları"
+    },
+    {
+      "soru": "Müddet tayini kapsamında hasara uğrayan tesislerin onarım süreleri max kaç gündür?",
+      "cevap": "20 günü geçmez."
+    },
+    {
+      "soru": "Pilotlar ve operatörler için en fazla uçuş süresi nedir?",
+      "cevap": "24 Saat için toplam 9 Saat"
+    },
+    {
+      "soru": "Yüzer platformların yakıt planlaması için hangi faktörler dikkate alınır?",
+      "cevap": "• Gemi Tipi - Planlama Adedi\n• Yakıt Kapasitesi \n• Seyirde / Limanda yakıt sarfiyatı\n• Limandaki Gün Sayısı\n• Seyirdeki Gün Sayısı"
+    },
+    {
+      "soru": "Seferberlik Sistemi kaç başlığa ayrılır?",
+      "cevap": "• Lojistik Seferberlik\n• Personel Seferberliği"
+    },
+    {
+      "soru": "Seferberlik-Savaşta DzKK harekat kontrolüne girecek SGK yüzer unsurlarının yakıt ihtiyaçları bildirilmezse tahmini yakıt ihtiyacı kaç hesaplanır?",
+      "cevap": "DzKK toplam akaryakıt ihtiyacının %10'u"
+    },
+    {
+      "soru": "Seferde harekat alanında sağlık hizmeti desteği kaç basamak halinde kimler tarafından yapılır?",
+      "cevap": "• ROL-1: Tk.-Bl.-Tb. Yaralı Yuvası / Bl. İlk Yardım Yeri / Tb. Sıhhi Yard.İst. / Tug. Ayırma İst.\n• ROL-2: Modüler Sağlık Üniteleri / Yüzer Unsurlar\n• ROL-3: Sağlık Bk. Hastaneleri ve Girne Asker Hast.\n• ROL-4: Üniversite Hast. Ve Eğt.Arş.Hast."
+    },
+    {
+      "soru": "Mühimmat planlamasında Gayret Seviyesi Yaklaşımı nedir?",
+      "cevap": "Tehdidin yapısından ziyade; Dost platformların muhasamat süresince sarf edecekleri mühimmat sayısının tahmini"
+    },
+    {
+      "soru": "Mühimmat Stok Planlaması metodolojisinde bulunan; \"Tehdide Yönelik Yaklaşımın\" temel hareket noktası nedir?",
+      "cevap": "Mühimmatın bir ana hedefin (platform) imhasına yönelik olarak harcanacağıdır."
+    },
+    {
+      "soru": "Mühimmat Stok Planlaması metodolojisinde bulunan; \"Tehdide Yönelik Olmayan Yaklaşımın\" (Gayret Seviyesi Yaklaşım)   nedir?",
+      "cevap": "• Önceden belirlenen bir hedef listesine dayanmaz\n• Avantajı: Basitliği ve tarihi veriye dayanması\n• Mühimmat her fırsatta harcanır.\n• Mühimmat hedef vuruluncaya kadar değil Dost unsur saf dışı kalınca harcama biter."
+    },
+    {
+      "soru": "Bir personelin, silahın, aracın veya platformun 1 günde sarf edeceği ikmal maddesi miktarının harekatın temposuna ve çevresel faktörlerin durumuna bağlı olarak artmış veya azalmış haline ne denir?",
+      "cevap": "Muharebe günü stoku"
+    },
+    {
+      "soru": "Değerli mühimmat stok planlama yöntemi ne ile yapılmaktadır?",
+      "cevap": "Tehdide Yönelik Stok Planlama Modeli (TSPM)"
+    },
+    {
+      "soru": "Tehdit Av Bombardıman rolündeki uçakların sorti adetleri nasıl planlanır?",
+      "cevap": "• İlk 7 gün; her gün 3 adet\n• Sonraki 23 gün; her gün 2 adet sorti"
+    },
+    {
+      "soru": "Stinger G/M'nin menzil ve etkili irtifası nedir?",
+      "cevap": "6 km mesafe, 3 km yükseklik"
+    },
+    {
+      "soru": "Amfibi Deniz Piyade Tugay K.lığının Sefer Stoğu mühimmatların bakımı kim tarafından yapılır?",
+      "cevap": "Kuvvet Komutanlıklarınca"
+    },
+    {
+      "soru": "Barış zamanında seferde kullanılmak üzere ilaç ve tıbbi malzeme stoğu ne kadar yapılır?",
+      "cevap": "YAPILMAZ"
+    },
+    {
+      "soru": "Tehdide yönelik Amfibi Görev Grup K.lığı kıta yükü mühimmat hesaplama yöntemine göre; Tanklar ve Zırhlı Personel taşıyıcıları mevcudun ne kadar fazlasında takviye edilir",
+      "cevap": "• Tanklar %50’si kadar\n• ZPT’ler % 20’i kadar"
+    },
+    {
+      "soru": "Amfibi Deniz Piyade Tugay K.lığı Kıta Yükü mühimmatı hariç, sefer stoku mühimmat ihtiyaçları kim tarafından karşılanır?",
+      "cevap": "Kara Kuvvetleri K.lığı"
+    },
+    {
+      "soru": "Demirli mayınlar nasıl ateşlenir?",
+      "cevap": "Hedef geminin mayın zarfına temas etmesi veya infulens etkisi ile"
+    },
+    {
+      "soru": "Stinter G/M'ler için her bir tetik tertibatına kaç adet G/M hesaplanır?",
+      "cevap": "Her tetik tertibatına 3 adet, Her KMS için 6 adet"
+    },
+    {
+      "soru": "Dip mayınları nasıl ateşlenir?",
+      "cevap": "Hedef gemiden aldıkları manyetik, akustik ve basınç işarları ile"
+    },
+    {
+      "soru": "Negatif sephiyeleri ve ağırlıkları sayesinde deniz tabanı üzerinde/deniz tabanına gömülü bulunan mayın hangisidir?",
+      "cevap": "Dip Mayını"
+    },
+    {
+      "soru": "Stinger G/M'lerin yıllık envanter kontrolleri hangi aralıklarla yapılır?",
+      "cevap": "Aylık ve 3 Aylık Fiziki sayım ve Kontrol"
+    },
+    {
+      "soru": "Pozitif sephiyeleri nedeniyle sahip oldukları demirleme teli vasıtasıyla deniz içerisinde istenilen derinlikte bulunan mayınlar hangisidir?",
+      "cevap": "Demirli Mayınlar"
+    }
+  ]
+}
+

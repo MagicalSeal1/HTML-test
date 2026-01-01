@@ -16,16 +16,15 @@ html, body {
 
 body {
   color: var(--text);
-  min-height: 100vh;
-  padding: 16px;
+  max-width: 1100px;
+  margin: 0 auto; /* 12px'lik dikey margin kaldırıldı, sadece yatay ortalama kaldı */
+  height: 100vh; /* Sabit yükseklik */
+  padding: 0;    /* Padding'i view içine taşıyacağız */
   background: transparent;
-
   touch-action: manipulation;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  gap: 12px;
-
+  overflow: hidden; /* Body scroll'u kapat */
+  display: flex;
+  flex-direction: column;
 }
 
 /* Arkaya sabit degrade katmanı */
@@ -43,24 +42,6 @@ body::before {
   );
 }
 
-/* Menü açıldığında ekranı bulanıklaştıran katman */
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* Hafif karartma */
-  backdrop-filter: blur(4px);      /* Bulanıklaştırma */
-  z-index: 1000;                   /* Header'ın (1001) hemen altında */
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-body.menu-open::after {
-  opacity: 1;
-  pointer-events: auto; /* Arkadaki öğelere tıklamayı engeller */
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,167 +49,164 @@ body.menu-open::after {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-header {
+/* === VIEW HEADER (Sayfa İçi Header) === */
+.view-header {
   position: relative;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
-
   display: flex;
   align-items: center;
-  justify-content: space-between; /* SOL – SAĞ AYRIM */
-  z-index: 1001; /* Overlay ve diğer içeriklerin üzerinde */
+  justify-content: flex-start;
+  
+  /* Genişletme: Parent padding'i (16px) yok sayarak kenarlara yayıl */
+  width: calc(100% + 32px);
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 0 16px 10px 16px; /* İçerik hizasını koru */
+  
+  /* Grid yapısında (Home) tam satır kapla */
+  grid-column: 1 / -1;
+
+  flex-shrink: 0; /* Header küçülmesin */
 }
 
-/* SOL GRUP */
-.hero-left {
+.view-header-left {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 5px; /* LOGO ↔ YAZI BOŞLUĞU */
 }
 
-.hero-logo img {
-  height: 64px;
+.view-header-logo img {
+  height: 48px;
   display: block;
 }
 
-/* YAZI */
-.hero-inner {
+.view-header-text {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.hero-inner h1 {
+.view-header-text h1 {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 1px;
   color: var(--text);
 }
 
-.hero-inner h2 {
+.view-header-text h2 {
   font-size: 1.2rem;
   font-weight: 800;
   color: var(--text);
 }
 
-.hero-inner p {
+.view-header-text p {
   font-size: 1rem;
   color: var(--muted);
 }
 
-header span {
-  font-size: 0.85rem;
-  color: var(--muted);
+/* === BOTTOM NAVIGATION === */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(17, 24, 39, 0.95); /* --card rengi opak */
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--border);
+  z-index: 2000;
+  padding-top: 12px;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 30px);
+  /* İçeriği ortalamak için flex */
+  display: flex;
+  justify-content: center;
 }
 
-/* SAĞ PROFİL */
-.hero-avatar {
-  width: 32px;
-  height: 32px;
+.nav-content-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.7rem;
+  gap: 4px;
+  flex: 1;
+  height: 100%;
+  transition: color 0.2s ease;
+}
+
+.nav-item.active {
+  color: var(--accent);
+}
+
+.nav-item:active {
+  transform: scale(0.95);
+}
+
+.nav-profile-img {
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--border);
-  transition: all 0.3s ease;
+  border: 2px solid var(--accent);
 }
 
-.hero-arrow {
-  font-size: 12px; /* ok küçültüldü */
-  line-height: 1;
-  transition: transform 0.3s ease;
-}
-
-.hero-user {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 12px;
-  border-radius: 99px;
-  background: linear-gradient(90deg, #1f2937, #111827);
-  color: #fff;
-  font-weight: 500;
-  cursor: pointer;
-  position: relative; /* Menü için referans */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  transition: background 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
-}
-
-/* Giriş yapıldığında sadece avatar görünsün */
-.hero-user.logged-in {
-  background: transparent;
-  padding: 0;
-  box-shadow: none;
-}
-
-.hero-user.logged-in:hover {
-  background: transparent;
-  box-shadow: none;
-  opacity: 0.8;
-}
-
-.hero-user:hover {
-  background: linear-gradient(90deg, #374151, #1f2937);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
-.hero-user:active {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-/* Hero’ya göre menü açılırken ok döndürme */
-.hero-user.open .hero-arrow {
-  transform: rotate(180deg);
-}
-
-/* Menü açıkken avatar parlasın */
-.hero-user.open .hero-avatar {
-  box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
-  border-color: var(--accent);
-}
-
-.user-menu {
-  position: absolute;
-  top: 100%;       /* hero’nun tam altı */
-  right: 0;
-  background: #1a1f2f; /* sayfa rengine yakın, hero’dan biraz daha açık */
-  color: #cfd4e0;      /* yazı rengi tema ile uyumlu, fazla kontrast değil */
-  border-radius: 20px 0 20px 20px;
-  border:
-  padding: 4px;
-  min-width: 100px;    /* genişlik ayarı */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-  opacity: 0;
-  transform: scale(0.98);
-  pointer-events: none;
-  transition: all 0.25s ease;
-  z-index: 10;
-  font-size: 0.85rem;  /* hero yazısından küçük veya aynı */
-  font-weight: 500;
-  margin-top: 4px
-}
-
-/* Menü açıldığında */
-.user-menu.open {
-  opacity: 1;
-  transform: scale(1);
-  pointer-events: auto;
-}
-
-/* Menü butonları */
-.user-menu button {
-  display: block;
+/* === SPA VIEWS === */
+/* App Container: Header ve Nav arasında kalan alan */
+#app {
+  position: relative;
+  flex: 1; /* Kalan boşluğu doldur */
   width: 100%;
-  padding: 10px;
-  background: transparent;
-  border: none;
-  text-align: center;
-  color: inherit;
-  font-size: 0.85rem; /* hero ile uyumlu */
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background 0.2s;
+  overflow: hidden; /* Taşan animasyonları gizle */
 }
 
-.user-menu button:hover {
-  background: rgba(255,255,255,0.08); /* hover efekti */
+/* Her sayfa bu sınıfı alacak */
+.view-section {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto; /* Scroll sayfa içinde olacak */
+  overflow-x: hidden; /* Yatay scrollbar çıkmasını engelle */
+  scrollbar-gutter: stable; /* Scrollbar kaynaklı kaymayı engelle */
+  -webkit-overflow-scrolling: touch;
+  padding: 16px;
+  padding-bottom: 110px; /* Nav bar boşluğu */
+  background-color: transparent; /* Arka planın görünmesi için */
 }
+
+/* === ANİMASYONLAR === */
+
+/* İleri Gitme (Linke tıklama): Yeni sayfa sağdan gelir, eski sola gider */
+.slide-left-enter { animation: slideInRight 0.3s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
+.slide-left-exit  { animation: slideOutLeft 0.3s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
+
+/* Geri Gelme (Back tuşu): Yeni sayfa soldan gelir, eski sağa gider */
+.slide-right-enter { animation: slideInLeft 0.3s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
+.slide-right-exit  { animation: slideOutRight 0.3s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
+
+/* Menü Geçişleri (Fade): Sadece opaklık değişir */
+.fade-enter { animation: fadeIn 0.2s ease-out forwards; }
+.fade-exit  { animation: fadeOut 0.2s ease-out forwards; }
+
+/* Keyframes */
+@keyframes slideInRight { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@keyframes slideOutLeft { from { transform: translateX(0); } to { transform: translateX(-25%); opacity: 0; } }
+
+@keyframes slideInLeft { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+@keyframes slideOutRight { from { transform: translateX(0); } to { transform: translateX(100%); z-index: 10; } }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
