@@ -17,7 +17,7 @@ html, body {
 body {
   color: var(--text);
   min-height: 100vh;
-  padding: 24px 16px;
+  padding: 16px;
   background: transparent;
 
   touch-action: manipulation;
@@ -43,6 +43,24 @@ body::before {
   );
 }
 
+/* Menü açıldığında ekranı bulanıklaştıran katman */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Hafif karartma */
+  backdrop-filter: blur(4px);      /* Bulanıklaştırma */
+  z-index: 1000;                   /* Header'ın (1001) hemen altında */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+body.menu-open::after {
+  opacity: 1;
+  pointer-events: auto; /* Arkadaki öğelere tıklamayı engeller */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,13 +70,13 @@ body::before {
 
 header {
   position: relative;
-  margin: 0.75rem 0;
-  padding: 10px 0;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
 
   display: flex;
   align-items: center;
   justify-content: space-between; /* SOL – SAĞ AYRIM */
+  z-index: 1001; /* Overlay ve diğer içeriklerin üzerinde */
 }
 
 /* SOL GRUP */
@@ -105,20 +123,13 @@ header span {
 }
 
 /* SAĞ PROFİL */
-.hero-user:hover {
-  background: linear-gradient(90deg, #374151, #1f2937);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
-.hero-user:active {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
 .hero-avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid var(--border);
+  transition: all 0.3s ease;
 }
 
 .hero-arrow {
@@ -142,15 +153,49 @@ header span {
   transition: background 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
 }
 
+/* Giriş yapıldığında sadece avatar görünsün */
+.hero-user.logged-in {
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+.hero-user.logged-in:hover {
+  background: transparent;
+  box-shadow: none;
+  opacity: 0.8;
+}
+
+.hero-user:hover {
+  background: linear-gradient(90deg, #374151, #1f2937);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.hero-user:active {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Hero’ya göre menü açılırken ok döndürme */
+.hero-user.open .hero-arrow {
+  transform: rotate(180deg);
+}
+
+/* Menü açıkken avatar parlasın */
+.hero-user.open .hero-avatar {
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+  border-color: var(--accent);
+}
+
 .user-menu {
   position: absolute;
   top: 100%;       /* hero’nun tam altı */
   right: 0;
   background: #1a1f2f; /* sayfa rengine yakın, hero’dan biraz daha açık */
   color: #cfd4e0;      /* yazı rengi tema ile uyumlu, fazla kontrast değil */
-  border-radius: 6px;
-  padding: 8px;
-  min-width: 160px;    /* genişlik ayarı */
+  border-radius: 20px 0 20px 20px;
+  border:
+  padding: 4px;
+  min-width: 100px;    /* genişlik ayarı */
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   opacity: 0;
   transform: scale(0.98);
@@ -159,6 +204,7 @@ header span {
   z-index: 10;
   font-size: 0.85rem;  /* hero yazısından küçük veya aynı */
   font-weight: 500;
+  margin-top: 4px
 }
 
 /* Menü açıldığında */
@@ -172,10 +218,10 @@ header span {
 .user-menu button {
   display: block;
   width: 100%;
-  padding: 6px 10px;
+  padding: 10px;
   background: transparent;
   border: none;
-  text-align: left;
+  text-align: center;
   color: inherit;
   font-size: 0.85rem; /* hero ile uyumlu */
   cursor: pointer;
@@ -185,9 +231,4 @@ header span {
 
 .user-menu button:hover {
   background: rgba(255,255,255,0.08); /* hover efekti */
-}
-
-/* Hero’ya göre menü açılırken ok döndürme */
-.hero-user.open .hero-arrow {
-  transform: rotate(180deg);
 }

@@ -24,6 +24,7 @@ const answer = document.getElementById("answer");
 const counter = document.getElementById("counter");
 const jumpSelect = document.getElementById("jumpSelect");
 const shuffleCheck = document.getElementById("shuffle");
+const favoritesCheck = document.getElementById("favorites");
 const titleEl = document.getElementById("pageTitle");
 const descEl = document.getElementById("pageDescription");
 const feedback = document.getElementById("swipeFeedback");
@@ -164,29 +165,41 @@ function fillJumpMenu() {
 
 /* ===================== FEEDBACK ===================== */
 function showFeedback(isKnown) {
-  const fb = document.createElement("div");
-  fb.className = "card-feedback";
-  fb.textContent = isKnown ? "✓" : "✗";
+  return new Promise((resolve) => {
+    const fb = document.createElement("div");
+    fb.className = "card-feedback";
+    fb.textContent = isKnown ? "✓" : "✗";
 
-  // Kartın içinde, köşelerde görünecek şekilde stillendir
-  Object.assign(fb.style, {
-    position: "absolute",
-    top: "20px",
-    fontSize: "50px",
-    fontWeight: "bold",
-    zIndex: "10",
-    pointerEvents: "none"
+    // Kartın içinde, köşelerde görünecek şekilde stillendir
+    Object.assign(fb.style, {
+      position: "absolute",
+      top: "20px",
+      fontSize: "100px",
+      fontWeight: "bold",
+      zIndex: "100",
+      pointerEvents: "none",
+      transform: "translateZ(50px) scale(0.5)",
+      opacity: "0",
+      transition: "all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+    });
+
+    if (isKnown) {
+      fb.style.right = "40px";
+      fb.style.color = "#2ecc71"; // Yeşil
+    } else {
+      fb.style.left = "40px";
+      fb.style.color = "#e74c3c"; // Kırmızı
+    }
+
+    card.appendChild(fb);
+
+    requestAnimationFrame(() => {
+      fb.style.opacity = "1";
+      fb.style.transform = "translateZ(50px) scale(1)";
+    });
+
+    setTimeout(resolve, 300);
   });
-
-  if (isKnown) {
-    fb.style.right = "20px";
-    fb.style.color = "#2ecc71"; // Yeşil
-  } else {
-    fb.style.left = "20px";
-    fb.style.color = "#e74c3c"; // Kırmızı
-  }
-
-  card.appendChild(fb);
 }
 
 /* ===================== NAV ===================== */
@@ -195,12 +208,16 @@ function determineNextIndex() {
   // ancak index'i değiştirmez. Sadece nextIndex'i günceller.
   
   let tempIndex = index;
+  const onlyFav = favoritesCheck?.checked;
   
   if (shuffleCheck?.checked && data.length > 1) {
     const unknowns = [];
     data.forEach((_, i) => {
       // Şu anki kart hariç bilinmeyenleri bul
-      if (knownStatus[i] !== "known" && i !== index) unknowns.push(i);
+      if (i === index) return;
+      if (knownStatus[i] === "known") return;
+      if (onlyFav && !favoriteStatus[i]) return;
+      unknowns.push(i);
     });
 
     if (unknowns.length > 0) {
@@ -211,10 +228,15 @@ function determineNextIndex() {
     }
   } else {
     // Sıradaki bilinmeyeni bul
+    let count = 0;
     do {
       tempIndex = (tempIndex + 1) % data.length;
-      if (knownStatus[tempIndex] !== "known") break;
-    } while (tempIndex !== index);
+      count++;
+      const isKnown = knownStatus[tempIndex] === "known";
+      const isFav = favoriteStatus[tempIndex];
+      
+      if (!isKnown && (!onlyFav || isFav)) break;
+    } while (tempIndex !== index && count < data.length);
     nextIndex = tempIndex;
   }
 }
@@ -222,9 +244,9 @@ function determineNextIndex() {
 function animateAndNext(isKnown) {
   // 1. Animasyon sınıflarını ekle
   if (isKnown) {
-    card.classList.add("swipe-right"); // Bilinen -> Sola
+    card.classList.add("swipe-left"); // Bilinen -> Sola
   } else {
-    card.classList.add("swipe-left"); // Bilinmeyen -> Sağa
+    card.classList.add("swipe-right"); // Bilinmeyen -> Sağa
   }
 
   if (nextCard) {
@@ -237,28 +259,28 @@ function animateAndNext(isKnown) {
     determineNextIndex(); // Yeni bir 'sıradaki' belirle
     syncProgress();
     render(); // Ekranı tazele (sınıfları temizler)
-  }, 400); // CSS transition süresiyle uyumlu (0.4s)
+  }, 500); // CSS transition süresiyle uyumlu (0.5s)
 }
 
 /* ===================== BUTTONS ===================== */
 
-document.getElementById("markKnown").onclick = () => {
+document.getElementById("markKnown").onclick = async () => {
   if (isSliding) return;
   historyStack.push({ index, status: knownStatus[index] });
   isSliding = true;
 
   knownStatus[index] = "known";
-  showFeedback(true);
+  await showFeedback(true);
   animateAndNext(true);
 };
 
-document.getElementById("markUnknown").onclick = () => {
+document.getElementById("markUnknown").onclick = async () => {
   if (isSliding) return;
   historyStack.push({ index, status: knownStatus[index] });
   isSliding = true;
 
   knownStatus[index] = "unknown";
-  showFeedback(false);
+  await showFeedback(false);
   animateAndNext(false);
 };
 
@@ -380,6 +402,16 @@ jumpSelect.addEventListener("change", () => {
 /* ===================== SHUFFLE TOGGLE ===================== */
 if (shuffleCheck) {
   shuffleCheck.addEventListener("change", () => {
+    determineNextIndex();
+    if (nextQuestion && nextAnswer && data[nextIndex]) {
+      nextQuestion.textContent = data[nextIndex].soru;
+      nextAnswer.textContent = data[nextIndex].cevap;
+    }
+  });
+}
+
+if (favoritesCheck) {
+  favoritesCheck.addEventListener("change", () => {
     determineNextIndex();
     if (nextQuestion && nextAnswer && data[nextIndex]) {
       nextQuestion.textContent = data[nextIndex].soru;

@@ -60,15 +60,20 @@ const userMenu = document.getElementById("userMenu");
 userMenu.innerHTML = `<button id="userAction">Google ile giriş</button>`;
 const userActionBtn = document.getElementById("userAction");
 
-heroUser.addEventListener("click", () => {
+heroUser.addEventListener("click", (e) => {
+  // Menü içine tıklandığında heroUser click'ini tetikleyip kapatmasın
+  if (userMenu.contains(e.target)) return;
+
   userMenu.classList.toggle("open");
   heroUser.classList.toggle("open");
+  document.body.classList.toggle("menu-open");
 });
 
 document.addEventListener("click", e => {
   if (!heroUser.contains(e.target) && !userMenu.contains(e.target)) {
     userMenu.classList.remove("open");
     heroUser.classList.remove("open");
+    document.body.classList.remove("menu-open");
   }
 });
 
@@ -83,14 +88,14 @@ async function signOutUser() {
 
 onAuthStateChanged(auth, user => {
   if (user) {
+    heroUser.classList.add("logged-in");
     heroUser.innerHTML = `
-      <span class="hero-name"></span>
       <img src="${user.photoURL}" class="hero-avatar" alt="Profil">
-      <span class="hero-arrow">▼</span>
     `;
     userActionBtn.textContent = "Çıkış Yap";
     userActionBtn.onclick = signOutUser;
   } else {
+    heroUser.classList.remove("logged-in");
     heroUser.innerHTML = `
       <span class="hero-name">Misafir</span>
       <span class="hero-arrow">▼</span>
@@ -98,4 +103,7 @@ onAuthStateChanged(auth, user => {
     userActionBtn.textContent = "Google ile giriş";
     userActionBtn.onclick = googleLogin;
   }
+
+  // Menüyü heroUser elementinin içine taşı (Böylece menü avatara göre konumlanır)
+  heroUser.appendChild(userMenu);
 });

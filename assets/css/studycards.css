@@ -15,6 +15,7 @@ body.studycards-page {
   width: 100%;
   overflow-y: auto;
   padding-bottom: env(safe-area-inset-bottom);
+  gap: 10px;
 }
 
 /* Ortak genişlik */
@@ -24,7 +25,6 @@ body.studycards-page {
 .controls {
   width: 100%;
   max-width: 420px;
-  margin-bottom: 10px;
 }
 
 /* Status */
@@ -34,7 +34,6 @@ body.studycards-page {
   justify-content: space-between;
   position: relative;
   gap: 8px;
-  margin-bottom: 16px;
 }
 
 .center-group {
@@ -154,7 +153,7 @@ body.studycards-page {
   position: relative;
   cursor: pointer;
   transform-style: preserve-3d;
-  transition: transform 0.6s ease, opacity 0.4s ease;
+  transition: transform 0.5s ease, opacity 0.3s ease;
   z-index: 2;
   background-color: transparent; /* Kart yüzleri zaten renkli */
 }
