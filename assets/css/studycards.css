@@ -180,12 +180,12 @@
 /* Flip iken Swipe (Arkası dönükken kaydırma) */
 #view-cards .card.flip.swipe-left {
   /* Önce sola kaydır, hafif eğ, sonra flip durumunu koru */
-  transform: translateX(-120%) rotate(-15deg) rotateY(180deg);
+  transform: translateX(120%) rotate(15deg) rotateY(-180deg);
   opacity: 0;
 }
 
 #view-cards .card.flip.swipe-right {
-  transform: translateX(120%) rotate(15deg) rotateY(180deg);
+  transform: translateX(-120%) rotate(-15deg) rotateY(-180deg);
   opacity: 0;
 }
 
@@ -238,11 +238,11 @@
 
 /* Flip için zorunlu transformlar */
 #view-cards .card-face.front {
-  transform: rotateY(0deg);
+  transform: rotateY(0deg) translateZ(1px); /* Z-fighting önlemi */
 }
 
 #view-cards .card-face.back {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) translateZ(1px); /* Z-fighting önlemi */
   color: var(--accent);
 }
 

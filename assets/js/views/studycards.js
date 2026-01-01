@@ -351,6 +351,16 @@ function showFeedback(isKnown) {
     fb.className = "card-feedback";
     fb.textContent = isKnown ? "✓" : "✗";
 
+    // Kart ters ise (isFlipped), ikonu da ters çevir ki düz görünsün.
+    // Ayrıca Z ekseninde öne gelmesi için transform ayarı yapılır.
+    let startTransform = "translateZ(50px) scale(0.5)";
+    let endTransform = "translateZ(50px) scale(1)";
+
+    if (isFlipped) {
+      startTransform = "rotateY(180deg) translateZ(50px) scale(0.5)";
+      endTransform = "rotateY(180deg) translateZ(50px) scale(1)";
+    }
+
     // Kartın içinde, köşelerde görünecek şekilde stillendir
     Object.assign(fb.style, {
       position: "absolute",
@@ -359,16 +369,24 @@ function showFeedback(isKnown) {
       fontWeight: "bold",
       zIndex: "100",
       pointerEvents: "none",
-      transform: "translateZ(50px) scale(0.5)",
+      transform: startTransform,
       opacity: "0",
       transition: "all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
     });
 
     if (isKnown) {
-      fb.style.right = "40px";
+      if (isFlipped) {
+        fb.style.left = "40px"; // Kart tersken sağ köşe 'left' olur
+      } else {
+        fb.style.right = "40px";
+      }
       fb.style.color = "#2ecc71"; // Yeşil
     } else {
-      fb.style.left = "40px";
+      if (isFlipped) {
+        fb.style.right = "40px"; // Kart tersken sol köşe 'right' olur
+      } else {
+        fb.style.left = "40px";
+      }
       fb.style.color = "#e74c3c"; // Kırmızı
     }
 
@@ -376,7 +394,7 @@ function showFeedback(isKnown) {
 
     requestAnimationFrame(() => {
       fb.style.opacity = "1";
-      fb.style.transform = "translateZ(50px) scale(1)";
+      fb.style.transform = endTransform;
     });
 
     setTimeout(resolve, 300);
