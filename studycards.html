@@ -29,7 +29,7 @@
 <body class="studycards-page">
   <header>
     <div class="hero-left">
-      <a href="index.html" class="back-btn" aria-label="Geri"><</a>
+      <a href="index.html" class="back-btn" aria-label="Geri">❮</a>
       <div class="hero-inner">
         <h2 id="pageTitle">Bilgi Kartları</h2>
         <span id="pageDescription">Zamanı değerlendir!</span>
@@ -44,16 +44,21 @@
   <div class="container">
     <div class="status">
       <button id="resetProgress">Sıfırla</button>
-      <label class="shuffle-label" title="Soruları Karıştır">
-        <input type="checkbox" id="shuffle">
-        <span class="slider"></span>
-      </label>
       <div class="center-group">
+        <label class="shuffle-label" title="Soruları Karıştır">
+          <input type="checkbox" id="shuffle">
+          <span class="slider"></span>
+        </label>
+        <label class="favorites-label">
+          <input type="checkbox" id="favorites">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="right-group">
         <label for="jumpSelect">Soru</label>
         <select id="jumpSelect" aria-label="Soru seç"></select>
         <span id="counter"></span>
       </div>      
-      <button id="prevPlain">↻</button>
     </div>
 
     <div class="scene">
@@ -79,8 +84,11 @@
     </div>
 
     <div class="controls">
-      <button id="markKnown">✓</button>
+      <button id="undoBtn" title="Geri Al">↺</button>
       <button id="markUnknown">✗</button>
+      <button id="toggleFavorite" title="Favorilere Ekle/Çıkar">☆</button>
+      <button id="markKnown">✓</button>
+      <button id="shareBtn" title="Soruyu Paylaş">➦</button>
     </div>
   </div>
   
