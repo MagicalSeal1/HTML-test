@@ -281,8 +281,7 @@ function render() {
   if (oldFb) oldFb.remove();
 
   // Önceki karttan kalan favori ikonunu temizle
-  const oldFav = card.querySelector(".card-fav-indicator");
-  if (oldFav) oldFav.remove();
+  card.querySelectorAll(".card-fav-indicator").forEach(el => el.remove());
 
   // Reset sırasında animasyon olmaması için transition'ı kapat
   card.style.transition = "none";
@@ -290,6 +289,7 @@ function render() {
 
   card.className = "card";
   card.style.transform = "";
+  question.style.color = "";
 
   // Arkadaki kartı sıfırla
   if (nextCard) {
@@ -302,10 +302,15 @@ function render() {
 
   // Kart üzerine favori yıldızı ekle
   if (favoriteStatus[index]) {
-    const favInd = document.createElement("div");
-    favInd.className = "card-fav-indicator";
-    favInd.textContent = "★";
-    card.appendChild(favInd);
+    const createStar = () => {
+      const el = document.createElement("div");
+      el.className = "card-fav-indicator";
+      el.textContent = "★";
+      return el;
+    };
+    
+    card.querySelector(".front").appendChild(createStar());
+    card.querySelector(".back").appendChild(createStar());
   }
 
   // Buton durumunu güncelle
@@ -468,6 +473,20 @@ function bindEvents() {
     if (markKnownBtn) {
       markKnownBtn.onclick = async () => {
         if (isSliding) return;
+
+        // Kart arkası dönükse, ön yüzü cevapla doldurup düz çevir (kullanıcı fark etmez)
+        if (isFlipped) {
+          question.textContent = answer.textContent;
+          question.style.color = "var(--accent)"; // Arkadaki rengi taklit et
+          
+          card.style.transition = "none";
+          card.classList.remove("flip");
+          isFlipped = false;
+          
+          void card.offsetWidth; // Reflow
+          card.style.transition = "";
+        }
+
         historyStack.push({ index, status: knownStatus[index] });
         isSliding = true;
 
@@ -481,6 +500,19 @@ function bindEvents() {
     if (markUnknownBtn) {
       markUnknownBtn.onclick = async () => {
         if (isSliding) return;
+
+        if (isFlipped) {
+          question.textContent = answer.textContent;
+          question.style.color = "var(--accent)";
+          
+          card.style.transition = "none";
+          card.classList.remove("flip");
+          isFlipped = false;
+          
+          void card.offsetWidth;
+          card.style.transition = "";
+        }
+
         historyStack.push({ index, status: knownStatus[index] });
         isSliding = true;
 

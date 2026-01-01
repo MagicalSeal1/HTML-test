@@ -177,20 +177,7 @@
   opacity: 0;
 }
 
-/* Flip iken Swipe (Arkası dönükken kaydırma) */
-#view-cards .card.flip.swipe-left {
-  /* Önce sola kaydır, hafif eğ, sonra flip durumunu koru */
-  transform: translateX(120%) rotate(15deg) rotateY(-180deg);
-  opacity: 0;
-}
-
-#view-cards .card.flip.swipe-right {
-  transform: translateX(-120%) rotate(-15deg) rotateY(-180deg);
-  opacity: 0;
-}
-
 /* Geri Gelme (Prev) Animasyonları */
-
 /* Önden gelen kart (Büyükten küçülerek) */
 #view-cards .card.prev-enter {
   z-index: 10; /* En üstte olsun */
