@@ -7,6 +7,16 @@
   gap: 12px;
 }
 
+/* Header İçeriğini Ortala (Sadece Studycards için) */
+#view-cards .view-header {
+  justify-content: center;
+}
+
+#view-cards .view-header-text {
+  align-items: center;
+  text-align: center;
+}
+
 /* Ortalamayı sağlayan kapsayıcı */
 #view-cards .container {
   display: flex;

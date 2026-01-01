@@ -84,7 +84,7 @@ body::before {
 
 .view-header-text {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
