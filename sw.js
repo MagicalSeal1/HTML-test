@@ -1,4 +1,4 @@
-const CACHE_NAME = 'karsu-app-v4';
+const CACHE_NAME = 'karsu-app';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
