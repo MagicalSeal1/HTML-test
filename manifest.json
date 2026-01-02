@@ -1,6 +1,6 @@
 {
-  "name": "KARSU Bilgi Kartları",
-  "short_name": "KARSU",
+  "name": "Askeri Sınavlar Bilgi Kartları",
+  "short_name": "Askeri Bilgi",
   "start_url": "/HTML-test/",
   "scope": "/HTML-test/",
   "display": "standalone",
