@@ -1,22 +1,24 @@
 #view-home.grid {
-  max-width: 1100px;
+  max-width: 68.75rem;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: auto;
+  min-height: 100%;
+  overflow: visible;
 }
 
 #view-home .main-section-title {
-  grid-column: 1 / -1;
   position: relative;
   text-align: center;
-  margin: 18px 0 12px;
-  padding-bottom: 10px;
-  scroll-margin-top: 80px;
+  margin: 1.125rem 0 0.75rem;
+  padding-bottom: 0.625rem;
+  scroll-margin-top: 5rem;
 }
 
 #view-home .main-section-title h2 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.5px;
 
@@ -30,7 +32,7 @@
   bottom: 0;
 
   width: 100%;
-  height: 2px;
+  height: 0.125rem;
 
   background: linear-gradient( 
     90deg, 
@@ -42,28 +44,27 @@
 
 @media (max-width: 640px) {
   #view-home .main-section-title {
-    margin: 24px 0 14px;
-    padding-bottom: 10px;
+    margin: 1.5rem 0 0.875rem;
+    padding-bottom: 0.625rem;
   }
 
   #view-home .main-section-title h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   #view-home .main-section-title::after {
-    height: 1.5px;
+    height: 0.1rem;
   }
 }
 
 /* === SECTION TITLE → DROPDOWN BAŞLIĞI === */
 #view-home .section-title {
-  grid-column: 1 / -1;
   width: 100%;
   box-sizing: border-box;
 
-  padding: 14px 18px;
+  padding: 0.875rem 1.125rem;
 
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.4px;
 
@@ -72,13 +73,14 @@
 
   background: transparent;
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: 0.875rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   cursor: pointer;
+  scroll-margin-top: 6rem; /* Açıldığında header altında kalmaması için pay */
 }
 
 #view-home .section-title:hover {
@@ -97,7 +99,6 @@
 
 /* === DROPDOWN İÇERİĞİ === */
 #view-home .dropdown-content {
-  grid-column: 1 / -1;
 
   /* Animasyon için sadece kapsayıcı görevinde */
   height: 0;
@@ -105,18 +106,21 @@
   opacity: 0;
 
   transition:
-    height 0.8s ease,
-    opacity 0.5s ease;
+    height 0.5s ease,
+    opacity 0.3s ease;
 }
 
 /* Grid düzeni inner’a taşındı */
 #view-home .dropdown-inner { 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  justify-content: stretch;
+  align-items: stretch;
+  gap: 1rem;
 
-  padding: 12px 0 18px;   /* sabit padding */
+  padding: 1rem 0.5rem;
   box-sizing: border-box;
+  width: 100%;
 }
 
 /* AÇIK HAL */
@@ -127,8 +131,8 @@
 #view-home a.menu-card {
   background: linear-gradient(180deg, #111827, #0b1220);
   border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 22px 18px;
+  border-radius: 1rem;
+  padding: 1.375rem 1.125rem;
   text-decoration: none;
   color: var(--text);
   transition: all 0.25s ease;
@@ -163,12 +167,12 @@
 }
 
 #view-home .menu-card h2 {
-  font-size: 1.05rem;
-  margin-bottom: 6px;
+  font-size: 1.35rem;
+  margin-bottom: 0.375rem;
 }
 
 #view-home .menu-card p {
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: var(--muted);
 }
 
@@ -216,10 +220,10 @@
 #view-home .dropdown-trigger {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   cursor: pointer;
-  padding: 4px 8px;
-  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
   transition: background 0.2s;
 }
 
@@ -229,14 +233,14 @@
 
 #view-home .dropdown-trigger h1 {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 800;
   letter-spacing: 1px;
   color: var(--text);
 }
 
 #view-home .dropdown-trigger .arrow {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: var(--accent);
   transition: transform 0.3s ease;
 }
@@ -249,15 +253,15 @@
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 200px;
+  min-width: 12.5rem;
   background: #111827;
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 0.75rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  padding: 8px;
+  padding: 0.5rem;
   z-index: 2000;
   display: none; /* Varsayılan olarak gizle */
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 #view-home .header-dropdown.active .header-options {
@@ -266,11 +270,11 @@
 }
 
 #view-home .header-option {
-  padding: 10px 12px;
+  padding: 0.625rem 0.75rem;
   color: var(--text);
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }

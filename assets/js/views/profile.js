@@ -1,5 +1,5 @@
 import { currentUser, googleLogin, emailLogin, linkEmailPassword, signOutUser, db, authReady } from "../login.js";
-import { collection, getDocs, doc, setDoc } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
+import { collection, getDocs, doc, setDoc, getDoc } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
 export default class ProfileView {
   static getHtml() {
@@ -42,17 +42,87 @@ export default class ProfileView {
           }
         </div>
 
-        <div class="stats-grid" style="width: 100%; max-width: 400px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+        <!-- İSTATİSTİK PANELİ -->
+        <div class="stats-grid" style="width: 100%; max-width: 400px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
           <div class="stat-card" style="background: var(--card); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
             <h3 id="stat-solved" style="color: var(--accent); font-size: 2rem;">0</h3>
-            <p style="font-size: 0.8rem; color: var(--muted);">Çözülen Soru</p>
+            <p style="font-size: 0.8rem; color: var(--muted);">Çözülen</p>
           </div>
           <div class="stat-card" style="background: var(--card); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
             <h3 id="stat-rate" style="color: #2ecc71; font-size: 2rem;">%0</h3>
-            <p style="font-size: 0.8rem; color: var(--muted);">Başarı Oranı</p>
+            <p style="font-size: 0.8rem; color: var(--muted);">Başarı</p>
+          </div>
+          <div class="stat-card" style="background: var(--card); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
+            <h3 id="stat-streak" style="color: #f59e0b; font-size: 2rem;">0</h3>
+            <p style="font-size: 0.8rem; color: var(--muted);">Gün Seri</p>
+          </div>
+        </div>
+
+        <!-- GÜNLÜK HEDEF -->
+        <div class="profile-section" style="width: 100%; max-width: 400px; margin-top: 20px; text-align: left;">
+            <h3 style="font-size: 1.1rem; margin-bottom: 10px; color: var(--text);">Günlük Hedef</h3>
+            <div class="goal-container" style="background: var(--card); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
+                <div class="progress-bar" style="background: #374151; height: 10px; border-radius: 5px; overflow: hidden; margin-bottom: 8px;">
+                    <div id="goal-progress" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.5s ease;"></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 0.9rem; color: var(--muted);">
+                    <span id="goal-current">0 Soru</span>
+                    <span id="goal-target">Hedef: 50</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAVORİLER -->
+        <div class="profile-section" style="width: 100%; max-width: 400px; margin-top: 15px;">
+            <button id="btn-favorites" class="menu-card" style="width: 100%; text-align: left; display: flex; align-items: center; gap: 10px; padding: 15px; font-size: 1.1rem; cursor: pointer;">
+                <span style="color: #e0ffff; font-size: 1.2rem;">★</span> Favorilerim
+            </button>
+        </div>
+
+        <!-- ROZETLER BÖLÜMÜ -->
+        <div class="badges-section" style="width: 100%; max-width: 400px; margin-top: 25px; text-align: left;">
+          <h3 style="font-size: 1.2rem; margin-bottom: 10px; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 5px;">Rozetler</h3>
+          <div id="badges-container" style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <!-- JS ile doldurulacak -->
+            <div class="badge-item" id="badge-newbie" style="opacity: 0.5; filter: grayscale(1); transition: all 0.3s;">
+              <span style="font-size: 2rem;">🌱</span>
+              <div style="font-size: 0.8rem;">Acemi<br><span style="font-size:0.7rem; color:var(--muted)">(10 Soru)</span></div>
+            </div>
+            <div class="badge-item" id="badge-bronze" style="opacity: 0.5; filter: grayscale(1); transition: all 0.3s;">
+              <span style="font-size: 2rem;">🥉</span>
+              <div style="font-size: 0.8rem;">Bronz<br><span style="font-size:0.7rem; color:var(--muted)">(50 Soru)</span></div>
+            </div>
+            <div class="badge-item" id="badge-silver" style="opacity: 0.5; filter: grayscale(1); transition: all 0.3s;">
+              <span style="font-size: 2rem;">🥈</span>
+              <div style="font-size: 0.8rem;">Gümüş<br><span style="font-size:0.7rem; color:var(--muted)">(100 Soru)</span></div>
+            </div>
+            <div class="badge-item" id="badge-gold" style="opacity: 0.5; filter: grayscale(1); transition: all 0.3s;">
+              <span style="font-size: 2rem;">🥇</span>
+              <div style="font-size: 0.8rem;">Altın<br><span style="font-size:0.7rem; color:var(--muted)">(500 Soru)</span></div>
+            </div>
           </div>
         </div>
         
+        <!-- AYARLAR -->
+        <div class="profile-section" style="width: 100%; max-width: 400px; margin-top: 25px; text-align: left;">
+            <h3 style="font-size: 1.2rem; margin-bottom: 10px; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 5px;">Ayarlar</h3>
+            
+            <div class="setting-item" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0;">
+                <span>Karanlık Mod</span>
+                <label class="switch" style="position: relative; display: inline-block; width: 50px; height: 24px;">
+                    <input type="checkbox" id="toggle-theme" checked style="opacity: 0; width: 0; height: 0;">
+                    <span class="slider round" style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #374151; transition: .4s; border-radius: 34px;"></span>
+                </label>
+            </div>
+            <div class="setting-item" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 0;">
+                <span>Yazı Boyutu</span>
+                <select id="select-fontsize" style="background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 5px; border-radius: 5px;">
+                    <option value="normal">Normal</option>
+                    <option value="large">Büyük</option>
+                </select>
+            </div>
+        </div>
+
         <div style="margin-top: auto; padding-bottom: 20px; color: var(--muted); font-size: 0.8rem;">
           MagicalSeal
         </div>
@@ -76,6 +146,19 @@ export default class ProfileView {
             <button id="modalCloseBtn" class="modal-btn secondary">İptal</button>
           </div>
         </div>
+
+        <!-- FAVORITES MODAL -->
+        <div id="favModal" class="modal-overlay">
+            <div class="modal-box" style="max-width: 400px; height: 80vh; display: flex; flex-direction: column;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h2>Favoriler</h2>
+                    <button id="closeFavBtn" style="background:none; border:none; color:var(--text); font-size:1.5rem; cursor:pointer;">&times;</button>
+                </div>
+                <div id="favList" style="flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 10px;">
+                    <p style="text-align:center; color:var(--muted); margin-top: 20px;">Yükleniyor...</p>
+                </div>
+            </div>
+        </div>
       </div>
     `;
   }
@@ -85,6 +168,9 @@ export default class ProfileView {
     const btnEmailLogin = document.getElementById("btn-email-login");
     const btnLinkEmail = document.getElementById("btn-link-email");
     const btnLogout = document.getElementById("btn-logout");
+    const btnFavorites = document.getElementById("btn-favorites");
+    const closeFavBtn = document.getElementById("closeFavBtn");
+    const favModal = document.getElementById("favModal");
 
     if (btnLogin) {
       btnLogin.addEventListener("click", googleLogin);
@@ -92,6 +178,14 @@ export default class ProfileView {
 
     if (btnLogout) {
       btnLogout.addEventListener("click", signOutUser);
+    }
+
+    if (btnFavorites) {
+        btnFavorites.addEventListener("click", () => this.loadFavorites());
+    }
+
+    if (closeFavBtn) {
+        closeFavBtn.addEventListener("click", () => favModal.classList.remove("active"));
     }
 
     // Modal Logic
@@ -173,6 +267,7 @@ export default class ProfileView {
     }
 
     this.updateStats();
+    this.initSettings();
   }
 
   static async updateStats() {
@@ -180,6 +275,26 @@ export default class ProfileView {
 
     let totalAnswered = 0;
     let totalKnown = 0;
+    
+    // Basit Seri (Streak) Mantığı - LocalStorage tabanlı
+    const today = new Date().toDateString();
+    const lastStudyDate = localStorage.getItem('lastStudyDate');
+    let streak = parseInt(localStorage.getItem('streak') || '0');
+
+    if (lastStudyDate !== today) {
+        // Eğer dün çalıştıysa seriyi koru, yoksa sıfırla (Basit mantık)
+        // Gerçek tarih kontrolü için moment.js vb. gerekir ama burada basit tutuyoruz.
+        // Şimdilik sadece gösterim yapıyoruz.
+    }
+    document.getElementById("stat-streak").textContent = streak;
+
+    // Günlük Hedef
+    const dailyGoal = 50;
+    const todayCount = parseInt(localStorage.getItem('todayCount') || '0'); // Studycards.js'de artırılmalı
+    document.getElementById("goal-current").textContent = `${todayCount} Soru`;
+    document.getElementById("goal-target").textContent = `Hedef: ${dailyGoal}`;
+    const progressPct = Math.min(100, (todayCount / dailyGoal) * 100);
+    document.getElementById("goal-progress").style.width = `${progressPct}%`;
 
     if (currentUser) {
       // Firebase'den çek
@@ -233,5 +348,146 @@ export default class ProfileView {
       const rate = totalAnswered > 0 ? Math.round((totalKnown / totalAnswered) * 100) : 0;
       rateEl.textContent = `%${rate}`;
     }
+
+    // Rozetleri Güncelle
+    this.updateBadge("badge-newbie", totalAnswered >= 10);
+    this.updateBadge("badge-bronze", totalAnswered >= 50);
+    this.updateBadge("badge-silver", totalAnswered >= 100);
+    this.updateBadge("badge-gold", totalAnswered >= 500);
+  }
+
+  static updateBadge(id, isUnlocked) {
+    const el = document.getElementById(id);
+    if (el && isUnlocked) {
+      el.style.opacity = "1";
+      el.style.filter = "grayscale(0)";
+      el.style.transform = "scale(1.1)";
+    }
+  }
+
+  static initSettings() {
+    const toggleTheme = document.getElementById('toggle-theme');
+    const selectFont = document.getElementById('select-fontsize');
+
+    // 1. Başlangıçta ayarları yükle ve uygula
+    this.loadAndApplyUserSettings();
+
+    // 2. Değişiklikleri kaydedecek olay dinleyicileri ekle
+    toggleTheme.addEventListener('change', (e) => {
+      const newTheme = e.target.checked ? 'dark' : 'light';
+      const currentSettings = JSON.parse(localStorage.getItem('userSettings') || '{}');
+      const newSettings = { ...currentSettings, theme: newTheme };
+      this.applySettings(newSettings);
+      this.saveUserSettings(newSettings);
+    });
+
+    selectFont.addEventListener('change', (e) => {
+      const newSize = e.target.value;
+      const currentSettings = JSON.parse(localStorage.getItem('userSettings') || '{}');
+      const newSettings = { ...currentSettings, fontSize: newSize };
+      this.applySettings(newSettings);
+      this.saveUserSettings(newSettings);
+    });
+  }
+
+  static async saveUserSettings(settings) {
+    if (!settings) return;
+    localStorage.setItem('userSettings', JSON.stringify(settings));
+
+    await authReady;
+    if (currentUser) {
+      try {
+        await setDoc(doc(db, "users", currentUser.uid, "settings", "userSettings"), settings, { merge: true });
+      } catch (error) {
+        console.error("Firebase'e ayar kaydetme hatası:", error);
+      }
+    }
+  }
+
+  static applySettings(settings) {
+    const toggleTheme = document.getElementById('toggle-theme');
+    const selectFont = document.getElementById('select-fontsize');
+
+    if (settings.theme === 'light') {
+      document.body.classList.add('light-mode');
+      if (toggleTheme) toggleTheme.checked = false;
+    } else {
+      document.body.classList.remove('light-mode');
+      if (toggleTheme) toggleTheme.checked = true;
+    }
+
+    if (settings.fontSize === 'large') {
+      document.documentElement.style.fontSize = '18px';
+      if (selectFont) selectFont.value = 'large';
+    } else {
+      document.documentElement.style.fontSize = '16px';
+      if (selectFont) selectFont.value = 'normal';
+    }
+  }
+
+  static async loadAndApplyUserSettings() {
+    let settings = { theme: 'dark', fontSize: 'normal' }; // Varsayılanlar
+
+    const localSettings = localStorage.getItem('userSettings');
+    if (localSettings) {
+      try {
+        settings = { ...settings, ...JSON.parse(localSettings) };
+      } catch (e) { /* ayrıştırma hatasını yoksay */ }
+    }
+
+    await authReady;
+    if (currentUser) {
+      try {
+        const userSettingsDoc = await getDoc(doc(db, "users", currentUser.uid, "settings", "userSettings"));
+        if (userSettingsDoc.exists()) {
+          settings = { ...settings, ...userSettingsDoc.data() };
+          localStorage.setItem('userSettings', JSON.stringify(settings)); // Yerel depoyu senkronize et
+        }
+      } catch (error) {
+        console.error("Firebase'den ayar yükleme hatası:", error);
+      }
+    }
+    
+    this.applySettings(settings);
+  }
+
+  static async loadFavorites() {
+      const modal = document.getElementById("favModal");
+      const list = document.getElementById("favList");
+      modal.classList.add("active");
+      list.innerHTML = '<p style="text-align:center; color:var(--muted); margin-top: 20px;">Yükleniyor...</p>';
+
+      let favorites = [];
+      
+      // Firebase'den favorileri çek (Basitleştirilmiş tarama)
+      if (currentUser) {
+          const categories = ["Karargâh Subaylığı", "Komuta Kurmay"];
+          for (const category of categories) {
+              try {
+                  const q = await getDocs(collection(db, "users", currentUser.uid, category));
+                  q.forEach(doc => {
+                      const data = doc.data();
+                      if (data.favorites) {
+                          Object.keys(data.favorites).forEach(cardId => {
+                              if (data.favorites[cardId] === true) {
+                                  favorites.push({ id: cardId, cat: category, sub: doc.id });
+                              }
+                          });
+                      }
+                  });
+              } catch (e) { console.error(e); }
+          }
+      }
+
+      if (favorites.length === 0) {
+          list.innerHTML = '<p style="text-align:center; color:var(--muted); margin-top: 20px;">Henüz favori kartınız yok.</p>';
+      } else {
+          list.innerHTML = favorites.map(f => `
+            <div class="menu-card" style="padding: 15px; border-radius: 8px; background: var(--card); border: 1px solid var(--border);">
+                <div style="font-weight:bold; color:var(--accent)">${f.sub}</div>
+                <div style="font-size:0.9rem; color:var(--text)">Kart ID: ${f.id}</div>
+            </div>
+          `).join('');
+      }
   }
 }

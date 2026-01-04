@@ -239,6 +239,9 @@ export default class HomeView {
           requestAnimationFrame(() => {
             content.style.height = fullHeight + "px";
             content.style.opacity = "1";
+
+            // Açılan başlığı sayfanın üstüne (header'ın hemen altına) kaydır
+            setTimeout(() => title.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
           });
 
           const onOpenEnd = (e) => {

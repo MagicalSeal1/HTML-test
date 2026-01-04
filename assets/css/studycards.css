@@ -1,130 +1,128 @@
-/* body yerine view container'ı hedefliyoruz */
+/* Studycards view container */
+/* ID bağımlılığı geri getirildi çünkü genel seçici diğer sayfaları bozuyor */
 #view-cards {
   height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 /* Header İçeriğini Ortala (Sadece Studycards için) */
-#view-cards .view-header {
-  justify-content: center;
-}
-
-#view-cards .view-header-text {
-  align-items: center;
-  text-align: center;
+/* Eğer view-header içinde studycards'a özel bir sınıf yoksa, bu genel header'ı bozabilir. 
+   Ancak bu dosya sadece studycards yüklendiğinde aktifse sorun olmaz. 
+   Yine de güvenli olması için .scene kardeşini kontrol eden bir yapı veya genel yapı kullanıyoruz. */
+.scene ~ .view-header, 
+.view-header:has(+ .container) { 
+  justify-content: center !important;
 }
 
 /* Ortalamayı sağlayan kapsayıcı */
-#view-cards .container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   flex: 1;
   width: 100%;
-  overflow-y: auto;
-  padding-bottom: calc(110px + env(safe-area-inset-bottom)); /* Nav bar için ekstra boşluk */
-  gap: 12px;
+  overflow-y: hidden;
+  padding-bottom: calc(7rem + env(safe-area-inset-bottom)); /* Nav bar için ekstra boşluk */
+  gap: 0.5rem;
 }
 
 /* Ortak genişlik */
-#view-cards .status,
-#view-cards .scene,
-#view-cards .card,
-#view-cards .controls {
+.status,
+.scene,
+.card,
+.controls {
   width: 100%;
-  max-width: 420px;
+  max-width: 32rem !important; /* Makul genişlik */
 }
 
 /* Status */
-#view-cards .status {
+.status {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
-#view-cards .center-group {
+.center-group {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   position: relative;
-  gap: 4px;
+  gap: 0.25rem;
 }
 
-#view-cards .right-group {
+.right-group {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  gap: 4px;
+  gap: 0.25rem;
 }
 
 /* Back + Reset */
-#view-cards .status #resetProgress {
+.status #resetProgress {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
-  padding: 8px 12px;
-  border-radius: 12px;
+  padding: 0.5rem 1rem !important;
+  border-radius: 1rem !important;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem !important;
 }
 
-#view-cards .status #resetProgress:hover {
+.status #resetProgress:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
 /* Orta grup */
-#view-cards .status .center-group {
+.status .center-group {
   display: flex;
-  gap: 4px;
+  gap: 0.25rem;
 }
 
 /* Select */
-#view-cards #jumpSelect {
+#jumpSelect {
   appearance: none;
   background: #0b1220;
   border: 1px solid var(--border);
   color: var(--text);
-  border-radius: 8px;
-  padding: 4px 8px;
-  font-size: 0.9rem;
+  border-radius: 0.5rem !important;
+  padding: 0.4rem 0.8rem !important;
+  font-size: 1rem !important;
   text-align: center;
-  min-width: 60px;
+  min-width: 5rem !important;
 }
 
 @media (max-width: 480px) {
-  #view-cards #jumpSelect {
-    font-size: 0.85rem;
-    padding: 3px 6px;
+  #jumpSelect {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.4rem;
   }
 }
 
-#view-cards .scene {
+.scene {
   width: 100%;
-  max-width: 420px;
   display: grid;
   grid-template-areas: "stack";
   place-items: center;
   perspective: 1000px;
-  flex-grow: 1;
-  flex: 1;
+  flex: 1; /* Alanı doldurması için */
 }
 
 /* Feedback (sabit, scale yok) */
-#view-cards .swipe-feedback {
+.swipe-feedback {
   position: fixed;            /* karta değil, ekrana göre */
   left: 50%;
   transform: translateX(-50%) scale(0.8);
 
-  font-size: 3.5rem;
+  font-size: 4rem !important;
   opacity: 0;
   pointer-events: none;
   z-index: 999;
@@ -132,33 +130,35 @@
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
-#view-cards .swipe-feedback.show {
+.swipe-feedback.show {
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
 
-#view-cards .swipe-feedback.known   { color: #16a34a; }
-#view-cards .swipe-feedback.unknown { color: #dc2626; }
+.swipe-feedback.known   { color: #16a34a; }
+.swipe-feedback.unknown { color: #dc2626; }
 
 /* ================= CARD ================= */
 
-#view-cards .card {
+.card {
   grid-area: stack;
   width: 100%;
-  height: 100%;
-  min-height: 240px;
+  height: 100% !important; /* Yüksekliği kapsayıcıya (scene) eşitle */
+  min-height: 20rem !important; /* Makul yükseklik */
   position: relative;
   cursor: pointer;
   transform-style: preserve-3d;
   transition: transform 0.5s ease, opacity 0.3s ease;
   z-index: 2;
   background-color: transparent; /* Kart yüzleri zaten renkli */
+  display: grid; /* Yüzleri üst üste bindirmek için Grid */
+  grid-template-columns: 1fr;
 }
 
 /* Arkadaki Kart (Next Card) */
-#view-cards .card.next-card {
+.card.next-card {
   z-index: 1;
-  transform: scale(0.9) translateY(15px);
+  transform: scale(0.9) translateY(1rem);
   opacity: 0;
   pointer-events: none; /* Tıklanamaz */
 }
@@ -166,49 +166,48 @@
 /* Animasyon Sınıfları */
 
 /* Bilindi (Sola Git) */
-#view-cards .card.swipe-left {
+.card.swipe-left {
   transform: translateX(-120%) rotate(-15deg);
   opacity: 0;
 }
 
 /* Bilinmedi (Sağa Git) */
-#view-cards .card.swipe-right {
+.card.swipe-right {
   transform: translateX(120%) rotate(15deg);
   opacity: 0;
 }
 
 /* Geri Gelme (Prev) Animasyonları */
 /* Önden gelen kart (Büyükten küçülerek) */
-#view-cards .card.prev-enter {
+.card.prev-enter {
   z-index: 10; /* En üstte olsun */
   transform: scale(1.15);
   opacity: 0;
   pointer-events: none;
 }
 
-#view-cards .card.prev-enter.active {
+.card.prev-enter.active {
   transform: scale(1);
   opacity: 1;
 }
 
 /* Arkaya giden aktif kart */
-#view-cards .card.push-to-back {
-  transform: scale(0.9) translateY(15px);
+.card.push-to-back {
+  transform: scale(0.9) translateY(1rem);
   opacity: 0;
   z-index: 1;
 }
 
 /* Arkadan Gelenin Öne Çıkması */
-#view-cards .card.next-card.enter {
+.card.next-card.enter {
   transform: scale(1) translateY(0);
   opacity: 1;
 }
 
 /* Card yüzleri */
-#view-cards .card-face {
-  position: absolute;
-  inset: 0;
-
+.card-face {
+  grid-area: 1 / 1; /* Hepsi aynı hücrede üst üste */
+  width: 100%;      /* Tam genişlik */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,68 +216,70 @@
 
   background: linear-gradient(180deg, #111827, #0b1220);
   border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 24px;
+  border-radius: 1.5rem !important;
+  padding: 1.5rem !important; /* Makul iç boşluk */
+  overflow-y: auto; /* İçerik çok uzunsa kart içinde kaydırma çubuğu çıksın */
 
   backface-visibility: hidden;
 }
 
 /* Flip için zorunlu transformlar */
-#view-cards .card-face.front {
+.card-face.front {
   transform: rotateY(0deg) translateZ(1px); /* Z-fighting önlemi */
 }
 
-#view-cards .card-face.back {
+.card-face.back {
   transform: rotateY(180deg) translateZ(1px); /* Z-fighting önlemi */
   color: var(--accent);
 }
 
 /* ❌ transition YOK */
-#view-cards .card.flip {
+.card.flip {
   transform: rotateY(-180deg);
 }
 
-#view-cards .card-face h2 {
-  margin-bottom: 12px;
-  font-size: 1.15rem;
-  line-height: 1.4;
-}
-
-#view-cards .card-face h2,
-#view-cards .card-face p {
+/* KESİN ÇÖZÜM: Doğrudan ID hedefliyoruz */
+#question,
+#answer,
+#nextQuestion,
+#nextAnswer {
+  font-size: 1.6rem; /* Makul yazı boyutu */
+  line-height: 1.3;
   margin: 0;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 /* Controls */
-#view-cards .controls {
+.controls {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
 
-#view-cards button {
+.controls button {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
-  padding: 10px 18px;
-  border-radius: 12px;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
   cursor: pointer;
 }
 
-#view-cards button:hover {
+.controls button:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
 /* Önceki ve Sonraki Butonları */
-#view-cards #undoBtn,
-#view-cards #toggleFavorite,
-#view-cards #shareBtn {
-  font-size: 1.5rem;
+#undoBtn,
+#toggleFavorite,
+#shareBtn {
+  font-size: 1.5rem !important;
   padding: 0;
-  width: 50px;
-  height: 50px;
+  width: 3.5rem !important;
+  height: 3.5rem !important;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -290,7 +291,7 @@
 }
 
 /* Favori Butonu Aktif (Dolu Yıldız) Hali - Xenon Efekti */
-#view-cards #toggleFavorite.active-fav {
+#toggleFavorite.active-fav {
   color: #e0ffff; /* Mavimsi Beyaz */
   border-color: #00ffff;
   text-shadow: 0 0 10px #00ffff, 0 0 20px #0099ff; /* Parlama */
@@ -298,9 +299,9 @@
 }
 
 /* Kart Üzerindeki Favori Göstergesi */
-#view-cards .card-fav-indicator {
+.card-fav-indicator {
   position: absolute;
-  top: 15px;
+  top: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
   font-size: 2.5rem;
@@ -310,15 +311,19 @@
   pointer-events: none;
 }
 
-#view-cards #markKnown {
-  font-size: 1.6rem;
-  width: 54px;
-  height: 54px;
+#markKnown,
+#markUnknown{
+  font-size: 1.8rem !important;
+  width: 4rem !important;
+  height: 4rem !important;
   border-radius: 50%;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#markKnown {
   background: #0b1f14;
   border: 1px solid #16a34a;
   color: #16a34a;
@@ -326,36 +331,29 @@
   transition: all 0.2s ease;
 }
 
-#view-cards #markKnown:active {
-  transform: scale(0.95);
-  background: #16a34a;
-  color: #0b1f14;
-}
-
-#view-cards #markUnknown {
-  font-size: 1.6rem;
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #1f0b0b;
+#markUnknown {
   border: 1px solid #dc2626;
   color: #dc2626;
   box-shadow: 0 0 15px rgba(220, 38, 38, 0.2);
   transition: all 0.2s ease;
 }
 
-#view-cards #markUnknown:active {
+#markKnown:active,
+#markUnknown:active {
   transform: scale(0.95);
+  color: #0b1f14;
+}
+
+#markKnown:active {
+  background: #16a34a;
+}
+
+#markUnknown:active {
   background: #dc2626;
-  color: #1f0b0b;
 }
 
 /* ================= SHUFFLE TOGGLE ================= */
-#view-cards .shuffle-label {
+.shuffle-label {
   display: contents;
   display: inline-flex;
   align-items: center;
@@ -364,67 +362,67 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-#view-cards .shuffle-label::before {
+.shuffle-label::before {
   content: "Karıştır";
-  margin-right: 8px;
-  font-size: 1 rem;
+  margin-right: 0.8rem;
+  font-size: 1.1rem !important;
   color: var(--muted);
   transition: color 0.3s ease;
 }
 
-#view-cards .shuffle-label:hover::before {
+.shuffle-label:hover::before {
   color: var(--text);
 }
 
-#view-cards .shuffle-label:has(input:checked)::before {
+.shuffle-label:has(input:checked)::before {
   color: var(--accent);
 }
 
-#view-cards .shuffle-label input {
+.shuffle-label input {
   display: none; /* Standart checkbox'ı gizle */
 }
 
-#view-cards .shuffle-label .slider {
-  width: 40px;
-  height: 22px;
+.shuffle-label .slider {
+  width: 3rem !important;
+  height: 1.6rem !important;
   background-color: #0b1220; /* Koyu zemin */
   border: 1px solid var(--border);
-  border-radius: 20px;
+  border-radius: 1.6rem !important;
   position: relative;
   transition: all 0.3s ease;
 }
 
-#view-cards .shuffle-label .slider::after {
+.shuffle-label .slider::after {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 16px;
-  height: 16px;
+  top: 0.2rem;
+  left: 0.2rem;
+  width: 1.1rem !important;
+  height: 1.1rem !important;
   background-color: var(--muted); /* Pasif renk */
   border-radius: 50%;
   transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 /* Aktif (Checked) Durum */
-#view-cards .shuffle-label input:checked + .slider {
+.shuffle-label input:checked + .slider {
   border-color: var(--accent);
   background-color: rgba(56, 189, 248, 0.15); /* Hafif mavi parıltı */
 }
 
-#view-cards .shuffle-label input:checked + .slider::after {
-  transform: translateX(18px); /* Sağa kaydır */
+.shuffle-label input:checked + .slider::after {
+  transform: translateX(1.4rem); /* Sağa kaydır */
   background-color: var(--accent); /* Aktif renk */
   box-shadow: 0 0 8px rgba(56, 189, 248, 0.5); /* Neon efekti */
 }
 
 /* Hover Durumu */
-#view-cards .shuffle-label:hover .slider {
+.shuffle-label:hover .slider {
   border-color: var(--text);
 }
 
 /* ================= FAVORITES TOGGLE ================= */
-#view-cards .favorites-label {
+.favorites-label {
   display: contents;
   display: inline-flex;
   align-items: center;
@@ -433,60 +431,60 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-#view-cards .favorites-label::before {
+.favorites-label::before {
   content: "Favoriler";
-  margin-right: 8px;
-  font-size: 1rem;
+  margin-right: 0.8rem;
+  font-size: 1.1rem !important;
   color: var(--muted);
   transition: color 0.3s ease;
 }
 
-#view-cards .favorites-label:hover::before {
+.favorites-label:hover::before {
   color: var(--text);
 }
 
-#view-cards .favorites-label:has(input:checked)::before {
+.favorites-label:has(input:checked)::before {
   color: #e0ffff; /* Xenon Mavisi */
 }
 
-#view-cards .favorites-label input {
+.favorites-label input {
   display: none;
 }
 
-#view-cards .favorites-label .slider {
-  width: 40px;
-  height: 22px;
+.favorites-label .slider {
+  width: 3rem !important;
+  height: 1.6rem !important;
   background-color: #0b1220;
   border: 1px solid var(--border);
-  border-radius: 20px;
+  border-radius: 1.6rem !important;
   position: relative;
   transition: all 0.3s ease;
 }
 
-#view-cards .favorites-label .slider::after {
+.favorites-label .slider::after {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 16px;
-  height: 16px;
+  top: 0.2rem;
+  left: 0.2rem;
+  width: 1.1rem !important;
+  height: 1.1rem !important;
   background-color: var(--muted);
   border-radius: 50%;
   transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 /* Aktif Durum */
-#view-cards .favorites-label input:checked + .slider {
+.favorites-label input:checked + .slider {
   border-color: #00ffff;
   background-color: rgba(0, 255, 255, 0.15);
 }
 
-#view-cards .favorites-label input:checked + .slider::after {
-  transform: translateX(18px);
+.favorites-label input:checked + .slider::after {
+  transform: translateX(1.4rem);
   background-color: #00ffff;
   box-shadow: 0 0 8px rgba(0, 255, 255, 0.5);
 }
 
-#view-cards .favorites-label:hover .slider {
+.favorites-label:hover .slider {
   border-color: var(--text);
 }

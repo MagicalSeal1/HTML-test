@@ -1,19 +1,19 @@
 {
-  "name": "KARSU Bilgi Kartları",
-  "short_name": "KARSU",
-  "start_url": "/index.html",
-  "scope": "/",
+  "name": "Askeri Sınavlar Bilgi Kartları",
+  "short_name": "Askeri Bilgi",
+  "start_url": "/HTML-test/",
+  "scope": "/HTML-test/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "/assets/icons/android-192.png",
+      "src": "/HTML-test/assets/icons/android-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/icons/android-512.png",
+      "src": "/HTML-test/assets/icons/android-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
